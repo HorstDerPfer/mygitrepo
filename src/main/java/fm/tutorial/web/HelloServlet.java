@@ -1,4 +1,4 @@
-package fm.justintime.util;
+package fm.tutorial.web;
 
 import java.io.IOException;
 import java.io.PrintWriter;
