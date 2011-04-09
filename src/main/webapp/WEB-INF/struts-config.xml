@@ -9,13 +9,43 @@
 	<form-beans>
 		<form-bean name="helloStrutsForm" type="fm.tutorial.web.HelloStrutsForm" />
 	</form-beans>
-	
+
+	<!-- =============== Global Exception Definitions -->
+	<global-exceptions>
+		<!-- <exception key="errors.exception" type="java.lang.Exception" handler="db.training.easy.web.EasyExceptionHandler" 
+			path="/pages/exception.jsp"/> -->
+	</global-exceptions>
+
 	<action-mappings>
-		<action path="/helloStruts" name="helloStrutsForm" type="fm.tutorial.web.HelloStrutsAction">
+		<action path="/helloStruts" name="helloStrutsForm"
+			type="fm.tutorial.web.HelloStrutsAction">
 			<forward name="SUCCESS" path="/hello.jsp" />
 		</action>
-		
+
 		<action path="/index" forward="/index.jsp" />
 	</action-mappings>
-	
+
+	<!-- ======================== Controller Configuration -->
+	<!-- controller processorClass="org.apache.struts.tiles.TilesRequestProcessor"/ -->
+	<!-- <controller maxFileSize="50M" -->
+	<!-- processorClass="org.mwolff.struts.back.BackRequestProcessor" -->
+	<!-- contentType="text/html;charset=UTF8" locale="true" /> -->
+
+	<controller maxFileSize="50M" contentType="text/html;charset=UTF8"
+		locale="true" />
+
+	<!-- ================== Message Resources Definitions -->
+
+	<message-resources key="configResources" null="false"
+		parameter="ConfigResources" />
+	<message-resources null="false" parameter="MessageResources" />
+
+	<!-- ========================= Plug Ins Configuration -->
+
+	<!-- ========================= Validator plugin -->
+	<plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+		<set-property property="pathnames"
+			value="/org/apache/struts/validator/validator-rules.xml,/WEB-INF/validation.xml" />
+	</plug-in>
+
 </struts-config>
