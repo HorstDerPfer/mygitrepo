@@ -1,0 +1,9 @@
+# Eclipse Projektdateien ignorieren
+/.settings/**/*
+
+# Maven Output ignorieren
+/target/**/*
+
+
+/.classpath
+/.project
