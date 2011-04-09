@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-11-06T12:32:38</timestamp>
+  <filename>090207-090209--A-_____-leigt bei der Zentrale-6-RML___-RBKR__-________-MUBPV-01.rtf</filename>
+  <version_prg_zvf>v2.2.4</version_prg_zvf>
+  <sender>
+   <name>Klan</name>
+   <vorname>Dietmar</vorname>
+   <kuerzel> Kl</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Dietmar.Klan@bahn.de</email>
+   <telefon>0721/938 7311</telefon>
+   <telefon_intern>972-7311</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>Schäfer JM</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>A</baumassnahmenart>
+   <qsbaumassnahme>leigt bei der Zentrale</qsbaumassnahme>
+   <korridor> </korridor>
+   <kigbau></kigbau>
+   <kennung></kennung>
+   <bbp>56023</bbp>
+   <master_fplo>52006</master_fplo>
+   <festgelegtSPFV>0</festgelegtSPFV>
+   <festgelegtSPNV>0</festgelegtSPNV>
+   <festgelegtSGV>0</festgelegtSGV>
+   <version>
+    <titel>Master-Übergabeblatt (PV)</titel>
+    <formular>ÜB-091008</formular>
+    <major>1</major>
+    <minor>3</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>RML</startbst>
+     <endbst>RBKR</endbst>
+     <vzg>9300</vzg>
+     <massnahme>Müllheim (Baden) - Bad Krozingen</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Gleiserneuerung 07., 14.02</grund>
+     <baubeginn>2009-02-07T19:00:00</baubeginn>
+     <bauende>2009-02-09T04:50:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" fplo="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >west</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >mitte</niederlassung>
+    <niederlassung beteiligt="1" fplo="0" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="0" verkehrstag="2009-02-08" betreiber="Z1351" zugnr="270" zugbez="ICE-A" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-08" betreiber="Z1351" zugnr="278" zugbez="ICE-A" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-08" betreiber="Z1351" zugnr="279" zugbez="ICE-A" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-08" betreiber="Z1351" zugnr="370" zugbez="ICE-A" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-08" betreiber="Z2601" zugnr="401" zugbez="CNL" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-08" betreiber="" zugnr="456" zugbez="EN" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="" ></abgangsbahnhof>
+      <zielbahnhof ds100="" ></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-07" betreiber="Z2601" zugnr="459" zugbez="CNL" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-07" betreiber="Z2601" zugnr="478" zugbez="CNL" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>11</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-08" betreiber="Z2601" zugnr="479" zugbez="CNL" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-07" betreiber="Z1351" zugnr="500" zugbez="ICE-W" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-08" betreiber="Z1351" zugnr="500" zugbez="ICE-W" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>9</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-08" betreiber="Z1351" zugnr="600" zugbez="ICE-W" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-07" betreiber="Z1351" zugnr="603" zugbez="ICE-W" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-08" betreiber="Z1351" zugnr="870" zugbez="ICE-A" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-09" betreiber="Z1351" zugnr="874" zugbez="ICE-A" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-07" betreiber="Z2601" zugnr="1378" zugbez="AZ" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RLR G" >Lörrach Gbf</abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-08" betreiber="K1256" zugnr="31018" zugbez="RE-D" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RB" >Basel Bad Bf</abgangsbahnhof>
+      <zielbahnhof ds100="RO" >Offenburg</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz lzb="1" >146</tfz>
+      <last>226</last>
+      <laenge>108</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-07" betreiber="K1256" zugnr="31024" zugbez="RE-D" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RB" >Basel Bad Bf</abgangsbahnhof>
+      <zielbahnhof ds100="RF" >Freiburg(Brg)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>14</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz lzb="1" >146</tfz>
+      <last>232</last>
+      <laenge>108</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-08" betreiber="K1256" zugnr="31028" zugbez="RE-D" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RB" >Basel Bad Bf</abgangsbahnhof>
+      <zielbahnhof ds100="RO" >Offenburg</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz lzb="1" >146</tfz>
+      <last>230</last>
+      <laenge>108</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-07" betreiber="K1256" zugnr="31029" zugbez="RE-D" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RO" >Offenburg</abgangsbahnhof>
+      <zielbahnhof ds100="RB" >Basel Bad Bf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz lzb="1" >146</tfz>
+      <last>226</last>
+      <laenge>108</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-08" betreiber="K1256" zugnr="31029" zugbez="RE-D" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RO" >Offenburg</abgangsbahnhof>
+      <zielbahnhof ds100="RB" >Basel Bad Bf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>10</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz lzb="1" >146</tfz>
+      <last>226</last>
+      <laenge>108</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-08" betreiber="K1256" zugnr="31056" zugbez="RE-D" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RB" >Basel Bad Bf</abgangsbahnhof>
+      <zielbahnhof ds100="RO" >Offenburg</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>10</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz lzb="1" >146</tfz>
+      <last>230</last>
+      <laenge>108</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-08" betreiber="K1256" zugnr="31147" zugbez="RB-D" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RO" >Offenburg</abgangsbahnhof>
+      <zielbahnhof ds100="RB" >Basel Bad Bf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>9</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>111</tfz>
+      <last>154</last>
+      <laenge>106</laenge>
+      <brems>161 R</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-08" betreiber="K1256" zugnr="31156" zugbez="RE" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RB" >Basel Bad Bf</abgangsbahnhof>
+      <zielbahnhof ds100="RF" >Freiburg(Brg)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>18</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>111</tfz>
+      <last>148</last>
+      <laenge>106</laenge>
+      <brems>165 R</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-08" betreiber="Z1351" zugnr="78322" zugbez="LICE-A" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RB" >Basel Bad Bf</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>32</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>14.2</gattungsnummer>
+      <vmax>250</vmax>
+      <tfz>401</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>197 R+Mg</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

@@ -1,0 +1,351 @@
+#master{
+	/*width: expression(document.body.offsetWidth < 1003 ? "1003px" : "100%");*/
+	min-width: 1259px;
+}
+
+#seitenkopf{
+    width:100%;
+    height:45px;
+    background-color:#ff0000;
+}
+#seitenkopf p{
+    color:white;
+    text-align:right;
+    z-index:1;
+    float:right;
+    font-weight:bold;
+    margin: 14px 24px 0px 0px;
+    font-size:15px;
+    color:white;
+}
+
+#seitenkopf_links{
+    width:520px;
+	float:left;
+    height:100%;
+    background-color: white;
+    z-index:3;
+}
+#seitenkopf_links img{
+	margin:12px 0 0 7px;
+}
+#seitenkopf_bogen{
+	width:20px;
+	float:left;
+    height:100%;
+    background: white url(../img/bogen_kopfleiste.gif) no-repeat;
+    z-index:2;
+}
+
+#navigation_oben{
+	height:21px;
+	width:100%;
+    background-color:#666666;
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+}
+#navigation_oben p{
+	margin:4px 7px 0 0;
+	padding:0px;
+	color:white;
+}
+#navigation_oben_links {
+	float: left;
+	width: 20%;
+	padding-left: 3px;
+}
+#navigation_oben_rechts {
+	float: right;
+	/*width: 80%;*/
+	text-align: right;
+}
+
+#pfadanzeige {
+	width:100%;
+    border-bottom: 1px solid #333333;
+	background-color: #cccccc;
+	background-image: url(../img/maennchen_bg.gif);
+	background-repeat: repeat-y;
+    height:19px;
+}
+
+#pfadanzeige_icon {
+	float:left;
+	height:100%;
+    width:26px;
+	background-image: url(../img/maennchen.gif);
+	background-repeat: no-repeat;
+}
+#pfadanzeige_datum {
+	float:right;
+	height:100%;
+    text-align:right;
+}
+#pfadanzeige_datum p {
+	margin:3px 8px 0 0;
+}
+
+#pfadanzeige_text {
+}
+
+#master_limited {
+	width:1259px;
+	margin:23px 0 23px 0;
+}
+
+#master_navigation{
+	float:left;
+	width:201px;
+	overflow:hidden;
+}
+#master_content{
+	float:left;
+	width:985px;
+	border-left:25px solid white;
+	/*overflow:auto*/;
+	overflow:hidden;
+	padding-right:23px;
+}
+
+div.information {
+	border:1px solid #666666;
+    padding: 6px 30px 8px 30px;
+    width: 667px;
+    text-align:left;
+    color: #000000;
+    font-weight:bold;
+    background:#ffffff url(../img/warning.png ) no-repeat 1% 5px;
+    margin-bottom:14px;
+}
+
+div.textcontent div.information {
+	width: 923px;
+}
+
+div.error{
+    border:1px solid #666666;
+    padding: 5px 30px 5px 12px;
+    width: 963px;
+    text-align:left;
+    color: #ffffff;
+    font-weight:bold;
+    background:#ff0000 url(../img/ani_error.gif ) no-repeat 98%;
+}
+div.textbox div.error{
+    border:1px solid #666666;
+    padding: 5px 30px 5px 12px;
+    width: 612px;
+    text-align:left;
+    color: #ffffff;
+    font-weight:bold;
+    background:#ff0000 url(../img/ani_error.gif ) no-repeat 98%;
+}
+div.error ul{
+	margin:0px 0px 0px 13px;
+	list-style-position:outside;
+}
+inputerror{
+	background-color:red;
+	color:white;
+}
+
+div.success{
+    border:1px solid #666666;
+    padding: 5px 30px 5px 12px;
+    width: 963px;
+    text-align:left;
+    color: #000000;
+    font-weight:bold;
+}
+div.success ul{
+	margin:0px 0px 0px 13px;
+	list-style-position:outside;
+}
+
+div.textcontent_head{
+    width: 100%;
+    background-color:#666666;
+    color:white;
+    font-weight:bold;
+    padding:5px 12px 5px 10px;
+	clear:both;
+	min-height:14px;
+}
+
+div.textcontent{
+    width: 100%;
+    background-color: #cccccc;
+    border:1px solid #666666;
+    padding: 10px 10px 10px 10px;
+    clear:both;
+    /* padding: 12px 12px 20px 12px; */
+   	overflow-y:hidden;
+	overflow-x:auto;
+}
+div.firefoxFix{
+	clear:both;
+	width:100%;
+	height:0px;
+	font-size:1px;
+	overflow:hidden;
+}
+
+div.textcontent_left{
+	float:left;
+	width:48%;
+	clear:both;
+}
+
+div.textcontent_right{
+	float:right;
+	width:48%;
+}
+
+div.textbox{
+    width: 656px;
+    background-color: #cccccc;
+    border-style:outset;
+    border-color:#666666;
+}
+div.textbox div.textcontent_head{ width:auto; }
+div.textbox div.textcontent{ width:auto; }
+div.textbox div.buttonBar{ width:auto; }
+
+div.displaytag {
+	margin-bottom: 10px;
+}
+
+div.invisibleDisplaytag{
+    width: 100%;
+    background-color: #cccccc;
+    border:1px solid #666666;
+    padding: 10px 0px 0px 0px;
+    clear:both;
+    /* padding: 12px 12px 20px 12px; */    
+}
+
+div.freetext{
+	float:left;
+	padding-top:4px;
+}
+
+#selectBlocker{
+	top:0px;
+	left:0px;
+	display:none;
+}
+
+div.box{
+	clear:both;
+	padding:2px 0; /* 4px 0*/
+	/*height:22px;*/   /* 24px*/
+	display:block;
+}
+
+div.label{
+	float:left;
+	width:135px;
+	padding-top:4px;
+}
+
+div.input{
+	float:left;
+}
+
+div.show{
+	float:left;
+	padding:4px 2px 4px 3px;
+	background-color:#dedede;
+	min-height:14px;
+	width:331px;
+}
+
+fieldset div.show{
+	width:318px;
+}
+
+div.showTextarea {
+	float: left;
+	padding: 4px 2px 4px 3px;
+	background-color: #dedede; *
+	height: 65px;
+	min-height: 14px;
+	width: 331px;
+	overflow: hidden;
+}
+
+div.showMultiLines {
+	float: left;
+	padding: 4px 2px 4px 3px;
+	background-color: #dedede;
+	min-height: 14px;
+	width: 331px;
+}
+
+div.scroll{
+	float:left;
+	width: 331px;
+	border-width:1px;
+	border-style:solid;
+	border-color:#999999;
+	height:84px;
+	overflow:auto;
+	background-color:#eeeeee;	
+	display:block;
+	padding:0 0 0 5px;
+}
+
+div.spacer{
+	float:left;
+	padding:4px 4px 4px 5px;
+}
+
+div.textarea{
+	float:left;	
+	margin-bottom:4px;
+}
+
+div.headline {
+    margin: 15px 0px 5px 0px;
+    text-align:left;
+    color:black;
+    font-weight:bold;
+}
+
+div.buttonBar {
+    background-color: #999999;
+    border:1px solid #666666;
+    border-top:0px solid #666666;
+    padding: 8px 11px 8px 09px;
+    width: 100%;
+    text-align:right;
+	min-height:14px;
+}
+
+div.invisible {
+	display: none;
+}
+
+#modalBackground {
+	position: absolute;
+	left: expression(ignoreMe =   document.documentElement.scrollLeft +   "px");
+	top: expression(ignoreMe =   document.documentElement.scrollTop +   "px");
+	width: expression(document.documentElement.clientWidth +   "px");
+	height: expression(document.documentElement.clientHeight +   "px");
+	z-index: 9;
+	background-color:#333333;
+	display: none;
+	opacity: 0.40;
+	filter: alpha(opacity=40)
+}
+#modalWindow {
+    position: fixed;
+    left: 0;
+    top: 0;
+	z-index: 10;
+	background-color: white;
+	display: none;
+	width: 20em;
+	height: 10em;
+	border: 1px solid blue;
+}

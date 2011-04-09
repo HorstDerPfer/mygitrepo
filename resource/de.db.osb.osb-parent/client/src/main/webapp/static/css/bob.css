@@ -1,0 +1,27 @@
+ul.arrow {
+	/*list-style-image:url(../img/button_s_pfeil_rechts2.gif);*/
+}
+
+table th.controlling {
+	text-align:center;
+	vertical-align:top;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+table td.controlling {
+	text-align:center;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+table.colored .important {
+	background-color: #f0a0a0;
+}
+
+input.dateDisabled {
+	width:55px;text-align:center;background-color:#dddddd;
+}
+input.dateShortDisabled {
+	width:42px;text-align:center;background-color:#dddddd;
+}

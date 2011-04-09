@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+<session-factory>
+	<property name="hibernate.dialect">db.training.hibernate.BaudbMySQL5InnoDBDialect</property>
+	<property name="hibernate.current_session_context_class">thread</property>
+	<property name="cache.provider_class">org.hibernate.cache.EhCacheProvider</property>
+	<property name="hibernate.connection.release_mode">auto</property>
+	<property name="hibernate.current_session_context_class">thread</property>
+	<property name="hibernate.jdbc.batch_size">20</property>
+	<property name="hibernate.cache.use_query_cache">true</property>
+	<property name="hibernate.cache.use_second_level_cache">false</property>
+	<property name="hibernate.show_sql">false</property>
+
+	<!--  JNDI fuer Tomcat 
+		<property name="hibernate.connection.datasource">java:comp/env/jdbc/easyDS</property>
+	-->
+
+	<!-- configuration pool via c3p0 	-->
+	<property name="c3p0.acquire_increment">1</property>
+	<property name="c3p0.idle_test_period">100</property>
+	<property name="c3p0.max_size">50</property>
+	<property name="c3p0.max_statements">0</property>
+	<property name="c3p0.min_size">4</property>
+	<property name="c3p0.timeout">100</property>
+
+	<!-- localhost -->
+	<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+	<property name="hibernate.connection.url">
+		jdbc:mysql://localhost:3306/bob_osb_test?characterEncoding=UTF-8
+	</property>
+	<property name="hibernate.connection.username">tqmwebuser</property>
+	<property name="hibernate.connection.password">tqmwebuser</property>
+
+	<!-- Mappings -->
+	<mapping resource="db/training/security/hibernate/Security.hbm.xml" />
+
+	<mapping class="db.training.easy.core.model.User" />
+
+	<!-- BOB -->
+	<mapping class="db.training.bob.model.Aenderung" />
+	<mapping class="db.training.bob.model.ArbeitsleistungRegionalbereich" />
+	<mapping class="db.training.bob.model.Baumassnahme" />
+	<mapping class="db.training.bob.model.BBPMassnahme" />
+	<mapping class="db.training.bob.model.Bearbeiter" />
+	<mapping class="db.training.bob.model.Bearbeitungsbereich" />
+	<mapping class="db.training.bob.model.EVU" />
+	<mapping class="db.training.bob.model.Grund" />
+	<mapping class="db.training.bob.model.Nachbarbahn" />
+	<mapping class="db.training.bob.model.Regelung" />
+	<mapping class="db.training.bob.model.Regionalbereich" />
+	<mapping class="db.training.bob.model.TerminUebersichtBaubetriebsplanung" />
+	<mapping class="db.training.bob.model.TerminUebersichtGueterverkehrsEVU" />
+	<mapping class="db.training.bob.model.TerminUebersichtPersonenverkehrsEVU" />
+	<mapping class="db.training.bob.model.zvf.Uebergabeblatt" />
+	<mapping class="db.training.bob.model.zvf.Header" />
+	<mapping class="db.training.bob.model.zvf.Sender" />
+	<mapping class="db.training.bob.model.zvf.Massnahme" />
+	<mapping class="db.training.bob.model.zvf.Version" />
+	<mapping class="db.training.bob.model.zvf.Strecke" />
+	<mapping class="db.training.bob.model.zvf.Zug" />
+	<mapping class="db.training.bob.model.zvf.Abweichung" />
+	<mapping class="db.training.bob.model.zvf.Regelweg" />
+	<mapping class="db.training.bob.model.zvf.Fplonr" />
+	<mapping class="db.training.bob.model.zvf.Niederlassung" />
+	<mapping class="db.training.bob.model.zvf.Halt" />
+	<mapping class="db.training.bob.model.zvf.Bahnhof" />
+	<mapping class="db.training.bob.model.zvf.Zugdetails" />
+	<mapping class="db.training.bob.model.zvf.Knotenzeit" />
+
+	<!-- OSB -->
+	<mapping class="db.training.osb.model.Fahrplanregelung" />
+	<mapping class="db.training.osb.model.StreckenbandZeile" />
+	<mapping class="db.training.osb.model.SAPMassnahme" />
+	<mapping class="db.training.osb.model.Betriebsstelle" />
+	<mapping class="db.training.osb.model.Paket" />
+	<mapping class="db.training.osb.model.Buendel" />
+	<mapping class="db.training.osb.model.MasterBuendel" />
+	<mapping class="db.training.osb.model.Korridor" />
+	<mapping class="db.training.osb.model.Umleitung" />
+	<mapping class="db.training.osb.model.Umleitungsweg" />
+	<mapping class="db.training.osb.model.UmleitungFahrplanregelungLink" />
+	<mapping class="db.training.osb.model.VzgStrecke" />
+</session-factory>
+</hibernate-configuration>

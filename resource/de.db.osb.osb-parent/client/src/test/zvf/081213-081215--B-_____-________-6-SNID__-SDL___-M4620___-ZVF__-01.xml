@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-11-11T14:09:28</timestamp>
+  <filename>081213-081215--B-_____-________-6-SNID__-SDL___-M4620___-ZVF__-01.rtf</filename>
+  <version_prg_zvf>v2.2.4</version_prg_zvf>
+  <sender>
+   <name>Hermannek</name>
+   <vorname>Björn</vorname>
+   <kuerzel> Hn</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Bjoern.Hermannek@bahn.de</email>
+   <telefon>0721/938 7338</telefon>
+   <telefon_intern>972-7338</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>Bayerische Cargo Bahn</empfaenger>
+   <empfaenger>Betriebsplanung - BZ</empfaenger>
+   <empfaenger>Bittler</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>B</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <korridor> </korridor>
+   <kigbau></kigbau>
+   <kennung></kennung>
+   <bbp>86005</bbp>
+   <master_fplo>54015</master_fplo>
+   <festgelegtSPFV>0</festgelegtSPFV>
+   <festgelegtSPNV>0</festgelegtSPNV>
+   <festgelegtSGV>0</festgelegtSGV>
+   <antwort>2008-12-02</antwort>
+   <endStueckZvf>1</endStueckZvf>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF)</titel>
+    <formular>ZVF-091008</formular>
+    <major>1</major>
+    <minor>2</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>SNID</startbst>
+     <endbst>SDL</endbst>
+     <vzg>3212</vzg>
+     <massnahme>Niedaltdorf - Dillingen (Saar)</massnahme>
+     <betriebsweise>Totalsperrung</betriebsweise>
+     <grund>Gl. 3 SDL</grund>
+     <baubeginn>2008-12-13T04:30:00</baubeginn>
+     <bauende>2008-12-15T04:00:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+    <strecke>
+     <startbst>SNID</startbst>
+     <endbst>SDL</endbst>
+     <vzg>1000</vzg>
+     <massnahme>Niedaltdorf - Dillingen (Saar)</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Gl. 3 SDL</grund>
+     <baubeginn>2008-12-13T04:30:00</baubeginn>
+     <bauende>2008-12-13T23:59:59</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Nein</baustellen_export>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" fplo="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >west</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >mitte</niederlassung>
+    <niederlassung beteiligt="1" fplo="0" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="0" verkehrstag="2008-12-13" betreiber="M4620" zugnr="47210" zugbez="DGS" >
+     <firstbst>SNID</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SVL" >Völklingen</abgangsbahnhof>
+      <zielbahnhof ds100="XFDU" >Dugny</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Völklingen - Saardamm - Forbach</umleitung>
+      <umleitweg>
+       <ds100>SVL</ds100>
+       <ds100>SSDM</ds100>
+       <ds100>XFFB</ds100>
+      </umleitweg>
+      <verspaetung>60</verspaetung>
+     </abweichung>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

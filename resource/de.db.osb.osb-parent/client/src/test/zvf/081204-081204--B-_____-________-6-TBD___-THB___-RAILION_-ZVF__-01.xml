@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-10-27T14:02:07</timestamp>
+  <filename>081204-081204--B-_____-________-6-TBD___-THB___-RAILION_-ZVF__-01.rtf</filename>
+  <version_prg_zvf>v2.2.3</version_prg_zvf>
+  <sender>
+   <name>Gerdes</name>
+   <vorname>Andreas</vorname>
+   <kuerzel> Gd</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Andreas.Gerdes@bahn.de</email>
+   <telefon>0721/938 7335</telefon>
+   <telefon_intern>972-7335</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>Railion</empfaenger>
+   <empfaenger>Breier</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>B</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <korridor> </korridor>
+   <kigbau></kigbau>
+   <kennung></kennung>
+   <bbp>56025</bbp>
+   <master_fplo></master_fplo>
+   <festgelegtSPFV>0</festgelegtSPFV>
+   <festgelegtSPNV>0</festgelegtSPNV>
+   <festgelegtSGV>0</festgelegtSGV>
+   <antwort>2008-11-10</antwort>
+   <endStueckZvf>1</endStueckZvf>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF)</titel>
+    <formular>ZVF-091008</formular>
+    <major>1</major>
+    <minor>2</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>THB</startbst>
+     <endbst>TBD</endbst>
+     <massnahme>Bondorf b Herrbg - Horb</massnahme>
+     <betriebsweise>Ggl Bef</betriebsweise>
+     <grund>Schienenschleifen</grund>
+     <baubeginn>2008-12-04T03:20:00</baubeginn>
+     <bauende>2008-12-04T05:20:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" >west</niederlassung>
+    <niederlassung beteiligt="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" >mitte</niederlassung>
+    <niederlassung beteiligt="0" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="" verkehrstag="2008-12-04" betreiber="Z1461" zugnr="44699" zugbez="FE" >
+     <firstbst>THB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TK  S" >Kornwesth Rbf SW</abgangsbahnhof>
+      <zielbahnhof ds100="XSZLE" >ZH Limmattal E</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>16</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-04" betreiber="Z1455" zugnr="47731" zugbez="CSQ" >
+     <firstbst>THB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TK  O" >Kornwesth Rbf SO</abgangsbahnhof>
+      <zielbahnhof ds100="RSI" >Singen (Htw)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>16</verspaetung>
+     </abweichung>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

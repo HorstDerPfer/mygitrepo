@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-10-13T11:11:40</timestamp>
+  <filename>080328-090406--A-_____-________-6-RRZ___-RKOP__-DBFERNV_-ZVF__-02.rtf</filename>
+  <version_prg_zvf>v2.2.3</version_prg_zvf>
+  <sender>
+   <name>Klan</name>
+   <vorname>Dietmar</vorname>
+   <kuerzel> Kl</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Dietmar.Klan@bahn.de</email>
+   <telefon>0721/938 7311</telefon>
+   <telefon_intern>972-7311</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>DB Fernverkehr</empfaenger>
+   <empfaenger>Betriebsplanung - BZ</empfaenger>
+   <empfaenger>KM-SW</empfaenger>
+   <empfaenger>Schäfer JM</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>A</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <korridor> </korridor>
+   <kigbau></kigbau>
+   <kennung>FF18386a5627</kennung>
+   <bbp>56030</bbp>
+   <master_fplo>52008</master_fplo>
+   <festgelegtSPFV>0</festgelegtSPFV>
+   <festgelegtSPNV>0</festgelegtSPNV>
+   <festgelegtSGV>0</festgelegtSGV>
+   <antwort>2008-10-31</antwort>
+   <endStueckZvf>0</endStueckZvf>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF)</titel>
+    <formular>ZVF-091009</formular>
+    <major>2</major>
+    <minor>1</minor>
+    <sub>02</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>RRZ</startbst>
+     <endbst>RKOP</endbst>
+     <massnahme>Radolfzell - Ko-Petershausen</massnahme>
+     <betriebsweise>Ggl Bef</betriebsweise>
+     <grund>Gleiserneuerung</grund>
+     <baubeginn>2008-03-29T00:55:00</baubeginn>
+     <bauende>2009-04-06T04:45:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+    <strecke>
+     <startbst>RRZ</startbst>
+     <endbst>RKO</endbst>
+     <massnahme>Konstanz - Radolfzell</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Gleiserneuerung</grund>
+     <baubeginn>2009-03-28T00:50:00</baubeginn>
+     <bauende>2009-04-01T10:00:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" >west</niederlassung>
+    <niederlassung beteiligt="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" >mitte</niederlassung>
+    <niederlassung beteiligt="1" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="" verkehrstag="2009-03-29" betreiber="Z1351" zugnr="2004" zugbez="IC" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>10</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-29" betreiber="Z1351" zugnr="2270" zugbez="IC" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>9</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-30" betreiber="Z1351" zugnr="2370" zugbez="IC" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>9</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="Z1351" zugnr="2370" zugbez="IC" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>9</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="Z1351" zugnr="2371" zugbez="IC" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-28" betreiber="Z1351" zugnr="2005" zugbez="IC" >
+     <firstbst>RKO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RRZ" >Radolfzell</ausfallvon>
+      <ausfallbis ds100="RKO" >Konstanz</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-28" betreiber="Z1351" zugnr="2006" zugbez="IC" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RKO" >Konstanz</ausfallvon>
+      <ausfallbis ds100="RSI" >Singen (Htw)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-28" betreiber="Z1351" zugnr="2370" zugbez="IC" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RKO" >Konstanz</ausfallvon>
+      <ausfallbis ds100="RSI" >Singen (Htw)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="Z1351" zugnr="2370" zugbez="IC" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon></ausfallvon>
+      <ausfallbis></ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-28" betreiber="Z1351" zugnr="2371" zugbez="IC" >
+     <firstbst>RKO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RRZ" >Radolfzell</ausfallvon>
+      <ausfallbis ds100="RKO" >Konstanz</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="Z1351" zugnr="2371" zugbez="IC" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon></ausfallvon>
+      <ausfallbis></ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-28" betreiber="Z1351" zugnr="78319" zugbez="Lr" >
+     <firstbst>RKO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RSI" >Singen (Htw)</abgangsbahnhof>
+      <zielbahnhof ds100="RKO" >Konstanz</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RSI" >Singen (Htw)</ausfallvon>
+      <ausfallbis ds100="RKO" >Konstanz</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-28" betreiber="Z1351" zugnr="78320" zugbez="Lr" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RKO" >Konstanz</abgangsbahnhof>
+      <zielbahnhof ds100="RSI" >Singen (Htw)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RKO" >Konstanz</ausfallvon>
+      <ausfallbis ds100="RRZ" >Radolfzell</ausfallbis>
+     </abweichung>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<BBPMakSiSchnittstelle>
+<Header>
+<Ersteller>StephanASchmidt</Ersteller>
+<Erstellzeit>2008-03-18, 15:58</Erstellzeit> 
+<BBPVersion>BBP 4.5.5.p01.8078</BBPVersion>
+<BplBeginn>2008-03-28</BplBeginn>
+<BplEnde>2008-04-20</BplEnde>
+</Header>
+<Daten>
+<BBPMassnahme>
+<MasID>07B78851779BB</MasID>
+<aktiv>1</aktiv>
+<MasKennung>FF4537326E19</MasKennung>
+<Vorhaben>G.016122001</Vorhaben>
+<RegionID>2</RegionID>
+<Region>Nord</Region>
+<AnmelderID>22</AnmelderID>
+<Anmelder>I.NP-N-A</Anmelder>
+<ArbeitenID>15</ArbeitenID>
+<Arbeiten>Gleiserneuerung u. Br&#252;ckenarb</Arbeiten>
+<BBPStrecke>22020</BBPStrecke>
+<VzGStrecke>1730</VzGStrecke>
+<MasBstVonAG850ID> -1 </MasBstVonAG850ID>
+<MasBstBisAG850ID> -1 </MasBstBisAG850ID>
+<MasBstVonRil100>HGGL</MasBstVonRil100>
+<MasBstBisRil100>HVEC</MasBstBisRil100>
+<MasBstVonLang>Gro&#223; Gleidingen</MasBstVonLang>
+<MasBstBisLang>Vechelde</MasBstBisLang>
+<MasKmVon>-9999,000</MasKmVon>
+<MasKmBis>-9999,000</MasKmBis>
+<MasBeginn>200803292130</MasBeginn>
+<MasEnde>200804182020</MasEnde>
+<GravAendDate> 200709180000</GravAendDate>
+<GraZeit>False</GraZeit>
+<GraOrt>True</GraOrt>
+<GraRegel>False</GraRegel>
+<AnmelderBem></AnmelderBem>
+<TempAnm></TempAnm>
+<Regelungen>
+<Regelung>
+<RegID>07B78851779BB-0001</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A</BplArtText>
+<JplID>0760027BA53FB</JplID>
+<Beginn>200803300005</Beginn>
+<Ende>200803300205</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>HGGL</BstVonRil100>
+<BstBisRil100>HP</BstBisRil100>
+<BstVonLang>Gro&#223; Gleidingen</BstVonLang>
+<BstBisLang>Peine</BstBisLang>
+<BstVonLageKm>52,800</BstVonLageKm>
+<BstBisLageKm>35,200</BstBisLageKm>
+<VzGStrecke>1730</VzGStrecke>
+<Richtung>2</Richtung>
+<BBPStrecke>22020</BBPStrecke>
+<BBPStrRi>1</BBPStrRi>
+<BplRegelungID>4</BplRegelungID>
+<BplRegelungKurz>Ggl Zs 6/7 s</BplRegelungKurz>
+<BplRegelungLang>Befahren Ggl auf Zs 6/7 ständig</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>4,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>False</SPFV>
+<SPNV>False</SPNV>
+<SGV>True</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl>Einbau Iso in Ol SG 2 HVEC, </BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>07B78851779BB-0002</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A</BplArtText>
+<JplID>0760027BA53FB</JplID>
+<Beginn>200803300205</Beginn>
+<Ende>200803300250</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>HVEC</BstVonRil100>
+<BstBisRil100>HVEC</BstBisRil100>
+<BstVonLang>Vechelde</BstVonLang>
+<BstBisLang>Vechelde</BstBisLang>
+<BstVonLageKm>46,500</BstVonLageKm>
+<BstBisLageKm>46,500</BstBisLageKm>
+<VzGStrecke>1730</VzGStrecke>
+<Richtung>0</Richtung>
+<BBPStrecke>22020</BBPStrecke>
+<BBPStrRi>0</BBPStrRi>
+<BplRegelungID>11</BplRegelungID>
+<BplRegelungKurz>Tsp</BplRegelungKurz>
+<BplRegelungLang>Totalsperrung</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>0,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>False</SPFV>
+<SPNV>False</SPNV>
+<SGV>True</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl>Einbau Trennerbr&#252;cke, Ol SG 2 a u. 1 HVEC aus</BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>07B78851779BB-0003</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A</BplArtText>
+<JplID>0760027BA53FB</JplID>
+<Beginn>200803292130</Beginn>
+<Ende>200804182020</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>HGGL</BstVonRil100>
+<BstBisRil100>HVEC</BstBisRil100>
+<BstVonLang>Gro&#223; Gleidingen</BstVonLang>
+<BstBisLang>Vechelde</BstBisLang>
+<BstVonLageKm>52,800</BstVonLageKm>
+<BstBisLageKm>46,500</BstBisLageKm>
+<VzGStrecke>1730</VzGStrecke>
+<Richtung>2</Richtung>
+<BBPStrecke>22020</BBPStrecke>
+<BBPStrRi>1</BBPStrRi>
+<BplRegelungID>4</BplRegelungID>
+<BplRegelungKurz>Ggl Zs 6/7 s</BplRegelungKurz>
+<BplRegelungLang>Befahren Ggl auf Zs 6/7 ständig</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>4,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>True</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl>Ol SG 2 HGGL  u. freie Strecke HGGL-HVEC aus, SG 2 b HVEC aus 30.03.08, 0.05 - 18.04.08, 5.25,  Z O/W-Ri in HGGL Gl. 2, in HVEC Gl. 202/232</BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>07B78851779BB-0004</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A</BplArtText>
+<JplID>0760027BA53FB</JplID>
+<Beginn>200803292130</Beginn>
+<Ende>200804182020</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>HVEC</BstVonRil100>
+<BstBisRil100>HGGL</BstBisRil100>
+<BstVonLang>Vechelde</BstVonLang>
+<BstBisLang>Gro&#223; Gleidingen</BstBisLang>
+<BstVonLageKm>46,500</BstVonLageKm>
+<BstBisLageKm>52,800</BstBisLageKm>
+<VzGStrecke>1730</VzGStrecke>
+<Richtung>1</Richtung>
+<BBPStrecke>22020</BBPStrecke>
+<BBPStrRi>2</BBPStrRi>
+<BplRegelungID>21</BplRegelungID>
+<BplRegelungKurz>La EUK</BplRegelungKurz>
+<BplRegelungLang>Lfst für Unfallschutz</BplRegelungLang>
+<RegelungKmVon>46,900</RegelungKmVon>
+<RegelungKmBis>52,400</RegelungKmBis>
+<VzGV>140</VzGV>
+<LaV>90</LaV>
+<FzvBBP>1,9</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>True</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl></BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>07B78851779BB-0005</RegID>
+<aktiv>0</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A</BplArtText>
+<JplID>0760027BA53FB</JplID>
+<Beginn>200804182025</Beginn>
+<Ende>200804200800</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>HVEC</BstVonRil100>
+<BstBisRil100>HP  G</BstBisRil100>
+<BstVonLang>Vechelde</BstVonLang>
+<BstBisLang>Peine Gbf Bft</BstBisLang>
+<BstVonLageKm>46,500</BstVonLageKm>
+<BstBisLageKm>36,900</BstBisLageKm>
+<VzGStrecke>1730</VzGStrecke>
+<Richtung>2</Richtung>
+<BBPStrecke>22020</BBPStrecke>
+<BBPStrRi>1</BBPStrRi>
+<BplRegelungID>15</BplRegelungID>
+<BplRegelungKurz>Lfst</BplRegelungKurz>
+<BplRegelungLang>Langsamfahrstelle</BplRegelungLang>
+<RegelungKmVon>52,300</RegelungKmVon>
+<RegelungKmBis>46,800</RegelungKmBis>
+<VzGV>160</VzGV>
+<LaV>160</LaV>
+<FzvBBP>1,9</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>True</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl></BemerkungenBpl>
+</Regelung>
+</Regelungen>
+</BBPMassnahme>
+</Daten>
+</BBPMakSiSchnittstelle>

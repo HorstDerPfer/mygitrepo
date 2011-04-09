@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-10-01T13:10:26</timestamp>
+  <filename>090204-090218--A-_____-________-6-RML___-RBKR__-DBREGIO_-ZVF__-01.rtf</filename>
+  <version_prg_zvf>v2.1.2</version_prg_zvf>
+  <sender>
+   <name>Klan</name>
+   <vorname>Dietmar</vorname>
+   <kuerzel> Kl</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Dietmar.Klan@bahn.de</email>
+   <telefon>0721/938 7311</telefon>
+   <telefon_intern>972-7311</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>DB Regio</empfaenger>
+   <empfaenger>Betriebsplanung - BZ</empfaenger>
+   <empfaenger>KM-SW</empfaenger>
+   <empfaenger>Schäfer JM</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>A</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <ksbaumassnahme></ksbaumassnahme>
+   <kigbau></kigbau>
+   <kennung></kennung>
+   <bbp>56023 RB-RF Zweiabschnittsbebauung</bbp>
+   <master_fplo>52006</master_fplo>
+   <antwort>2008-08-27</antwort>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF)</titel>
+    <formular>ZvF</formular>
+    <major>1</major>
+    <minor>2</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>RML</startbst>
+     <endbst>RBKR</endbst>
+     <massnahme>Müllheim (Baden) - Bad Krozingen</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Gleiserneuerung 07., 14.02</grund>
+     <baubeginn>2009-02-04T00:05:00</baubeginn>
+     <bauende>2009-02-18T03:40:00</bauende>
+     <zeitraum_unterbrochen>Ja</zeitraum_unterbrochen>
+    </strecke>
+    <strecke>
+     <startbst>RML</startbst>
+     <endbst>RBKR</endbst>
+     <massnahme>Müllheim (Baden) - Bad Krozingen</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Gleiserneuerung 04., 11.,18.02.2009</grund>
+     <baubeginn>2009-02-04T00:05:00</baubeginn>
+     <bauende>2009-02-04T03:40:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+    </strecke>
+    <strecke>
+     <startbst>RML</startbst>
+     <endbst>RBKR</endbst>
+     <massnahme>Müllheim (Baden) - Bad Krozingen</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Gleiserneuerung 05., 12.02</grund>
+     <baubeginn>2009-02-05T00:05:00</baubeginn>
+     <bauende>2009-02-05T03:40:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+    </strecke>
+    <strecke>
+     <startbst>RML</startbst>
+     <endbst>RBKR</endbst>
+     <massnahme>Müllheim (Baden) - Bad Krozingen</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Gleiserneuerung 06., 13.02</grund>
+     <baubeginn>2009-02-06T00:05:00</baubeginn>
+     <bauende>2009-02-06T03:40:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+    </strecke>
+    <strecke>
+     <startbst>RML</startbst>
+     <endbst>RBKR</endbst>
+     <massnahme>Müllheim (Baden) - Bad Krozingen</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Gleiserneuerung 07., 14.02</grund>
+     <baubeginn>2009-02-07T00:05:00</baubeginn>
+     <bauende>2009-02-07T03:40:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+    </strecke>
+    <strecke>
+     <startbst>RML</startbst>
+     <endbst>RBKR</endbst>
+     <massnahme>Müllheim (Baden) - Bad Krozingen</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Gleiserneuerung 07., 14.02</grund>
+     <baubeginn>2009-02-07T19:00:00</baubeginn>
+     <bauende>2009-02-09T04:50:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+    </strecke>
+    <strecke>
+     <startbst>RML</startbst>
+     <endbst>RBKR</endbst>
+     <massnahme>Müllheim (Baden) - Bad Krozingen</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Gleiserneuerung 10., 17.02.2009</grund>
+     <baubeginn>2009-02-10T00:05:00</baubeginn>
+     <bauende>2009-02-10T03:40:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" >west</niederlassung>
+    <niederlassung beteiligt="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" >mitte</niederlassung>
+    <niederlassung beteiligt="1" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31000" zugbez="RE-D" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Basel Bad Bf</abgangsbahnhof>
+      <zielbahnhof>Offenburg</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>15</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>146</tfz>
+      <last>230</last>
+      <laenge>108</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31011" zugbez="RE-D" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Offenburg</abgangsbahnhof>
+      <zielbahnhof>Basel Bad Bf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31018" zugbez="RE-D" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Basel Bad Bf</abgangsbahnhof>
+      <zielbahnhof>Offenburg</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>146</tfz>
+      <last>226</last>
+      <laenge>108</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="31024" zugbez="RE-D" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Basel Bad Bf</abgangsbahnhof>
+      <zielbahnhof>Freiburg(Brg)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>14</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>146</tfz>
+      <last>232</last>
+      <laenge>108</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31025" zugbez="RE-D" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Offenburg</abgangsbahnhof>
+      <zielbahnhof>Basel Bad Bf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>17</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>146</tfz>
+      <last>226</last>
+      <laenge>108</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="31028" zugbez="RE-D" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Basel Bad Bf</abgangsbahnhof>
+      <zielbahnhof>Offenburg</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>146</tfz>
+      <last>230</last>
+      <laenge>108</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="31029" zugbez="RE-D" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Offenburg</abgangsbahnhof>
+      <zielbahnhof>Basel Bad Bf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>146</tfz>
+      <last>226</last>
+      <laenge>108</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31029" zugbez="RE-D" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Offenburg</abgangsbahnhof>
+      <zielbahnhof>Basel Bad Bf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>10</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>146</tfz>
+      <last>226</last>
+      <laenge>108</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-14" zugnr="31029" zugbez="RE-D" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Offenburg</abgangsbahnhof>
+      <zielbahnhof>Basel Bad Bf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>146</tfz>
+      <last>226</last>
+      <laenge>108</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-15" zugnr="31029" zugbez="RE-D" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Offenburg</abgangsbahnhof>
+      <zielbahnhof>Basel Bad Bf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>10</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>146</tfz>
+      <last>226</last>
+      <laenge>108</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31056" zugbez="RE-D" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Basel Bad Bf</abgangsbahnhof>
+      <zielbahnhof>Offenburg</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>10</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>146</tfz>
+      <last>230</last>
+      <laenge>108</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31147" zugbez="RB-D" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Offenburg</abgangsbahnhof>
+      <zielbahnhof>Basel Bad Bf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>9</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>111</tfz>
+      <last>154</last>
+      <laenge>106</laenge>
+      <brems>161 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="31149" zugbez="RB-D" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Müllheim (Baden)</abgangsbahnhof>
+      <zielbahnhof>Basel Bad Bf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>5</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>146</tfz>
+      <last>168</last>
+      <laenge>81</laenge>
+      <brems>155 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31156" zugbez="RE" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Basel Bad Bf</abgangsbahnhof>
+      <zielbahnhof>Freiburg(Brg)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>18</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>111</tfz>
+      <last>148</last>
+      <laenge>106</laenge>
+      <brems>165 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31004" zugbez="RE-D" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Basel Bad Bf</abgangsbahnhof>
+      <zielbahnhof>Offenburg</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Basel Bad Bf</ausfallvon>
+      <ausfallbis>Offenburg</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>146</tfz>
+      <last>226</last>
+      <laenge>108</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31006" zugbez="RE-D" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Basel Bad Bf</abgangsbahnhof>
+      <zielbahnhof>Offenburg</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Basel Bad Bf</ausfallvon>
+      <ausfallbis>Offenburg</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>146</tfz>
+      <last>230</last>
+      <laenge>108</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31009" zugbez="RE-D" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Offenburg</abgangsbahnhof>
+      <zielbahnhof>Basel Bad Bf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Offenburg</ausfallvon>
+      <ausfallbis>Basel Bad Bf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>146</tfz>
+      <last>226</last>
+      <laenge>108</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31010" zugbez="RE-D" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Basel Bad Bf</abgangsbahnhof>
+      <zielbahnhof>Offenburg</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Basel Bad Bf</ausfallvon>
+      <ausfallbis>Offenburg</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>146</tfz>
+      <last>226</last>
+      <laenge>108</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31013" zugbez="RE-D" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Offenburg</abgangsbahnhof>
+      <zielbahnhof>Basel Bad Bf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Offenburg</ausfallvon>
+      <ausfallbis>Basel Bad Bf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>146</tfz>
+      <last>226</last>
+      <laenge>108</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31014" zugbez="RE-D" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Basel Bad Bf</abgangsbahnhof>
+      <zielbahnhof>Offenburg</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Basel Bad Bf</ausfallvon>
+      <ausfallbis>Offenburg</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>146</tfz>
+      <last>226</last>
+      <laenge>108</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31017" zugbez="RE-D" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Offenburg</abgangsbahnhof>
+      <zielbahnhof>Basel Bad Bf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Offenburg</ausfallvon>
+      <ausfallbis>Basel Bad Bf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>146</tfz>
+      <last>283</last>
+      <laenge>135</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31021" zugbez="RE-D" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Offenburg</abgangsbahnhof>
+      <zielbahnhof>Basel Bad Bf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Offenburg</ausfallvon>
+      <ausfallbis>Basel Bad Bf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>146</tfz>
+      <last>226</last>
+      <laenge>108</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31027" zugbez="RE-D" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Offenburg</abgangsbahnhof>
+      <zielbahnhof>Basel Bad Bf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Offenburg</ausfallvon>
+      <ausfallbis>Basel Bad Bf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>146</tfz>
+      <last>226</last>
+      <laenge>108</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31064" zugbez="RB-D" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Müllheim (Baden)</abgangsbahnhof>
+      <zielbahnhof>Freiburg(Brg)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Müllheim (Baden)</ausfallvon>
+      <ausfallbis>Freiburg(Brg)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>146</tfz>
+      <last>232</last>
+      <laenge>108</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31065" zugbez="RE-D" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Offenburg</abgangsbahnhof>
+      <zielbahnhof>Müllheim (Baden)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Offenburg</ausfallvon>
+      <ausfallbis>Müllheim (Baden)</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31070" zugbez="RB-D" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Müllheim (Baden)</abgangsbahnhof>
+      <zielbahnhof>Freiburg(Brg)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Müllheim (Baden)</ausfallvon>
+      <ausfallbis>Freiburg(Brg)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>146</tfz>
+      <last>169</last>
+      <laenge>81</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31079" zugbez="RB-D" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Freiburg(Brg)Hbf</abgangsbahnhof>
+      <zielbahnhof>Müllheim (Baden)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Freiburg(Brg)Hbf</ausfallvon>
+      <ausfallbis>Müllheim (Baden)</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>146</tfz>
+      <last>177</last>
+      <laenge>81</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31082" zugbez="RB" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Müllheim (Baden)</abgangsbahnhof>
+      <zielbahnhof>Offenburg</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Müllheim (Baden)</ausfallvon>
+      <ausfallbis>Offenburg</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31087" zugbez="RB-D" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Offenburg</abgangsbahnhof>
+      <zielbahnhof>Müllheim (Baden)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Offenburg</ausfallvon>
+      <ausfallbis>Müllheim (Baden)</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31096" zugbez="RB-D" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Müllheim (Baden)</abgangsbahnhof>
+      <zielbahnhof>Offenburg</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Müllheim (Baden)</ausfallvon>
+      <ausfallbis>Offenburg</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31097" zugbez="RB-D" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Offenburg</abgangsbahnhof>
+      <zielbahnhof>Müllheim (Baden)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Offenburg</ausfallvon>
+      <ausfallbis>Müllheim (Baden)</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>146</tfz>
+      <last>226</last>
+      <laenge>108</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31105" zugbez="RB-D" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Offenburg</abgangsbahnhof>
+      <zielbahnhof>Basel Bad Bf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Offenburg</ausfallvon>
+      <ausfallbis>Basel Bad Bf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31112" zugbez="RB-D" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Basel Bad Bf</abgangsbahnhof>
+      <zielbahnhof>Offenburg</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Basel Bad Bf</ausfallvon>
+      <ausfallbis>Offenburg</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31115" zugbez="RB-D" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Offenburg</abgangsbahnhof>
+      <zielbahnhof>Basel Bad Bf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Offenburg</ausfallvon>
+      <ausfallbis>Basel Bad Bf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="31124" zugbez="RB" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Basel Bad Bf</abgangsbahnhof>
+      <zielbahnhof>Offenburg</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Basel Bad Bf</ausfallvon>
+      <ausfallbis>Offenburg</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="31129" zugbez="RB-D" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Offenburg</abgangsbahnhof>
+      <zielbahnhof>Müllheim (Baden)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Offenburg</ausfallvon>
+      <ausfallbis>Müllheim (Baden)</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>146</tfz>
+      <last>177</last>
+      <laenge>81</laenge>
+      <brems>210 R+Mg</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="31135" zugbez="RB-D" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Offenburg</abgangsbahnhof>
+      <zielbahnhof>Basel Bad Bf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Offenburg</ausfallvon>
+      <ausfallbis>Basel Bad Bf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>111</tfz>
+      <last>150</last>
+      <laenge>106</laenge>
+      <brems>163 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="31139" zugbez="RB" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Freiburg(Brg)Hbf</abgangsbahnhof>
+      <zielbahnhof>Basel Bad Bf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Freiburg(Brg)Hbf</ausfallvon>
+      <ausfallbis>Basel Bad Bf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="31142" zugbez="RB-D" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Müllheim (Baden)</abgangsbahnhof>
+      <zielbahnhof>Offenburg</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Müllheim (Baden)</ausfallvon>
+      <ausfallbis>Offenburg</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>146</tfz>
+      <last>173</last>
+      <laenge>81</laenge>
+      <brems>210 R+Mg</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="31148" zugbez="RE-D" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Basel Bad Bf</abgangsbahnhof>
+      <zielbahnhof>Offenburg</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Basel Bad Bf</ausfallvon>
+      <ausfallbis>Offenburg</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>111</tfz>
+      <last>150</last>
+      <laenge>106</laenge>
+      <brems>163 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="31152" zugbez="RE-D" >
+     <firstbst>RBKR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Müllheim (Baden)</abgangsbahnhof>
+      <zielbahnhof>Freiburg(Brg)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Müllheim (Baden)</ausfallvon>
+      <ausfallbis>Freiburg(Brg)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>146</tfz>
+      <last>232</last>
+      <laenge>108</laenge>
+      <brems>156 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-09" zugnr="76103" zugbez="Lr-D" >
+     <firstbst>RML</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Freiburg(Brg)Hbf</abgangsbahnhof>
+      <zielbahnhof>Müllheim (Baden)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="vorplan" >
+      <vorplanab change="0" >Freiburg(Brg)Hbf</vorplanab>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.2</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>111</tfz>
+      <last>369</last>
+      <laenge>240</laenge>
+      <brems>167 R</brems>
+     </zugdetails>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

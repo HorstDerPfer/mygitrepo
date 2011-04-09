@@ -1,0 +1,130 @@
+/* Standard ************************************/
+table {
+    border-collapse:collapse;
+    margin:0px 0px 0px 0px;
+    empty-cells: show;
+}
+
+td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    color: black;
+    text-decoration: none;
+    padding: 0px 0px 0px 0px;
+    vertical-align:top;
+    text-align:left;
+}
+
+th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    white-space:nowrap;
+    vertical-align:middle;
+}
+
+th.sorted {background-color: orange;}
+
+/* content *******************************************************************/
+table.content{
+    width:auto;
+    table-layout:fixed;
+    border-collapse:separate;
+}
+table.content td{
+	padding: 4px 3px 4px 3px;
+    border: 1px solid #cccccc;
+    vertical-align:top;
+    background-color: #DEDEDE;
+}
+table.content td.spacer{
+	background-color: #cccccc;
+	width:18px;
+}
+table.content th{
+    padding: 4px 0px 2px 0px;
+    border: 1px solid #cccccc;
+    width:96px;
+    vertical-align:top;
+    color:black;
+    font-weight:normal;
+}
+
+/* colored *******************************************************************/
+table.colored{
+    width:100%;
+    border-collapse:collapse;
+	border:1px solid #666666;
+}
+table.colored td{
+	border:0px solid #FFFFFF;
+	border-top:0px solid #FFFFFF;
+	padding: 2px 5px 2px 5px;
+    vertical-align:middle;
+}
+table.colored th{
+	border-color:#888888;
+    background-color: #999999;
+    padding: 2px 5px 2px 5px;
+}
+
+table.colored th.sub{
+	border-bottom:1px solid #EFB684;
+    background-color: #ffffff;
+    padding: 0px 5px 0px 5px;
+    font-size:11px;
+    color:#000000;	
+}
+
+table.colored tr.headline td{
+	border-top:1px solid #666666;
+	border-bottom:1px solid #666666;
+	background-color: #cccccc;
+    padding: 15px 5px 5px 5px;
+    font-size:12px;
+    font-weight:bold;
+    color:#000000;	
+}
+
+table.colored .odd      {background-color:#F6DFC5;}
+table.colored .oddrow   {background-color:#F7EFDE;}
+table.colored .oddrow2  {background-color:#FFFFFF;}
+table.colored .oddrow3  {background-color:#C4C4C4;visibility: collapse;}
+table.colored .even     {background-color:#F7EFDE;}
+table.colored .evenrow  {background-color:#F6DFC5;}
+table.colored .evenrow2 {background-color:#F4F4F4;}
+table.colored .evenrow3 {background-color:#B5B5B5;visibility: collapse;}
+table.colored .activerow{background-color:#CC9999;}
+table.colored .spacerow {background-color:#EFB684;}
+
+table.colored .borderSolidWhite{border:1px solid #FFFFFF;}
+table.colored .borderRightSolidBrown{border-right:1px solid #EFB684;}
+table.colored .borderSolidGrey{border:1px solid #666666;}
+table.colored .borderRightSolidGrey{border-right:1px solid #666666;}
+
+table.middle{width:349px;}
+
+table.colored tr.spacer td{
+    border-top:1px solid #999999;
+    border-bottom:1px solid #999999;
+    border-left:0px solid #999999;
+    border-right:0px solid #999999;
+    background-color:#cccccc;
+    height:5px;
+    overflow:hidden;
+}
+
+/* form ***********************************************************************/
+table.form td.label{width:100px;}
+table.form td{padding:2px 0px 2px 0px;vertical-align:middle;}
+
+/* Baubetriebsplan - Tabelle */
+#baubetriebsplan td{
+	vertical-align:top;
+	font-size:9px;
+	font-family: "Arial Narrow", Arial, sans-serif;
+}

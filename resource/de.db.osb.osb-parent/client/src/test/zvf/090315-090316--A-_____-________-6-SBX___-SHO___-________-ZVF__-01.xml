@@ -1,0 +1,1379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-10-07T15:37:46</timestamp>
+  <filename>090315-090316--A-_____-________-6-SBX___-SHO___-DBREGIO_-ZVF__-01.rtf</filename>
+  <version_prg_zvf>v2.1.4</version_prg_zvf>
+  <sender>
+   <name>Lutz</name>
+   <vorname>Günther</vorname>
+   <kuerzel> Lz</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Günther.Lutz@bahn.de</email>
+   <telefon>0721/938 7331</telefon>
+   <telefon_intern>972-7331</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>DB Regio</empfaenger>
+   <empfaenger>Betriebsplanung - BZ</empfaenger>
+   <empfaenger>Klemann</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>A</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <ksbaumassnahme></ksbaumassnahme>
+   <kigbau></kigbau>
+   <kennung>54006</kennung>
+   <bbp>56049</bbp>
+   <master_fplo></master_fplo>
+   <antwort>2008-10-28</antwort>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF)</titel>
+    <formular>ZVF-070708</formular>
+    <major>1</major>
+    <minor>2</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>SBX</startbst>
+     <endbst>SHO</endbst>
+     <massnahme>Homburg(Saar)Hbf - Bexbach</massnahme>
+     <betriebsweise>Totalsperrung</betriebsweise>
+     <grund>Brückenarbeiten BW 451 km 402</grund>
+     <baubeginn>2009-03-15T01:10:00</baubeginn>
+     <bauende>2009-03-16T03:40:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+    </strecke>
+    <strecke>
+     <startbst>SBX</startbst>
+     <endbst>SHO</endbst>
+     <massnahme>Homburg(Saar)Hbf - Bexbach</massnahme>
+     <betriebsweise>Ggl Bef</betriebsweise>
+     <grund>Brückenarbeiten BW 451 km 402</grund>
+     <baubeginn>2009-09-27T01:10:00</baubeginn>
+     <bauende>2009-09-28T03:40:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" >west</niederlassung>
+    <niederlassung beteiligt="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" >mitte</niederlassung>
+    <niederlassung beteiligt="0" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13706" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SNK" >Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SNK" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Neunkir (S) Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13708" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SNK" >Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13710" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SNK" >Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13711" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SNK" >Neunkir (S) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13713" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SNK" >Neunkir (S) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13714" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SNK" >Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13715" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SNK" >Neunkir (S) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13716" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SNK" >Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13718" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SNK" >Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13719" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SNK" >Neunkir (S) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13720" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SNK" >Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13721" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SNK" >Neunkir (S) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13723" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SNK" >Neunkir (S) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13724" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SNK" >Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13725" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SNK" >Neunkir (S) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13728" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SNK" >Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13729" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SNK" >Neunkir (S) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13730" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SNK" >Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13731" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SNK" >Neunkir (S) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13732" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SNK" >Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13733" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SNK" >Neunkir (S) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13734" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SNK" >Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13737" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SNK" >Neunkir (S) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13739" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SNK" >Neunkir (S) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13740" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SNK" >Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13742" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SNK" >Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13743" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SNK" >Neunkir (S) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13746" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SNK" >Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13747" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SNK" >Neunkir (S) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13767" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SILG" >Illingen (Saar)</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>426</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13768" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SILG" >Illingen (Saar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>426</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13769" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SILG" >Illingen (Saar)</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>426</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13770" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SILG" >Illingen (Saar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>426</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13771" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SILG" >Illingen (Saar)</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13772" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SILG" >Illingen (Saar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>426</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13773" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SILG" >Illingen (Saar)</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>426</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13774" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SILG" >Illingen (Saar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>426</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13775" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SILG" >Illingen (Saar)</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>426</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13776" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SILG" >Illingen (Saar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>426</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13777" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SILG" >Illingen (Saar)</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>426</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13778" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SILG" >Illingen (Saar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>426</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13779" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SILG" >Illingen (Saar)</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>426</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13780" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SILG" >Illingen (Saar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>426</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13781" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SILG" >Illingen (Saar)</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>426</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13782" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SILG" >Illingen (Saar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13783" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SILG" >Illingen (Saar)</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13784" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SILG" >Illingen (Saar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13785" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SILG" >Illingen (Saar)</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>426</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13786" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SILG" >Illingen (Saar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>426</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13787" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SILG" >Illingen (Saar)</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>426</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13788" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SILG" >Illingen (Saar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>426</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13789" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SILG" >Illingen (Saar)</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>426</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>146 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13790" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SILG" >Illingen (Saar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>426</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13791" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SILG" >Illingen (Saar)</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>426</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13792" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SILG" >Illingen (Saar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>426</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-16" zugnr="13793" zugbez="RB" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SILG" >Illingen (Saar)</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Bexbach</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>426</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="13794" zugbez="RB" >
+     <firstbst>SBX</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SILG" >Illingen (Saar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SBX" >Homburg(Saar)Hbf</ausfallvon>
+      <ausfallbis>Bexbach</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>426</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-15" zugnr="75234" zugbez="Lr" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SNK" >Neunkir (S) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Neunkir (S) Hbf</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.2</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-16" zugnr="75236" zugbez="Lr" >
+     <firstbst>SHO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SNK" >Neunkir (S) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHO" >Neunkir (S) Hbf</ausfallvon>
+      <ausfallbis>Homburg(Saar)Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.2</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

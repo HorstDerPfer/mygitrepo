@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-10-23T14:08:14</timestamp>
+  <filename>081114-081115--B-_____-________-6-SVL___-SBO___-K3443___-ZVF__-01.rtf</filename>
+  <version_prg_zvf>v2.2.3</version_prg_zvf>
+  <sender>
+   <name>Hermannek</name>
+   <vorname>Björn</vorname>
+   <kuerzel> Hn</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Bjoern.Hermannek@bahn.de</email>
+   <telefon>0721/938 7338</telefon>
+   <telefon_intern>972-7338</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>SBB Cargo Deutschland</empfaenger>
+   <empfaenger>Betriebsplanung - BZ</empfaenger>
+   <empfaenger>Bittler</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>B</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <korridor> </korridor>
+   <kigbau></kigbau>
+   <kennung></kennung>
+   <bbp>44005</bbp>
+   <master_fplo>36275</master_fplo>
+   <festgelegtSPFV>0</festgelegtSPFV>
+   <festgelegtSPNV>0</festgelegtSPNV>
+   <festgelegtSGV>0</festgelegtSGV>
+   <antwort>2008-10-10</antwort>
+   <endStueckZvf>0</endStueckZvf>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF)</titel>
+    <formular>ZVF-091008</formular>
+    <major>1</major>
+    <minor>2</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>SBO</startbst>
+     <endbst>SVL</endbst>
+     <massnahme>Völklingen - Bous (Saar)</massnahme>
+     <betriebsweise>Ggl Zs 8</betriebsweise>
+     <grund>Weichenerneuerung W1, SBO</grund>
+     <baubeginn>2008-11-14T20:00:00</baubeginn>
+     <bauende>2008-11-15T20:00:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+    <strecke>
+     <startbst>SEN</startbst>
+     <endbst>SVL</endbst>
+     <massnahme>Ensdorf (Saar) - Völklingen</massnahme>
+     <betriebsweise>Ggl Zs 8</betriebsweise>
+     <grund>Weichenerneuerung W2+3, SBO</grund>
+     <baubeginn>2008-11-15T20:00:00</baubeginn>
+     <bauende>2008-11-17T04:40:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+    <strecke>
+     <startbst>SEN</startbst>
+     <endbst>SVL</endbst>
+     <massnahme>Ensdorf (Saar) - Völklingen</massnahme>
+     <betriebsweise>Ggl Zs 8</betriebsweise>
+     <grund>Weichenerneuerung W2+3, SBO</grund>
+     <baubeginn>2008-11-18T00:05:00</baubeginn>
+     <bauende>2008-11-19T04:40:00</bauende>
+     <zeitraum_unterbrochen>Ja</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" >west</niederlassung>
+    <niederlassung beteiligt="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" >mitte</niederlassung>
+    <niederlassung beteiligt="1" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="" verkehrstag="2008-11-14" betreiber="K3443" zugnr="59297" zugbez="DGS" >
+     <firstbst>SBO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SVL" >Völklingen</abgangsbahnhof>
+      <zielbahnhof ds100="SDLH" >Dill.Hochofen Hü</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>35</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-14" betreiber="K3443" zugnr="59299" zugbez="DGS" >
+     <firstbst>SBO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SVL" >Völklingen</abgangsbahnhof>
+      <zielbahnhof ds100="SDLH" >Dill.Hochofen Hü</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>18</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-14" betreiber="K3443" zugnr="89523" zugbez="Tfzf (D)" >
+     <firstbst>SBO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSZ" >Sulzbach (Saar)</abgangsbahnhof>
+      <zielbahnhof ds100="SDL" >Dillingen (Saar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>21</verspaetung>
+     </abweichung>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

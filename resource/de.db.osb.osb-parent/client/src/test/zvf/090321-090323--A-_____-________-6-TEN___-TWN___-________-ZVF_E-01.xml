@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-10-01T10:16:05</timestamp>
+  <filename>090321-090323--A-_____-________-6-TEN___-TWN___-________-ZVF_E-01.rtf</filename>
+  <version_prg_zvf>v2.1.2</version_prg_zvf>
+  <sender>
+   <name>Scavello-Baassner</name>
+   <vorname>Santana</vorname>
+   <kuerzel> Bn</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Santana.Scavello-Baassner@bahn.de</email>
+   <telefon>0721/938 7332</telefon>
+   <telefon_intern>972-7332</telefon_intern>
+  </sender>
+  <empfaengerlist/>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>A</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <ksbaumassnahme></ksbaumassnahme>
+   <kigbau></kigbau>
+   <kennung></kennung>
+   <bbp></bbp>
+   <master_fplo></master_fplo>
+   <antwort>2008-10-22</antwort>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF-Entwurf)</titel>
+    <formular>ZvF-(E)</formular>
+    <major>1</major>
+    <minor>1</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>TWN</startbst>
+     <endbst>TEN</endbst>
+     <massnahme>Endersbach - Waiblingen</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Gleiserneuerung</grund>
+     <baubeginn>2009-03-21T02:45:00</baubeginn>
+     <bauende>2009-03-23T04:55:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" >west</niederlassung>
+    <niederlassung beteiligt="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" >mitte</niederlassung>
+    <niederlassung beteiligt="0" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="4199" zugbez="RE-D" >
+     <firstbst>TEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Stuttgart Hbf</abgangsbahnhof>
+      <zielbahnhof>München Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="4198" zugbez="RE-D" >
+     <firstbst>TWN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>München Hbf</abgangsbahnhof>
+      <zielbahnhof>Stuttgart Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-22" zugnr="7209" zugbez="S" >
+     <firstbst>TWN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Schorndorf</abgangsbahnhof>
+      <zielbahnhof>Filderstadt</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>5</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>47.1</gattungsnummer>
+      <vmax>120</vmax>
+      <tfz>420</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>129 P</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-22" zugnr="7221" zugbez="S" >
+     <firstbst>TWN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Schorndorf</abgangsbahnhof>
+      <zielbahnhof>Filderstadt</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>47.1</gattungsnummer>
+      <vmax>120</vmax>
+      <tfz>420</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>129 P</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-22" zugnr="7228" zugbez="S" >
+     <firstbst>TEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Filderstadt</abgangsbahnhof>
+      <zielbahnhof>Schorndorf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>47.1</gattungsnummer>
+      <vmax>120</vmax>
+      <tfz>420</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>129 P</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-22" zugnr="7229" zugbez="S" >
+     <firstbst>TWN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Schorndorf</abgangsbahnhof>
+      <zielbahnhof>Filderstadt</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>47.1</gattungsnummer>
+      <vmax>120</vmax>
+      <tfz>420</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>129 P</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-22" zugnr="7232" zugbez="S" >
+     <firstbst>TEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Filderstadt</abgangsbahnhof>
+      <zielbahnhof>Schorndorf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>47.1</gattungsnummer>
+      <vmax>120</vmax>
+      <tfz>420</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>129 P</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-22" zugnr="7235" zugbez="S" >
+     <firstbst>TWN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Schorndorf</abgangsbahnhof>
+      <zielbahnhof>Filderstadt</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>47.1</gattungsnummer>
+      <vmax>120</vmax>
+      <tfz>420</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>129 P</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-22" zugnr="7239" zugbez="S" >
+     <firstbst>TWN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Schorndorf</abgangsbahnhof>
+      <zielbahnhof>Filderstadt</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>47.1</gattungsnummer>
+      <vmax>120</vmax>
+      <tfz>420</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>129 P</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19408" zugbez="RE" >
+     <firstbst>TWN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Aalen</abgangsbahnhof>
+      <zielbahnhof>Stuttgart Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19416" zugbez="RE" >
+     <firstbst>TWN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Aalen</abgangsbahnhof>
+      <zielbahnhof>Stuttgart Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19421" zugbez="RE" >
+     <firstbst>TEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Stuttgart Hbf</abgangsbahnhof>
+      <zielbahnhof>Aalen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>10</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19425" zugbez="RE" >
+     <firstbst>TEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Stuttgart Hbf</abgangsbahnhof>
+      <zielbahnhof>Aalen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>10</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19426" zugbez="RE" >
+     <firstbst>TWN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Aalen</abgangsbahnhof>
+      <zielbahnhof>Stuttgart Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19429" zugbez="RE" >
+     <firstbst>TEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Stuttgart Hbf</abgangsbahnhof>
+      <zielbahnhof>Aalen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>13</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19430" zugbez="RE" >
+     <firstbst>TWN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Aalen</abgangsbahnhof>
+      <zielbahnhof>Stuttgart Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19433" zugbez="RE" >
+     <firstbst>TEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Stuttgart Hbf</abgangsbahnhof>
+      <zielbahnhof>Aalen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>10</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19434" zugbez="RE" >
+     <firstbst>TWN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Aalen</abgangsbahnhof>
+      <zielbahnhof>Stuttgart Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19435" zugbez="RE" >
+     <firstbst>TEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Stuttgart Hbf</abgangsbahnhof>
+      <zielbahnhof>Aalen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>13</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19436" zugbez="RE" >
+     <firstbst>TWN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Aalen</abgangsbahnhof>
+      <zielbahnhof>Stuttgart Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19439" zugbez="RE" >
+     <firstbst>TEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Stuttgart Hbf</abgangsbahnhof>
+      <zielbahnhof>Aalen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>10</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19440" zugbez="RE" >
+     <firstbst>TWN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Aalen</abgangsbahnhof>
+      <zielbahnhof>Stuttgart Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19444" zugbez="RE" >
+     <firstbst>TWN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Aalen</abgangsbahnhof>
+      <zielbahnhof>Stuttgart Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19445" zugbez="RE" >
+     <firstbst>TEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Stuttgart Hbf</abgangsbahnhof>
+      <zielbahnhof>Aalen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>14</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19448" zugbez="RE" >
+     <firstbst>TWN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Aalen</abgangsbahnhof>
+      <zielbahnhof>Stuttgart Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19449" zugbez="RE" >
+     <firstbst>TEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Stuttgart Hbf</abgangsbahnhof>
+      <zielbahnhof>Aalen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>10</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19450" zugbez="RE" >
+     <firstbst>TWN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Aalen</abgangsbahnhof>
+      <zielbahnhof>Stuttgart Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19453" zugbez="RE" >
+     <firstbst>TEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Stuttgart Hbf</abgangsbahnhof>
+      <zielbahnhof>Aalen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>14</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19454" zugbez="RE" >
+     <firstbst>TWN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Aalen</abgangsbahnhof>
+      <zielbahnhof>Stuttgart Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19459" zugbez="RE" >
+     <firstbst>TEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Stuttgart Hbf</abgangsbahnhof>
+      <zielbahnhof>Aalen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>10</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19460" zugbez="RE" >
+     <firstbst>TWN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Aalen</abgangsbahnhof>
+      <zielbahnhof>Stuttgart Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19466" zugbez="RE" >
+     <firstbst>TWN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Aalen</abgangsbahnhof>
+      <zielbahnhof>Stuttgart Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19469" zugbez="RE" >
+     <firstbst>TEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Stuttgart Hbf</abgangsbahnhof>
+      <zielbahnhof>Aalen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>14</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19472" zugbez="RE-D" >
+     <firstbst>TWN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Aalen</abgangsbahnhof>
+      <zielbahnhof>Stuttgart Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19475" zugbez="RE" >
+     <firstbst>TEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Stuttgart Hbf</abgangsbahnhof>
+      <zielbahnhof>Aalen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>10</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19478" zugbez="RE" >
+     <firstbst>TWN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Aalen</abgangsbahnhof>
+      <zielbahnhof>Stuttgart Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19479" zugbez="RE" >
+     <firstbst>TEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Stuttgart Hbf</abgangsbahnhof>
+      <zielbahnhof>Aalen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>14</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19481" zugbez="RE" >
+     <firstbst>TEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Stuttgart Hbf</abgangsbahnhof>
+      <zielbahnhof>Aalen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>10</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19482" zugbez="RE" >
+     <firstbst>TWN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Aalen</abgangsbahnhof>
+      <zielbahnhof>Stuttgart Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19483" zugbez="RE" >
+     <firstbst>TEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Stuttgart Hbf</abgangsbahnhof>
+      <zielbahnhof>Aalen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>10</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-21" zugnr="19484" zugbez="RE" >
+     <firstbst>TWN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Aalen</abgangsbahnhof>
+      <zielbahnhof>Stuttgart Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

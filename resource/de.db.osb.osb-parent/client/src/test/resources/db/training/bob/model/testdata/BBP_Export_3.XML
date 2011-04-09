@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<BBPMakSiSchnittstelle>
+<Header>
+<Ersteller>StephanASchmidt</Ersteller>
+<Erstellzeit>2008-03-31, 16:30</Erstellzeit> 
+<BBPVersion>BBP 4.5.9.8088</BBPVersion>
+<BplBeginn>2008-06-01</BplBeginn>
+<BplEnde>2008-06-30</BplEnde>
+</Header>
+<Daten>
+<BBPMassnahme>
+<MasID>0801B4E7D3221</MasID>
+<aktiv>1</aktiv>
+<MasKennung>FFFF367071F4</MasKennung>
+<Vorhaben>T.020801</Vorhaben>
+<RegionID>5</RegionID>
+<Region>Mitte</Region>
+<AnmelderID>91</AnmelderID>
+<Anmelder>I.B-MI-T&#220; 10 Ffm 2</Anmelder>
+<ArbeitenID>5</ArbeitenID>
+<Arbeiten>Br&#252;ckenarbeiten Einbau Hbr Fliedebr&#252;cke Gl. 152</Arbeiten>
+<BBPStrecke>44018</BBPStrecke>
+<VzGStrecke>3600</VzGStrecke>
+<MasBstVonAG850ID> -1 </MasBstVonAG850ID>
+<MasBstBisAG850ID> -1 </MasBstBisAG850ID>
+<MasBstVonRil100>FNF N</MasBstVonRil100>
+<MasBstBisRil100>FFD</MasBstBisRil100>
+<MasBstVonLang>Neuhof Nord Bft</MasBstVonLang>
+<MasBstBisLang>Flieden</MasBstBisLang>
+<MasKmVon>-9999,000</MasKmVon>
+<MasKmBis>-9999,000</MasKmBis>
+<MasBeginn>200805312245</MasBeginn>
+<MasEnde>200806011445</MasEnde>
+<GravAendDate> 200711080000</GravAendDate>
+<GraZeit>True</GraZeit>
+<GraOrt>False</GraOrt>
+<GraRegel>True</GraRegel>
+<AnmelderBem></AnmelderBem>
+<TempAnm></TempAnm>
+<Regelungen>
+<Regelung>
+<RegID>0801B4E7D3221-0001</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(J)</BplArtText>
+<JplID>06A8E5DD461A1</JplID>
+<Beginn>200805312245</Beginn>
+<Ende>200806011445</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>FNF</BstVonRil100>
+<BstBisRil100>FNFS</BstBisRil100>
+<BstVonLang>Neuhof(Kr Fulda)</BstVonLang>
+<BstBisLang>Neuhof S&#252;d &#220;st</BstBisLang>
+<BstVonLageKm>97,200</BstVonLageKm>
+<BstBisLageKm>95,400</BstBisLageKm>
+<VzGStrecke>3600</VzGStrecke>
+<Richtung>2</Richtung>
+<BBPStrecke>44018</BBPStrecke>
+<BBPStrRi>1</BBPStrRi>
+<BplRegelungID>4</BplRegelungID>
+<BplRegelungKurz>Ggl Zs 6/7 s</BplRegelungKurz>
+<BplRegelungLang>Befahren Ggl auf Zs 6/7 ständig</BplRegelungLang>
+<RegelungKmVon>-999,900</RegelungKmVon>
+<RegelungKmBis>-999,900</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>3,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>True</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl></BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>0801B4E7D3221-0002</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(J)</BplArtText>
+<JplID>06A8E5DD461A1</JplID>
+<Beginn>200805312245</Beginn>
+<Ende>200806011445</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>FNFS</BstVonRil100>
+<BstBisRil100>FNF</BstBisRil100>
+<BstVonLang>Neuhof S&#252;d &#220;st</BstVonLang>
+<BstBisLang>Neuhof(Kr Fulda)</BstBisLang>
+<BstVonLageKm>95,400</BstVonLageKm>
+<BstBisLageKm>97,200</BstBisLageKm>
+<VzGStrecke>3600</VzGStrecke>
+<Richtung>0</Richtung>
+<BBPStrecke>44018</BBPStrecke>
+<BBPStrRi>0</BBPStrRi>
+<BplRegelungID>21</BplRegelungID>
+<BplRegelungKurz>La EUK</BplRegelungKurz>
+<BplRegelungLang>Lfst für Unfallschutz</BplRegelungLang>
+<RegelungKmVon>96,200</RegelungKmVon>
+<RegelungKmBis>96,400</RegelungKmBis>
+<VzGV>160</VzGV>
+<LaV>70</LaV>
+<FzvBBP>0,9</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>True</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl></BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>0801B4E7D3221-0003</RegID>
+<aktiv>0</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(J)</BplArtText>
+<JplID>06A8E5DD461A1</JplID>
+<Beginn>189912300000</Beginn>
+<Ende>189912300000</Ende>
+<SperrKz>0</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>?</BstVonRil100>
+<BstBisRil100>?</BstBisRil100>
+<BstVonLang>?</BstVonLang>
+<BstBisLang>?</BstBisLang>
+<BstVonLageKm>-999,000</BstVonLageKm>
+<BstBisLageKm>-999,000</BstBisLageKm>
+<VzGStrecke>0</VzGStrecke>
+<Richtung>-1</Richtung>
+<BBPStrecke>0</BBPStrecke>
+<BBPStrRi>-1</BBPStrRi>
+<BplRegelungID>0</BplRegelungID>
+<BplRegelungKurz>?</BplRegelungKurz>
+<BplRegelungLang>?</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>-1,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>False</SPFV>
+<SPNV>False</SPNV>
+<SGV>False</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl></BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>0801B4E7D3221-0004</RegID>
+<aktiv>0</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(J)</BplArtText>
+<JplID>06A8E5DD461A1</JplID>
+<Beginn>189912300000</Beginn>
+<Ende>189912300000</Ende>
+<SperrKz>0</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>?</BstVonRil100>
+<BstBisRil100>?</BstBisRil100>
+<BstVonLang>?</BstVonLang>
+<BstBisLang>?</BstBisLang>
+<BstVonLageKm>-999,000</BstVonLageKm>
+<BstBisLageKm>-999,000</BstBisLageKm>
+<VzGStrecke>0</VzGStrecke>
+<Richtung>-1</Richtung>
+<BBPStrecke>0</BBPStrecke>
+<BBPStrRi>-1</BBPStrRi>
+<BplRegelungID>0</BplRegelungID>
+<BplRegelungKurz>?</BplRegelungKurz>
+<BplRegelungLang>?</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>-1,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>False</SPFV>
+<SPNV>False</SPNV>
+<SGV>False</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl></BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>0801B4E7D3221-0005</RegID>
+<aktiv>0</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(J)</BplArtText>
+<JplID>06A8E5DD461A1</JplID>
+<Beginn>189912300000</Beginn>
+<Ende>189912300000</Ende>
+<SperrKz>0</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>?</BstVonRil100>
+<BstBisRil100>?</BstBisRil100>
+<BstVonLang>?</BstVonLang>
+<BstBisLang>?</BstBisLang>
+<BstVonLageKm>-999,000</BstVonLageKm>
+<BstBisLageKm>-999,000</BstBisLageKm>
+<VzGStrecke>0</VzGStrecke>
+<Richtung>-1</Richtung>
+<BBPStrecke>0</BBPStrecke>
+<BBPStrRi>-1</BBPStrRi>
+<BplRegelungID>0</BplRegelungID>
+<BplRegelungKurz>?</BplRegelungKurz>
+<BplRegelungLang>?</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>-1,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>False</SPFV>
+<SPNV>False</SPNV>
+<SGV>False</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl></BemerkungenBpl>
+</Regelung>
+</Regelungen>
+</BBPMassnahme>
+<BBPMassnahme>
+<MasID>07F4BEE23D341</MasID>
+<aktiv>1</aktiv>
+<MasKennung>FFFF367C5876</MasKennung>
+<Vorhaben>T.047022/23/24/25/27</Vorhaben>
+<RegionID>5</RegionID>
+<Region>Mitte</Region>
+<AnmelderID>11</AnmelderID>
+<Anmelder>I.NP-MI-A</Anmelder>
+<ArbeitenID>11</ArbeitenID>
+<Arbeiten>Durcharbeitung von Weichen nach WE 210,212,216,217,230,242 in Ffm S&#252;d Abstbf. Bft</Arbeiten>
+<BBPStrecke>44023</BBPStrecke>
+<VzGStrecke>3606</VzGStrecke>
+<MasBstVonAG850ID> -1 </MasBstVonAG850ID>
+<MasBstBisAG850ID> -1 </MasBstBisAG850ID>
+<MasBstVonRil100>FFS A</MasBstVonRil100>
+<MasBstBisRil100>FFS</MasBstBisRil100>
+<MasBstVonLang>Ffm S&#252;d Abstbf. Bft</MasBstVonLang>
+<MasBstBisLang>Ffm S&#252;d</MasBstBisLang>
+<MasKmVon>-9999,000</MasKmVon>
+<MasKmBis>-9999,000</MasKmBis>
+<MasBeginn>200805311405</MasBeginn>
+<MasEnde>200806020500</MasEnde>
+<GravAendDate> 200801170000</GravAendDate>
+<GraZeit>False</GraZeit>
+<GraOrt>False</GraOrt>
+<GraRegel>True</GraRegel>
+<AnmelderBem></AnmelderBem>
+<TempAnm></TempAnm>
+<QSNummer typ="QS">K 46 Z 6</QSNummer>
+<Regelungen>
+<Regelung>
+<RegID>07F4BEE23D341-0001</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(JL)</BplArtText>
+<JplID>06BA30886E721</JplID>
+<Beginn>200805311200</Beginn>
+<Ende>200806020500</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>FFS A</BstVonRil100>
+<BstBisRil100>FFS</BstBisRil100>
+<BstVonLang>Ffm S&#252;d Abstbf. Bft</BstVonLang>
+<BstBisLang>Ffm S&#252;d</BstBisLang>
+<BstVonLageKm>2,900</BstVonLageKm>
+<BstBisLageKm>2,900</BstBisLageKm>
+<VzGStrecke>3606</VzGStrecke>
+<Richtung>0</Richtung>
+<BBPStrecke>44023</BBPStrecke>
+<BBPStrRi>0</BBPStrRi>
+<BplRegelungID>11</BplRegelungID>
+<BplRegelungKurz>Tsp</BplRegelungKurz>
+<BplRegelungLang>Totalsperrung</BplRegelungLang>
+<RegelungKmVon>-999,900</RegelungKmVon>
+<RegelungKmBis>-999,900</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>0,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>True</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr>205071.01</LisbaNr>
+<BemerkungenBpl>W 210+212 gesperrt</BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>07F4BEE23D341-0002</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(JL)</BplArtText>
+<JplID>06BA30886E721</JplID>
+<Beginn>200805311200</Beginn>
+<Ende>200806020500</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>FFS</BstVonRil100>
+<BstBisRil100>FLS</BstBisRil100>
+<BstVonLang>Ffm S&#252;d</BstVonLang>
+<BstBisLang>Ff-Louisa</BstBisLang>
+<BstVonLageKm>0,000</BstVonLageKm>
+<BstBisLageKm>1,200</BstBisLageKm>
+<VzGStrecke>3604</VzGStrecke>
+<Richtung>0</Richtung>
+<BBPStrecke>44034</BBPStrecke>
+<BBPStrRi>0</BBPStrRi>
+<BplRegelungID>7</BplRegelungID>
+<BplRegelungKurz>Strsp</BplRegelungKurz>
+<BplRegelungLang>Streckensperrung</BplRegelungLang>
+<RegelungKmVon>-999,900</RegelungKmVon>
+<RegelungKmBis>-999,900</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>0,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>True</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr>205056.02</LisbaNr>
+<BemerkungenBpl>W 210+212 gesperrt</BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>07F4BEE23D341-0003</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(JL)</BplArtText>
+<JplID>06BA30886E721</JplID>
+<Beginn>200805311405</Beginn>
+<Ende>200806011555</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>FFS A</BstVonRil100>
+<BstBisRil100>FFS</BstBisRil100>
+<BstVonLang>Ffm S&#252;d Abstbf. Bft</BstVonLang>
+<BstBisLang>Ffm S&#252;d</BstBisLang>
+<BstVonLageKm>3,100</BstVonLageKm>
+<BstBisLageKm>4,400</BstBisLageKm>
+<VzGStrecke>3600</VzGStrecke>
+<Richtung>1</Richtung>
+<BBPStrecke>44018</BBPStrecke>
+<BBPStrRi>2</BBPStrRi>
+<BplRegelungID>6</BplRegelungID>
+<BplRegelungKurz>FZmst X</BplRegelungKurz>
+<BplRegelungLang>Abweichung Fpl für Zmst X GRi</BplRegelungLang>
+<RegelungKmVon>-999,900</RegelungKmVon>
+<RegelungKmBis>-999,900</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>1,5</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>True</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr>205068.03</LisbaNr>
+<BemerkungenBpl>W 210, 212, 216 gesperrt</BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>07F4BEE23D341-0004</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(JL)</BplArtText>
+<JplID>06BA30886E721</JplID>
+<Beginn>200805311605</Beginn>
+<Ende>200806011355</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>FFS</BstVonRil100>
+<BstBisRil100>FFS</BstBisRil100>
+<BstVonLang>Ffm S&#252;d</BstVonLang>
+<BstBisLang>Ffm S&#252;d</BstBisLang>
+<BstVonLageKm>4,400</BstVonLageKm>
+<BstBisLageKm>4,400</BstBisLageKm>
+<VzGStrecke>3600</VzGStrecke>
+<Richtung>0</Richtung>
+<BBPStrecke>44018</BBPStrecke>
+<BBPStrRi>0</BBPStrRi>
+<BplRegelungID>11</BplRegelungID>
+<BplRegelungKurz>Tsp</BplRegelungKurz>
+<BplRegelungLang>Totalsperrung</BplRegelungLang>
+<RegelungKmVon>-999,900</RegelungKmVon>
+<RegelungKmBis>-999,900</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>0,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>True</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl>W 210, 212, 216, 217, 230, 242 gesperrt (Einfahrt navh Gl. 505 aus Ri. FO/FFO mit Bef. 30 km/h, kein D-Weg)</BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>07F4BEE23D341-0005</RegID>
+<aktiv>0</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(JL)</BplArtText>
+<JplID>06BA30886E721</JplID>
+<Beginn>200806010000</Beginn>
+<Ende>200806010500</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>FFS</BstVonRil100>
+<BstBisRil100>FFS</BstBisRil100>
+<BstVonLang>Ffm S&#252;d</BstVonLang>
+<BstBisLang>Ffm S&#252;d</BstBisLang>
+<BstVonLageKm>4,400</BstVonLageKm>
+<BstBisLageKm>4,400</BstBisLageKm>
+<VzGStrecke>3600</VzGStrecke>
+<Richtung>0</Richtung>
+<BBPStrecke>44018</BBPStrecke>
+<BBPStrRi>0</BBPStrRi>
+<BplRegelungID>5</BplRegelungID>
+<BplRegelungKurz>FZmst</BplRegelungKurz>
+<BplRegelungLang>Abweichung Fpl für Zmst</BplRegelungLang>
+<RegelungKmVon>-999,900</RegelungKmVon>
+<RegelungKmBis>-999,900</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>0,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>True</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl>Stopfarbeiten W 242</BemerkungenBpl>
+</Regelung>
+</Regelungen>
+</BBPMassnahme>
+<BBPMassnahme>
+<MasID>08219157E6D02</MasID>
+<aktiv>1</aktiv>
+<MasKennung>FEF136914AE1</MasKennung>
+<Vorhaben>T.019070 99999</Vorhaben>
+<RegionID>5</RegionID>
+<Region>Mitte</Region>
+<AnmelderID>90</AnmelderID>
+<Anmelder>I.B-MI-T&#220; 10 Ffm 1</Anmelder>
+<ArbeitenID>19</ArbeitenID>
+<Arbeiten>Inbetriebnahme ESTW FSP BS II in Ffm Stadion</Arbeiten>
+<BBPStrecke>44004</BBPStrecke>
+<VzGStrecke>3520</VzGStrecke>
+<MasBstVonAG850ID> -1 </MasBstVonAG850ID>
+<MasBstBisAG850ID> -1 </MasBstBisAG850ID>
+<MasBstVonRil100>FSP</MasBstVonRil100>
+<MasBstBisRil100>FSP</MasBstBisRil100>
+<MasBstVonLang>Ffm Stadion</MasBstVonLang>
+<MasBstBisLang>Ffm Stadion</MasBstBisLang>
+<MasKmVon>-9999,000</MasKmVon>
+<MasKmBis>-9999,000</MasKmBis>
+<MasBeginn>200806072330</MasBeginn>
+<MasEnde>200806080930</MasEnde>
+<GravAendDate> 200802140000</GravAendDate>
+<GraZeit>False</GraZeit>
+<GraOrt>True</GraOrt>
+<GraRegel>False</GraRegel>
+<AnmelderBem></AnmelderBem>
+<TempAnm></TempAnm>
+<QSNummer typ="QS">K 43</QSNummer>
+<Regelungen>
+<Regelung>
+<RegID>08219157E6D02-0001</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(JL)</BplArtText>
+<JplID>06D73C9E9A94F</JplID>
+<Beginn>200806072330</Beginn>
+<Ende>200806080930</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>FSP</BstVonRil100>
+<BstBisRil100>FSP</BstBisRil100>
+<BstVonLang>Ffm Stadion</BstVonLang>
+<BstBisLang>Ffm Stadion</BstBisLang>
+<BstVonLageKm>31,400</BstVonLageKm>
+<BstBisLageKm>31,400</BstBisLageKm>
+<VzGStrecke>3520</VzGStrecke>
+<Richtung>0</Richtung>
+<BBPStrecke>44004</BBPStrecke>
+<BBPStrRi>0</BBPStrRi>
+<BplRegelungID>11</BplRegelungID>
+<BplRegelungKurz>Tsp</BplRegelungKurz>
+<BplRegelungLang>Totalsperrung</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>0,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>True</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr>205097.01</LisbaNr>
+<BemerkungenBpl>keine Fahrten FSP-FKCH</BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>08219157E6D02-0002</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(JL)</BplArtText>
+<JplID>06D73C9E9A94F</JplID>
+<Beginn>200806080030</Beginn>
+<Ende>200806080330</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>FF</BstVonRil100>
+<BstBisRil100>FKCH</BstBisRil100>
+<BstVonLang>Frankfurt(M) Hbf</BstVonLang>
+<BstBisLang>Kelsterbach</BstBisLang>
+<BstVonLageKm>37,500</BstVonLageKm>
+<BstBisLageKm>23,800</BstBisLageKm>
+<VzGStrecke>3520</VzGStrecke>
+<Richtung>0</Richtung>
+<BBPStrecke>44004</BBPStrecke>
+<BBPStrRi>0</BBPStrRi>
+<BplRegelungID>11</BplRegelungID>
+<BplRegelungKurz>Tsp</BplRegelungKurz>
+<BplRegelungLang>Totalsperrung</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>0,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>True</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr>205098.02</LisbaNr>
+<BemerkungenBpl></BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>08219157E6D02-0003</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(JL)</BplArtText>
+<JplID>06D73C9E9A94F</JplID>
+<Beginn>200806080030</Beginn>
+<Ende>200806080330</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>FHOE</BstVonRil100>
+<BstBisRil100>FF</BstBisRil100>
+<BstVonLang>Ff-H&#246;chst</BstVonLang>
+<BstBisLang>Frankfurt(M) Hbf</BstBisLang>
+<BstVonLageKm>9,300</BstVonLageKm>
+<BstBisLageKm>0,000</BstBisLageKm>
+<VzGStrecke>3603</VzGStrecke>
+<Richtung>0</Richtung>
+<BBPStrecke>44013</BBPStrecke>
+<BBPStrRi>0</BBPStrRi>
+<BplRegelungID>11</BplRegelungID>
+<BplRegelungKurz>Tsp</BplRegelungKurz>
+<BplRegelungLang>Totalsperrung</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>0,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>True</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr>205100.03</LisbaNr>
+<BemerkungenBpl></BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>08219157E6D02-0004</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(JL)</BplArtText>
+<JplID>06D73C9E9A94F</JplID>
+<Beginn>200806080030</Beginn>
+<Ende>200806080330</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>FFGA</BstVonRil100>
+<BstBisRil100>FF</BstBisRil100>
+<BstVonLang>Ffm Galluswarte</BstVonLang>
+<BstBisLang>Frankfurt(M) Hbf</BstBisLang>
+<BstVonLageKm>198,100</BstVonLageKm>
+<BstBisLageKm>199,800</BstBisLageKm>
+<VzGStrecke>3900</VzGStrecke>
+<Richtung>0</Richtung>
+<BBPStrecke>44014</BBPStrecke>
+<BBPStrRi>0</BBPStrRi>
+<BplRegelungID>11</BplRegelungID>
+<BplRegelungKurz>Tsp</BplRegelungKurz>
+<BplRegelungLang>Totalsperrung</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>0,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>True</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr>205102.04</LisbaNr>
+<BemerkungenBpl>Galluswarte Ortsbetrieb</BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>08219157E6D02-0005</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(JL)</BplArtText>
+<JplID>06D73C9E9A94F</JplID>
+<Beginn>200806080030</Beginn>
+<Ende>200806080330</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>FFS</BstVonRil100>
+<BstBisRil100>FF</BstBisRil100>
+<BstVonLang>Ffm S&#252;d</BstVonLang>
+<BstBisLang>Frankfurt(M) Hbf</BstBisLang>
+<BstVonLageKm>4,400</BstVonLageKm>
+<BstBisLageKm>0,000</BstBisLageKm>
+<VzGStrecke>3600</VzGStrecke>
+<Richtung>0</Richtung>
+<BBPStrecke>44018</BBPStrecke>
+<BBPStrRi>0</BBPStrRi>
+<BplRegelungID>11</BplRegelungID>
+<BplRegelungKurz>Tsp</BplRegelungKurz>
+<BplRegelungLang>Totalsperrung</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>0,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>True</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr>205101.05</LisbaNr>
+<BemerkungenBpl></BemerkungenBpl>
+</Regelung>
+</Regelungen>
+</BBPMassnahme>
+</Daten>
+</BBPMakSiSchnittstelle>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<BBPXMLSchnittstelle>
+<Header>
+<Ersteller>StephanASchmidt</Ersteller>
+<Erstellzeit>2008-05-16, 07:20</Erstellzeit> 
+<BBPVersion>BBP 4.6.0.8105</BBPVersion>
+<BplBeginn>2008-07-06</BplBeginn>
+<BplEnde>2008-07-09</BplEnde>
+</Header>
+<Daten>
+<BBPMassnahme>
+<MasID>085AB42463927</MasID>
+<aktiv>1</aktiv>
+<MasKennung>FF1936A760F1</MasKennung>
+<Vorhaben>G 120 215</Vorhaben>
+<RegionID>2</RegionID>
+<Region>Nord</Region>
+<AnmelderID>81</AnmelderID>
+<Anmelder>I.B-N-T&#220; 10 Han</Anmelder>
+<ArbeitenID>5</ArbeitenID>
+<Arbeiten>Br&#252;ckenarbeiten 6-Wo-Dua in Hannover Hbf</Arbeiten>
+<BBPStrecke>22017</BBPStrecke>
+<VzGStrecke>1730</VzGStrecke>
+<MasBstVonAG850ID> -1 </MasBstVonAG850ID>
+<MasBstBisAG850ID> -1 </MasBstBisAG850ID>
+<MasBstVonRil100>HH</MasBstVonRil100>
+<MasBstBisRil100>HH</MasBstBisRil100>
+<MasBstVonLang>Hannover Hbf</MasBstVonLang>
+<MasBstBisLang>Hannover Hbf</MasBstBisLang>
+<MasKmVon>-9999,000</MasKmVon>
+<MasKmBis>-9999,000</MasKmBis>
+<BezKz>234</BezKz>
+<MasBeginn>200807070300</MasBeginn>
+<MasEnde>200807070510</MasEnde>
+<GravAendDate> 200801080000</GravAendDate>
+<GraZeit>True</GraZeit>
+<GraOrt>True</GraOrt>
+<GraRegel>True</GraRegel>
+<AnmelderBem></AnmelderBem>
+<TempAnm></TempAnm>
+<Regelungen>
+<Regelung>
+<RegID>085AB42463927-0001</RegID>
+<aktiv>0</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(J)</BplArtText>
+<JplID>06F47EA537947</JplID>
+<Beginn>200807070100</Beginn>
+<Ende>200807070300</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>HH  P</BstVonRil100>
+<BstBisRil100>HH</BstBisRil100>
+<BstVonLang>Han Hbf Pferdet Bft</BstVonLang>
+<BstBisLang>Hannover Hbf</BstBisLang>
+<BstVonLageKm>2,000</BstVonLageKm>
+<BstBisLageKm>0,000</BstBisLageKm>
+<VzGStrecke>1730</VzGStrecke>
+<Richtung>0</Richtung>
+<BBPStrecke>22024</BBPStrecke>
+<BBPStrRi>0</BBPStrRi>
+<BplRegelungID>6</BplRegelungID>
+<BplRegelungKurz>FZmst X</BplRegelungKurz>
+<BplRegelungLang>Abweichung Fpl für Zmst X GRi</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>2,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>True</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl>Gl. 135 von W 73 bis Ls 135cR gesperrt, Kurswagenwechsel in HHI </BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>085AB42463927-0002</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(J)</BplArtText>
+<JplID>06F47EA537947</JplID>
+<Beginn>200807070300</Beginn>
+<Ende>200807070510</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>HH</BstVonRil100>
+<BstBisRil100>HH</BstBisRil100>
+<BstVonLang>Hannover Hbf</BstVonLang>
+<BstBisLang>Hannover Hbf</BstBisLang>
+<BstVonLageKm>0,000</BstVonLageKm>
+<BstBisLageKm>0,000</BstBisLageKm>
+<VzGStrecke>1730</VzGStrecke>
+<Richtung>0</Richtung>
+<BBPStrecke>22016</BBPStrecke>
+<BBPStrRi>0</BBPStrRi>
+<BplRegelungID>11</BplRegelungID>
+<BplRegelungKurz>Tsp</BplRegelungKurz>
+<BplRegelungLang>Totalsperrung</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>0,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>True</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl>Gl. 132 von Ls W 63 bis Ls 133R gesperrt, nur Gl. 1 und 2</BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>085AB42463927-0003</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(J)</BplArtText>
+<JplID>06F47EA537947</JplID>
+<Beginn>200807070300</Beginn>
+<Ende>200807070510</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>HH</BstVonRil100>
+<BstBisRil100>HH</BstBisRil100>
+<BstVonLang>Hannover Hbf</BstVonLang>
+<BstBisLang>Hannover Hbf</BstBisLang>
+<BstVonLageKm>0,000</BstVonLageKm>
+<BstBisLageKm>0,000</BstBisLageKm>
+<VzGStrecke>1730</VzGStrecke>
+<Richtung>0</Richtung>
+<BBPStrecke>22017</BBPStrecke>
+<BBPStrRi>0</BBPStrRi>
+<BplRegelungID>11</BplRegelungID>
+<BplRegelungKurz>Tsp</BplRegelungKurz>
+<BplRegelungLang>Totalsperrung</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>0,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>True</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl>Gl. 132 von Ls W 63 bis Ls 133R gesperrt, nur Gl. 1 und 2</BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>085AB42463927-0004</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(J)</BplArtText>
+<JplID>06F47EA537947</JplID>
+<Beginn>200807070300</Beginn>
+<Ende>200807070510</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>HH</BstVonRil100>
+<BstBisRil100>HH</BstBisRil100>
+<BstVonLang>Hannover Hbf</BstVonLang>
+<BstBisLang>Hannover Hbf</BstBisLang>
+<BstVonLageKm>0,000</BstVonLageKm>
+<BstBisLageKm>0,000</BstBisLageKm>
+<VzGStrecke>1730</VzGStrecke>
+<Richtung>0</Richtung>
+<BBPStrecke>22016</BBPStrecke>
+<BBPStrRi>0</BBPStrRi>
+<BplRegelungID>11</BplRegelungID>
+<BplRegelungKurz>Tsp</BplRegelungKurz>
+<BplRegelungLang>Totalsperrung</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>0,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>True</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl>Gl. 131 von Ls W 50 bis Sig X 43 gesperrt, nur Gl. 1 und 2</BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>085AB42463927-0005</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(J)</BplArtText>
+<JplID>06F47EA537947</JplID>
+<Beginn>200807070300</Beginn>
+<Ende>200807070510</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>HH</BstVonRil100>
+<BstBisRil100>HH</BstBisRil100>
+<BstVonLang>Hannover Hbf</BstVonLang>
+<BstBisLang>Hannover Hbf</BstBisLang>
+<BstVonLageKm>0,000</BstVonLageKm>
+<BstBisLageKm>0,000</BstBisLageKm>
+<VzGStrecke>1730</VzGStrecke>
+<Richtung>0</Richtung>
+<BBPStrecke>22017</BBPStrecke>
+<BBPStrRi>0</BBPStrRi>
+<BplRegelungID>11</BplRegelungID>
+<BplRegelungKurz>Tsp</BplRegelungKurz>
+<BplRegelungLang>Totalsperrung</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>0,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>True</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl>Gl. 131 von Ls W 50 bis Sig X 43 gesperrt, nur Gl. 1 und 2</BemerkungenBpl>
+</Regelung>
+</Regelungen>
+</BBPMassnahme>
+</Daten>
+</BBPXMLSchnittstelle>

@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.0.xsd
+http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.0.xsd">
+
+	<!-- hier die Datenbankverbindung eintragen -->
+	<bean id="osbDatabaseUrl" class="java.lang.String">
+<!--
+		<constructor-arg value="jdbc:oracle:thin:@fahrplan-200n.unix.rz.db.de:6777:FLIP" />
+ --> 
+		<constructor-arg value="jdbc:mysql://localhost:3306/production_osb?characterEncoding=UTF-8" />
+	</bean>
+
+	<bean id="datasource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+		<property name="driverClass" value="com.mysql.jdbc.Driver" />
+		<property name="user" value="osb_usr" />
+<!-- 
+		<property name="driverClass" value="oracle.jdbc.driver.OracleDriver" />
+		<property name="user" value="OSB_ADM" />
+ -->
+		<property name="password" value="geheim" />
+ 		<property name="jdbcUrl" ref="osbDatabaseUrl" />
+		<property name="acquireIncrement" value="1" />
+		<property name="idleConnectionTestPeriod" value="100" />
+		<property name="maxPoolSize" value="50" />
+		<property name="maxStatements" value="0" />
+		<property name="minPoolSize" value="4" />
+	</bean>
+
+	<bean id="hibernateSessionFactory"
+		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="dataSource" ref="datasource" />
+		<property name="configLocation">
+			<value>classpath:hibernate.cfg.xml</value>
+		</property>
+	</bean>
+
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory" ref="hibernateSessionFactory" />
+	</bean>
+
+	<tx:annotation-driven />
+
+	<bean id="userService" class="db.training.easy.core.service.UserServiceImpl">
+		<property name="securityAdministrationService" ref="securityAdministrationService" />
+		<constructor-arg ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="userDao" />
+		<property name="dao" ref="userDao" />
+	</bean>
+
+	<!-- ######################################################## -->
+	<!-- AccessDecisionVoter #################################### -->
+	<bean id="userNoneVoter" class="db.training.security.domain.UserNoneVoter"></bean>
+	<bean id="userAnyVoter" class="db.training.security.domain.UserAnyVoter"></bean>
+	<bean id="buendelAnyVoter" class="db.training.security.domain.BuendelAnyVoter"></bean>
+	<bean id="fahrplanregelungAnyVoter" class="db.training.security.domain.FahrplanregelungAnyVoter"></bean>
+	<bean id="paketAnyVoter" class="db.training.security.domain.PaketAnyVoter"></bean>
+	<bean id="sapMassnahmeAnyVoter" class="db.training.security.domain.SAPMassnahmeAnyVoter"></bean>
+	<bean id="streckenbandAnyVoter" class="db.training.security.domain.StreckenbandAnyVoter"></bean>
+	<bean id="umleitungAnyVoter" class="db.training.security.domain.UmleitungAnyVoter"></bean>
+	<bean id="umleitungswegAnyVoter" class="db.training.security.domain.UmleitungswegAnyVoter"></bean>
+	<bean id="topProjektAnyVoter" class="db.training.security.domain.TopProjektAnyVoter"></bean>
+	<bean id="regelungAnyVoter" class="db.training.security.domain.RegelungAnyVoter"></bean>
+	<bean id="baustelleAnyVoter" class="db.training.security.domain.BaustelleAnyVoter"></bean>
+	<bean id="uebergabeblattAnyVoter" class="db.training.security.domain.UebergabeblattAnyVoter"></bean>
+	<bean id="uebergabeblattNoneVoter" class="db.training.security.domain.UebergabeblattNoneVoter"></bean>
+
+	<!-- ######################################################### -->
+	<!-- DAO ##################################################### -->
+	<bean id="aenderungDao" class="db.training.bob.dao.AenderungDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="anmelderDao" class="db.training.osb.dao.AnmelderDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="arbeitstypDao" class="db.training.osb.dao.ArbeitstypDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="bahnhofDao" class="db.training.bob.dao.zvf.BahnhofDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="baumassnahmeDao" class="db.training.bob.dao.BaumassnahmeDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="baustelleDao" class="db.training.osb.dao.BaustelleDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="bbpMassnahmeDao" class="db.training.bob.dao.BBPMassnahmeDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="bbpStreckeDao" class="db.training.bob.dao.zvf.BBPStreckeDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="bearbeiterDao" class="db.training.bob.dao.BearbeiterDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="bearbeitungsbereichDao" class="db.training.bob.dao.BearbeitungsbereichDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="benchmarkDao"
+		class="db.training.bob.dao.ArbeitsleistungRegionalbereichDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="betriebsstelleDao" class="db.training.osb.dao.BetriebsstelleDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="betriebsweiseDao" class="db.training.osb.dao.BetriebsweiseDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="buendelDao" class="db.training.osb.dao.BuendelDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="evuDao" class="db.training.bob.dao.EVUDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="fahrplanDao" class="db.training.bob.dao.fplo.FahrplanDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="fahrplanregelungDao" class="db.training.osb.dao.FahrplanregelungDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="finanztypDao" class="db.training.osb.dao.FinanztypDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="folgeNichtausfuehrungDao" class="db.training.osb.dao.FolgeNichtausfuehrungDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="gleissperrungDao" class="db.training.osb.dao.GleissperrungDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="grossmaschineDao" class="db.training.osb.dao.GrossmaschineDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="grundDao" class="db.training.bob.dao.GrundDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="historyLogEntryDao" class="db.training.hibernate.history.HistoryLogEntryDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="knotenzeitDao" class="db.training.bob.dao.zvf.KnotenzeitDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="korridorDao" class="db.training.osb.dao.KorridorDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="langsamfahrstelleDao" class="db.training.osb.dao.LangsamfahrstelleDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="masterBuendelDao" class="db.training.osb.dao.MasterBuendelDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="meilensteinDao" class="db.training.bob.dao.MeilensteinDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="nachbarbahnDao" class="db.training.bob.dao.NachbarbahnDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="oberleitungDao" class="db.training.osb.dao.OberleitungDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="paketDao" class="db.training.osb.dao.PaketDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="phaseDao" class="db.training.osb.dao.PhaseDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="regelungDao" class="db.training.bob.dao.RegelungDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="regionalbereichDao" class="db.training.bob.dao.RegionalbereichDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="sapMassnahmeDao" class="db.training.osb.dao.SAPMassnahmeDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="searchConfigDao" class="db.training.bob.dao.SearchConfigDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="sqlQueryDao" class="db.training.osb.dao.SqlQueryDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="streckeDao" class="db.training.bob.dao.zvf.StreckeDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="streckenbandZeileDao" class="db.training.osb.dao.StreckenbandZeileDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="terminUebersichtDao" class="db.training.bob.dao.TerminUebersichtDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="terminUebersichtBaubetriebsplanungDao"
+		class="db.training.bob.dao.TerminUebersichtBaubetriebsplanungDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="terminUebersichtGueterverkehrsEVUDao"
+		class="db.training.bob.dao.TerminUebersichtGueterverkehrsEVUDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="terminUebersichtPersonenverkehrsEVUDao"
+		class="db.training.bob.dao.TerminUebersichtPersonenverkehrsEVUDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="topProjektDao" class="db.training.osb.dao.TopProjektDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="uebergabeblattDao" class="db.training.bob.dao.zvf.UebergabeblattDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="umleitungDao" class="db.training.osb.dao.UmleitungDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="umleitungFahrplanregelungLinkDao"
+		class="db.training.osb.dao.UmleitungFahrplanregelungLinkDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="umleitungswegDao" class="db.training.osb.dao.UmleitungswegDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="userDao" class="db.training.easy.core.dao.UserDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="verkehrstageregelungDao" class="db.training.osb.dao.VerkehrstageregelungDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="vzgStreckeDao" class="db.training.osb.dao.VzgStreckeDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="zugDao" class="db.training.bob.dao.zvf.ZugDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="zugcharakteristikDao" class="db.training.bob.dao.fplo.ZugcharakteristikDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<bean id="ankermassnahmeArtDao" class="db.training.osb.dao.AnkermassnahmeArtDaoImpl">
+		<constructor-arg ref="hibernateSessionFactory" />
+	</bean>
+
+	<!-- ######### Services ######## -->
+	<bean id="aenderungService" class="db.training.bob.service.AenderungServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="aenderungDao" />
+	</bean>
+
+	<bean id="anmelderService" class="db.training.osb.service.AnmelderServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="anmelderDao" />
+	</bean>
+
+	<bean id="arbeitstypService" class="db.training.osb.service.ArbeitstypServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="arbeitstypDao" />
+	</bean>
+
+	<bean id="bahnhofService" class="db.training.bob.service.zvf.BahnhofServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="bahnhofDao" />
+	</bean>
+
+	<bean id="baumassnahmeService" class="db.training.bob.service.BaumassnahmeServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="baumassnahmeDao" />
+	</bean>
+
+	<bean id="baustelleService" class="db.training.osb.service.BaustelleServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="baustelleDao" />
+	</bean>
+
+	<bean id="bbpMassnahmeService" class="db.training.bob.service.BBPMassnahmeServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="bbpMassnahmeDao" />
+	</bean>
+
+	<bean id="bbpStreckeService" class="db.training.bob.service.zvf.BBPStreckeServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="bbpStreckeDao" />
+	</bean>
+
+	<bean id="bbzrService" class="db.training.bob.service.zvf.BbzrServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="uebergabeblattDao" />
+	</bean>
+
+	<bean id="bearbeiterService" class="db.training.bob.service.BearbeiterServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="bearbeiterDao" />
+	</bean>
+
+	<bean id="bearbeitungsbereichService" class="db.training.bob.service.BearbeitungsbereichServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="bearbeitungsbereichDao" />
+	</bean>
+
+	<bean id="benchmarkService"
+		class="db.training.bob.service.ArbeitsleistungRegionalbereichServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="benchmarkDao" />
+	</bean>
+
+	<bean id="betriebsstelleService" class="db.training.osb.service.BetriebsstelleServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="betriebsstelleDao" />
+	</bean>
+
+	<bean id="betriebsweiseService" class="db.training.osb.service.BetriebsweiseServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="betriebsweiseDao" />
+	</bean>
+
+	<bean id="buendelService" class="db.training.osb.service.BuendelServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="buendelDao" />
+		<property name="paketDao" ref="paketDao" />
+		<property name="gleissperrungDao" ref="gleissperrungDao" />
+	</bean>
+
+	<bean id="evuService" class="db.training.bob.service.EVUServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="evuDao" />
+	</bean>
+
+	<bean id="fahrplanService" class="db.training.bob.service.fplo.FahrplanServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="fahrplanDao" />
+	</bean>
+
+	<bean id="fahrplanregelungService" class="db.training.osb.service.FahrplanregelungServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="fahrplanregelungDao" />
+	</bean>
+
+	<bean id="finanztypService" class="db.training.osb.service.FinanztypServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="finanztypDao" />
+	</bean>
+
+	<bean id="folgeNichtausfuehrungService"
+		class="db.training.osb.service.FolgeNichtausfuehrungServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="folgeNichtausfuehrungDao" />
+	</bean>
+
+	<bean id="gleissperrungService" class="db.training.osb.service.GleissperrungServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="gleissperrungDao" />
+	</bean>
+
+	<bean id="grossmaschineService" class="db.training.osb.service.GrossmaschineServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="grossmaschineDao" />
+	</bean>
+
+	<bean id="grundService" class="db.training.bob.service.GrundServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="grundDao" />
+	</bean>
+
+	<bean id="historyLogEntryService"
+		class="db.training.hibernate.history.HistoryLogEntryServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="historyLogEntryDao" />
+	</bean>
+
+	<bean id="importService" class="db.training.osb.service.ImportServiceImpl"></bean>
+
+	<bean id="isaFploService" class="db.training.bob.service.fplo.ISA_FploServiceImpl" />
+	<bean id="isaZugService" class="db.training.bob.service.fplo.ISA_ZugServiceImpl" />
+
+	<bean id="knotenzeitService" class="db.training.bob.service.zvf.KnotenzeitServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="knotenzeitDao" />
+	</bean>
+
+	<bean id="korridorService" class="db.training.osb.service.KorridorServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="korridorDao" />
+	</bean>
+
+	<bean id="langsamfahrstelleService" class="db.training.osb.service.LangsamfahrstelleServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="langsamfahrstelleDao" />
+	</bean>
+
+	<bean id="masterBuendelService" class="db.training.osb.service.MasterBuendelServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="masterBuendelDao" />
+	</bean>
+
+	<bean id="meilensteinService" class="db.training.bob.service.MeilensteinServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="meilensteinDao" />
+	</bean>
+
+	<bean id="nachbarbahnService" class="db.training.bob.service.NachbarbahnServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="nachbarbahnDao" />
+	</bean>
+
+	<bean id="oberleitungService" class="db.training.osb.service.OberleitungServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="oberleitungDao" />
+	</bean>
+
+	<bean id="paketService" class="db.training.osb.service.PaketServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="paketDao" />
+	</bean>
+
+	<bean id="phaseService" class="db.training.osb.service.PhaseServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="phaseDao" />
+	</bean>
+
+	<bean id="regelungService" class="db.training.bob.service.RegelungServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="regelungDao" />
+	</bean>
+
+	<bean id="regionalbereichService" class="db.training.bob.service.RegionalbereichServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="regionalbereichDao" />
+	</bean>
+
+	<bean id="sapMassnahmeService" class="db.training.osb.service.SAPMassnahmeServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="sapMassnahmeDao" />
+	</bean>
+
+	<bean id="searchConfigService" class="db.training.bob.service.SearchConfigServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="searchConfigDao" />
+	</bean>
+
+	<bean id="sqlQueryService" class="db.training.osb.service.SqlQueryServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="sqlQueryDao" />
+		<property name="connectionUrl" ref="osbDatabaseUrl" />
+		<property name="connectionUsername" value="osb_usr" />
+		<property name="connectionPassword" value="geheim" />
+	</bean>
+
+	<bean id="streckenbandService" class="db.training.osb.service.StreckenbandServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="streckenbandZeileDao" />
+	</bean>
+
+	<bean id="streckeService" class="db.training.bob.service.zvf.StreckeServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="streckeDao" />
+	</bean>
+
+	<bean id="terminUebersichtService" class="db.training.bob.service.TerminUebersichtServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="terminUebersichtDao" />
+	</bean>
+
+	<bean id="terminUebersichtBaubetriebsplanungService"
+		class="db.training.bob.service.TerminUebersichtBaubetriebsplanungServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="terminUebersichtBaubetriebsplanungDao" />
+	</bean>
+
+	<bean id="terminUebersichtGueterverkehrsEVUService"
+		class="db.training.bob.service.TerminUebersichtGueterverkehrsEVUServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="terminUebersichtGueterverkehrsEVUDao" />
+	</bean>
+
+	<bean id="terminUebersichtPersonenverkehrsEVUService"
+		class="db.training.bob.service.TerminUebersichtPersonenverkehrsEVUServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="terminUebersichtPersonenverkehrsEVUDao" />
+	</bean>
+
+	<bean id="topProjektService" class="db.training.osb.service.TopProjektServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="topProjektDao" />
+	</bean>
+
+	<bean id="uebergabeblattService" class="db.training.bob.service.zvf.UebergabeblattServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="uebergabeblattDao" />
+	</bean>
+
+	<bean id="umleitungService" class="db.training.osb.service.UmleitungServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="umleitungDao" />
+	</bean>
+
+	<bean id="umleitungFahrplanregelungLinkService"
+		class="db.training.osb.service.UmleitungFahrplanregelungLinkServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="umleitungFahrplanregelungLinkDao" />
+	</bean>
+
+	<bean id="umleitungswegService" class="db.training.osb.service.UmleitungswegServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="umleitungswegDao" />
+	</bean>
+
+	<bean id="verkehrstageregelungService" class="db.training.osb.service.VerkehrstageregelungServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="verkehrstageregelungDao" />
+	</bean>
+
+	<bean id="vzgStreckeService" class="db.training.osb.service.VzgStreckeServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="vzgStreckeDao" />
+	</bean>
+
+	<bean id="zugService" class="db.training.bob.service.zvf.ZugServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="zugDao" />
+	</bean>
+
+	<bean id="zugcharakteristikService"
+		class="db.training.bob.service.fplo.ZugcharakteristikServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="zugcharakteristikDao" />
+		<property name="fahrplanService" ref="fahrplanService" />
+	</bean>
+
+	<bean id="ankermassnahmeArtService" class="db.training.osb.service.AnkermassnahmeArtServiceImpl">
+		<property name="sessionfactory" ref="hibernateSessionFactory" />
+		<property name="basicDao" ref="ankermassnahmeArtDao" />
+	</bean>
+
+</beans>

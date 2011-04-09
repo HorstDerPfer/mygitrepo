@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-10-28T11:24:08</timestamp>
+  <filename>090108-090112--B-_____-________-6-RW____-REF___-RAILION_-ZVF__-01.rtf</filename>
+  <version_prg_zvf>v2.2.3</version_prg_zvf>
+  <sender>
+   <name>Klan</name>
+   <vorname>Dietmar</vorname>
+   <kuerzel> Kl</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Dietmar.Klan@bahn.de</email>
+   <telefon>0721/938 7311</telefon>
+   <telefon_intern>972-7311</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>Railion</empfaenger>
+   <empfaenger>Betriebsplanung - BZ</empfaenger>
+   <empfaenger>KM-SW</empfaenger>
+   <empfaenger>Schäfer JM</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>B</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <korridor> </korridor>
+   <kigbau></kigbau>
+   <kennung>FF183916531D</kennung>
+   <bbp>56023</bbp>
+   <master_fplo>52017</master_fplo>
+   <festgelegtSPFV>0</festgelegtSPFV>
+   <festgelegtSPNV>0</festgelegtSPNV>
+   <festgelegtSGV>0</festgelegtSGV>
+   <antwort>2008-11-18</antwort>
+   <endStueckZvf>0</endStueckZvf>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF)</titel>
+    <formular>ZVF-091008</formular>
+    <major>1</major>
+    <minor>2</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>RW</startbst>
+     <endbst>REF</endbst>
+     <massnahme>Weil (Rhein) - Efringen-Kirchen</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Oberleitungsarbeiten</grund>
+     <baubeginn>2009-01-08T21:35:00</baubeginn>
+     <bauende>2009-01-12T05:00:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+    <strecke>
+     <startbst>RW</startbst>
+     <endbst>REF</endbst>
+     <massnahme>Weil (Rhein) - Efringen-Kirchen</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Oberleitungsarbeiten</grund>
+     <baubeginn>2009-01-08T00:01:00</baubeginn>
+     <bauende>2009-01-08T04:10:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+    <strecke>
+     <startbst>RW</startbst>
+     <endbst>REF</endbst>
+     <massnahme>Weil (Rhein) - Efringen-Kirchen</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Oberleitungsarbeiten</grund>
+     <baubeginn>2009-01-09T00:01:00</baubeginn>
+     <bauende>2009-01-09T04:10:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+    <strecke>
+     <startbst>RW</startbst>
+     <endbst>REF</endbst>
+     <massnahme>Weil (Rhein) - Efringen-Kirchen</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Oberleitungsarbeiten</grund>
+     <baubeginn>2009-01-10T00:01:00</baubeginn>
+     <bauende>2009-01-10T04:10:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+    <strecke>
+     <startbst>RW</startbst>
+     <endbst>REF</endbst>
+     <massnahme>Weil (Rhein) - Efringen-Kirchen</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Oberleitungsarbeiten</grund>
+     <baubeginn>2009-01-10T22:40:00</baubeginn>
+     <bauende>2009-01-11T06:10:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" >west</niederlassung>
+    <niederlassung beteiligt="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" >mitte</niederlassung>
+    <niederlassung beteiligt="1" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="" verkehrstag="2009-01-08" betreiber="Z1472" zugnr="40019" zugbez="TEC" >
+     <firstbst>RW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>17</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-01-10" betreiber="Z1472" zugnr="40019" zugbez="TEC" >
+     <firstbst>RW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>18</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-01-08" betreiber="Z1461" zugnr="44600" zugbez="FE" >
+     <firstbst>REF</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof ds100="RMR M" >Mannh Rbf Gr M</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>16</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-01-08" betreiber="K1452" zugnr="55851" zugbez="FZT" >
+     <firstbst>RBA A</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="ROG A" >Offenburg Gbf A</abgangsbahnhof>
+      <zielbahnhof ds100="RBA A" >Basel Bad Rbf A</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>16</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-01-08" betreiber="Z1451" zugnr="47067" zugbez="CS" >
+     <firstbst>RW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="gesperrt" />
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

@@ -1,0 +1,342 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+      "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<query name="betriebsstellenByFahrplanjahr">
+		<!-- Parameter:
+			:kuerzel - Betriebsstellenkürzel, Typ String
+			:typ - Betriebsstellentyp, Typ String
+			:zmst - Zugmeldestelle, Typ Boolean
+			:gueltigVon - Beginn des Gültigkeitszeitraums, Typ Date
+			:gueltigBis - Ende des Gültigkeitszeitraums, Typ Date
+		 -->
+		 SELECT
+		 		bst
+		 	FROM
+		 		Betriebsstelle bst
+		 		INNER JOIN bst.betriebsstellentypen bstTyp
+		 	WHERE
+		 		(
+		 			bstTyp.typ.name = :typ or bst.zugmeldestelle = :zmst
+		 		)
+		 		AND
+		 			upper(bst.kuerzel) like upper(:kuerzel)
+		 		AND
+					bst.gueltigVon &lt;= :gueltigVon
+				AND
+					bst.gueltigBis &gt;= :gueltigBis
+			ORDER BY bst.kuerzel
+	</query>
+	
+	<query name="betriebsstellenByStreckeAndFahrplanjahr">
+		<!-- Parameter:
+			:strecke - VzG-Streckennummer, Typ Integer
+			:kuerzel - Betriebsstellenkürzel, Typ String
+			:typ - Betriebsstellentyp, Typ String
+			:zmst - Zugmeldestelle, Typ Boolean
+			:gueltigVon - Beginn des Gültigkeitszeitraums, Typ Date
+			:gueltigBis - Ende des Gültigkeitszeitraums, Typ Date -->
+		SELECT
+				bst
+			FROM
+				Betriebsstelle bst 
+				INNER JOIN bst.strecken st 
+				INNER JOIN bst.betriebsstellentypen bstTyp 
+			WHERE
+					st.strecke.nummer = :strecke 
+				AND
+					(
+						(
+							st.km = (SELECT min(km) FROM BetriebsstelleVzgStreckeLink link WHERE link.strecke.nummer = st.strecke.nummer) 
+						or 
+							st.km = (SELECT max(km) FROM BetriebsstelleVzgStreckeLink link WHERE link.strecke.nummer = st.strecke.nummer) 
+						)
+						OR
+						(
+							bstTyp.typ.name = :typ or bst.zugmeldestelle = :zmst
+						)
+					)
+				AND
+		 			upper(bst.kuerzel) like upper(:kuerzel)
+				AND
+					bst.gueltigVon &lt;= :gueltigVon
+				AND
+					bst.gueltigBis &gt;= :gueltigBis
+			ORDER BY st.km
+	</query>
+	
+	<query name="hasMoreThanOne_MutterBst">
+		<!-- Parameter:
+			:vzgStreckeNummer - VzG-Streckennummer
+			:kmVon
+			:kmBis -->
+		SELECT
+				count(distinct bst.mutterBst)
+			FROM
+				Betriebsstelle bst
+				INNER JOIN bst.strecken st
+			WHERE
+					st.strecke.nummer = :vzgStreckeNummer
+				AND
+					:kmVon &lt;= st.km
+				AND
+					st.km &gt;= :kmBis
+	</query>
+	
+	<sql-query name="streckenband">
+		<!-- listet alle Gleissperrungen eines Streckenbandes auf.
+			Parameter:
+			:strecke - VzG-Streckennummer, Typ Integer
+			:fahrplanjahr - Fahrplanjahr, Typ Integer -->
+		<return class="db.training.osb.model.Gleissperrung"></return>
+		SELECT
+				gl.*
+			FROM GLEISSPERRUNG gl
+				INNER JOIN STRECKE st on gl.vzgStrecke_ID = st.id
+				LEFT JOIN GLEISSPERRUNG_BUENDEL glbdl ON gl.id = glbdl.gleissperrungen_ID
+				LEFT JOIN BST_STRECKE bstst ON bstst.strecke_ID = st.id and bstst.betriebsstelle_ID = gl.bstBis_ID
+				-- abhängige Daten nachladen, Preload wird nicht automatisch durchgeführt
+				LEFT OUTER JOIN BST betriebsst6_ ON gl.bstBis_ID=betriebsst6_.ID
+				LEFT OUTER JOIN BST_STRECKE bstst6_ ON betriebsst6_.ID = bstst6_.betriebsstelle_ID
+				LEFT OUTER JOIN BST betriebsst7_ ON betriebsst6_.mutterBst_ID=betriebsst7_.ID 
+				LEFT OUTER JOIN BST betriebsst8_ ON gl.bstBisKoordiniert_ID=betriebsst8_.ID 
+				LEFT OUTER JOIN BST betriebsst9_ ON gl.bstVon_ID=betriebsst9_.ID 
+				LEFT OUTER JOIN BST_STRECKE bstst9_ ON betriebsst9_.ID = bstst9_.betriebsstelle_ID
+				LEFT OUTER JOIN BST betriebsst10_ ON gl.bstVonKoordiniert_ID=betriebsst10_.ID 
+				LEFT OUTER JOIN BUENDEL bdl2_ ON glbdl.buendel_ID=bdl2_.ID 
+				LEFT OUTER JOIN BETRIEBSWEISE betriebswe16_ ON bdl2_.betriebsweise_ID=betriebswe16_.ID 
+				LEFT OUTER JOIN BST betriebsst17_ ON bdl2_.endeBahnhof_ID=betriebsst17_.ID 
+				LEFT OUTER JOIN STRECKE vzgstrecke18_ ON bdl2_.hauptstrecke_ID=vzgstrecke18_.ID 
+				LEFT OUTER JOIN REGIONALBEREICH regionalbe19_ ON bdl2_.regionalbereich_ID=regionalbe19_.ID 
+				LEFT OUTER JOIN BST betriebsst20_ ON bdl2_.startBahnhof_ID=betriebsst20_.ID 
+				LEFT OUTER JOIN MONITORING_GRUND grund21_ ON gl.monitoringGrund_ID=grund21_.ID 
+				LEFT OUTER JOIN MONITORING_REALISIERUNGSGRAD realisieru22_ ON gl.monitoringRealisierunggrad_ID=realisieru22_.ID 
+				LEFT OUTER JOIN MONITORING_STATUS status23_ ON gl.monitoringStatus_ID=status23_.ID 
+	
+			WHERE
+					st.nummer = :strecke
+				AND
+					gl.fahrplanjahr = :fahrplanjahr
+			ORDER BY glbdl.buendel_ID DESC nulls last, bstst.km ASC
+	</sql-query>
+	<sql-query name="vzgStreckenverlaufCaption">
+	<!--
+		gibt eine Liste der VzG-Strecke, sowie aller "anstoßenden"/kreuzenden Strecken mit der jeweils ersten und letzten
+		Betriebsstelle im Streckenverlauf zurück. Durch Angabe des Parameters :alleStreckenLaden = 1 werden stattdessen alle
+		VzG-Strecken im Gültigkeitsbereich ausgelistet. Mit Angabe des Parameters :regionalbereichPruefen = 1 werden nur kreuzende
+		Strecken ermittelt, die in dem angegebenen Regionalbereich (:regionalbereichId) beginnen (erste Bst.)
+		oder enden (letzte Bst.).
+		
+		Parameter:
+		:strecke - VzG-Streckennummer
+		:alleStreckenLaden = 1 = alles laden; sonst nur Hauptstrecke + "anstoßende" Strecken laden
+		:regionalbereichId
+		:regionalbereichPruefen = 1 = ja; sonst = alles ausgeben
+		:gueltigVon
+		:gueltigBis
+	st.nummer, bmin.name, bmax.name
+	 -->
+	 <return alias="st" class="db.training.osb.model.VzgStrecke" />
+	 <return alias="bmin" class="db.training.osb.model.Betriebsstelle" />
+	 <return alias="bmax" class="db.training.osb.model.Betriebsstelle" />
+		select
+		    {st.*}, {bmin.*}, {bmax.*}
+		  from
+		    strecke st
+		    left join
+		      (select bst_st.strecke_id, bst_st.betriebsstelle_id
+		          from bst_strecke bst_st
+		            where
+		             km = (select min(i.km) from bst_strecke i where i.strecke_id = bst_st.strecke_id)
+		             <!-- Gültigkeitsbereich prüfen? -->
+		            order by bst_st.strecke_id
+		      ) minBst on st.id = minBst.strecke_id
+		    left join bst bMin on minBst.betriebsstelle_id = bmin.id
+		    inner join bst_regionalbereich minRb on bmin.id = minrb.bst_id
+		    left join
+		      (select
+		            bst_st.strecke_id, bst_st.betriebsstelle_id
+		          from
+		            bst_strecke bst_st
+		            where
+		             km = (select max(i.km) from bst_strecke i where i.strecke_id = bst_st.strecke_id)
+					<!-- Gültigkeitsbereich prüfen? -->
+		            order by bst_st.strecke_id
+		      ) maxBst on st.id = maxBst.strecke_id
+		    left join bst bMax on maxBst.betriebsstelle_id = bmax.id
+		    inner join bst_regionalbereich maxRb on bmax.id = maxrb.bst_id
+		    where
+		      st.id in (select strecke_id from bst_strecke where betriebsstelle_id in (select betriebsstelle_id from bst_strecke where strecke_id = :strecke or 1 = :alleStreckenLaden))
+		      and st.gueltig_von &lt;= :gueltigVon
+		      and st.gueltig_bis &gt;= :gueltigBis
+		      and minRb.gueltig_von &lt;= :gueltigVon
+		      and minRb.gueltig_bis &gt;= :gueltigBis
+		      and maxRb.gueltig_von &lt;= :gueltigVon
+		      and maxRb.gueltig_bis &gt;= :gueltigBis
+		      and (minrb.regionalbereich_id = :regionalbereichId or maxrb.regionalbereich_id = :regionalbereichId or 0 = :regionalbereichPruefen)
+	</sql-query>
+	<sql-query name="findBbzrZuegeByBaumassnahmen">
+		<!-- 
+				::baumassnahmenIds
+				:verkehrstagVonUnused
+				:verkehrstagBisUnused
+				:qsKsUnused
+				:verkehrstagVonZeitraum
+				:verkehrstagBisZeitraum
+				:qsKs -->
+		<return alias="mn" class="db.training.bob.model.zvf.Massnahme" />
+		<return-join alias="z" property="mn.zug" /><![CDATA[
+		select
+		    {mn.*}, {z.*}
+		  from
+		    bm
+		    left outer join bm_uebergabeblatt bm_ueb on bm.id = bm_ueb.bm_id
+		    left outer join uebergabeblatt ueb on bm_ueb.zvf_id = ueb.id
+		    left outer join uebergabeblatt_massnahme ueb_mn on ueb.id = ueb_mn.uebergabeblatt_id
+		    left outer join massnahme mn on ueb_mn.massnahmen_id = mn.id
+		    left outer join zvfversion on mn.version_id = zvfversion.id
+		    left outer join massnahme_zug mn_zug on mn_zug.massnahme_id = mn.id
+		    left outer join zug z on mn_zug.zug_id = z.id
+		  where bm.id in (
+		select
+		    bm.id as baumassnahme_id
+		  from
+		    bm
+		    inner join terminuebersicht_bbp bbp on bm.BAUBETRIEBSPLANUNG_ID = bbp.id
+		    left outer join bm_terminuebersicht_gevu bm_gevu on bm.id = bm_gevu.bm_id
+		    left outer join terminuebersicht_gevu gevu on bm_gevu.gevus_id = gevu.id
+		    left outer join bm_terminuebersicht_pevu bm_pevu on bm.id = bm_pevu.bm_id
+		    left outer join terminuebersicht_pevu pevu on bm_pevu.pevus_id = pevu.id
+		    left outer join bm_uebergabeblatt bm_ueb on bm.id = bm_ueb.bm_id
+		    left outer join uebergabeblatt ueb on bm_ueb.zvf_id = ueb.id
+		where
+		    bm.id in (:baumassnahmenIds)
+		    and
+		    ueb.id =
+		      (select
+		          max(ueb.id) as uebergabeblatt_id
+		        from
+		          bm inner_bm
+		          inner join bm_uebergabeblatt bm_ueb on inner_bm.id = bm_ueb.bm_id
+		          inner join uebergabeblatt ueb on bm_ueb.zvf_id = ueb.id
+		          inner join uebergabeblatt_massnahme ueb_mn on ueb.id = ueb_mn.uebergabeblatt_id
+		          inner join massnahme mn on ueb_mn.massnahmen_id = mn.id
+		          inner join zvfversion on mn.version_id = zvfversion.id
+		          inner join 
+		          (    
+		              select
+		                  inner_bm2.id as baumassnahme_id,--- ueb.id as uebergabeblatt_id, mn.id as massnahme_id,
+		                  max(((zvfversion.major*1000)+zvfversion.minor)*1000+zvfversion.sub) as ueb_version
+		                from
+		                  bm inner_bm2
+		                  inner join bm_uebergabeblatt bm_ueb on inner_bm2.id = bm_ueb.bm_id
+		                  inner join uebergabeblatt ueb on bm_ueb.zvf_id = ueb.id
+		                  inner join uebergabeblatt_massnahme ueb_mn on ueb.id = ueb_mn.uebergabeblatt_id
+		                  inner join massnahme mn on ueb_mn.massnahmen_id = mn.id
+		                  inner join zvfversion on mn.version_id = zvfversion.id
+		                  
+		                group by inner_bm2.id
+		          ) sub on inner_bm.id = sub.baumassnahme_id and ((zvfversion.major*1000)+zvfversion.minor)*1000+zvfversion.sub = sub.ueb_version
+		        where bm.id=inner_bm.id
+		        group by inner_bm.id
+		)
+		and z.art is not null
+		and z.verkehrstag is not null
+		and (1=:verkehrstagVonUnused or z.verkehrstag >= :verkehrstagVonZeitraum)
+		and (1=:verkehrstagBisUnused or z.verkehrstag <= :verkehrstagBisZeitraum)
+		)
+	]]></sql-query>
+	<sql-query name="findBbzrZuegeByBaumassnahmen_ResultBean">
+		<!-- 
+				::baumassnahmenIds
+				:verkehrstagVonUnused
+				:verkehrstagBisUnused
+				:qsKsUnused
+				:verkehrstagVonZeitraum
+				:verkehrstagBisZeitraum
+				:qsKs -->
+		<return-scalar column="festgelegtSgv" type="boolean" />
+		<return-scalar column="festgelegtSpfv" type="boolean" />
+		<return-scalar column="festgelegtSpnv" type="boolean" />
+		<return-scalar column="betreiber" type="string" />
+		<return-scalar column="zugNr" type="string" />
+		<return-scalar column="verspaetung" type="boolean" />
+		<return-scalar column="umleitung" type="boolean" />
+		<return-scalar column="ausfall" type="boolean" />
+		<return-scalar column="vorplan" type="boolean" />
+		<return-scalar column="gesperrt" type="boolean" />
+		<return-scalar column="ersatzhalte" type="boolean" />
+		<return-scalar column="regelung" type="boolean" />
+		<![CDATA[
+		select
+			MN.FESTGELEGT_SGV as festgelegtSgv, MN.FESTGELEGT_SPFV as festgelegtSpfv, MN.FESTGELEGT_SPNV as festgelegtSpnv, z.betreiber, z.zugNr,
+			CASE WHEN z.ART=0 THEN 1 ELSE 0 END AS verspaetung,
+			CASE WHEN Z.ART=1 THEN 1 ELSE 0 END AS umleitung, 
+			CASE WHEN Z.ART=2 THEN 1 ELSE 0 END AS ausfall, 
+			CASE WHEN Z.ART=3 THEN 1 ELSE 0 END AS vorplan, 
+			CASE WHEN Z.ART=4 THEN 1 ELSE 0 END AS gesperrt, 
+			CASE WHEN Z.ART=5 THEN 1 ELSE 0 END AS ersatzhalte,
+			CASE WHEN z.ART=6 THEN 1 ELSE 0 END AS regelung
+		from
+		    bm
+		    left outer join bm_uebergabeblatt bm_ueb on bm.id = bm_ueb.bm_id
+		    left outer join uebergabeblatt ueb on bm_ueb.zvf_id = ueb.id
+		    left outer join uebergabeblatt_massnahme ueb_mn on ueb.id = ueb_mn.uebergabeblatt_id
+		    left outer join massnahme mn on ueb_mn.massnahmen_id = mn.id
+		    left outer join zvfversion on mn.version_id = zvfversion.id
+		    left outer join massnahme_zug mn_zug on mn_zug.massnahme_id = mn.id
+		    left outer join zug z on mn_zug.zug_id = z.id
+		  where bm.id in (
+		select
+		    bm.id as baumassnahme_id
+		  from
+		    bm
+		    inner join terminuebersicht_bbp bbp on bm.BAUBETRIEBSPLANUNG_ID = bbp.id
+		    left outer join bm_terminuebersicht_gevu bm_gevu on bm.id = bm_gevu.bm_id
+		    left outer join terminuebersicht_gevu gevu on bm_gevu.gevus_id = gevu.id
+		    left outer join bm_terminuebersicht_pevu bm_pevu on bm.id = bm_pevu.bm_id
+		    left outer join terminuebersicht_pevu pevu on bm_pevu.pevus_id = pevu.id
+		    left outer join bm_uebergabeblatt bm_ueb on bm.id = bm_ueb.bm_id
+		    left outer join uebergabeblatt ueb on bm_ueb.zvf_id = ueb.id
+		where
+		    bm.id in (:baumassnahmenIds)
+		    and
+		    ueb.id =
+		      (select
+		          max(ueb.id) as uebergabeblatt_id
+		        from
+		          bm inner_bm
+		          inner join bm_uebergabeblatt bm_ueb on inner_bm.id = bm_ueb.bm_id
+		          inner join uebergabeblatt ueb on bm_ueb.zvf_id = ueb.id
+		          inner join uebergabeblatt_massnahme ueb_mn on ueb.id = ueb_mn.uebergabeblatt_id
+		          inner join massnahme mn on ueb_mn.massnahmen_id = mn.id
+		          inner join zvfversion on mn.version_id = zvfversion.id
+		          inner join 
+		          (    
+		              select
+		                  inner_bm2.id as baumassnahme_id,--- ueb.id as uebergabeblatt_id, mn.id as massnahme_id,
+		                  max(((zvfversion.major*1000)+zvfversion.minor)*1000+zvfversion.sub) as ueb_version
+		                from
+		                  bm inner_bm2
+		                  inner join bm_uebergabeblatt bm_ueb on inner_bm2.id = bm_ueb.bm_id
+		                  inner join uebergabeblatt ueb on bm_ueb.zvf_id = ueb.id
+		                  inner join uebergabeblatt_massnahme ueb_mn on ueb.id = ueb_mn.uebergabeblatt_id
+		                  inner join massnahme mn on ueb_mn.massnahmen_id = mn.id
+		                  inner join zvfversion on mn.version_id = zvfversion.id
+		                 where
+		                 	inner_bm2.id in (:baumassnahmenIds)
+		                group by inner_bm2.id
+		          ) sub on inner_bm.id = sub.baumassnahme_id and ((zvfversion.major*1000)+zvfversion.minor)*1000+zvfversion.sub = sub.ueb_version
+		        where bm.id=inner_bm.id
+		        	and bm.id in (:baumassnahmenIds)
+		        group by inner_bm.id
+		)
+		and z.art is not null
+		and z.verkehrstag is not null
+		and (1=:verkehrstagVonUnused or z.verkehrstag >= :verkehrstagVonZeitraum)
+		and (1=:verkehrstagBisUnused or z.verkehrstag <= :verkehrstagBisZeitraum)
+		)
+		]]></sql-query>
+</hibernate-mapping>

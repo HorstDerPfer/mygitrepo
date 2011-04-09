@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<BBPXMLSchnittstelle>
+<Header>
+<Ersteller>StephanASchmidt</Ersteller>
+<Erstellzeit>2008-05-16, 07:19</Erstellzeit> 
+<BBPVersion>BBP 4.6.0.8105</BBPVersion>
+<BplBeginn>2008-07-17</BplBeginn>
+<BplEnde>2008-07-23</BplEnde>
+</Header>
+<Daten>
+<BBPMassnahme>
+<MasID>083EF4458EA74</MasID>
+<aktiv>1</aktiv>
+<MasKennung>FEEC36686CF2</MasKennung>
+<Vorhaben>T.016013874.99999</Vorhaben>
+<RegionID>1</RegionID>
+<Region>Ost</Region>
+<AnmelderID>77</AnmelderID>
+<Anmelder>I.B-O-T&#220; 10 Bln 4</Anmelder>
+<ArbeitenID>22</ArbeitenID>
+<Arbeiten>Arbeiten an LST-Anlagen Umbau Bf BLN</Arbeiten>
+<BBPStrecke>11006</BBPStrecke>
+<VzGStrecke>6142</VzGStrecke>
+<MasBstVonAG850ID> -1 </MasBstVonAG850ID>
+<MasBstBisAG850ID> -1 </MasBstBisAG850ID>
+<MasBstVonRil100>BLB</MasBstVonRil100>
+<MasBstBisRil100>BLN</MasBstBisRil100>
+<MasBstVonLang>L&#252;bben (Spreew)</MasBstVonLang>
+<MasBstBisLang>L&#252;bbenau Spreew</MasBstBisLang>
+<MasKmVon>-9999,000</MasKmVon>
+<MasKmBis>-9999,000</MasKmBis>
+<BezKz>161</BezKz>
+<MasBeginn>200807182200</MasBeginn>
+<MasEnde>200807210400</MasEnde>
+<GravAendDate> 200712200000</GravAendDate>
+<GraZeit>True</GraZeit>
+<GraOrt>True</GraOrt>
+<GraRegel>True</GraRegel>
+<AnmelderBem></AnmelderBem>
+<TempAnm></TempAnm>
+<Regelungen>
+<Regelung>
+<RegID>083EF4458EA74-0001</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(JL)</BplArtText>
+<JplID>069D3CE4BF4B4</JplID>
+<Beginn>200807182200</Beginn>
+<Ende>200807210400</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>BLB</BstVonRil100>
+<BstBisRil100>BLN</BstBisRil100>
+<BstVonLang>L&#252;bben (Spreew)</BstVonLang>
+<BstBisLang>L&#252;bbenau Spreew</BstBisLang>
+<BstVonLageKm>74,600</BstVonLageKm>
+<BstBisLageKm>85,600</BstBisLageKm>
+<VzGStrecke>6142</VzGStrecke>
+<Richtung>0</Richtung>
+<BBPStrecke>11006</BBPStrecke>
+<BBPStrRi>0</BBPStrRi>
+<BplRegelungID>11</BplRegelungID>
+<BplRegelungKurz>Tsp</BplRegelungKurz>
+<BplRegelungLang>Totalsperrung</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>0,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>False</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr>201156.01</LisbaNr>
+<BemerkungenBpl>Sp.: BLB, Sig 26GG / Sig 26G - BLN, Sig K / Sig I,  Aussch Str - Gl BLB - BLN - BLB + Totalaussch Bf BLN,       SEV,    siehe Str 11089</BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>083EF4458EA74-0002</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(JL)</BplArtText>
+<JplID>069D3CE4BF4B4</JplID>
+<Beginn>200807182200</Beginn>
+<Ende>200807210400</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>BLN</BstVonRil100>
+<BstBisRil100>BBSD</BstBisRil100>
+<BstVonLang>L&#252;bbenau Spreew</BstVonLang>
+<BstBisLang>Bischdorf (L)</BstBisLang>
+<BstVonLageKm>84,900</BstVonLageKm>
+<BstBisLageKm>93,200</BstBisLageKm>
+<VzGStrecke>6193</VzGStrecke>
+<Richtung>0</Richtung>
+<BBPStrecke>11089</BBPStrecke>
+<BBPStrRi>0</BBPStrRi>
+<BplRegelungID>11</BplRegelungID>
+<BplRegelungKurz>Tsp</BplRegelungKurz>
+<BplRegelungLang>Totalsperrung</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>0,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>False</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr>201201.02</LisbaNr>
+<BemerkungenBpl>Sp.: BLN, Sig A / H&#246;he Sig A - BBSD, Sig A, Totalaussch Bf BLN + Str - Gl BLN - BBSD,    SEV,    siehe Str 11006</BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>083EF4458EA74-0003</RegID>
+<aktiv>0</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(JL)</BplArtText>
+<JplID>069D3CE4BF4B4</JplID>
+<Beginn>189912300000</Beginn>
+<Ende>189912300000</Ende>
+<SperrKz>0</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>?</BstVonRil100>
+<BstBisRil100>?</BstBisRil100>
+<BstVonLang>?</BstVonLang>
+<BstBisLang>?</BstBisLang>
+<BstVonLageKm>-999,000</BstVonLageKm>
+<BstBisLageKm>-999,000</BstBisLageKm>
+<VzGStrecke>0</VzGStrecke>
+<Richtung>-1</Richtung>
+<BBPStrecke>0</BBPStrecke>
+<BBPStrRi>-1</BBPStrRi>
+<BplRegelungID>0</BplRegelungID>
+<BplRegelungKurz>?</BplRegelungKurz>
+<BplRegelungLang>?</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>-1,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>False</SPFV>
+<SPNV>False</SPNV>
+<SGV>False</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl></BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>083EF4458EA74-0004</RegID>
+<aktiv>0</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(JL)</BplArtText>
+<JplID>069D3CE4BF4B4</JplID>
+<Beginn>189912300000</Beginn>
+<Ende>189912300000</Ende>
+<SperrKz>0</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>?</BstVonRil100>
+<BstBisRil100>?</BstBisRil100>
+<BstVonLang>?</BstVonLang>
+<BstBisLang>?</BstBisLang>
+<BstVonLageKm>-999,000</BstVonLageKm>
+<BstBisLageKm>-999,000</BstBisLageKm>
+<VzGStrecke>0</VzGStrecke>
+<Richtung>-1</Richtung>
+<BBPStrecke>0</BBPStrecke>
+<BBPStrRi>-1</BBPStrRi>
+<BplRegelungID>0</BplRegelungID>
+<BplRegelungKurz>?</BplRegelungKurz>
+<BplRegelungLang>?</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>-1,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>False</SPFV>
+<SPNV>False</SPNV>
+<SGV>False</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl></BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>083EF4458EA74-0005</RegID>
+<aktiv>0</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(JL)</BplArtText>
+<JplID>069D3CE4BF4B4</JplID>
+<Beginn>189912300000</Beginn>
+<Ende>189912300000</Ende>
+<SperrKz>0</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>?</BstVonRil100>
+<BstBisRil100>?</BstBisRil100>
+<BstVonLang>?</BstVonLang>
+<BstBisLang>?</BstBisLang>
+<BstVonLageKm>-999,000</BstVonLageKm>
+<BstBisLageKm>-999,000</BstBisLageKm>
+<VzGStrecke>0</VzGStrecke>
+<Richtung>-1</Richtung>
+<BBPStrecke>0</BBPStrecke>
+<BBPStrRi>-1</BBPStrRi>
+<BplRegelungID>0</BplRegelungID>
+<BplRegelungKurz>?</BplRegelungKurz>
+<BplRegelungLang>?</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>-1,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>False</SPFV>
+<SPNV>False</SPNV>
+<SGV>False</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl></BemerkungenBpl>
+</Regelung>
+</Regelungen>
+</BBPMassnahme>
+</Daten>
+</BBPXMLSchnittstelle>

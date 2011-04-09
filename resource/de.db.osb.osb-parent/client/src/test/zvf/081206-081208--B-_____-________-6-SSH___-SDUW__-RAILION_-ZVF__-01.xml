@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-10-28T11:03:09</timestamp>
+  <filename>081206-081208--B-_____-________-6-SSH___-SDUW__-RAILION_-ZVF__-01.rtf</filename>
+  <version_prg_zvf>v2.2.3</version_prg_zvf>
+  <sender>
+   <name>Lutz</name>
+   <vorname>Günther</vorname>
+   <kuerzel> Lz</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Günther.Lutz@bahn.de</email>
+   <telefon>0721/938 7331</telefon>
+   <telefon_intern>972-7331</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>Railion</empfaenger>
+   <empfaenger>Betriebsplanung - BZ</empfaenger>
+   <empfaenger>Bittler</empfaenger>
+   <empfaenger>Klemann</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>B</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <korridor> </korridor>
+   <kigbau></kigbau>
+   <kennung>36336</kennung>
+   <bbp>86204</bbp>
+   <master_fplo></master_fplo>
+   <festgelegtSPFV>0</festgelegtSPFV>
+   <festgelegtSPNV>0</festgelegtSPNV>
+   <festgelegtSGV>0</festgelegtSGV>
+   <antwort>2008-11-17</antwort>
+   <endStueckZvf>0</endStueckZvf>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF)</titel>
+    <formular>ZVF-091008</formular>
+    <major>1</major>
+    <minor>2</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>SSH</startbst>
+     <endbst>SDUW</endbst>
+     <massnahme>Saarbrücken Hbf - Dudweiler</massnahme>
+     <betriebsweise>Ggl Bef</betriebsweise>
+     <grund>Baustellen SSH/SSR - SDUW</grund>
+     <baubeginn>2008-12-06T06:00:00</baubeginn>
+     <bauende>2008-12-08T13:00:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" >west</niederlassung>
+    <niederlassung beteiligt="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" >mitte</niederlassung>
+    <niederlassung beteiligt="1" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="" verkehrstag="2008-12-07" betreiber="Z1453" zugnr="41217" zugbez="TEC" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XEPB" >Port-Bou</abgangsbahnhof>
+      <zielbahnhof ds100="RLB U" >Ludwigs BASF Ubf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Saardamm - Saarbrücken - St Ingbert - Homburg</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-07" betreiber="Z1453" zugnr="42563" zugbez="TEC" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSR N" >Saarbr Rbf Nord</abgangsbahnhof>
+      <zielbahnhof ds100="RLB U" >Ludwigs BASF Ubf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Saarbrücken Rbf - St Ingbert - Homburg</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-07" betreiber="Z1461" zugnr="44227" zugbez="FE" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XFWY" >Woippy</abgangsbahnhof>
+      <zielbahnhof ds100="RMR M" >Mannh Rbf Gr M</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Saardamm - Saarbrücken - St Ingbert - Homburg</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-08" betreiber="Z1461" zugnr="44234" zugbez="FE" >
+     <firstbst>SSR N</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SEF" >Einsiedlerhof</abgangsbahnhof>
+      <zielbahnhof ds100="XFPE" >Perpignan</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Homburg - St Ingbert - Saarbrücken - Saardamm</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-06" betreiber="Z1461" zugnr="44249" zugbez="FE" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XFWY" >Woippy</abgangsbahnhof>
+      <zielbahnhof ds100="RMR M" >Mannh Rbf Gr M</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Streckenwechsel</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-08" betreiber="Z1461" zugnr="45228" zugbez="FE" >
+     <firstbst>SSR N</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMR N" >Mannh Rbf Gr N</abgangsbahnhof>
+      <zielbahnhof ds100="XFWY" >Woippy</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Streckenwechsel</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-06" betreiber="Z1461" zugnr="45234" zugbez="FE" >
+     <firstbst>SSR N</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMR G" >Mannh Rbf Gr G</abgangsbahnhof>
+      <zielbahnhof ds100="XFWY" >Woippy</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Streckenwechsel</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-07" betreiber="Z1461" zugnr="45236" zugbez="FE" >
+     <firstbst>SSR N</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMR G" >Mannh Rbf Gr G</abgangsbahnhof>
+      <zielbahnhof ds100="XFWY" >Woippy</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Streckenwechsel</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-06" betreiber="Z1461" zugnr="45238" zugbez="FE" >
+     <firstbst>SSR N</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMR N" >Mannh Rbf Gr N</abgangsbahnhof>
+      <zielbahnhof ds100="XFWY" >Woippy</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Streckenwechsel</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-06" betreiber="Z1461" zugnr="45241" zugbez="FE" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XFWY" >Woippy</abgangsbahnhof>
+      <zielbahnhof ds100="RMR M" >Mannh Rbf Gr M</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Streckenwechsel</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-06" betreiber="Z1461" zugnr="45243" zugbez="FE" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XFWY" >Woippy</abgangsbahnhof>
+      <zielbahnhof ds100="RMR M" >Mannh Rbf Gr M</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Streckenwechsel</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-06" betreiber="Z1461" zugnr="45247" zugbez="FE" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XFS" >Sibelin</abgangsbahnhof>
+      <zielbahnhof ds100="RMR M" >Mannh Rbf Gr M</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Streckenwechsel</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-06" betreiber="Z1461" zugnr="45249" zugbez="FE" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XFS" >Sibelin</abgangsbahnhof>
+      <zielbahnhof ds100="RMR M" >Mannh Rbf Gr M</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Streckenwechsel</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-06" betreiber="B1452" zugnr="45469" zugbez="FE" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Irun</abgangsbahnhof>
+      <zielbahnhof ds100="RMR M" >Mannh Rbf Gr M</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Saarbrücken Rbf - Wemmetsweiler - Neunkirchen</umleitung>
+      <verspaetung>40</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-06" betreiber="Z1461" zugnr="45661" zugbez="FE" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XLB" >Bettembourg</abgangsbahnhof>
+      <zielbahnhof ds100="RMR M" >Mannh Rbf Gr M</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Saarbrücken Rbf - Wemmetsweiler - Neunkirchen</umleitung>
+      <verspaetung>40</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-06" betreiber="Z1461" zugnr="47269" zugbez="FE" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XFVR" >Villers-Cotter.</abgangsbahnhof>
+      <zielbahnhof ds100="RMR M" >Mannh Rbf Gr M</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Streckenwechsel</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-06" betreiber="Z1455" zugnr="47296" zugbez="CS" >
+     <firstbst>SSR N</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Zdieszowice</abgangsbahnhof>
+      <zielbahnhof>Varangeville</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Streckenwechsel</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-06" betreiber="Z1455" zugnr="47401" zugbez="CS" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SDLH" >Dill.Hochofen Hü</abgangsbahnhof>
+      <zielbahnhof ds100="XPTG" >Tarnowskie Gory</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Streckenwechsel</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-06" betreiber="Z1451" zugnr="48229" zugbez="RabZ" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XFWY" >Woippy</abgangsbahnhof>
+      <zielbahnhof ds100="SNK" >Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Streckenwechsel</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-06" betreiber="Z1451" zugnr="48236" zugbez="CSQ" >
+     <firstbst>SSR N</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="HBSR" >Braunschweig Rbf</abgangsbahnhof>
+      <zielbahnhof ds100="XEPP" >Pamplona</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Homburg - St Ingbert - Saarbrücken - Saardamm</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-06" betreiber="Z1461" zugnr="48243" zugbez="FE" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XFVAR" >Vaires</abgangsbahnhof>
+      <zielbahnhof ds100="RMR M" >Mannh Rbf Gr M</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Saarbrücken Rbf - Wemmetsweiler - Neunkirchen</umleitung>
+      <verspaetung>40</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-06" betreiber="Z1451" zugnr="48249" zugbez="RabZ" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XFMS" >Metz Sablon</abgangsbahnhof>
+      <zielbahnhof ds100="SNK" >Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Streckenwechsel</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-06" betreiber="Z1451" zugnr="48250" zugbez="RabZ" >
+     <firstbst>SSR N</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SNK" >Neunkir (S) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="XFMS" >Metz Sablon</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Streckenwechsel</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-08" betreiber="Z1451" zugnr="49253" zugbez="CSQ" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XEGI" >Grisen</abgangsbahnhof>
+      <zielbahnhof ds100="UEIS" >Eisenach-Stedtf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Saardamm - Saarbrücken - St Ingbert - Homburg</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-06" betreiber="Z1451" zugnr="49255" zugbez="CS" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XEBT" >Barcelona-T.</abgangsbahnhof>
+      <zielbahnhof ds100="RMR M" >Mannh Rbf Gr M</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Streckenwechsel</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-06" betreiber="Z1451" zugnr="49262" zugbez="CS" >
+     <firstbst>SSR N</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RL  G" >Ludwigsh(Rh)Gbf</abgangsbahnhof>
+      <zielbahnhof ds100="XFMS" >Metz Sablon</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Homburg - St Ingbert - Saarbrücken - Saardamm</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-07" betreiber="Z1451" zugnr="49267" zugbez="CS" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XFMS" >Metz Sablon</abgangsbahnhof>
+      <zielbahnhof ds100="FMB W" >Mz-Bischofshm We</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Saardamm - Saarbrücken - St Ingbert - Homburg</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-06" betreiber="Z1451" zugnr="49275" zugbez="CSQ" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XEGI" >Grisen</abgangsbahnhof>
+      <zielbahnhof ds100="UEIS" >Eisenach-Stedtf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Saardamm - Saarbrücken - St Ingbert - Homburg</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-07" betreiber="Z1451" zugnr="49276" zugbez="CS" >
+     <firstbst>SSR N</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SEF" >Einsiedlerhof</abgangsbahnhof>
+      <zielbahnhof>Zuera</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Streckenwechsel</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-06" betreiber="Z1451" zugnr="49292" zugbez="CS" >
+     <firstbst>SSR N</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="NROB" >Regensbg Ost</abgangsbahnhof>
+      <zielbahnhof ds100="XFRV" >Rivesaltes</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Streckenwechsel</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-06" betreiber="Z1455" zugnr="61840" zugbez="CS" >
+     <firstbst>SSR N</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SNK" >Neunkir (S) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SEN" >Ensdorf (Saar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Streckenwechsel</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-06" betreiber="Z1455" zugnr="61842" zugbez="CS" >
+     <firstbst>SSR N</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SNK" >Neunkir (S) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SEN" >Ensdorf (Saar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Streckenwechsel</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-06" betreiber="Z1455" zugnr="61843" zugbez="CS" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SEN" >Ensdorf (Saar)</abgangsbahnhof>
+      <zielbahnhof ds100="SNK" >Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Streckenwechsel</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-07" betreiber="Z1455" zugnr="61871" zugbez="CS" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SVL" >Völklingen</abgangsbahnhof>
+      <zielbahnhof ds100="SNK" >Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Saarbrücken - St Ingbert - Homburg - Neunkirchen</umleitung>
+      <verspaetung>50</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-06" betreiber="Z1455" zugnr="61872" zugbez="CS" >
+     <firstbst>SSR N</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SNK" >Neunkir (S) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SVL" >Völklingen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Streckenwechsel</umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-07" betreiber="Z1481" zugnr="68441" zugbez="Tfzf (RaS)" >
+     <firstbst>SSR N</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SNK" >Neunkir (S) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SVL" >Völklingen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Neunkirchen - Homburg - Saarbrücken</umleitung>
+      <verspaetung>20</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-08" betreiber="Z1455" zugnr="47298" zugbez="CS" >
+     <firstbst>SSR N</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="vorplan" >
+      <vorplanab></vorplanab>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

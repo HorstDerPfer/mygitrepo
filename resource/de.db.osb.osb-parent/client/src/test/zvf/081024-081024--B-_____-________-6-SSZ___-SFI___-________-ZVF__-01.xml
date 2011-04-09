@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-09-30T12:24:19</timestamp>
+  <filename>081024-081024--B-_____-________-6-SSZ___-SFI___-RAILION_-ZVF__-01.rtf</filename>
+  <version_prg_zvf>v2.1.2</version_prg_zvf>
+  <sender>
+   <name>Lutz</name>
+   <vorname>Günther</vorname>
+   <kuerzel> Lz</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Günther.Lutz@bahn.de</email>
+   <telefon>0721/938 7331</telefon>
+   <telefon_intern>972-7331</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>Railion</empfaenger>
+   <empfaenger>Betriebsplanung - BZ</empfaenger>
+   <empfaenger>Klemann</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>B</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <ksbaumassnahme></ksbaumassnahme>
+   <kigbau></kigbau>
+   <kennung>36363</kennung>
+   <bbp>56049</bbp>
+   <master_fplo></master_fplo>
+   <antwort>2008-10-14</antwort>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF)</titel>
+    <formular>ZvF</formular>
+    <major>1</major>
+    <minor>2</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>SSZ</startbst>
+     <endbst>SFI</endbst>
+     <massnahme>Sulzbach (Saar) - Friedrichst.(S)</massnahme>
+     <betriebsweise>Ggl Bef</betriebsweise>
+     <grund>Schienenwechsel</grund>
+     <baubeginn>2008-10-24T02:00:00</baubeginn>
+     <bauende>2008-10-24T05:30:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" >west</niederlassung>
+    <niederlassung beteiligt="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" >mitte</niederlassung>
+    <niederlassung beteiligt="1" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="" verkehrstag="2008-10-24" zugnr="55881" zugbez="FZT" >
+     <firstbst>SFI</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Saarbr Rbf Ost</abgangsbahnhof>
+      <zielbahnhof>Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>63.9</gattungsnummer>
+      <vmax>90</vmax>
+      <tfz>185CL1</tfz>
+      <last>1400</last>
+      <laenge>700</laenge>
+      <brems>53  P</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-10-24" zugnr="58306" zugbez="Tfzf (RaR)" >
+     <firstbst>SFI</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Saarbrücken Rbf</abgangsbahnhof>
+      <zielbahnhof>Einsiedlerhof</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>03.5</gattungsnummer>
+      <vmax>60</vmax>
+      <tfz>363</tfz>
+      <last>0</last>
+      <laenge></laenge>
+      <brems>103 P</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-10-24" zugnr="61841" zugbez="CS" >
+     <firstbst>SFI</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Ensdorf (Saar)</abgangsbahnhof>
+      <zielbahnhof>Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>69.6</gattungsnummer>
+      <vmax>90</vmax>
+      <tfz>151</tfz>
+      <last>1800</last>
+      <laenge>350</laenge>
+      <brems>54  P</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-10-24" zugnr="48225" zugbez="RabZ" >
+     <firstbst>SFI</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Metz Sablon</abgangsbahnhof>
+      <zielbahnhof>Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>23</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-10-24" zugnr="52804" zugbez="FR" >
+     <firstbst>SSZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Mannh Rbf Gr G</abgangsbahnhof>
+      <zielbahnhof>Saarbr Rbf Nord</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>19</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-10-24" zugnr="61871" zugbez="CS" >
+     <firstbst>SFI</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Völklingen</abgangsbahnhof>
+      <zielbahnhof>Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>17</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>69.1</gattungsnummer>
+      <vmax>90</vmax>
+      <tfz>185</tfz>
+      <last>1720</last>
+      <laenge>400</laenge>
+      <brems>61  G</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-10-24" zugnr="68461" zugbez="Tfzf (RaS)" >
+     <firstbst>SSZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>Neunkir (S) Hbf</abgangsbahnhof>
+      <zielbahnhof>Saarbr Rbf Nord</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>20</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>02.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>185</tfz>
+      <last>0</last>
+      <laenge></laenge>
+      <brems>147 R</brems>
+     </zugdetails>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

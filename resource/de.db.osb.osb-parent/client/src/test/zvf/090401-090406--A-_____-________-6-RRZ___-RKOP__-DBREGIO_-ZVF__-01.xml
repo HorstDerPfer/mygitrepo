@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-10-10T15:17:33</timestamp>
+  <filename>090401-090406--A-_____-________-6-RRZ___-RKOP__-DBREGIO_-ZVF__-01.rtf</filename>
+  <version_prg_zvf>v2.2.2</version_prg_zvf>
+  <sender>
+   <name>Klan</name>
+   <vorname>Dietmar</vorname>
+   <kuerzel> Kl</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Dietmar.Klan@bahn.de</email>
+   <telefon>0721/938 7311</telefon>
+   <telefon_intern>972-7311</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>DB Regio</empfaenger>
+   <empfaenger>Betriebsplanung - BZ</empfaenger>
+   <empfaenger>KM-SW</empfaenger>
+   <empfaenger>Schäfer JM</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>A</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <korridor> </korridor>
+   <kigbau></kigbau>
+   <kennung></kennung>
+   <bbp></bbp>
+   <master_fplo></master_fplo>
+   <festgelegtSPFV>0</festgelegtSPFV>
+   <festgelegtSPNV>0</festgelegtSPNV>
+   <festgelegtSGV>0</festgelegtSGV>
+   <antwort>2008-10-31</antwort>
+   <endStueckZvf>0</endStueckZvf>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF)</titel>
+    <formular>ZVF-091008</formular>
+    <major>1</major>
+    <minor>2</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>RRZ</startbst>
+     <endbst>RKOP</endbst>
+     <massnahme>Radolfzell - Ko-Petershausen</massnahme>
+     <betriebsweise>Ggl Bef</betriebsweise>
+     <grund>Gleiserneuerung</grund>
+     <baubeginn>2009-04-01T10:00:00</baubeginn>
+     <bauende>2009-04-06T04:45:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" >west</niederlassung>
+    <niederlassung beteiligt="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" >mitte</niederlassung>
+    <niederlassung beteiligt="0" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="4701" zugbez="IRE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RKO" >Konstanz</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-02" betreiber="K1260" zugnr="4704" zugbez="IRE-D" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RKO" >Konstanz</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>12</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="4705" zugbez="IRE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RKO" >Konstanz</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="4711" zugbez="IRE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof ds100="RKO" >Konstanz</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="4721" zugbez="IRE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof ds100="RKO" >Konstanz</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-02" betreiber="K1260" zugnr="4751" zugbez="IRE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RKO" >Konstanz</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="4773" zugbez="IRE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RKO" >Konstanz</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="5185" zugbez="IRE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof ds100="XSKR" >Kreuzlingen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="5189" zugbez="IRE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="XSKR" >Kreuzlingen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="5191" zugbez="IRE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="XSKR" >Kreuzlingen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="5193" zugbez="IRE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="XSKR" >Kreuzlingen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="4707" zugbez="RE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RKO" >Konstanz</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="4709" zugbez="RE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RKO" >Konstanz</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="4713" zugbez="RE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RKO" >Konstanz</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="4717" zugbez="RE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RKO" >Konstanz</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="4737" zugbez="RE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RKO" >Konstanz</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-02" betreiber="K1260" zugnr="4737" zugbez="RE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RKO" >Konstanz</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>10</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-03" betreiber="K1260" zugnr="4737" zugbez="RE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RKO" >Konstanz</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-04" betreiber="K1260" zugnr="4737" zugbez="RE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RKO" >Konstanz</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>10</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-02" betreiber="K1260" zugnr="4739" zugbez="RE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RVL" >Villingen(Schww)</abgangsbahnhof>
+      <zielbahnhof ds100="RKO" >Konstanz</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-02" betreiber="K1260" zugnr="4745" zugbez="RE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RKO" >Konstanz</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="5183" zugbez="RE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="XSKR" >Kreuzlingen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="5187" zugbez="RE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="XSKR" >Kreuzlingen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="5195" zugbez="RE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="XSKR" >Kreuzlingen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-02" betreiber="K1260" zugnr="4700" zugbez="IRE-D" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RKO" >Konstanz</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RKO" >Konstanz</ausfallvon>
+      <ausfallbis ds100="RK" >Karlsruhe Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-02" betreiber="K1260" zugnr="4706" zugbez="RE-D" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RKO" >Konstanz</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RKO" >Konstanz</ausfallvon>
+      <ausfallbis ds100="RK" >Karlsruhe Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="4707" zugbez="RE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RKO" >Konstanz</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RK" >Karlsruhe Hbf</ausfallvon>
+      <ausfallbis ds100="RKO" >Konstanz</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="4708" zugbez="RE-D" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RKO" >Konstanz</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RKO" >Konstanz</ausfallvon>
+      <ausfallbis ds100="RK" >Karlsruhe Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="4709" zugbez="RE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RKO" >Konstanz</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RK" >Karlsruhe Hbf</ausfallvon>
+      <ausfallbis ds100="RKO" >Konstanz</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="4710" zugbez="IRE-D" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RKO" >Konstanz</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RKO" >Konstanz</ausfallvon>
+      <ausfallbis ds100="RK" >Karlsruhe Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="4711" zugbez="IRE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof ds100="RKO" >Konstanz</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon></ausfallvon>
+      <ausfallbis ds100="RKO" >Konstanz</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="4712" zugbez="RE-D" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RKO" >Konstanz</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RKO" >Konstanz</ausfallvon>
+      <ausfallbis ds100="RK" >Karlsruhe Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="4713" zugbez="RE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RKO" >Konstanz</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RK" >Karlsruhe Hbf</ausfallvon>
+      <ausfallbis ds100="RKO" >Konstanz</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="4714" zugbez="IRE-D" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RKO" >Konstanz</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RKO" >Konstanz</ausfallvon>
+      <ausfallbis ds100="RK" >Karlsruhe Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="4718" zugbez="RE-D" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RKO" >Konstanz</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RKO" >Konstanz</ausfallvon>
+      <ausfallbis ds100="RK" >Karlsruhe Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="4720" zugbez="IRE-D" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RKO" >Konstanz</abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RKO" >Konstanz</ausfallvon>
+      <ausfallbis></ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="4721" zugbez="IRE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof ds100="RKO" >Konstanz</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon></ausfallvon>
+      <ausfallbis ds100="RKO" >Konstanz</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="4722" zugbez="RE-D" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RKO" >Konstanz</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RKO" >Konstanz</ausfallvon>
+      <ausfallbis ds100="RK" >Karlsruhe Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-02" betreiber="K1260" zugnr="4741" zugbez="RE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RO" >Offenburg</abgangsbahnhof>
+      <zielbahnhof ds100="RKO" >Konstanz</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RO" >Offenburg</ausfallvon>
+      <ausfallbis ds100="RKO" >Konstanz</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-02" betreiber="K1260" zugnr="5180" zugbez="RE-D" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XSKR" >Kreuzlingen</abgangsbahnhof>
+      <zielbahnhof ds100="RO" >Offenburg</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="XSKR" >Kreuzlingen</ausfallvon>
+      <ausfallbis ds100="RO" >Offenburg</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="5183" zugbez="RE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="XSKR" >Kreuzlingen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RK" >Karlsruhe Hbf</ausfallvon>
+      <ausfallbis ds100="XSKR" >Kreuzlingen</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="5184" zugbez="IRE-D" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XSKR" >Kreuzlingen</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="XSKR" >Kreuzlingen</ausfallvon>
+      <ausfallbis ds100="RK" >Karlsruhe Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="5185" zugbez="IRE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof ds100="XSKR" >Kreuzlingen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon></ausfallvon>
+      <ausfallbis ds100="XSKR" >Kreuzlingen</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="5186" zugbez="RE-D" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XSKR" >Kreuzlingen</abgangsbahnhof>
+      <zielbahnhof ds100="RO" >Offenburg</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="XSKR" >Kreuzlingen</ausfallvon>
+      <ausfallbis ds100="RO" >Offenburg</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="5187" zugbez="RE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="XSKR" >Kreuzlingen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RK" >Karlsruhe Hbf</ausfallvon>
+      <ausfallbis ds100="XSKR" >Kreuzlingen</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="5189" zugbez="IRE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="XSKR" >Kreuzlingen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RK" >Karlsruhe Hbf</ausfallvon>
+      <ausfallbis ds100="XSKR" >Kreuzlingen</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="5191" zugbez="IRE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="XSKR" >Kreuzlingen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RK" >Karlsruhe Hbf</ausfallvon>
+      <ausfallbis ds100="XSKR" >Kreuzlingen</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="5192" zugbez="RE-D" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XSKR" >Kreuzlingen</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="XSKR" >Kreuzlingen</ausfallvon>
+      <ausfallbis ds100="RK" >Karlsruhe Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="5193" zugbez="IRE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="XSKR" >Kreuzlingen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RK" >Karlsruhe Hbf</ausfallvon>
+      <ausfallbis ds100="XSKR" >Kreuzlingen</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="K1260" zugnr="5195" zugbez="RE-D" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="XSKR" >Kreuzlingen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RK" >Karlsruhe Hbf</ausfallvon>
+      <ausfallbis ds100="XSKR" >Kreuzlingen</ausfallbis>
+     </abweichung>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

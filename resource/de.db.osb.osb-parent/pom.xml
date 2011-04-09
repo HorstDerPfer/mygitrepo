@@ -1,0 +1,325 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>de.db.osb</groupId>
+	<artifactId>osb-parent</artifactId>
+	<packaging>pom</packaging>
+	<name>OSB - Aggregator project</name>
+	<version>0.0.1-SNAPSHOT</version>
+	<description />
+
+	<!-- using the DBS super pom -->
+	<parent>
+		<groupId>de.dbsystems.kolt.maven.configuration</groupId>
+		<artifactId>dbs-superpom</artifactId>
+		<version>1.1.1-beta-2</version>
+	</parent>
+
+	<properties>
+		<compileSource>1.6</compileSource>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+
+	<modules>
+		<module>client</module>
+		<!--
+			<module>Delivery</module>
+		-->
+	</modules>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<configuration>
+						<encoding>utf8</encoding>
+						<source>${compileSource}</source>
+						<target>${compileSource}</target>
+						<showWarnings>true</showWarnings>
+						<verbose>true</verbose>
+					</configuration>
+				</plugin>
+
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<configuration>
+						<argLine>
+							-Duser.country=DE -Duser.language=de
+						</argLine>
+					</configuration>
+				</plugin>
+				<plugin>
+					<artifactId>maven-assembly-plugin</artifactId>
+					<version>2.2-beta-5</version>
+					<configuration>
+						<descriptors>
+							<descriptor>
+								src/main/assembly/install-package.xml
+							</descriptor>
+						</descriptors>
+						<finalName>
+							${project.build.finalName}
+						</finalName>
+						<!-- We do not want to use a classifier for the tar.gz, but re-sults of assembly plugin can't be attached as main artifact with pom packaging. -->
+						<!-- At this time there is no tar.gz packaing type: http://jira.codehaus.org/browse/MNG-1683 -->
+						<!-- Solution: Do not attach file. Therefore attach install and deploy plugin excplicitly to the install and deploy phase to upload tar.gz. -->
+						<appendAssemblyId>false</appendAssemblyId>
+						<!--  TODO: Why not setting to true? Example from pi says false. Don't understand (Cschwerdt)-->
+						<attach>true</attach>
+					</configuration>
+					<executions>
+						<execution>
+							<phase>package</phase>
+							<goals>
+								<goal>single</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin>
+				<plugin>
+					<artifactId>maven-ear-plugin</artifactId>
+					<version>2.4.1</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+
+	<dependencyManagement>
+		<dependencies>
+			<!-- project parts -->
+			<dependency>
+				<groupId>de.db.osb</groupId>
+				<artifactId>osb-client</artifactId>
+				<version>${project.version}</version>
+				<type>war</type>
+			</dependency>
+
+			<!-- test project parts -->
+
+			<!-- Persistence -->
+<!-- conflicted
+			<dependency>
+				<groupId>org.hibernate</groupId>
+				<artifactId>hibernate</artifactId>
+				<version>3.2.4.sp1</version>
+			</dependency>
+-->
+			<!-- contains validator classes of hibernate-validator -->
+			<dependency>
+				<groupId>org.hibernate</groupId>
+				<artifactId>hibernate-annotations</artifactId>
+				<version>3.4.0.GA</version>
+			</dependency>
+			<dependency>
+				<groupId>org.hibernate</groupId>
+				<artifactId>hibernate-entitymanager</artifactId>
+				<version>3.2.1.ga</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.oracle</groupId>
+				<artifactId>ojdbc6</artifactId>
+				<version>11.1.0.7.0</version>
+			</dependency>
+
+			<!-- DB Systems KOLT component-->
+			<dependency>
+				<groupId>de.dbsystems.kolt.talo</groupId>
+				<artifactId>talo-java</artifactId>
+				<version>3.2.3</version>
+			</dependency>
+			
+			<dependency>
+				<groupId>de.db.kolt.inset</groupId>
+				<artifactId>inset-jsf-internet</artifactId>
+				<version>2.1.1</version>
+			</dependency>
+			
+			<dependency>
+				<groupId>de.dbsystems.kolt</groupId>
+				<artifactId>exclaim</artifactId>
+				<version>1.2.3-1</version>
+			</dependency>
+
+
+			<!-- EXTERNAL Dependencies -->
+			<dependency>
+				<groupId>commons-lang</groupId>
+				<artifactId>commons-lang</artifactId>
+				<version>2.4</version>
+			</dependency>
+
+			<dependency>
+				<groupId>jexcelapi</groupId>
+				<artifactId>jxl</artifactId>
+				<version>2.6.12</version>
+			</dependency>
+
+			<dependency>
+				<groupId>javax.persistence</groupId>
+				<artifactId>persistence-api</artifactId>
+				<scope>provided</scope>
+				<version>1.0</version>
+			</dependency>
+
+
+			<!-- For Tests -->
+			<dependency>
+				<groupId>hsqldb</groupId>
+				<artifactId>hsqldb</artifactId>
+				<version>1.8.0.2</version>
+				<scope>test</scope>
+			</dependency>
+
+			<dependency>
+				<groupId>junit</groupId>
+				<artifactId>junit</artifactId>
+				<version>4.4</version>
+				<scope>test</scope>
+			</dependency>
+
+			<dependency>
+				<groupId>org.easymock</groupId>
+				<artifactId>easymock</artifactId>
+				<version>2.5.2</version>
+				<scope>test</scope>
+			</dependency>
+
+			<dependency>
+				<groupId>dbunit</groupId>
+				<artifactId>dbunit</artifactId>
+				<version>2.2</version>
+				<scope>test</scope>
+			</dependency>
+
+		</dependencies>
+	</dependencyManagement>
+
+	<repositories>
+ 		<repository>
+			<releases>
+				<updatePolicy>never</updatePolicy>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<id>OSB</id>
+			<name>OSB Repository</name>
+			<url>
+				svn:https://swd.noncd.rz.db.de/svn/fahrplanitp/osb/3rdParty
+			</url>
+		</repository>
+		<repository>
+			<releases>
+				<updatePolicy>never</updatePolicy>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+			<id>osb3rdparty</id>
+			<name>OSB 3trdParty Repository</name>
+			<!-- following artifacts are mirrored from 
+			svn:https://swd.noncd.rz.db.de/svn/fahrplanitp/osb/3rdParty/ 
+			see: http://fahrplan-201v.linux.rz.db.de:18080/job/Sync3rdPartyLibsOSB/
+			-->
+			<url>
+				http://fahrplan-201v-e2.linux.rz.db.de/3rdPartyOSB/
+			</url>
+		</repository>
+
+	</repositories>
+	<profiles>
+		<profile>
+			<id>nexus</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<!--profile specifying repositories served by maven++ proxy server-->
+			<repositories>
+				<repository>
+					<id>nexusdefault</id>
+					<name>
+						Cached Maven Repository Switchboard partially
+						mirrored in SWD
+					</name>
+					<url>
+						http://seujava.noncd.rz.db.de/nexus/content/groups/default
+					</url>
+					<snapshots>
+						<enabled>false</enabled>
+					</snapshots>
+					<releases>
+						<updatePolicy>never</updatePolicy>
+					</releases>
+				</repository>
+
+				<repository>
+					<id>nexusproxy</id>
+					<name>
+						All whitelisted artifacts (ibiblio, free, non
+						free)
+					</name>
+					<snapshots>
+						<enabled>false</enabled>
+					</snapshots>
+					<url>
+						http://seujava.noncd.rz.db.de/nexus/content/groups/public/
+					</url>
+					<releases>
+						<updatePolicy>never</updatePolicy>
+					</releases>
+				</repository>
+			</repositories>
+			<pluginRepositories>
+				<pluginRepository>
+					<id>nexusproxy</id>
+					<name>
+						Maven proxy repository for maven plugins (Proxy)
+					</name>
+					<url>
+						http://seujava.noncd.rz.db.de/nexus/content/groups/public/
+					</url>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+					<releases>
+						<updatePolicy>never</updatePolicy>
+					</releases>
+				</pluginRepository>
+				<pluginRepository>
+					<id>nexusdefault</id>
+					<name>
+						Cached Maven Repository Switchboard partially
+						mirrored in SWD
+					</name>
+					<url>
+						http://seujava.noncd.rz.db.de/nexus/content/groups/default
+					</url>
+					<snapshots>
+						<enabled>false</enabled>
+					</snapshots>
+					<releases>
+						<updatePolicy>never</updatePolicy>
+					</releases>
+				</pluginRepository>
+			</pluginRepositories>
+		</profile>
+	</profiles>
+	<distributionManagement>
+		<site>
+			<id>${system.name}-website</id>
+			<url>
+				file:///app/flip/int/apache-2.0.63-inst2/htdocs/site
+			</url>
+		</site>
+	</distributionManagement>
+
+</project>
+

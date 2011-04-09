@@ -1,0 +1,4 @@
+Using CATALINA_BASE:   D:\Projekte\osb\src\\servers\target
+Using CATALINA_HOME:   C:\Program Files\SEU\java\tomcat-6.0\bin\\..\tomcat-6.0.14
+Using CATALINA_TMPDIR: D:\Projekte\osb\src\\servers\target\temp
+Using JRE_HOME:        C:\Program Files\SEU\java\base-4.0\bin\\..\jdk1.6.0_04

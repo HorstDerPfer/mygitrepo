@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+
+	<bean id="filterChain" class="org.acegisecurity.util.FilterChainProxy">
+		<property name="filterInvocationDefinitionSource">
+			<value>
+				PATTERN_TYPE_APACHE_ANT
+				/**=httpSessionContextIntegrationFilter,logoutFilter,authenticationProcessingFilter,anonymousProcessingFilter,exceptionTranslationFilter,filterInvocationInterceptor
+			</value>
+		</property>
+	</bean>
+
+	<!--
+		httpSessionContextIntegrationFilter,logoutFilter,authenticationProcessingFilter,anonymousProcessingFilter,filterInvocationInterceptor
+	-->
+
+	<!--  filter .........................................-->
+
+	<bean id="anonymousProcessingFilter"
+		class="org.acegisecurity.providers.anonymous.AnonymousProcessingFilter">
+		<property name="key" value="anonymousKey"></property>
+		<property name="userAttribute" value="anonymousUser,ROLE_ANONYMOUS">
+		</property>
+	</bean>
+
+	<bean id="exceptionTranslationFilter" class="org.acegisecurity.ui.ExceptionTranslationFilter">
+		<property name="authenticationEntryPoint">
+			<bean
+				class="org.acegisecurity.ui.webapp.AuthenticationProcessingFilterEntryPoint">
+				<property name="loginFormUrl" value="/login.jsp" />
+				<property name="forceHttps" value="false" />
+			</bean>
+		</property>
+		<property name="accessDeniedHandler">
+			<bean class="org.acegisecurity.ui.AccessDeniedHandlerImpl">
+				<property name="errorPage" value="/pages/accessDenied.jsp" />
+			</bean>
+		</property>
+	</bean>
+
+	<bean id="authenticationProcessingFilter"
+		class="db.training.security.ExtendedAuthenticationProcessingFilter">
+		<property name="authenticationManager">
+			<ref bean="authenticationManager" />
+		</property>
+		<property name="authenticationFailureUrl">
+			<value>/login.jsp?loginfailure=true</value>
+		</property>
+		<property name="exceptionMappings">
+			<props>
+				<prop key="org.acegisecurity.CredentialsExpiredException">/login.jsp?credentialsExpired=true</prop>
+			</props>
+		</property>
+		<property name="defaultTargetUrl" value="/"></property>
+		<property name="filterProcessesUrl" value="/j_acegi_security_check">
+		</property>
+	</bean>
+
+
+	<bean id="filterInvocationInterceptor"
+		class="org.acegisecurity.intercept.web.FilterSecurityInterceptor">
+		<property name="authenticationManager" ref="authenticationManager">
+		</property>
+		<property name="accessDecisionManager" ref="accessDecisionManager">
+		</property>
+		<property name="objectDefinitionSource">
+			<value>
+				CONVERT_URL_TO_LOWERCASE_BEFORE_COMPARISON
+				PATTERN_TYPE_APACHE_ANT
+				/pass*.*=ROLE_ANONYMOUS
+				/**/*.do=ROLE_NON_ANONYMOUS
+				/pages/**/*.jsp=ROLE_NON_EXISTENT_ROLE
+			</value>
+		</property>
+	</bean>
+
+	<bean id="httpSessionContextIntegrationFilter"
+		class="org.acegisecurity.context.HttpSessionContextIntegrationFilter">
+	</bean>
+
+	<bean id="logoutFilter" class="org.acegisecurity.ui.logout.LogoutFilter">
+		<constructor-arg value="/logout.jsp" />
+		<constructor-arg>
+			<list>
+				<bean class="org.acegisecurity.ui.logout.SecurityContextLogoutHandler" />
+			</list>
+		</constructor-arg>
+	</bean>
+
+	<!-- end of filter ..................................... -->
+
+	<!-- method based security -->
+	<bean id="methodSecurityInterceptor"
+		class="org.acegisecurity.intercept.method.aopalliance.MethodSecurityInterceptor">
+		<property name="validateConfigAttributes" value="false"></property>
+		<property name="authenticationManager" ref="authenticationManager">
+		</property>
+		<property name="accessDecisionManager" ref="accessDecisionManager">
+		</property>
+		<property name="objectDefinitionSource" ref="objectDefinitionSource">
+			<!--
+				<value>
+				de.dbtraining.workshop.service.ProductServiceImp.findAllGeheim=ROLE_DUDARFST
+				</value>
+			-->
+		</property>
+	</bean>
+
+	<bean id="objectDefinitionSource"
+		class="org.acegisecurity.intercept.method.MethodDefinitionAttributes">
+		<property name="attributes" ref="attributes"></property>
+	</bean>
+	<bean id="attributes"
+		class="org.acegisecurity.annotation.SecurityAnnotationAttributes">
+	</bean>
+
+	<bean id="autoProxyCreator"
+		class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+		<property name="interceptorNames">
+			<list>
+				<value>methodSecurityInterceptor</value>
+			</list>
+		</property>
+		<property name="beanNames">
+			<list>
+				<value>productService</value>
+			</list>
+		</property>
+		<property name="proxyTargetClass" value="true" />
+	</bean>
+
+	<bean id="accessDecisionManager" class="org.acegisecurity.vote.AffirmativeBased">
+		<property name="allowIfAllAbstainDecisions" value="false">
+		</property>
+		<property name="decisionVoters">
+			<list>
+				<bean class="org.acegisecurity.vote.RoleVoter"></bean>
+				<bean class="org.acegisecurity.vote.AuthenticatedVoter">
+				</bean>
+			</list>
+		</property>
+	</bean>
+
+
+	<!--  authentication -->
+
+	<bean class="db.training.security.ApplicationSecurityListener">
+		<property name="securityService" ref="securityService" />
+	</bean>
+
+	<bean id="authenticationManager" class="org.acegisecurity.providers.ProviderManager">
+		<property name="providers">
+			<list>
+				<bean
+					class="org.acegisecurity.providers.anonymous.AnonymousAuthenticationProvider">
+					<property name="key" value="anonymousKey" />
+				</bean>
+				<ref local="daoAuthentification" />
+			</list>
+		</property>
+	</bean>
+
+	<bean id="daoAuthentification"
+		class="org.acegisecurity.providers.dao.DaoAuthenticationProvider">
+		<property name="userDetailsService">
+			<ref bean="securityService" />
+		</property>
+		<property name="passwordEncoder">
+			<ref bean="passwordEncoder" />
+		</property>
+		<property name="saltSource">
+			<ref bean="saltSource" />
+		</property>
+	</bean>
+
+	<bean id="passwordValidator" class="db.training.security.password.PasswordValidatorImpl">
+		<property name="rules">
+			<list>
+				<bean class="db.training.security.password.rules.NotEmptyRule" />
+				<bean class="db.training.security.password.rules.LengthRule" />
+				<bean
+					class="db.training.security.password.rules.RequireSpecialCharacterNumberRule" />
+				<bean class="db.training.security.password.rules.RequireUpperLowerRule" />
+				<bean class="db.training.security.password.rules.TrivialPasswordRule" />
+				<bean class="db.training.security.password.rules.UsernameNotAllowedRule" />
+			</list>
+		</property>
+
+	</bean>
+
+	<bean id="txTemplate" class="db.training.hibernate.TxTemplateImpl">
+	</bean>
+
+	<bean id="securityService" class="db.training.security.hibernate.SecurityServiceImpl">
+		<property name="txTemplate" ref="txTemplate" />
+	</bean>
+
+	<bean id="securityAdministrationService"
+		class="db.training.security.hibernate.SecurityAdministrationServiceImpl">
+		<property name="passwordEncoder">
+			<ref bean="passwordEncoder" />
+		</property>
+		<property name="saltSource">
+			<ref bean="saltSource" />
+		</property>
+		<property name="txTemplate" ref="txTemplate" />
+	</bean>
+
+	<bean id="passwordEncoder" class="org.acegisecurity.providers.encoding.ShaPasswordEncoder" />
+
+	<bean id="saltSource"
+		class="org.acegisecurity.providers.dao.salt.ReflectionSaltSource">
+		<property name="userPropertyToUse" value="getUsername" />
+	</bean>
+</beans>

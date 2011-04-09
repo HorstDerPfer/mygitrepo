@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+<session-factory>
+	<!-- <property name="hibernate.dialect">org.hibernate.dialect.OracleDialect</property> -->
+	<property name="hibernate.dialect">db.training.hibernate.BaudbMySQL5InnoDBDialect</property>
+	<!-- <property name="cache.provider_class">org.hibernate.cache.EhCacheProvider</property> -->
+	<property name="hibernate.connection.release_mode">auto</property>
+	<property name="hibernate.current_session_context_class">thread</property>
+	<property name="hibernate.jdbc.batch_size">0</property>
+	<property name="hibernate.cache.use_query_cache">false</property>
+	<property name="hibernate.cache.use_second_level_cache">false</property>
+	<property name="hibernate.show_sql">false</property>
+
+	<!-- configuration pool via c3p0 
+	<property name="c3p0.acquire_increment">1</property>
+	<property name="c3p0.idle_test_period">100</property>
+	<property name="c3p0.max_size">50</property>
+	<property name="c3p0.max_statements">0</property>
+	<property name="c3p0.min_size">4</property>
+	<property name="c3p0.timeout">100</property>	-->
+
+	<!-- localhost
+	<property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+	<property name="hibernate.connection.url">jdbc:oracle:thin:@//mellenbach.linux.rz.db.de:1960/ZFISP.prd.oracle.db.de</property>
+    <property name="hibernate.connection.username">zfis100</property>
+    <property name="hibernate.connection.password">BOB2009isaAS</property>
+	<property name="hibernate.default_schema">ZFIS</property> -->
+	
+	<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+	<property name="hibernate.connection.url">
+		jdbc:mysql://localhost:3306/isa?characterEncoding=UTF-8
+	</property>
+	<property name="hibernate.connection.username">tqmwebuser</property>
+	<property name="hibernate.connection.password">tqmwebuser</property>
+	
+
+	<!-- Mappings -->
+	<mapping class="db.training.bob.model.fplo.ISA_Fahrplan" />
+	<mapping class="db.training.bob.model.fplo.ISA_Zug" />
+	<mapping class="db.training.bob.model.fplo.ISA_Fplo" />
+	<mapping class="db.training.bob.model.fplo.ISA_Bestellung" />
+
+	
+</session-factory>
+</hibernate-configuration>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-10-17T10:24:53</timestamp>
+  <filename>081108-081109--B-_____-________-6-RMF___-RHBP__-DBREGIO_-ZVF__-01.rtf</filename>
+  <version_prg_zvf>v2.2.2</version_prg_zvf>
+  <sender>
+   <name>Meyer-Steinmetz</name>
+   <vorname>Ricarda</vorname>
+   <kuerzel> St</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Ricarda.Meyer-Steinmetz@bahn.de</email>
+   <telefon>0721/938 7337</telefon>
+   <telefon_intern>972-7337</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>DB Regio</empfaenger>
+   <empfaenger>Betriebsplanung - BZ</empfaenger>
+   <empfaenger>Zitsch</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>B</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <korridor> </korridor>
+   <kigbau></kigbau>
+   <kennung>FF183951421B</kennung>
+   <bbp></bbp>
+   <master_fplo>31436</master_fplo>
+   <festgelegtSPFV>0</festgelegtSPFV>
+   <festgelegtSPNV>0</festgelegtSPNV>
+   <festgelegtSGV>0</festgelegtSGV>
+   <antwort>2008-11-07</antwort>
+   <endStueckZvf>0</endStueckZvf>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF)</titel>
+    <formular>ZVF-091008</formular>
+    <major>1</major>
+    <minor>2</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>RHBP</startbst>
+     <endbst>RMF</endbst>
+     <massnahme>M-Friedrichsfeld - RHBP</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Dua von Gleisen zus. RMF-Nord-RLD</grund>
+     <baubeginn>2008-11-08T23:00:00</baubeginn>
+     <bauende>2008-11-09T05:00:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" >west</niederlassung>
+    <niederlassung beteiligt="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" >mitte</niederlassung>
+    <niederlassung beteiligt="1" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="" verkehrstag="2008-11-08" betreiber="F1253" zugnr="15478" zugbez="RB-D" >
+     <firstbst>RMF</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RH" >Heidelberg Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FF" >Frankfurt(M) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>9</verspaetung>
+     </abweichung>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

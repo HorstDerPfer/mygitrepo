@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-10-30T09:40:13</timestamp>
+  <filename>090214-090216--A-_____-________-6-SEF___-SKL___-RAILION_-ZVF__-02.rtf</filename>
+  <version_prg_zvf>v2.2.4</version_prg_zvf>
+  <sender>
+   <name>Trumpf</name>
+   <vorname>Susanna</vorname>
+   <kuerzel> Tr</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Susanna.Trumpf@bahn.de</email>
+   <telefon>0721/938 7336</telefon>
+   <telefon_intern>972-7336</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>Railion</empfaenger>
+   <empfaenger>Betriebsplanung - BZ</empfaenger>
+   <empfaenger>Zitsch</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>A</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <korridor> </korridor>
+   <kigbau></kigbau>
+   <kennung>54002</kennung>
+   <bbp>56001</bbp>
+   <master_fplo>SW-54002</master_fplo>
+   <festgelegtSPFV>0</festgelegtSPFV>
+   <festgelegtSPNV>0</festgelegtSPNV>
+   <festgelegtSGV>0</festgelegtSGV>
+   <antwort>2008-11-20</antwort>
+   <endStueckZvf>0</endStueckZvf>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF)</titel>
+    <formular>ZVF-091008</formular>
+    <major>1</major>
+    <minor>2</minor>
+    <sub>02</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>SEF</startbst>
+     <endbst>SKL</endbst>
+     <vzg>3280</vzg>
+     <massnahme>Einsiedlerhof - Kaisersl Hbf</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Gleiserneuerung Gl 4 SKL</grund>
+     <baubeginn>2009-02-14T23:00:00</baubeginn>
+     <bauende>2009-02-16T05:00:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+    <strecke>
+     <startbst>SKL</startbst>
+     <endbst>SHY</endbst>
+     <vzg>9100</vzg>
+     <massnahme>Hochspeyer - Kaisersl Hbf</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Gleiserneuerung Gl 4 SKL</grund>
+     <baubeginn>2009-02-11T00:30:00</baubeginn>
+     <bauende>2009-02-11T04:30:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+    <strecke>
+     <startbst>SEF</startbst>
+     <endbst>SKL</endbst>
+     <vzg>9100</vzg>
+     <massnahme>Einsiedlerhof - Kaisersl Hbf</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Gleiserneuerung Gl 4 SKL</grund>
+     <baubeginn>2009-02-12T00:30:00</baubeginn>
+     <bauende>2009-02-12T05:15:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+    <strecke>
+     <startbst>SKL</startbst>
+     <endbst>SHY</endbst>
+     <vzg>9100</vzg>
+     <massnahme>Kaisersl Hbf - Hochspeyer</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Gleiserneuerung Gl 4 SKL</grund>
+     <baubeginn>2009-02-13T00:30:00</baubeginn>
+     <bauende>2009-02-13T05:15:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" fplo="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >west</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >mitte</niederlassung>
+    <niederlassung beteiligt="1" fplo="0" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="0" verkehrstag="2009-02-12" betreiber="Z1453" zugnr="41217" zugbez="TEC" >
+     <firstbst>SHY</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XEPB" >Port-Bou</abgangsbahnhof>
+      <zielbahnhof ds100="RLB U" >Ludwigs BASF Ubf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>23</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-15" betreiber="Z1461" zugnr="44205" zugbez="FE" >
+     <firstbst>SKL</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XFPE" >Perpignan</abgangsbahnhof>
+      <zielbahnhof ds100="RMR M" >Mannh Rbf Gr M</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>20</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-15" betreiber="Z1461" zugnr="45241" zugbez="FE" >
+     <firstbst>SKL</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XFWY" >Woippy</abgangsbahnhof>
+      <zielbahnhof ds100="RMR M" >Mannh Rbf Gr M</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>64</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-14" betreiber="Z1455" zugnr="49225" zugbez="CS" >
+     <firstbst>SHY</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XFEB" >Ebange</abgangsbahnhof>
+      <zielbahnhof ds100="TBO" >Böblingen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>26</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-11" betreiber="Z1451" zugnr="49272" zugbez="CSQ" >
+     <firstbst>SEF</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMB O" >Mz-Bischofshm O</abgangsbahnhof>
+      <zielbahnhof ds100="XEGI" >Grisen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>19</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-12" betreiber="Z1451" zugnr="49272" zugbez="CSQ" >
+     <firstbst>SEF</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMB O" >Mz-Bischofshm O</abgangsbahnhof>
+      <zielbahnhof ds100="XEGI" >Grisen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>29</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-13" betreiber="Z1451" zugnr="49272" zugbez="CSQ" >
+     <firstbst>SKL</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMB O" >Mz-Bischofshm O</abgangsbahnhof>
+      <zielbahnhof ds100="XEGI" >Grisen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>29</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-11" betreiber="Z1461" zugnr="52800" zugbez="FR" >
+     <firstbst>SEF</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMR G" >Mannh Rbf Gr G</abgangsbahnhof>
+      <zielbahnhof ds100="SSR N" >Saarbr Rbf Nord</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>17</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-12" betreiber="Z1461" zugnr="52811" zugbez="FR" >
+     <firstbst>SHY</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSR O" >Saarbr Rbf Ost</abgangsbahnhof>
+      <zielbahnhof ds100="RMR K" >Mannh Rbf Gr K</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>23</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-13" betreiber="Z1461" zugnr="52811" zugbez="FR" >
+     <firstbst>SHY</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSR O" >Saarbr Rbf Ost</abgangsbahnhof>
+      <zielbahnhof ds100="RMR K" >Mannh Rbf Gr K</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>22</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-11" betreiber="Z1461" zugnr="52822" zugbez="FR" >
+     <firstbst>SEF</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMR N" >Mannh Rbf Gr N</abgangsbahnhof>
+      <zielbahnhof ds100="SEF" >Einsiedlerhof</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>17</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-12" betreiber="Z1461" zugnr="52822" zugbez="FR" >
+     <firstbst>SEF</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMR N" >Mannh Rbf Gr N</abgangsbahnhof>
+      <zielbahnhof ds100="SEF" >Einsiedlerhof</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>22</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-13" betreiber="Z1461" zugnr="52822" zugbez="FR" >
+     <firstbst>SKL</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMR N" >Mannh Rbf Gr N</abgangsbahnhof>
+      <zielbahnhof ds100="SEF" >Einsiedlerhof</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>24</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-15" betreiber="Z1461" zugnr="45236" zugbez="FE" >
+     <firstbst>SEF</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMR N" >Mannh Rbf Gr N</abgangsbahnhof>
+      <zielbahnhof ds100="XFWY" >Woippy</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="vorplan" >
+      <vorplanab ds100="RMR N" >Mannh Rbf Gr N</vorplanab>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-15" betreiber="Z1461" zugnr="52812" zugbez="FR" >
+     <firstbst>SEF</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMR G" >Mannh Rbf Gr G</abgangsbahnhof>
+      <zielbahnhof ds100="SSR N" >Saarbr Rbf Nord</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="vorplan" >
+      <vorplanab ds100="RMR G" >Mannh Rbf Gr G</vorplanab>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

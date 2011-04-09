@@ -1,0 +1,1581 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd">
+<struts-config>
+
+	<!-- ============================== Form Bean Definitions -->
+	<form-beans>
+		<form-bean name="loginForm" type="db.training.easy.web.login.LoginForm" />
+		<form-bean name="userForm" type="db.training.easy.web.admin.user.UserForm" />
+		<form-bean name="passResetForm" type="db.training.easy.web.PassResetForm" />
+		<form-bean name="userProfileForm" type="db.training.easy.web.user.UserProfileForm" />
+		<form-bean name="ajaxForm" type="db.training.easy.web.ajax.AjaxForm" />
+		<form-bean name="locationForm"
+			type="db.training.easyeditP.web.admin.location.LocationForm" />
+		<form-bean name="baumassnahmeForm"
+			type="db.training.bob.web.baumassnahme.BaumassnahmeForm" />
+		<form-bean name="baumassnahmeSearchForm"
+			type="db.training.bob.web.baumassnahme.BaumassnahmeSearchForm" />
+		<form-bean name="regelungForm"
+			type="db.training.bob.web.baumassnahme.RegelungForm" />
+		<form-bean name="StatisticsFilterForm"
+			type="db.training.bob.web.statistics.StatisticsFilterForm" />
+		<form-bean name="ControllingFilterForm"
+			type="db.training.bob.web.controlling.ControllingFilterForm" />
+		<form-bean name="bbpForm"
+			type="db.training.bob.web.baumassnahme.BBPMassnahmeForm" />
+		<form-bean name="xmlImportForm"
+			type="db.training.bob.web.baumassnahme.XmlImportForm" />
+		<form-bean name="xmlSelectRegelungForm"
+			type="db.training.bob.web.baumassnahme.XmlSelectRegelungForm" />
+		<form-bean name="editableEvuListItemForm"
+			type="db.training.web.administration.EditableEvuListItemForm" />
+		<form-bean name="editableMeilensteinListItemForm"
+			type="db.training.web.administration.EditableMeilensteinListItemForm" />
+		<form-bean name="editableGrundListItemForm"
+			type="db.training.web.administration.EditableGrundListItemForm" />
+		<form-bean name="editableNachbarbahnListItemForm"
+			type="db.training.web.administration.EditableNachbarbahnListItemForm" />
+		<form-bean name="editableFplBearbeitungsbereichListItemForm"
+			type="db.training.web.administration.EditableFplBearbeitungsbereichListItemForm" />
+		<form-bean name="knotenzeitenForm"
+			type="db.training.bob.web.baumassnahme.KnotenzeitenForm" />
+		<form-bean name="baubetriebsplanForm"
+			type="db.training.osb.web.babett.BaubetriebsplanForm" />
+		<form-bean name="korridorForm" type="db.training.osb.web.korridor.KorridorForm" />
+		<form-bean name="buendelForm" type="db.training.osb.web.buendel.BuendelForm" />
+		<form-bean name="paketForm" type="db.training.osb.web.paket.PaketForm" />
+		<form-bean name="fahrplanregelungForm"
+			type="db.training.osb.web.fahrplanregelung.FahrplanregelungForm" />
+		<form-bean name="streckenbandEditForm"
+			type="db.training.osb.web.streckenband.StreckenbandForm" />
+		<form-bean name="umleitungForm"
+			type="db.training.osb.web.umleitung.UmleitungForm" />
+		<form-bean name="masterBuendelForm"
+			type="db.training.osb.web.masterbuendel.MasterBuendelForm" />
+		<form-bean name="umleitungenToFahrplanregelungForm"
+			type="db.training.osb.web.fahrplanregelung.UmleitungenToFahrplanregelungForm" />
+		<form-bean name="fahrplanregelungGleissperrungFilterForm"
+			type="db.training.osb.web.fahrplanregelung.FahrplanregelungGleissperrungFilterForm" />
+		<form-bean name="fahrplanregelungGleissperrungSaveForm"
+			type="db.training.osb.web.fahrplanregelung.FahrplanregelungGleissperrungFilterForm" />
+		<form-bean name="buendelSearchForm"
+			type="db.training.osb.web.buendel.BuendelSearchForm" />
+		<form-bean name="fahrplanregelungSearchForm"
+			type="db.training.osb.web.fahrplanregelung.FahrplanregelungSearchForm" />
+		<form-bean name="umleitungSearchForm"
+			type="db.training.osb.web.umleitung.UmleitungSearchForm" />
+		<form-bean name="sqlQueryForm" type="db.training.osb.web.sqlQuery.SqlQueryForm" />
+		<form-bean name="topProjektForm"
+			type="db.training.osb.web.topprojekt.TopProjektForm" />
+		<form-bean name="importDataForm" type="db.training.osb.web.imports.ImportDataForm" />
+		<form-bean name="downloadTemplateForm" type="db.training.osb.web.imports.ImportDataForm" />
+		<form-bean name="gleissperrungForm"
+			type="db.training.osb.web.gleissperrung.GleissperrungForm" />
+		<form-bean name="gleissperrungFilterForm"
+			type="db.training.osb.web.gleissperrung.GleissperrungFilterForm" />
+		<form-bean name="gleissperrungMassnahmeLinkForm"
+			type="db.training.osb.web.gleissperrung.GleissperrungMassnahmeLinkForm" />
+		<form-bean name="baustelleForm"
+			type="db.training.osb.web.baustelle.BaustelleForm" />
+		<form-bean name="topProjektFilterForm"
+			type="db.training.osb.web.topprojekt.TopProjektFilterForm" />
+		<form-bean name="massnahmeForm"
+			type="db.training.osb.web.massnahme.MassnahmeForm" />
+		<form-bean name="regelungGleissperrungForm"
+			type="db.training.osb.web.massnahme.MassnahmeRegelungForm" />
+		<form-bean name="regelungOberleitungForm"
+			type="db.training.osb.web.massnahme.MassnahmeRegelungForm" />
+		<form-bean name="regelungLangsamfahrstelleForm"
+			type="db.training.osb.web.massnahme.MassnahmeRegelungForm" />
+		<form-bean name="sperrpausenbedarfForm"
+			type="db.training.osb.web.sperrpausenbedarf.SperrpausenbedarfForm" />
+		<form-bean name="sperrpausenbedarfSmallForm"
+			type="db.training.osb.web.sperrpausenbedarf.SperrpausenbedarfForm" />
+		<form-bean name="sperrpausenbedarfFilterForm"
+			type="db.training.osb.web.sperrpausenbedarf.SperrpausenbedarfFilterForm" />
+	</form-beans>
+
+	<!-- =============== Global Exception Definitions -->
+	<global-exceptions>
+		<!--
+			<exception key="errors.exception" type="java.lang.Exception"
+			handler="db.training.easy.web.EasyExceptionHandler"
+			path="/pages/exception.jsp"/>
+		-->
+	</global-exceptions>
+
+	<!-- =============== Global Forward Definitions -->
+	<global-forwards>
+		<forward name="ACCESS_DENIED" path="/accessDenied.do" />
+	</global-forwards>
+
+	<!-- =============== Action Mapping Definitions -->
+	<action-mappings>
+		<action path="/contact" type="db.training.easy.web.ContactAction">
+			<forward name="SUCCESS" path="/pages/contact.jsp" />
+		</action>
+		<action path="/accessDenied" type="db.training.easy.web.ContactAction">
+			<forward name="SUCCESS" path="/pages/accessDenied.jsp" />
+		</action>
+
+		<action path="/login" type="db.training.easy.web.login.LoginAction"
+			validate="false" input="/pages/login.jsp">
+			<forward name="SUCCESS" path="/suche.do?method=loadConfig"
+				redirect="true" />
+		</action>
+
+		<action path="/logout" type="db.training.easy.web.login.LogoutAction">
+			<forward name="SUCCESS" path="/pages/login.jsp" />
+		</action>
+
+		<!-- Benutzer ===================================================== -->
+		<action path="/admin/listUsers" type="db.training.easy.web.admin.user.UserListAction">
+			<forward name="SUCCESS" path="/pages/admin/user/listUsers.jsp" />
+		</action>
+
+		<action path="/admin/editUser" validate="false" name="userForm"
+			type="db.training.easy.web.admin.user.UserEditAction" input="/admin/editUser.do">
+			<forward name="FAILURE" path="/admin/listUsers.do" />
+			<forward name="SUCCESS" path="/pages/admin/user/editUser.jsp" />
+		</action>
+
+		<action path="/admin/viewUser" validate="false" name="userForm"
+			type="db.training.easy.web.admin.user.UserViewAction" input="/admin/viewUser.do">
+			<forward name="FAILURE" path="/admin/listUsers.do" />
+			<forward name="SUCCESS" path="/pages/admin/user/viewUser.jsp" />
+		</action>
+
+		<action path="/admin/saveUser" validate="true" name="userForm"
+			type="db.training.easy.web.admin.user.UserSaveAction" input="/admin/editUser.do">
+			<forward name="SUCCESS" path="/admin/editUser.do" />
+			<forward name="FAILURE" path="/admin/editUser.do" />
+		</action>
+
+		<action path="/admin/deleteUser" validate="false" name="userForm"
+			type="db.training.easy.web.admin.user.UserDeleteAction" input="/admin/editUser.do">
+			<forward name="SUCCESS" path="/admin/listUsers.do" />
+			<forward name="FAILURE" path="/admin/editUser.do" />
+		</action>
+
+		<action path="/admin/toggleRegionalPermissions"
+			type="db.training.easy.web.admin.user.ToggleRegionalPermissionsAction">
+			<forward name="SUCCESS" path="/admin/listUsers.do" />
+		</action>
+
+		<action path="/passReminder" name="passResetForm"
+			type="db.training.easy.web.DefaultAction">
+			<forward name="SUCCESS" path="/passReminder.jsp" />
+		</action>
+
+		<action path="/passReset" validate="true" name="passResetForm"
+			input="/passReminder.do" type="db.training.easy.web.PassResetAction">
+			<forward name="SUCCESS" path="/passReseted.jsp" />
+			<forward name="FAILURE" path="/passReminder.do" />
+		</action>
+
+		<!-- Mein Profil ================================================ -->
+		<action path="/editUserProfile" validate="false" name="userProfileForm"
+			type="db.training.easy.web.user.UserProfileEditAction">
+			<forward name="SUCCESS" path="/pages/user/editUserProfile.jsp" />
+			<forward name="FAILURE" path="/pages/user/editUserProfile.jsp" />
+		</action>
+
+		<action path="/saveUserProfile" validate="true" name="userProfileForm"
+			type="db.training.easy.web.user.UserProfileSaveAction" input="/editUserProfile.do">
+			<forward name="SUCCESS" path="/editUserProfile.do" />
+			<forward name="FAILURE" path="/editUserProfile.do" />
+		</action>
+
+		<!-- Location =================================================== -->
+		<action path="/admin/listLocations"
+			type="db.training.easy.web.admin.location.LocationListAction">
+			<forward name="SUCCESS" path="/pages/admin/location/listLocations.jsp" />
+		</action>
+
+		<action path="/admin/editLocation" validate="false" name="locationForm"
+			type="db.training.easy.web.admin.location.LocationEditAction">
+			<forward name="FAILURE" path="/admin/listLocations.do" />
+			<forward name="SUCCESS" path="/pages/admin/location/editLocation.jsp" />
+		</action>
+
+		<action path="/admin/saveLocation" validate="true" name="locationForm"
+			type="db.training.easy.web.admin.location.LocationSaveAction" input="/admin/editLocation.do">
+			<forward name="SUCCESS" path="/admin/listLocations.do" />
+			<forward name="FAILURE" path="/admin/editLocation.do" />
+		</action>
+
+		<action path="/admin/deleteLocation" validate="false" name="locationForm"
+			type="db.training.easy.web.admin.location.LocationDeleteAction"
+			input="/admin/editLocation.do">
+			<forward name="SUCCESS" path="/admin/listLocations.do" />
+			<forward name="FAILURE" path="/admin/editLocation.do" />
+		</action>
+
+		<!--
+			AJAX-Handling ===================================================
+		-->
+		<action path="/ajaxRequest" validate="false" name="ajaxForm"
+			type="db.training.easy.web.ajax.AjaxAction">
+			<forward name="SUCCESS" path="/pages/ajax/ajaxRequest.jsp" />
+		</action>
+
+		<action path="/refreshLocationAuswahl" validate="false"
+			type="db.training.easy.web.ajax.RefreshLocationAuswahlAction">
+			<forward name="SUCCESS" path="/pages/ajax/listLocationAuswahl.jsp" />
+		</action>
+
+		<action path="/refreshJbb" input="/viewBaumassnahme.do" name="baumassnahmeForm"
+			validate="false" type="db.training.bob.web.baumassnahme.BaumassnahmeViewAction">
+			<forward name="SUCCESS_JBB" path="/pages/baumassnahme/view/viewJbb.jsp" />
+			<forward name="FAILURE" path="/pages/baumassnahme/view/viewBaumassnahme.jsp" />
+		</action>
+
+		<action path="/refreshStatusAktivitaeten" input="/viewBaumassnahme.do"
+			name="baumassnahmeForm" validate="false"
+			type="db.training.bob.web.baumassnahme.BaumassnahmeViewAction">
+			<forward name="SUCCESS_STATUS_AKT"
+				path="/pages/baumassnahme/view/viewStatusAktivitaeten.jsp" />
+			<forward name="FAILURE" path="/pages/baumassnahme/view/viewBaumassnahme.jsp" />
+		</action>
+
+		<action path="/refreshVerzichtQTrasse" input="/viewBaumassnahme.do"
+			name="baumassnahmeForm" validate="false"
+			type="db.training.bob.web.baumassnahme.BaumassnahmeViewAction">
+			<forward name="SUCCESS_VERZICHT_QT"
+				path="/pages/baumassnahme/view/viewVerzichtQTrasse.jsp" />
+			<forward name="FAILURE" path="/pages/baumassnahme/view/viewBaumassnahme.jsp" />
+		</action>
+
+		<action path="/refreshBearbeiter" input="/viewBaumassnahme.do"
+			name="baumassnahmeForm" validate="false"
+			type="db.training.bob.web.ajax.BearbeiterViewAction">
+			<forward name="SUCCESS" path="/pages/baumassnahme/view/viewBearbeiter.jsp" />
+		</action>
+
+		<action path="/addBearbeiter" input="/editBaumassnahme.do"
+			name="baumassnahmeForm" validate="false"
+			type="db.training.bob.web.ajax.BearbeiterAddAction">
+			<forward name="SUCCESS" path="/pages/baumassnahme/edit/editBearbeiter.jsp" />
+		</action>
+
+		<action path="/refreshBenchmark" input="/viewBaumassnahme.do"
+			name="baumassnahmeForm" validate="false"
+			type="db.training.bob.web.ajax.BenchmarkViewAction">
+			<forward name="SUCCESS" path="/pages/baumassnahme/view/viewBenchmark.jsp" />
+		</action>
+
+		<action path="/refreshZvf" input="/viewBaumassnahme.do" name="baumassnahmeForm"
+			validate="false" type="db.training.bob.web.ajax.ZvfViewAction">
+			<forward name="SUCCESS" path="/pages/baumassnahme/view/zvf/viewZvf.jsp" />
+			<forward name="FAILURE" path="/pages/baumassnahme/view/zvf/viewZvf.jsp" />
+		</action>
+
+		<action path="/refreshZvfZuege" input="/refreshZvf.do" name="baumassnahmeForm"
+			validate="false" type="db.training.bob.web.ajax.ZvfZugViewAction">
+			<forward name="SUCCESS" path="/pages/baumassnahme/view/zvf/viewZvfZuege.jsp" />
+			<forward name="FAILURE" path="/pages/baumassnahme/view/zvf/viewZvfZuege.jsp" />
+		</action>
+
+		<action path="/refreshUebergabeblatt" input="/viewBaumassnahme.do"
+			name="baumassnahmeForm" validate="false"
+			type="db.training.bob.web.ajax.UebergabeblattViewAction">
+			<forward name="SUCCESS"
+				path="/pages/baumassnahme/view/uebergabeblatt/viewUebergabeblatt.jsp" />
+			<forward name="FAILURE"
+				path="/pages/baumassnahme/view/uebergabeblatt/viewUebergabeblatt.jsp" />
+		</action>
+
+		<action path="/refreshUebergabeblattZuege" input="/refreshUebergabeblatt.do"
+			name="baumassnahmeForm" validate="false"
+			type="db.training.bob.web.ajax.UebergabeblattZugViewAction">
+			<forward name="SUCCESS"
+				path="/pages/baumassnahme/view/uebergabeblatt/viewUebergabeblattZuege.jsp" />
+			<forward name="FAILURE"
+				path="/pages/baumassnahme/view/uebergabeblatt/viewUebergabeblattZuege.jsp" />
+		</action>
+
+		<action path="/refreshMeilensteinSelect" name="editableMeilensteinListItemForm"
+			validate="false" type="db.training.bob.web.ajax.MeilensteinSelectAction"
+			input="/admin/listMeilensteine.do?method=list">
+			<forward name="SUCCESS"
+				path="/pages/admin/editableMeilensteinListInsert.jsp" />
+		</action>
+
+		<action path="/refreshBBP" type="db.training.bob.web.ajax.RefreshBBPAction">
+			<forward name="SUCCESS" path="/pages/baumassnahme/edit/editBBPList.jsp" />
+		</action>
+
+		<action path="/refreshAenderung" type="db.training.bob.web.ajax.RefreshAenderungAction">
+			<forward name="SUCCESS"
+				path="/pages/baumassnahme/edit/editAenderungsdokumentation.jsp" />
+		</action>
+
+		<action path="/refreshGEVU" input="/editBaumassnahme.do"
+			validate="false" name="baumassnahmeForm" type="db.training.bob.web.ajax.RefreshGEVUAction">
+			<forward name="SUCCESS"
+				path="/pages/baumassnahme/edit/editSchnittstelleGueterverkehrsEVU.jsp" />
+			<forward name="FAILURE"
+				path="/pages/baumassnahme/edit/editSchnittstelleGueterverkehrsEVU.jsp" />
+		</action>
+
+		<action path="/refreshPEVU" input="/editBaumassnahme.do"
+			validate="false" name="baumassnahmeForm" type="db.training.bob.web.ajax.RefreshPEVUAction">
+			<forward name="SUCCESS"
+				path="/pages/baumassnahme/edit/editSchnittstellePersonenverkehrsEVU.jsp" />
+			<forward name="FAILURE"
+				path="/pages/baumassnahme/edit/editSchnittstellePersonenverkehrsEVU.jsp" />
+		</action>
+
+		<action path="/refreshBearbeitungsbereich" input="/editBaumassnahme.do"
+			validate="false" name="baumassnahmeForm"
+			type="db.training.bob.web.ajax.RefreshBearbeitungsbereichAction">
+			<forward name="SUCCESS_BAUMASSNAHME"
+				path="/pages/baumassnahme/edit/editBearbeitungsbereich.jsp" />
+			<forward name="SUCCESS_BAUMASSNAHME_SEARCH"
+				path="/pages/baumassnahme/edit/editBearbeitungsbereichSearch.jsp" />
+			<forward name="SUCCESS_STATISTICS"
+				path="/pages/statistics/refreshBearbeitungsbereich.jsp" />
+		</action>
+
+		<action path="/refreshBearbeitungsbereichSearch" input="/editBaumassnahme.do"
+			validate="false" name="baumassnahmeSearchForm"
+			type="db.training.bob.web.ajax.RefreshBearbeitungsbereichAction">
+			<forward name="SUCCESS_BAUMASSNAHME"
+				path="/pages/baumassnahme/edit/editBearbeitungsbereich.jsp" />
+			<forward name="SUCCESS_BAUMASSNAHME_SEARCH"
+				path="/pages/baumassnahme/edit/editBearbeitungsbereichSearch.jsp" />
+			<forward name="SUCCESS_STATISTICS"
+				path="/pages/statistics/refreshBearbeitungsbereich.jsp" />
+		</action>
+
+		<action path="/admin/refreshBearbeitungsbereichUser" validate="false"
+			name="userForm" type="db.training.bob.web.ajax.RefreshBearbeitungsbereichAction">
+			<forward name="SUCCESS"
+				path="/pages/admin/user/editBearbeitungsbereichUser.jsp" />
+			<forward name="FAILURE"
+				path="/pages/admin/user/editBearbeitungsbereichUser.jsp" />
+		</action>
+
+		<action path="/refreshMailEmpfaenger" input="/editBaumassnahme.do"
+			validate="false" name="baumassnahmeForm"
+			type="db.training.bob.web.ajax.RefreshUebMailEmpfaengerAction">
+			<forward name="SUCCESS"
+				path="/pages/baumassnahme/edit/uebergabeblatt/editMailEmpfaenger.jsp" />
+			<forward name="FAILURE"
+				path="/pages/baumassnahme/edit/uebergabeblatt/editMailEmpfaenger.jsp" />
+		</action>
+
+		<action path="/refreshMailEmpfaengerValue" input="/editBaumassnahme.do"
+			validate="false" name="baumassnahmeForm"
+			type="db.training.bob.web.ajax.RefreshUebMailEmpfaengerValueAction">
+			<forward name="SUCCESS"
+				path="/pages/baumassnahme/edit/uebergabeblatt/editMailEmpfaenger.jsp" />
+			<forward name="FAILURE"
+				path="/pages/baumassnahme/edit/uebergabeblatt/editMailEmpfaenger.jsp" />
+		</action>
+
+		<action path="/refreshZug" type="db.training.bob.web.ajax.RefreshZugAction">
+			<forward name="SUCCESS"
+				path="/pages/baumassnahme/edit/uebergabeblatt/editZuege.jsp" />
+		</action>
+
+		<action path="/refreshZugBBZR" type="db.training.bob.web.ajax.RefreshZugZvfAction">
+			<forward name="SUCCESS" path="/pages/baumassnahme/edit/zvf/editZvf.jsp" />
+		</action>
+
+		<action path="/refreshEmpfaenger" type="db.training.bob.web.ajax.RefreshEmpfaengerAction">
+			<forward name="SUCCESS"
+				path="/pages/baumassnahme/edit/uebergabeblatt/editEmpfaenger.jsp" />
+		</action>
+
+		<action path="/refreshEmpfaengerZvf" type="db.training.bob.web.ajax.RefreshEmpfaengerAction">
+			<forward name="SUCCESS"
+				path="/pages/baumassnahme/edit/bbzr/editEmpfaenger.jsp" />
+		</action>
+
+		<action path="/refreshStrecke" type="db.training.bob.web.ajax.RefreshStreckeAction"
+			name="baumassnahmeForm" validate="false">
+			<forward name="FAILURE" path="/editBaumassnahme.do" />
+			<forward name="SUCCESS_UEB" path="/editBaumassnahme.do?tab=Uebergabeblatt" />
+			<forward name="SUCCESS_ZVF" path="/editBaumassnahme.do?tab=Zvf" />
+		</action>
+
+		<action path="/refreshKnotenzeiten"
+			type="db.training.bob.web.ajax.RefreshKnotenzeitenAction" name="knotenzeitenForm"
+			input="/knotenzeitenBearbeiten.do" validate="false">
+			<forward name="SUCCESS"
+				path="/pages/baumassnahme/edit/uebergabeblatt/editKnotenzeitenTable.jsp" />
+		</action>
+
+		<action path="/osb/streckenband/refreshPopupDetails" validate="false"
+			type="db.training.osb.web.ajax.RefreshStreckenbandPopupDetailsAction">
+			<forward name="SUCCESS"
+				path="/pages/osb/streckenband/viewMassnahmeDetailsTip.jsp" />
+		</action>
+
+		<action path="/refreshFahrplanDetails" validate="false"
+			type="db.training.bob.web.ajax.RefreshFahrplanDetailsAction">
+			<forward name="SUCCESS"
+				path="/pages/baumassnahme/view/viewFahrplanDetails.jsp" />
+		</action>
+
+		<action path="/refreshBuendelVzgStrecken" validate="false"
+			type="db.training.osb.web.ajax.RefreshBuendelVzgStreckenAction">
+			<forward name="SUCCESS"
+				path="/pages/osb/buendel/edit/editBuendelVzgStreckenAll.jsp" />
+		</action>
+
+		<!--
+			Baumassnahme ====================================================
+		-->
+		<action path="/listBaumassnahmen" validate="false" parameter="method"
+			type="db.training.bob.web.baumassnahme.BaumassnahmeListAction">
+			<forward name="SUCCESS" path="/pages/baumassnahme/listBaumassnahmen.jsp" />
+			<forward name="FAILURE" path="/pages/baumassnahme/listBaumassnahmen.jsp" />
+		</action>
+
+		<action path="/suche" validate="false" name="baumassnahmeSearchForm"
+			parameter="method" scope="session"
+			type="db.training.bob.web.baumassnahme.BaumassnahmeListAction">
+			<forward name="SUCCESS" path="/pages/baumassnahme/suche.jsp">
+			</forward>
+			<forward name="OSB_START" path="/listSperrpausenbedarfe.do" />
+			<forward name="NO_AUTH" path="/contact.do" />
+		</action>
+
+		<action path="/viewBaumassnahme" validate="false" name="baumassnahmeForm"
+			parameter="id" scope="request"
+			type="db.training.bob.web.baumassnahme.BaumassnahmeViewAction" input="/suche.do?method=web">
+			<forward name="FAILURE" path="/suche.do?method=web" />
+			<forward name="SUCCESS" path="/pages/baumassnahme/view/viewBaumassnahme.jsp" />
+			<forward name="SUCCESS_JBB" path="/pages/baumassnahme/view/viewJbb.jsp" />
+			<forward name="SUCCESS_STATUS_AKT"
+				path="/pages/baumassnahme/view/viewStatusAktivitaeten.jsp" />
+			<forward name="SUCCESS_VERZICHT_QT"
+				path="/pages/baumassnahme/view/viewVerzichtQTrasse.jsp" />
+			<forward name="SUCCESS_ABSTIMMUNG_NB"
+				path="/pages/baumassnahme/view/viewAbstimmungNachbarbahn.jsp" />
+			<forward name="SUCCESS_KOMMENTAR" path="/pages/baumassnahme/view/viewKommentar.jsp" />
+			<forward name="SUCCESS_BENCHMARK" path="/pages/baumassnahme/view/viewBenchmark.jsp" />
+			<forward name="SUCCESS_AENDERUNG"
+				path="/pages/baumassnahme/view/viewAenderungsdokumentation.jsp" />
+			<forward name="SUCCESS_ESKAL_AUSFALL"
+				path="/pages/baumassnahme/view/viewEskalationAusfall.jsp" />
+			<forward name="SUCCESS_UEB"
+				path="/pages/baumassnahme/view/uebergabeblatt/viewUebergabeblatt.jsp" />
+			<forward name="SUCCESS_ZVF" path="/pages/baumassnahme/view/zvf/viewZvf.jsp" />
+			<forward name="SUCCESS_FAHRPLAN" path="/pages/baumassnahme/view/viewFahrplan.jsp" />
+			<forward name="SUCCESS_BEARBEITER" path="/pages/baumassnahme/view/viewBearbeiter.jsp" />
+		</action>
+
+		<action path="/viewBBPmassnahme" validate="false" name="bbpForm"
+			parameter="id" scope="request" type="db.training.bob.web.baumassnahme.BBPViewAction"
+			input="/viewBaumassnahme.do">
+			<forward name="FAILURE" path="/viewBaumassnahmen.do" />
+			<forward name="SUCCESS" path="/pages/baumassnahme/view/viewBBPmassnahme.jsp" />
+		</action>
+
+		<action path="/createEmptyBaumassnahme" validate="false" name="baumassnahmeForm"
+			type="db.training.bob.web.baumassnahme.BaumassnahmeCreateEmptyAction">
+			<forward name="FAILURE" path="/suche.do?method=web" />
+			<forward name="SUCCESS" path="/pages/baumassnahme/edit/createBaumassnahme.jsp" />
+		</action>
+		
+		<action path="/createBaumassnahme" validate="true" name="baumassnahmeForm"
+			type="db.training.bob.web.baumassnahme.BaumassnahmeSaveAction" input="/createEmptyBaumassnahme.do">
+			<forward name="FAILURE" path="/pages/baumassnahme/edit/createBaumassnahme.jsp" />
+			<forward name="SUCCESS" path="/editBaumassnahme.do" />
+		</action>
+
+		<action path="/editBaumassnahme" validate="false" name="baumassnahmeForm"
+			type="db.training.bob.web.baumassnahme.BaumassnahmeEditAction">
+			<forward name="FAILURE" path="/viewBaumassnahme.do" />
+			<forward name="SUCCESS" path="/pages/baumassnahme/edit/editBaumassnahme.jsp" />
+		</action>
+
+		<action path="/deleteBaumassnahme" validate="false" name="baumassnahmeForm"
+			type="db.training.bob.web.baumassnahme.BaumassnahmeDeleteAction">
+			<forward name="FAILURE" path="/viewBaumassnahmen.do" />
+			<forward name="SUCCESS" redirect="true" path="/suche.do?method=web" />
+		</action>
+
+		<action path="/saveBaumassnahme" validate="true" name="baumassnahmeForm"
+			type="db.training.bob.web.baumassnahme.BaumassnahmeSaveAction" input="/editBaumassnahme.do">
+			<forward name="SUCCESS" path="/editBaumassnahme.do" />
+			<forward name="FAILURE" path="/editBaumassnahme.do" />
+		</action>
+
+		<action path="/xmlImport1" validate="false" name="xmlImportForm"
+			type="db.training.bob.web.baumassnahme.XmlImportAction1">
+			<forward name="FAILURE_LIST" path="/suche.do?method=web" />
+			<forward name="SUCCESS"
+				path="/pages/baumassnahme/import/selectImportFile.jsp" />
+		</action>
+
+		<action path="/xmlImport2" validate="false" name="xmlImportForm"
+			type="db.training.bob.web.baumassnahme.XmlImportAction2">
+			<forward name="FAILURE_LIST" path="/suche.do?method=web" />
+			<forward name="FAILURE_IMPORT"
+				path="/pages/baumassnahme/import/selectImportFile.jsp" />
+			<forward name="SUCCESS"
+				path="/pages/baumassnahme/import/xmlSelectRegelung.jsp" />
+		</action>
+
+		<action path="/xmlSelectRegelung" validate="false" name="xmlImportForm"
+			type="db.training.bob.web.baumassnahme.XmlSelectRegelungAction">
+			<forward name="FAILURE" path="/editBaumassnahme.do" />
+			<forward name="FAILURE_IMPORT"
+				path="/xmlImport2.do" />
+			<forward name="FAILURE_LIST" path="/suche.do?method=web" />
+			<forward name="SUCCESS" path="/editBaumassnahme.do" />
+		</action>
+
+		<action path="/controlling" name="ControllingFilterForm"
+			type="db.training.bob.web.controlling.ControllingAction">
+			<forward name="FAILURE" path="/suche.do?method=web" />
+			<forward name="SUCCESS" path="/pages/controlling/controlling.jsp" />
+		</action>
+		
+		<action path="/editRegelung" validate="false" name="regelungForm"
+			type="db.training.bob.web.baumassnahme.RegelungEditAction">
+			<forward name="FAILURE" path="/editBaumassnahme.do" />
+			<forward name="SUCCESS" path="/pages/baumassnahme/edit/editRegelung.jsp" />
+		</action>
+		
+		<action path="/saveRegelung" validate="true" name="regelungForm"
+			type="db.training.bob.web.baumassnahme.RegelungSaveAction" input="/editRegelung.do">
+			<forward name="SUCCESS" path="/editRegelung.do" />
+			<forward name="FAILURE" path="/editRegelung.do" />
+		</action>
+
+		<!--  Übergabeblatt ================================================ -->
+		<action path="/zvfXmlSelectFile" validate="false" name="xmlImportForm"
+			scope="session" type="db.training.bob.web.baumassnahme.ZvfXmlSelectFileAction">
+			<forward name="FAILURE"
+				path="/pages/baumassnahme/import/selectZvfXmlFile.jsp" />
+			<forward name="SUCCESS"
+				path="/pages/baumassnahme/import/selectZvfXmlFile.jsp" />
+		</action>
+
+		<action path="/zvfXmlImportPrepare" validate="true" name="xmlImportForm"
+			scope="session" type="db.training.bob.web.baumassnahme.ZvfXmlImportPrepareAction"
+			input="/zvfXmlSelectFile.do">
+			<forward name="FAILURE" path="/zvfXmlSelectFile.do" />
+			<forward name="SUCCESS_UEB"
+				path="/pages/baumassnahme/import/zvf/uebSelectZuege.jsp" />
+			<forward name="SUCCESS_ZVF"
+				path="/pages/baumassnahme/import/zvf/zvfSelectZuege.jsp" />
+		</action>
+
+		<action path="/zvfXmlImport" validate="false" name="xmlImportForm"
+			scope="session" type="db.training.bob.web.baumassnahme.ImportZvfXmlAction"
+			input="/zvfXmlSelectFile.do">
+			<forward name="FAILURE"
+				path="/pages/baumassnahme/import/selectZvfXmlFile.jsp" />
+			<forward name="SUCCESS_UEB" path="/editBaumassnahme.do?tab=Uebergabeblatt" />
+			<forward name="SUCCESS_ZVF" path="/editBaumassnahme.do?tab=Zvf" />
+		</action>
+
+		<action path="/deleteUebergabeblatt" validate="false"
+			name="baumassnahmeForm" type="db.training.bob.web.baumassnahme.UebergabeblattDeleteAction">
+			<forward name="FAILURE" path="/editBaumassnahme.do" />
+			<forward name="SUCCESS" path="/editBaumassnahme.do?tab=Uebergabeblatt" />
+		</action>
+
+		<action path="/deleteZvf" validate="false" name="baumassnahmeForm"
+			type="db.training.bob.web.baumassnahme.ZvfDeleteAction">
+			<forward name="FAILURE" path="/editBaumassnahme.do" />
+			<forward name="SUCCESS" path="/editBaumassnahme.do?tab=Zvf" />
+		</action>
+
+		<action path="/deleteZug" validate="false" name="baumassnahmeForm"
+			type="db.training.bob.web.baumassnahme.AddDeleteZugAction">
+			<forward name="FAILURE" path="/editBaumassnahme.do" />
+			<forward name="SUCCESS_UEB"
+				path="/editBaumassnahme.do?tab=Uebergabeblatt&amp;showZuegeUeb=true" />
+			<forward name="SUCCESS_ZVF"
+				path="/editBaumassnahme.do?tab=Zvf&amp;showZuegeZvf=true" />
+		</action>
+
+		<action path="/addZug" validate="false" name="baumassnahmeForm"
+			type="db.training.bob.web.baumassnahme.AddDeleteZugAction">
+			<forward name="FAILURE" path="/editBaumassnahme.do" />
+			<forward name="SUCCESS_UEB"
+				path="/editBaumassnahme.do?tab=Uebergabeblatt&amp;showZuegeUeb=true" />
+			<forward name="SUCCESS_ZVF"
+				path="/editBaumassnahme.do?tab=Zvf&amp;showZuegeZvf=true" />
+		</action>
+
+		<action path="/uebergabeblattManuell" validate="false"
+			name="baumassnahmeForm" type="db.training.bob.web.baumassnahme.UebergabeblattManuellAction">
+			<forward name="FAILURE" path="/editBaumassnahme.do?tab=Uebergabeblatt" />
+			<forward name="SUCCESS" path="/editBaumassnahme.do?tab=Uebergabeblatt" />
+		</action>
+
+		<action path="/uebergabeblattExportXml" validate="false"
+			name="baumassnahmeForm" parameter="id" scope="request"
+			type="db.training.bob.web.baumassnahme.UebergabeblattExportXmlAction">
+			<forward name="FAILURE" path="/editBaumassnahme.do" />
+			<forward name="SUCCESS" path="/editBaumassnahme.do" />
+		</action>
+
+		<action path="/uebergabeblattFertigstellen" validate="false"
+			name="baumassnahmeForm" parameter="id" scope="request"
+			type="db.training.bob.web.baumassnahme.UebergabeblattFertigAction">
+			<forward name="FAILURE" path="/editBaumassnahme.do" />
+			<forward name="SUCCESS" path="/editBaumassnahme.do" />
+		</action>
+
+		<action path="/uebergabeblattExportExcel" validate="false"
+			name="baumassnahmeForm" parameter="id" scope="request"
+			type="db.training.bob.web.baumassnahme.UebergabeblattExportExcelAction">
+			<forward name="FAILURE" path="/editBaumassnahme.do" />
+			<forward name="SUCCESS" path="/editBaumassnahme.do" />
+		</action>
+
+		<action path="/uebergabeblattExportPdf" validate="false"
+			name="baumassnahmeForm" parameter="id" scope="request"
+			type="db.training.bob.web.baumassnahme.UebergabeblattExportPdfAction">
+			<forward name="FAILURE" path="/editBaumassnahme.do" />
+			<forward name="SUCCESS" path="/editBaumassnahme.do" />
+		</action>
+
+		<action path="/knotenzeitenBearbeiten" validate="false"
+			name="knotenzeitenForm" type="db.training.bob.web.baumassnahme.KnotenzeitenEditAction">
+			<forward name="FAILURE" path="/editBaumassnahme.do?showZuegeUeb=true" />
+			<forward name="SUCCESS"
+				path="/pages/baumassnahme/edit/uebergabeblatt/editKnotenzeiten.jsp" />
+		</action>
+
+		<action path="/saveKnotenzeiten" validate="true" name="knotenzeitenForm"
+			type="db.training.bob.web.baumassnahme.KnotenzeitenSaveAction" input="/knotenzeitenBearbeiten.do">
+			<forward name="SUCCESS" path="/knotenzeitenBearbeiten.do" />
+			<forward name="FAILURE" path="/knotenzeitenBearbeiten.do" />
+		</action>
+
+		<!-- Fplo ================================================ -->
+		<action path="/importISAZugDaten" validate="false"
+			type="db.training.bob.web.baumassnahme.ImportZugDatenFromISAAction">
+			<forward name="SUCCESS" path="/editBaumassnahme.do" />
+		</action>
+
+		<!-- Auswertungen =========================================== -->
+		<action path="/statistics/statMethodsPerLocation" name="StatisticsFilterForm"
+			type="db.training.bob.web.statistics.MethodsPerLocationReportAction">
+			<forward name="SUCCESS" path="/pages/statistics/statMethodsPerLocation.jsp" />
+			<forward name="FAILURE" path="/suche.do?method=web" />
+		</action>
+
+		<action path="/statistics/statAccuracy" name="StatisticsFilterForm"
+			type="db.training.bob.web.statistics.AccuracyReportAction">
+			<forward name="SUCCESS" path="/pages/statistics/statAccuracy.jsp" />
+			<forward name="FAILURE" path="/suche.do?method=web" />
+		</action>
+
+		<action path="/statistics/statDelays" name="StatisticsFilterForm"
+			type="db.training.bob.web.statistics.DelaysReportAction">
+			<forward name="SUCCESS" path="/pages/statistics/statDelays.jsp" />
+			<forward name="FAILURE" path="/suche.do?method=web" />
+		</action>
+
+		<action path="/statistics/statQualitaetstrasse" name="StatisticsFilterForm"
+			type="db.training.bob.web.statistics.QualitaetstrasseReportAction">
+			<forward name="SUCCESS" path="/pages/statistics/statQualitaetstrasse.jsp" />
+			<forward name="FAILURE" path="/suche.do?method=web" />
+		</action>
+
+		<action path="/statistics/statChanges" name="StatisticsFilterForm"
+			type="db.training.bob.web.statistics.ChangesReportAction">
+			<forward name="SUCCESS" path="/pages/statistics/statChanges.jsp" />
+			<forward name="FAILURE" path="/suche.do?method=web" />
+		</action>
+
+		<action path="/statistics/statChanges2" name="StatisticsFilterForm"
+			type="db.training.bob.web.statistics.ReasonsForChangesReportAction">
+			<forward name="SUCCESS" path="/pages/statistics/statReasonsForChanges.jsp" />
+			<forward name="FAILURE" path="/suche.do?method=web" />
+		</action>
+
+		<action path="/statistics/statPerformance" name="StatisticsFilterForm"
+			type="db.training.bob.web.statistics.PerformanceReportAction">
+			<forward name="SUCCESS" path="/pages/statistics/statPerformance.jsp" />
+			<forward name="FAILURE" path="/suche.do?method=web" />
+		</action>
+
+		<action path="/statistics/statEscalation" name="StatisticsFilterForm"
+			type="db.training.bob.web.statistics.EscalationReportAction">
+			<forward name="SUCCESS" path="/pages/statistics/statEscalation.jsp" />
+			<forward name="FAILURE" path="/suche.do?method=web" />
+		</action>
+
+		<action path="/statistics/statAusfall" name="StatisticsFilterForm"
+			type="db.training.bob.web.statistics.AusfallReportAction">
+			<forward name="SUCCESS" path="/pages/statistics/statAusfall.jsp" />
+			<forward name="FAILURE" path="/suche.do?method=web" />
+		</action>
+
+		<action path="/statistics/statAusfall2" name="StatisticsFilterForm"
+			type="db.training.bob.web.statistics.AusfallgrundReportAction">
+			<forward name="SUCCESS" path="/pages/statistics/statAusfallgrund.jsp" />
+			<forward name="FAILURE" path="/suche.do?method=web" />
+		</action>
+
+		<action path="/statistics/statUebKsQsZuege" name="StatisticsFilterForm"
+			type="db.training.bob.web.statistics.zvf.QsKsZuegeReportAction">
+			<forward name="SUCCESS" path="/pages/statistics/zvf/statQsKsZuege.jsp" />
+			<forward name="FAILURE" path="/suche.do?method=web" />
+		</action>
+
+		<action path="/statistics/statUebVerspaetungsminutenZuege"
+			name="StatisticsFilterForm"
+			type="db.training.bob.web.statistics.zvf.VerspaetungsminutenZuegeReportAction">
+			<forward name="SUCCESS"
+				path="/pages/statistics/zvf/statVerspaetungsminutenZuege.jsp" />
+			<forward name="FAILURE" path="/suche.do?method=web" />
+		</action>
+
+		<action path="/statistics/statBbzrVerspaetungsminutenZuege"
+			name="StatisticsFilterForm"
+			type="db.training.bob.web.statistics.zvf.BbzrVerspaetungsminutenZuegeReportAction">
+			<forward name="SUCCESS"
+				path="/pages/statistics/zvf/statBbzrVerspaetungsminutenZuege.jsp" />
+			<forward name="FAILURE" path="/suche.do?method=web" />
+		</action>
+
+		<action path="/statistics/statBbzrAbweichungAnzahlZuege" name="StatisticsFilterForm"
+			type="db.training.bob.web.statistics.zvf.BbzrAbweichungAnzahlZuegeReportAction">
+			<forward name="SUCCESS"
+				path="/pages/statistics/zvf/statBbzrAbweichungAnzahlZuege.jsp" />
+			<forward name="FAILURE" path="/suche.do?method=web" />
+		</action>
+
+		<action path="/statistics/statBbzrAbweichungZuegeNummern" name="StatisticsFilterForm"
+			type="db.training.bob.web.statistics.zvf.BbzrAbweichungZuegeNummernReportAction">
+			<forward name="SUCCESS"
+				path="/pages/statistics/zvf/statBbzrAbweichungZuegeNummern.jsp" />
+			<forward name="FAILURE" path="/suche.do?method=web" />
+		</action>
+
+		<action path="/statistics/statUebAbweichungZuegeNummern" name="StatisticsFilterForm"
+			type="db.training.bob.web.statistics.zvf.UebAbweichungZuegeNummernReportAction">
+			<forward name="SUCCESS"
+				path="/pages/statistics/zvf/statUebAbweichungZuegeNummern.jsp" />
+			<forward name="FAILURE" path="/suche.do?method=web" />
+		</action>
+
+
+		<!-- Administration ===========================================	-->
+		<action path="/admin/listEvu" name="editableEvuListItemForm"
+			type="db.training.web.administration.EditableEvuListAction" input="/admin/listEvu.do?method=list"
+			scope="request" parameter="method">
+			<forward name="SUCCESS" path="/pages/admin/editableEvuList.jsp">
+			</forward>
+			<forward name="SUCCESS_REDIRECT" path="/admin/listEvu.do?method=list"
+				redirect="true">
+			</forward>
+		</action>
+
+		<action path="/admin/listGrund" name="editableGrundListItemForm"
+			type="db.training.web.administration.EditableGrundListAction" input="/admin/listGrund.do?method=list"
+			scope="request" parameter="method">
+			<forward name="SUCCESS" path="/pages/admin/editableGrundList.jsp">
+			</forward>
+			<forward name="SUCCESS_REDIRECT" path="/admin/listGrund.do?method=list"
+				redirect="true">
+			</forward>
+		</action>
+
+		<action path="/admin/listNachbarbahn" name="editableNachbarbahnListItemForm"
+			type="db.training.web.administration.EditableNachbarbahnListAction"
+			input="/admin/listNachbarbahn.do?method=list" scope="request"
+			parameter="method">
+			<forward name="SUCCESS" path="/pages/admin/editableNachbarbahnList.jsp">
+			</forward>
+			<forward name="SUCCESS_REDIRECT" path="/admin/listNachbarbahn.do?method=list"
+				redirect="true">
+			</forward>
+		</action>
+
+		<action path="/admin/listFplBearbeitungsbereich" name="editableFplBearbeitungsbereichListItemForm"
+			type="db.training.web.administration.EditableFplBearbeitungsbereichListAction"
+			input="/admin/listFplBearbeitungsbereich.do?method=list" scope="request"
+			parameter="method">
+			<forward name="SUCCESS"
+				path="/pages/admin/editableFplBearbeitungsbereichList.jsp">
+			</forward>
+			<forward name="SUCCESS_REDIRECT"
+				path="/admin/listFplBearbeitungsbereich.do?method=list" redirect="true">
+			</forward>
+		</action>
+
+		<action path="/admin/listMeilensteine" name="editableMeilensteinListItemForm"
+			type="db.training.web.administration.EditableMeilensteinListAction"
+			input="/admin/listMeilensteine.do?method=list" scope="request"
+			parameter="method">
+			<forward name="SUCCESS" path="/pages/admin/editableMeilensteinList.jsp" />
+			<forward name="SUCCESS_REDIRECT" path="/admin/listMeilensteine.do?method=list"
+				redirect="true" />
+			<forward name="FAILURE" path="/suche.do?method=web" redirect="true" />
+		</action>
+
+		<action path="/admin/calculateQualityGates"
+			type="db.training.web.administration.BaumassnahmeQualityGatesCalcAction">
+			<forward name="SUCCESS" path="/suche.do?method=web" redirect="true" />
+			<forward name="FAILURE" path="/suche.do?method=web" redirect="true" />
+		</action>
+
+		<!-- OSB ===================================================== -->
+		<action path="/osb/baubetriebsplan" name="baubetriebsplanForm"
+			input="/pages/osb/babett/baubetriesbplan.jsp" type="db.training.osb.web.babett.BaubetriebsplanAction"
+			parameter="task">
+			<forward name="SUCCESS" path="/pages/osb/babett/baubetriesbplan.jsp"></forward>
+		</action>
+
+		<action path="/osb/streckenband/search" name="streckenbandEditForm"
+			type="db.training.easy.web.ForwardAction">
+			<forward name="SUCCESS" path="/pages/osb/streckenbandFilter.jsp">
+			</forward>
+			<forward name="SUCCESS"
+				path="/pages/osb/streckenband/streckenbandFilter.jsp"></forward>
+		</action>
+
+		<action path="/osb/streckenband/show" name="streckenbandEditForm"
+			type="db.training.osb.web.streckenband.StreckenbandViewAction">
+			<forward name="SUCCESS" path="/pages/osb/streckenband/viewStreckenband.jsp" />
+			<forward name="FAILURE" path="/osb/streckenband/search.do" />
+		</action>
+
+		<action path="/osb/streckenband/edit" name="streckenbandEditForm"
+			type="db.training.osb.web.streckenband.StreckenbandEditAction" parameter="method">
+			<forward name="SUCCESS" path="/osb/streckenband/show.do" />
+			<forward name="SUCCESS_REDIRECT" path="/osb/streckenband/show.do"
+				redirect="true" />
+			<forward name="NEW_BUENDEL" path="/osb/editBuendel.do?id=0&amp;reset=true" />
+			<forward name="SUCCESS_PROCESSBUENDEL" path="/osb/addGleissperrungToBuendel.do" />
+			<forward name="FAILURE" path="/osb/streckenband/search.do" />
+		</action>
+
+		<!-- Sperrpausenbedarfe =========================================== -->
+		<action path="/listSperrpausenbedarfe" name="sperrpausenbedarfFilterForm"
+			validate="true"
+			type="db.training.osb.web.sperrpausenbedarf.SperrpausenbedarfListAction">
+			<!-- zu aendern -->
+			<forward name="SUCCESS"
+				path="/pages/osb/sperrpausenbedarf/list/listSperrpausenbedarfe.jsp">
+			</forward>
+			<forward name="FAILURE"
+				path="/pages/osb/sperrpausenbedarf/list/listSperrpausenbedarfe.jsp">
+			</forward>
+			<forward name="BOB_START" path="/suche.do" />
+			<forward name="NO_AUTH" path="/contact.do" />
+			<forward name="AUSWERTER_START" path="/listSqlQueries.do" />
+		</action>
+
+		<action path="/osb/viewSperrpausenbedarf" name="sperrpausenbedarfForm"
+			validate="false"
+			type="db.training.osb.web.sperrpausenbedarf.SperrpausenbedarfViewAction">
+			<forward name="SUCCESS"
+				path="/pages/osb/sperrpausenbedarf/view/viewSperrpausenbedarf.jsp" />
+			<forward name="FAILURE" path="/listSperrpausenbedarfe.do" />
+		</action>
+
+		<action path="/osb/editSperrpausenbedarf" validate="false"
+			name="sperrpausenbedarfForm" scope="request"
+			type="db.training.osb.web.sperrpausenbedarf.SperrpausenbedarfEditAction">
+			<forward name="SUCCESS"
+				path="/pages/osb/sperrpausenbedarf/edit/editSperrpausenbedarf.jsp" />
+			<forward name="SUCCESS_SMALL" path="/osb/editSperrpausenbedarfSmall.do" />
+			<forward name="FAILURE" path="/listSperrpausenbedarfe.do" />
+		</action>
+
+		<action path="/osb/editSperrpausenbedarfSmall" validate="false"
+			name="sperrpausenbedarfSmallForm" scope="request"
+			type="db.training.osb.web.sperrpausenbedarf.SperrpausenbedarfEditAction">
+			<forward name="SUCCESS"
+				path="/pages/osb/sperrpausenbedarf/edit/editSperrpausenbedarf.jsp" />
+			<forward name="FAILURE" path="/listSperrpausenbedarfe.do" />
+		</action>
+
+		<action path="/osb/saveSperrpausenbedarf" validate="true"
+			name="sperrpausenbedarfForm" scope="request"
+			type="db.training.osb.web.sperrpausenbedarf.SperrpausenbedarfSaveAction"
+			input="/osb/editSperrpausenbedarf.do">
+			<forward name="SUCCESS" path="/osb/editSperrpausenbedarf.do" />
+			<forward name="FAILURE" path="/osb/editSperrpausenbedarf.do" />
+		</action>
+
+		<action path="/osb/saveSperrpausenbedarfSmall" validate="true"
+			name="sperrpausenbedarfSmallForm" scope="request"
+			type="db.training.osb.web.sperrpausenbedarf.SperrpausenbedarfSaveAction"
+			input="/osb/editSperrpausenbedarfSmall.do">
+			<forward name="SUCCESS" path="/osb/editSperrpausenbedarf.do" />
+			<forward name="SUCCESS_LIST" path="/listSperrpausenbedarfe.do" />
+			<forward name="FAILURE" path="/osb/editSperrpausenbedarf.do" />
+		</action>
+
+		<action path="/osb/addGleissperrungenToMassnahme" validate="false"
+			name="sperrpausenbedarfForm"
+			type="db.training.osb.web.sperrpausenbedarf.GleissperrungenToMassnahmeAction">
+			<forward name="SUCCESS"
+				path="/pages/osb/sperrpausenbedarf/addGleissperrungenToMassnahme.jsp" />
+			<forward name="FAILURE" path="/osb/editSperrpausenbedarf.do" />
+		</action>
+
+		<action path="/osb/toggleGleissperrungToMassnahme" validate="false"
+			type="db.training.osb.web.sperrpausenbedarf.GleissperrungToggleToMassnahmeAction">
+			<forward name="SUCCESS_ADD" path="/osb/addGleissperrungenToMassnahme.do" />
+			<forward name="SUCCESS_DEL" path="/osb/editSperrpausenbedarf.do" />
+			<forward name="FAILURE" path="/osb/addGleissperrungenToMassnahme.do" />
+		</action>
+
+		<!-- Pakete	====================================================== -->
+		<action path="/listPakete" validate="false"
+			type="db.training.osb.web.paket.PaketListAction">
+			<!-- zu aendern -->
+			<forward name="SUCCESS" path="/pages/osb/paket/listPakete.jsp">
+			</forward>
+			<forward name="FAILURE" path="/pages/osb/paket/listPakete.jsp">
+			</forward>
+		</action>
+
+		<action path="/paketEdit" validate="false" name="paketForm"
+			type="db.training.osb.web.sperrpausenbedarfe.PaketEditAction">
+			<forward name="SUCCESS" path="/pages/osb/paket/edit/editPaket.jsp" />
+		</action>
+
+		<action path="/paketView" validate="false" name="paketForm"
+			type="db.training.osb.web.paket.PaketViewAction">
+			<forward name="SUCCESS" path="/pages/osb/paket/view/viewPaket.jsp" />
+			<forward name="FAILURE" path="/listPakete.do" />
+		</action>
+
+		<action path="/savePaket" validate="true" name="paketForm"
+			type="db.training.osb.web.paket.PaketSaveAction" input="/paketEdit.do">
+			<forward name="SUCCESS" path="/paketEdit.do" />
+			<forward name="FAILURE" path="/paketEdit.do" />
+		</action>
+
+		<!-- Buendel ===================================================== -->
+
+		<action path="/osb/editBuendel" validate="false" name="buendelForm"
+			type="db.training.osb.web.buendel.BuendelEditAction">
+			<forward name="SUCCESS" path="/pages/osb/buendel/edit/editBuendel.jsp" />
+			<forward name="VIEW" path="/osb/viewBuendel.do" />
+			<forward name="FAILURE" path="/osb/listBuendel.do" />
+		</action>
+
+		<action path="/osb/saveBuendel" validate="true" name="buendelForm"
+			type="db.training.osb.web.buendel.BuendelSaveAction" input="/osb/editBuendel.do">
+			<forward name="SUCCESS" path="/osb/editBuendel.do" />
+			<forward name="FAILURE" path="/osb/listBuendel.do" />
+		</action>
+
+		<action path="/osb/deleteBuendel" validate="false" name="buendelForm"
+			type="db.training.osb.web.buendel.BuendelDeleteAction" input="/osb/editBuendel.do">
+			<forward name="SUCCESS" path="/osb/listBuendel.do" />
+			<forward name="FAILURE" path="/osb/editBuendel.do" />
+		</action>
+
+		<action path="/osb/copyBuendel" validate="false" name="buendelForm"
+			type="db.training.osb.web.buendel.BuendelCopyAction" input="/osb/editBuendel.do">
+			<forward name="SUCCESS" path="/osb/editBuendel.do" />
+			<forward name="FAILURE" path="/osb/editBuendel.do" />
+		</action>
+
+		<action path="/osb/viewBuendel" validate="false" name="buendelForm"
+			type="db.training.osb.web.buendel.BuendelViewAction" input="/osb/listBuendel.do">
+			<forward name="SUCCESS" path="/pages/osb/buendel/view/viewBuendel.jsp" />
+			<forward name="FAILURE" path="/osb/listBuendel.do" />
+		</action>
+
+		<action path="/osb/addGleissperrungToBuendel" validate="false" name="streckenbandEditForm"
+			type="db.training.osb.web.gleissperrung.GleissperrungToBuendelAction">
+			<forward name="SUCCESS" path="/pages/osb/streckenband/viewStreckenband.jsp" />
+			<forward name="FAILURE" path="/osb/editBuendel.do" />
+		</action>
+
+		<action path="/osb/saveAddGleissperrungToBuendel" name="streckenbandEditForm"
+			type="db.training.osb.web.gleissperrung.AddGleissperrungenToBuendelAction">
+			<forward name="SUCCESS" path="/osb/editBuendel.do" redirect="true" />
+			<forward name="FAILURE" path="/osb/addGleissperrungToBuendel.do" />
+		</action>
+
+		<action path="/osb/deleteGleissperrungFromBuendel" validate="false"
+			type="db.training.osb.web.buendel.RemoveGleissperrungFromBuendelAction">
+			<forward name="SUCCESS" path="/osb/editBuendel.do" />
+			<forward name="FAILURE" path="/osb/editBuendel.do" />
+		</action>
+
+		<action path="/osb/listBuendel" validate="false" name="buendelSearchForm"
+			type="db.training.osb.web.buendel.BuendelListPaginatedAction">
+			<forward name="SUCCESS" path="/pages/osb/buendel/listBuendelPaginated.jsp" />
+			<forward name="FAILURE" path="/pages/osb/buendel/listBuendelPaginated.jsp" />
+		</action>
+
+		<action path="/osb/listBuendelSearch" validate="false"
+			name="buendelSearchForm" type="db.training.osb.web.buendel.BuendelListPaginatedAction">
+			<forward name="SUCCESS" path="/pages/osb/buendel/listBuendelPaginated.jsp" />
+			<forward name="FAILURE" path="/pages/osb/buendel/listBuendelPaginated.jsp" />
+		</action>
+
+		<action path="/addFahrplanregelungenToBuendel" validate="false"
+			name="fahrplanregelungSearchForm"
+			type="db.training.osb.web.fahrplanregelung.FahrplanregelungenListPaginatedAction">
+			<forward name="SUCCESS"
+				path="/pages/osb/fahrplanregelung/addFahrplanregelungenToBuendel.jsp" />
+		</action>
+
+		<action path="/addFahrplanregelungToBuendel" validate="false"
+			name="fahrplanregelungSearchForm"
+			type="db.training.osb.web.fahrplanregelung.FahrplanregelungAddToBuendelAction">
+			<forward name="SUCCESS" path="/addFahrplanregelungenToBuendel.do" />
+			<forward name="FAILURE" path="/addFahrplanregelungenToBuendel.do" />
+		</action>
+
+		<action path="/deleteFahrplanregelungFromBuendel" validate="false"
+			name="fahrplanregelungSearchForm"
+			type="db.training.osb.web.fahrplanregelung.FahrplanregelungDeleteFromBuendelAction">
+			<forward name="SUCCESS" path="/osb/editBuendel.do" />
+			<forward name="FAILURE" path="/osb/editBuendel.do" />
+		</action>
+
+		<!-- Korridor ===================================================== -->
+		<action path="/listKorridore" type="db.training.osb.web.korridor.KorridorListAction">
+			<forward name="SUCCESS" path="/pages/osb/korridor/listKorridore.jsp" />
+		</action>
+
+		<action path="/editKorridor" validate="false" name="korridorForm"
+			type="db.training.osb.web.korridor.KorridorEditAction" input="/editKorridor.do">
+			<forward name="FAILURE" path="/listKorridore.do" />
+			<forward name="SUCCESS" path="/pages/osb/korridor/editKorridor.jsp" />
+		</action>
+
+		<action path="/viewKorridor" validate="false" name="korridorForm"
+			type="db.training.osb.web.korridor.KorridorViewAction" input="/viewKorridor.do">
+			<forward name="FAILURE" path="/listKorridore.do" />
+			<forward name="SUCCESS" path="/pages/osb/korridor/viewKorridor.jsp" />
+		</action>
+
+		<action path="/saveKorridor" validate="true" name="korridorForm"
+			type="db.training.osb.web.korridor.KorridorSaveAction" input="/editKorridor.do">
+			<forward name="SUCCESS" path="/editKorridor.do" />
+			<forward name="FAILURE" path="/editKorridor.do" />
+		</action>
+
+		<action path="/deleteKorridor" validate="false" name="korridorForm"
+			type="db.training.osb.web.korridor.KorridorDeleteAction" input="/editKorridor.do">
+			<forward name="SUCCESS" path="/listKorridore.do" />
+			<forward name="FAILURE" path="/editKorridor.do" />
+		</action>
+
+		<!-- MasterBuendel =============================================== -->
+		<action path="/listMasterBuendel"
+			type="db.training.osb.web.masterbuendel.MasterBuendelListAction">
+			<forward name="SUCCESS"
+				path="/pages/osb/masterbuendel/listMasterBuendel.jsp" />
+		</action>
+
+		<action path="/editMasterBuendel" validate="false" name="masterBuendelForm"
+			type="db.training.osb.web.masterbuendel.MasterBuendelEditAction"
+			input="/editMasterBuendel.do">
+			<forward name="FAILURE" path="/listMasterBuendel.do" />
+			<forward name="SUCCESS"
+				path="/pages/osb/masterbuendel/editMasterBuendel.jsp" />
+		</action>
+
+		<action path="/viewMasterBuendel" validate="false" name="masterBuendelForm"
+			type="db.training.osb.web.masterbuendel.MasterBuendelViewAction"
+			input="/viewMasterBuendel.do">
+			<forward name="FAILURE" path="/listMasterBuendel.do" />
+			<forward name="SUCCESS"
+				path="/pages/osb/masterbuendel/viewMasterBuendel.jsp" />
+		</action>
+
+		<action path="/saveMasterBuendel" validate="true" name="masterBuendelForm"
+			type="db.training.osb.web.masterbuendel.MasterBuendelSaveAction"
+			input="/editMasterBuendel.do">
+			<forward name="SUCCESS" path="/editMasterBuendel.do" />
+			<forward name="FAILURE" path="/editMasterBuendel.do" />
+		</action>
+
+		<action path="/deleteMasterBuendel" validate="false"
+			name="masterBuendelForm" type="db.training.osb.web.masterbuendel.MasterBuendelDeleteAction"
+			input="/editMasterBuendel.do">
+			<forward name="SUCCESS" path="/listMasterBuendel.do" />
+			<forward name="FAILURE" path="/editMasterBuendel.do" />
+		</action>
+
+		<!-- Fahrplanregelung -->
+		<action path="/osb/fahrplanregelung/view" validate="false"
+			name="fahrplanregelungForm"
+			type="db.training.osb.web.fahrplanregelung.FahrplanregelungViewAction"
+			input="/osb/fahrplanregelung/list.do">
+			<forward name="FAILURE" path="/osb/fahrplanregelung/list.do" />
+			<forward name="SUCCESS"
+				path="/pages/osb/fahrplanregelung/viewFahrplanregelung.jsp" />
+		</action>
+
+		<action path="/osb/fahrplanregelung/edit" validate="false"
+			name="fahrplanregelungForm"
+			type="db.training.osb.web.fahrplanregelung.FahrplanregelungEditAction"
+			input="/osb/fahrplanregelung/edit.do">
+			<forward name="VIEW" path="/osb/fahrplanregelung/view.do" />
+			<forward name="FAILURE" path="/osb/fahrplanregelung/list.do" />
+			<forward name="SUCCESS"
+				path="/pages/osb/fahrplanregelung/editFahrplanregelung.jsp" />
+		</action>
+
+		<action path="/osb/fahrplanregelung/copy" validate="false"
+			name="fahrplanregelungForm"
+			type="db.training.osb.web.fahrplanregelung.FahrplanregelungCopyAction"
+			input="/osb/fahrplanregelung/edit.do">
+			<forward name="FAILURE" path="/osb/fahrplanregelung/edit.do" />
+			<forward name="SUCCESS" path="/osb/fahrplanregelung/edit.do" />
+		</action>
+
+		<action path="/osb/fahrplanregelung/save" validate="true"
+			name="fahrplanregelungForm"
+			type="db.training.osb.web.fahrplanregelung.FahrplanregelungSaveAction"
+			input="/osb/fahrplanregelung/edit.do">
+			<forward name="SUCCESS" path="/osb/fahrplanregelung/edit.do" />
+			<forward name="FAILURE" path="/osb/fahrplanregelung/edit.do" />
+		</action>
+
+		<action path="/osb/fahrplanregelung/delete" validate="false"
+			name="fahrplanregelungForm"
+			type="db.training.osb.web.fahrplanregelung.FahrplanregelungDeleteAction"
+			input="/osb/fahrplanregelung/edit.do">
+			<forward name="SUCCESS" path="/osb/fahrplanregelung/list.do" />
+			<forward name="FAILURE" path="/osb/fahrplanregelung/edit.do" />
+		</action>
+
+		<action path="/addUmleitungenToFahrplanregelung" validate="false"
+			name="umleitungenToFahrplanregelungForm"
+			type="db.training.osb.web.fahrplanregelung.UmleitungenToFahrplanregelungAction">
+			<forward name="SUCCESS"
+				path="/pages/osb/fahrplanregelung/addUmleitungenToFahrplanregelung.jsp" />
+		</action>
+
+		<action path="/addUmleitungToFahrplanregelung" validate="false"
+			name="umleitungenToFahrplanregelungForm"
+			type="db.training.osb.web.fahrplanregelung.UmleitungAddToFahrplanregelungAction">
+			<forward name="SUCCESS" path="/osb/fahrplanregelung/edit.do" />
+			<forward name="FAILURE" path="/addUmleitungenToFahrplanregelung.do" />
+		</action>
+
+		<action path="/deleteUmleitungFromFahrplanregelung" validate="false"
+			type="db.training.osb.web.fahrplanregelung.UmleitungDeleteFromFahrplanregelungAction">
+			<forward name="SUCCESS" path="/osb/fahrplanregelung/edit.do" />
+			<forward name="FAILURE" path="/osb/fahrplanregelung/edit.do" />
+		</action>
+
+		<action path="/osb/fahrplanregelung/list" validate="false"
+			name="fahrplanregelungSearchForm"
+			type="db.training.osb.web.fahrplanregelung.FahrplanregelungenListPaginatedAction">
+			<forward name="SUCCESS"
+				path="/pages/osb/fahrplanregelung/listFahrplanregelungenPaginated.jsp" />
+			<forward name="FAILURE"
+				path="/pages/osb/fahrplanregelung/listFahrplanregelungenPaginated.jsp" />
+		</action>
+
+		<action path="/listFahrplanregelungenSearch" validate="true"
+			name="fahrplanregelungSearchForm"
+			type="db.training.osb.web.fahrplanregelung.FahrplanregelungenListPaginatedAction"
+			input="/osb/fahrplanregelung/list.do">
+			<forward name="SUCCESS"
+				path="/pages/osb/fahrplanregelung/listFahrplanregelungenPaginated.jsp" />
+			<forward name="FAILURE"
+				path="/pages/osb/fahrplanregelung/listFahrplanregelungenPaginated.jsp" />
+		</action>
+
+		<action path="/osb/fahrplanregelung/gleissperrung/edit" name="fahrplanregelungGleissperrungFilterForm"
+			type="db.training.osb.web.fahrplanregelung.GleissperrungAddToFahrplanregelungEditAction">
+			<forward name="SUCCESS"
+				path="/pages/osb/fahrplanregelung/addFahrplanregelungGleissperrung.jsp" />
+			<forward name="FAILURE" path="/osb/fahrplanregelung/edit.do" />
+		</action>
+
+		<action path="/osb/fahrplanregelung/gleissperrung/save" name="fahrplanregelungGleissperrungSaveForm"
+			type="db.training.osb.web.fahrplanregelung.GleissperrungAddToFahrplanregelungSaveAction"
+			input="/osb/fahrplanregelung/gleissperrung/save.do">
+			<forward name="SUCCESS" path="/osb/fahrplanregelung/gleissperrung/edit.do" />
+			<forward name="FAILURE" path="/osb/fahrplanregelung/edit.do" />
+		</action>
+
+		<action path="/osb/fahrplanregelung/gleissperrung/remove" name="fahrplanregelungForm"
+			type="db.training.osb.web.fahrplanregelung.GleissperrungAddToFahrplanregelungRemoveAction"
+			input="/osb/fahrplanregelung/edit.do">
+			<forward name="SUCCESS" path="/osb/fahrplanregelung/edit.do" />
+			<forward name="FAILURE" path="/osb/fahrplanregelung/edit.do" />
+		</action>
+
+		<!-- Umleitungen -->
+		<action path="/listUmleitungen" validate="false" name="umleitungSearchForm"
+			type="db.training.osb.web.umleitung.UmleitungListPaginatedAction"
+			input="/listUmleitungen.do">
+			<forward name="SUCCESS"
+				path="/pages/osb/umleitung/listUmleitungenPaginated.jsp" />
+		</action>
+
+		<action path="/listUmleitungenSearch" validate="true"
+			name="umleitungSearchForm" type="db.training.osb.web.umleitung.UmleitungListPaginatedAction"
+			input="/listUmleitungen.do">
+			<forward name="SUCCESS"
+				path="/pages/osb/umleitung/listUmleitungenPaginated.jsp" />
+			<forward name="FAILURE"
+				path="/pages/osb/umleitung/listUmleitungenPaginated.jsp" />
+		</action>
+
+		<action path="/viewUmleitung" validate="false" name="umleitungForm"
+			type="db.training.osb.web.umleitung.UmleitungViewAction" input="/editUmleitung.do">
+			<forward name="SUCCESS" path="/pages/osb/umleitung/viewUmleitung.jsp" />
+			<forward name="FAILURE" path="/listUmleitungen.do" />
+		</action>
+
+		<action path="/editUmleitung" validate="false" name="umleitungForm"
+			type="db.training.osb.web.umleitung.UmleitungEditAction" input="/editUmleitung.do">
+			<forward name="SUCCESS" path="/pages/osb/umleitung/editUmleitung.jsp" />
+			<forward name="FAILURE" path="/listUmleitungen.do" />
+		</action>
+
+		<action path="/saveUmleitung" validate="false" name="umleitungForm"
+			type="db.training.osb.web.umleitung.UmleitungSaveAction" input="/editUmleitung.do">
+			<forward name="SUCCESS" path="/editUmleitung.do" />
+			<forward name="FAILURE" path="/editUmleitung.do" />
+		</action>
+
+		<action path="/deleteUmleitung" validate="false" name="umleitungForm"
+			type="db.training.osb.web.umleitung.UmleitungDeleteAction" input="/editUmleitung.do">
+			<forward name="SUCCESS" path="/listUmleitungen.do" />
+			<forward name="FAILURE" path="/listUmleitungen.do" />
+		</action>
+
+		<action path="/deleteUmleitungsweg" validate="false"
+			type="db.training.osb.web.umleitung.UmleitungswegDeleteAction" input="/editUmleitung.do">
+			<forward name="SUCCESS" path="/editUmleitung.do" />
+			<forward name="FAILURE" path="/editUmleitung.do" />
+		</action>
+
+
+		<!-- SQL-Abfragen -->
+
+		<action path="/listSqlQueries" type="db.training.osb.web.sqlQuery.SqlQueryListAction">
+			<forward name="SUCCESS" path="/pages/osb/sqlQuery/listSqlQueries.jsp" />
+		</action>
+
+		<action path="/editSqlQuery" validate="false" name="sqlQueryForm"
+			type="db.training.osb.web.sqlQuery.SqlQueryEditAction" input="/editSqlQuery.do">
+			<forward name="SUCCESS" path="/pages/osb/sqlQuery/editSqlQuery.jsp" />
+			<forward name="FAILURE" path="/listSqlQueries.do" />
+		</action>
+
+		<action path="/viewSqlQuery" validate="false" name="sqlQueryForm"
+			type="db.training.osb.web.sqlQuery.SqlQueryViewAction" input="/viewSqlQuery.do">
+			<forward name="FAILURE" path="/listSqlQueries.do" />
+			<forward name="SUCCESS" path="/pages/osb/sqlQuery/viewSqlQuery.jsp" />
+		</action>
+
+		<action path="/saveSqlQuery" validate="true" name="sqlQueryForm"
+			type="db.training.osb.web.sqlQuery.SqlQuerySaveAction" input="/editSqlQuery.do">
+			<forward name="SUCCESS" path="/editSqlQuery.do" />
+			<forward name="FAILURE" path="/editSqlQuery.do" />
+		</action>
+
+		<action path="/deleteSqlQuery" validate="false" name="sqlQueryForm"
+			type="db.training.osb.web.sqlQuery.SqlQueryDeleteAction" input="/editSqlQuery.do">
+			<forward name="SUCCESS" path="/listSqlQueries.do" />
+			<forward name="FAILURE" path="/editSqlQuery.do" />
+		</action>
+
+		<action path="/executeSqlQuery"
+			type="db.training.osb.web.sqlQuery.SqlQueryExecuteAction">
+			<forward name="SUCCESS" path="/pages/osb/sqlQuery/executeSqlQuery.jsp" />
+			<forward name="FAILURE" path="/pages/osb/sqlQuery/executeSqlQuery.jsp" />
+		</action>
+
+		<!-- TOP Projekt ============================================= -->
+		<action path="/osb/listTopProjekte" name="topProjektFilterForm"
+			type="db.training.osb.web.topprojekt.TopProjektListAction">
+			<forward name="SUCCESS" path="/pages/osb/topprojekt/listTopProjekte.jsp" />
+		</action>
+
+		<action path="/osb/viewTopProjekt" name="topProjektForm"
+			type="db.training.osb.web.topprojekt.TopProjektViewAction" validate="false">
+			<forward name="SUCCESS" path="/pages/osb/topprojekt/view/viewTopProjekt.jsp" />
+			<forward name="FAILURE" path="/osb/listTopProjekte.do" />
+		</action>
+
+		<action path="/osb/editTopProjekt"
+			type="db.training.osb.web.topprojekt.TopProjektEditAction" name="topProjektForm"
+			validate="false">
+			<forward name="SUCCESS" path="/pages/osb/topprojekt/edit/editTopProjekt.jsp" />
+			<forward name="FAILURE" path="/osb/listTopProjekte.do" />
+		</action>
+
+		<action path="/osb/deleteTopProjekt"
+			type="db.training.osb.web.topprojekt.TopProjektDeleteAction" name="topProjektForm"
+			validate="false">
+			<forward name="SUCCESS" path="/osb/listTopProjekte.do" />
+			<forward name="FAILURE" path="/osb/editTopProjekt.do" />
+		</action>
+
+		<action path="/osb/saveTopProjekt"
+			type="db.training.osb.web.topprojekt.TopProjektSaveAction" name="topProjektForm"
+			validate="true" input="/osb/editTopProjekt.do">
+			<forward name="SUCCESS" path="/osb/editTopProjekt.do" />
+			<forward name="FAILURE" path="/osb/editTopProjekt.do" />
+		</action>
+
+		<action path="/osb/topProjekt/massnahmen/edit"
+			type="db.training.osb.web.topprojekt.SperrpausenbedarfToTopProjektEditAction"
+			validate="true" name="sperrpausenbedarfFilterForm">
+			<forward name="SUCCESS" path="/pages/osb/topprojekt/edit/listMassnahmen.jsp" />
+			<forward name="FAILURE" path="/osb/listTopProjekte.do" />
+		</action>
+
+		<action path="/osb/topProjekt/massnahmen/save"
+			type="db.training.osb.web.topprojekt.SperrpausenbedarfToTopProjektSaveAction"
+			validate="false" parameter="method">
+			<forward name="FAILURE_TOPPROJEKT_NOT_FOUND" path="/osb/listTopProjekte.do" />
+			<forward name="FAILURE_MASSNAHME_NOT_FOUND" path="/osb/topProjekt/massnahmen/edit.do" />
+			<forward name="FAILURE" path="/osb/listTopProjekte.do" />
+			<forward name="SUCCESS" path="/osb/topProjekt/massnahmen/edit.do" />
+		</action>
+
+		<!-- Gleissperrung ============================================= -->
+		<action path="/osb/viewGleissperrung" name="gleissperrungForm"
+			validate="false" type="db.training.osb.web.gleissperrung.GleissperrungViewAction">
+			<forward name="SUCCESS"
+				path="/pages/osb/gleissperrung/view/viewGleissperrung.jsp" />
+			<forward name="FAILURE" path="/osb/listGleissperrung.do" />
+		</action>
+
+		<action path="/osb/listGleissperrung" name="gleissperrungFilterForm"
+			type="db.training.osb.web.gleissperrung.GleissperrungListAction"
+			validate="false">
+			<forward name="SUCCESS"
+				path="/pages/osb/gleissperrung/listGleissperrung.jsp" />
+		</action>
+
+		<action path="/osb/listGleissperrungExecute" name="gleissperrungFilterForm"
+			type="db.training.osb.web.gleissperrung.GleissperrungListAction"
+			validate="true" input="/osb/listGleissperrung.do">
+			<forward name="SUCCESS"
+				path="/pages/osb/gleissperrung/listGleissperrung.jsp">
+			</forward>
+		</action>
+
+		<action path="/osb/editGleissperrung"
+			type="db.training.osb.web.gleissperrung.GleissperrungEditAction"
+			name="gleissperrungForm" validate="false" scope="request">
+			<forward name="SUCCESS"
+				path="/pages/osb/gleissperrung/edit/editGleissperrung.jsp" />
+			<forward name="FAILURE" path="/osb/listGleissperrung.do" />
+		</action>
+
+		<action path="/osb/saveGleissperrung"
+			type="db.training.osb.web.gleissperrung.GleissperrungSaveAction"
+			name="gleissperrungForm" validate="true" input="/osb/editGleissperrung.do"
+			scope="request">
+			<forward name="SUCCESS" path="/osb/editGleissperrung.do" />
+			<forward name="FAILURE" path="/osb/editGleissperrung.do" />
+		</action>
+
+		<action path="/osb/deleteGleissperrung" validate="false"
+			name="gleissperrungForm" type="db.training.osb.web.gleissperrung.GleissperrungDeleteAction"
+			input="/osb/editGleissperrung.do">
+			<forward name="SUCCESS" path="/osb/listGleissperrung.do" />
+			<forward name="FAILURE" path="/osb/editGleissperrung.do" />
+		</action>
+
+		<!-- Baustelle ================================================ -->
+		<action path="/osb/baustelle/list"
+			type="db.training.osb.web.baustelle.BaustelleListAction" validate="false">
+			<forward name="SUCCESS" path="/pages/osb/baustelle/listBaustelle.jsp" />
+		</action>
+
+		<action path="/osb/baustelle/view"
+			type="db.training.osb.web.baustelle.BaustelleViewAction" validate="false">
+			<forward name="SUCCESS" path="/pages/osb/baustelle/view/viewBaustelle.jsp" />
+			<forward name="FAILURE" path="/osb/baustelle/list.do" />
+		</action>
+
+		<action path="/osb/baustelle/edit"
+			type="db.training.osb.web.baustelle.BaustelleEditAction" validate="false"
+			name="baustelleForm">
+			<forward name="SUCCESS" path="/pages/osb/baustelle/edit/editBaustelle.jsp" />
+			<forward name="FAILURE" path="/osb/baustelle/view.do" />
+		</action>
+
+		<action path="/osb/baustelle/save"
+			type="db.training.osb.web.baustelle.BaustelleSaveAction" validate="true"
+			name="baustelleForm">
+			<forward name="SUCCESS" path="/osb/baustelle/edit.do" />
+			<forward name="FAILURE" path="/osb/baustelle/edit.do" />
+		</action>
+
+		<action path="/osb/addGleissperrungenToBaustelle" validate="false"
+			type="db.training.osb.web.baustelle.GleissperrungenToBaustelleAction">
+			<forward name="SUCCESS"
+				path="/pages/osb/baustelle/addGleissperrungenToBaustelle.jsp" />
+			<forward name="FAILURE" path="/osb/baustelle/edit.do" />
+		</action>
+
+		<action path="/osb/addGleissperrungToBaustelle" validate="false"
+			type="db.training.osb.web.baustelle.GleissperrungAddToBaustelleAction">
+			<forward name="SUCCESS" path="/osb/addGleissperrungenToBaustelle.do" />
+			<forward name="FAILURE" path="/osb/addGleissperrungenToBaustelle.do" />
+		</action>
+
+		<action path="/osb/deleteGleissperrungFromBaustelle" validate="false"
+			type="db.training.osb.web.baustelle.GleissperrungDeleteFromBaustelleAction">
+			<forward name="SUCCESS" path="/osb/baustelle/edit.do" />
+			<forward name="FAILURE" path="osb/baustelle/edit.do" />
+		</action>
+
+		<!-- Datenimport ============================================== -->
+
+		<action path="/importData" name="importDataForm"
+			type="db.training.osb.web.imports.ImportDataAction">
+			<forward name="SUCCESS" path="/pages/osb/imports/importData.jsp" />
+			<forward name="FAILURE" path="/pages/osb/imports/importData.jsp" />
+		</action>
+
+		<action path="/downloadTemplate" name="downloadTemplateForm"
+			type="db.training.osb.web.imports.DownloadTemplateAction">
+			<forward name="SUCCESS" path="/pages/osb/imports/importData.jsp" />
+			<forward name="FAILURE" path="/pages/osb/imports/importData.jsp" />
+		</action>
+
+		<!-- BBP Test -->
+		<action path="/osb/bbp" name="bbp"
+			type="db.training.easy.web.ForwardAction">
+			<forward name="SUCCESS" path="/pages/osb/bbp_test.jsp">
+			</forward>
+		</action>
+
+		<!-- Massnahme ================================================ -->
+
+		<action path="/osb/massnahme/list" scope="request" validate="false"
+			type="db.training.osb.web.massnahme.MassnahmeListAction">
+			<forward name="SUCCESS" path="/pages/osb/massnahme/list/listMassnahmen.jsp" />
+		</action>
+
+		<action path="/osb/massnahme/edit" scope="request" validate="false"
+			type="db.training.osb.web.massnahme.MassnahmeEditAction" name="massnahmeForm">
+			<forward name="SUCCESS" path="/pages/osb/massnahme/edit/editMassnahme.jsp" />
+			<forward name="FAILURE" path="/osb/massnahme/list.do" />
+		</action>
+
+		<action path="/osb/massnahme/save" scope="request"
+			input="/osb/massnahme/edit.do" validate="true"
+			type="db.training.osb.web.massnahme.MassnahmeSaveAction" name="massnahmeForm">
+			<forward name="SUCCESS" path="/osb/massnahme/edit.do" />
+			<forward name="FAILURE" path="/osb/massnahme/list.do" />
+		</action>
+
+		<action path="/osb/massnahme/oberleitung/edit" scope="request"
+			validate="false" parameter="method"
+			type="db.training.osb.web.massnahme.MassnahmeRegelungEditAction"
+			name="regelungOberleitungForm">
+			<forward name="SUCCESS"
+				path="/pages/osb/massnahme/edit/editMassnahmeOberleitung.jsp" />
+			<forward name="FAILURE" path="/osb/massnahme/edit.do" />
+		</action>
+
+		<action path="/osb/massnahme/oberleitung/save" scope="request"
+			parameter="method" type="db.training.osb.web.massnahme.MassnahmeRegelungSaveAction"
+			name="regelungOberleitungForm" input="/osb/massnahme/oberleitung/edit.do">
+			<forward name="SUCCESS" path="/osb/massnahme/oberleitung/edit.do" />
+			<forward name="FAILURE" path="/osb/massnahme/oberleitung/edit.do" />
+		</action>
+
+		<action path="/osb/massnahme/oberleitung/delete" scope="request"
+			validate="false" parameter="method"
+			type="db.training.osb.web.massnahme.MassnahmeRegelungDeleteAction"
+			name="regelungOberleitungForm" input="/osb/massnahme/oberleitung/edit.do">
+			<forward name="SUCCESS" path="/osb/massnahme/oberleitung/edit.do" />
+			<forward name="FAILURE" path="/osb/massnahme/oberleitung/edit.do" />
+		</action>
+
+		<action path="/osb/massnahme/langsamfahrstelle/edit" scope="request"
+			validate="false" parameter="method"
+			type="db.training.osb.web.massnahme.MassnahmeRegelungEditAction"
+			name="regelungLangsamfahrstelleForm">
+			<forward name="SUCCESS"
+				path="/pages/osb/massnahme/edit/editMassnahmeLangsamfahrstelle.jsp" />
+			<forward name="FAILURE" path="/osb/massnahme/edit.do" />
+		</action>
+
+		<action path="/osb/massnahme/langsamfahrstelle/save" scope="request"
+			parameter="method" type="db.training.osb.web.massnahme.MassnahmeRegelungSaveAction"
+			name="regelungLangsamfahrstelleForm" input="/osb/massnahme/langsamfahrstelle/edit.do">
+			<forward name="SUCCESS" path="/osb/massnahme/langsamfahrstelle/edit.do" />
+			<forward name="FAILURE" path="/osb/massnahme/langsamfahrstelle/edit.do" />
+		</action>
+
+		<action path="/osb/massnahme/langsamfahrstelle/delete" scope="request"
+			validate="false" parameter="method"
+			type="db.training.osb.web.massnahme.MassnahmeRegelungDeleteAction"
+			name="regelungLangsamfahrstelleForm" input="/osb/massnahme/langsamfahrstelle/edit.do">
+			<forward name="SUCCESS" path="/osb/massnahme/langsamfahrstelle/edit.do" />
+			<forward name="FAILURE" path="/osb/massnahme/langsamfahrstelle/edit.do" />
+		</action>
+
+		<action path="/osb/massnahme/gleissperrung/edit" scope="request"
+			validate="false" parameter="method"
+			type="db.training.osb.web.massnahme.MassnahmeRegelungEditAction"
+			name="regelungGleissperrungForm">
+			<forward name="SUCCESS"
+				path="/pages/osb/massnahme/edit/editMassnahmeGleissperrung.jsp" />
+			<forward name="FAILURE" path="/osb/massnahme/edit.do" />
+		</action>
+
+		<action path="/osb/massnahme/gleissperrung/save" scope="request"
+			parameter="method" type="db.training.osb.web.massnahme.MassnahmeRegelungSaveAction"
+			name="regelungGleissperrungForm" input="/osb/massnahme/gleissperrung/edit.do">
+			<forward name="SUCCESS" path="/osb/massnahme/gleissperrung/edit.do" />
+			<forward name="FAILURE" path="/osb/massnahme/gleissperrung/edit.do" />
+		</action>
+
+		<action path="/osb/massnahme/gleissperrung/delete" scope="request"
+			validate="false" parameter="method"
+			type="db.training.osb.web.massnahme.MassnahmeRegelungDeleteAction"
+			name="regelungGleissperrungForm" input="/osb/massnahme/gleissperrung/edit.do">
+			<forward name="SUCCESS" path="/osb/massnahme/gleissperrung/edit.do" />
+			<forward name="FAILURE" path="/osb/massnahme/gleissperrung/edit.do" />
+		</action>
+
+		<!-- Struts History =============================================== -->
+
+		<action path="/back" type="org.mwolff.struts.back.BackRequestAction" />
+		<action path="/forward" type="org.mwolff.struts.back.ForwardRequestAction" />
+
+	</action-mappings>
+
+	<!-- ======================== Controller Configuration -->
+	<!--
+		controller
+		processorClass="org.apache.struts.tiles.TilesRequestProcessor"/
+	-->
+	<controller maxFileSize="50M"
+		processorClass="org.mwolff.struts.back.BackRequestProcessor"
+		contentType="text/html;charset=UTF8" locale="true" />
+
+	<!-- ================== Message Resources Definitions -->
+
+	<message-resources key="configResources" null="false" parameter="ConfigResources" />
+	<message-resources null="false" parameter="MessageResources" />
+	
+	<!-- ========================= Plug Ins Configuration -->
+
+	<!-- ========================= Validator plugin	-->
+	<plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+		<set-property property="pathnames"
+			value="/org/apache/struts/validator/validator-rules.xml,/WEB-INF/validation.xml" />
+	</plug-in>
+
+</struts-config>

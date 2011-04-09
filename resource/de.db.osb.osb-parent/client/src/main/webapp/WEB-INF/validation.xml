@@ -1,0 +1,1256 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE form-validation PUBLIC
+         "-//Apache Software Foundation//DTD Commons Validator Rules Configuration 1.3.0//EN"
+         "http://jakarta.apache.org/commons/dtds/validator_1_3_0.dtd">
+
+<form-validation>
+
+	<global>
+		<constant>
+			<constant-name>decimalNumber</constant-name>
+			<constant-value>^((-)?\d*(\.\d{3})*(\,\d{1,3})?)?$</constant-value>
+		</constant>
+		<constant>
+			<constant-name>email</constant-name>
+			<constant-value>^[A-Za-z0-9_\-\.]{2,63}@[A-Za-z0-9\-\.]{2,63}\.[A-Za-z]{2,4}$</constant-value>
+		</constant>
+		<constant>
+			<constant-name>year</constant-name>
+			<constant-value>^([1-9]{1}[0-9]{3})?$</constant-value>
+		</constant>
+		<constant>
+			<constant-name>geschwindigkeit</constant-name>
+			<constant-value>^(([0]{1})|([1-9]{1}[0]{1})|([1-3]{1}[0-5]{1}[0]{1}))?$</constant-value>
+		</constant>
+		<constant>
+			<constant-name>fahrtzeitverlust</constant-name>
+			<constant-value>^(([0-9]{1,2})(\,[0-9]{1})?)?$</constant-value>
+		</constant>
+		<constant>
+			<constant-name>date</constant-name>
+			<constant-value>^((0?[1-9]|[12]\d|3[01])\.(0?\d|1[0-2])\.(19\d{2}|20[0-9]\d|\d\d))?$</constant-value>
+		</constant>
+		<constant>
+			<constant-name>time</constant-name>
+			<constant-value>^((0?[0-9]|[1][0-9]|[2][0-3])\:([0-5][0-9]))?$</constant-value>
+		</constant>
+		<constant>
+			<constant-name>datetime</constant-name>
+			<constant-value>^((0?[1-9]|[12]\d|3[01])\.(0?\d|1[0-2])\.(19\d{2}|20[0-9]\d|\d\d) (0?[0-9]|[1][0-9]|[2][0-3])\:([0-5][0-9]))?$</constant-value>
+		</constant>
+		<constant>
+			<constant-name>kuerzel</constant-name>
+			<constant-value>^(\[[\D]{2,5}\]){1}?</constant-value>
+		</constant>
+		<constant>
+			<constant-name>vzgStrecke</constant-name>
+			<constant-value>^(\[[\d]{4}\]){1}?</constant-value>
+		</constant>
+		<constant>
+			<constant-name>kilometer</constant-name>
+			<constant-value>^((((-)?\d{1,2})|(\d{1,3}))(\,\d{1,3})?)?$</constant-value>
+		</constant>
+		<constant>
+			<constant-name>meter</constant-name>
+			<constant-value>^((\d{1,5})|(\d{1,2}\.\d{3}))?$</constant-value>
+		</constant>
+		<constant>
+			<constant-name>ascii</constant-name>
+			<constant-value>^[A-Za-z\-]{2,}$</constant-value>
+		</constant>
+		<constant>
+			<constant-name>integer</constant-name>
+			<constant-value>^((\d{0,9})|(\d{0,3}\.\d{3})|(\d{0,3}\.\d{3}\.\d{3}))?$</constant-value>
+		</constant>
+		<constant>
+			<constant-name>double</constant-name>
+			<constant-value>^((-)?((\d{0,12})|(\d{1,3}(\.\d{3}){1,4}))(\,\d{1,3})?)?$</constant-value>
+		</constant>
+	</global>
+
+	<formset>
+		<form name="loginForm">
+			<field property="loginName" depends="required">
+				<arg key="user.loginName" />
+				<msg name="required" key="error.required" />
+			</field>
+			<field property="password" depends="required">
+				<arg key="user.password" />
+				<msg name="required" key="error.required" />
+			</field>
+		</form>
+
+		<form name="userProfileForm">
+			<field property="oldPassword" depends="validwhen">
+				<var>
+					<var-name>test</var-name>
+					<var-value>
+						((changePassword == "false") or ((changePassword ==
+						"true") and (*this* != null)))
+					</var-value>
+				</var>
+				<arg key="user.oldPassword" />
+				<msg name="validwhen" key="error.required" />
+			</field>
+			<field property="password" depends="validwhen">
+				<var>
+					<var-name>test</var-name>
+					<var-value>
+						((changePassword == "false") or ((changePassword ==
+						"true") and (*this* != null)))
+					</var-value>
+				</var>
+				<arg key="user.password" />
+				<msg name="validwhen" key="error.required" />
+			</field>
+			<field property="password" depends="validwhen">
+				<var>
+					<var-name>test</var-name>
+					<var-value>(*this* == password2)</var-value>
+				</var>
+				<msg name="validwhen" key="error.user.password.diff" />
+			</field>
+		</form>
+
+		<form name="userForm">
+			<field property="firstName" depends="required">
+				<arg key="user.firstName" />
+				<msg name="required" key="error.required" />
+			</field>
+			<field property="name" depends="required">
+				<arg key="user.name" />
+				<msg name="required" key="error.required" />
+			</field>
+			<field property="email" depends="required,mask">
+				<arg key="user.email" />
+				<msg name="required" key="error.required" />
+				<msg name="mask" key="error.email" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${email}</var-value>
+				</var>
+			</field>
+			<field property="loginName" depends="validwhen,mask">
+				<var>
+					<var-name>test</var-name>
+					<var-value>
+						((changeLogin == "false") or ((changeLogin == "true")
+						and (*this* != null)))
+					</var-value>
+				</var>
+				<arg key="user.loginName" />
+				<msg name="validwhen" key="error.required" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${ascii}</var-value>
+				</var>
+			</field>
+			<field property="regionalbereichId" depends="validwhen">
+				<var>
+					<var-name>test</var-name>
+					<var-value>((*this* != null) and (*this* != 0))</var-value>
+				</var>
+				<arg key="baumassnahme.regionalbereichfpl" />
+				<msg name="validwhen" key="error.required" />
+			</field>
+		</form>
+
+		<form name="locationForm">
+			<field property="name" depends="required">
+				<arg key="location.name" />
+				<msg name="required" key="error.required" />
+			</field>
+			<field property="businessAreaId" depends="validwhen">
+				<var>
+					<var-name>test</var-name>
+					<var-value>((*this* != null) and (*this* != 0))</var-value>
+				</var>
+				<arg key="businessArea" />
+				<msg name="validwhen" key="error.required" />
+			</field>
+		</form>
+
+		<form name="baumassnahmeForm">
+			<field property="art" depends="required">
+				<arg key="baumassnahme.art" />
+				<msg name="required" key="error.required" />
+			</field>
+			<field property="kigBau" depends="required">
+				<arg key="baumassnahme.kigbau" />
+				<msg name="required" key="error.required" />
+			</field>
+		</form>
+
+		<form name="korridorForm">
+			<field property="name" depends="required">
+				<arg key="korridor.name" />
+				<msg name="required" key="error.required" />
+			</field>
+		</form>
+
+		<form name="sqlQueryForm">
+			<field property="name" depends="required">
+				<arg key="osb.sqlQuery.name" />
+				<msg name="required" key="error.required" />
+			</field>
+			<field property="query" depends="required">
+				<arg key="osb.sqlQuery.query" />
+				<msg name="required" key="error.required" />
+			</field>
+			<field property="gueltigVon" depends="required">
+				<arg key="osb.sqlQuery.gueltigVon" />
+				<msg name="required" key="error.required" />
+			</field>
+			<field property="gueltigBis" depends="required">
+				<arg key="osb.sqlQuery.gueltigBis" />
+				<msg name="required" key="error.required" />
+			</field>
+		</form>
+
+		<form name="buendelForm">
+			<field property="buendelName" depends="required">
+				<arg key="buendel.name" />
+				<msg name="required" key="error.required" />
+			</field>
+			<field property="regionalbereichId" depends="validwhen">
+				<var>
+					<var-name>test</var-name>
+					<var-value>((*this* != null) and (*this* != 0))</var-value>
+				</var>
+				<arg key="buendel.regionalbereich" />
+				<msg name="validwhen" key="error.required" />
+			</field>
+			<field property="hauptStrecke" depends="required,mask">
+				<arg key="buendel.hauptStrecke" />
+				<msg name="required" key="error.required" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${vzgStrecke}</var-value>
+				</var>
+			</field>
+			<field property="eiuVks" depends="mask">
+				<arg key="buendel.eiuVks" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${integer}</var-value>
+				</var>
+			</field>
+			<field property="sperrzeitbedarfBuendel" depends="mask">
+				<arg key="buendel.sperrzeitbedarfBuendel" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${integer}</var-value>
+				</var>
+			</field>
+			<field property="sperrzeitErsparnis" depends="mask">
+				<arg key="buendel.sperrzeitErsparnis" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${integer}</var-value>
+				</var>
+			</field>
+			<field property="baukostenVorBuendelung" depends="mask">
+				<arg key="buendel.baukostenVorBuendelung" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${double}</var-value>
+				</var>
+			</field>
+			<field property="baukostenNachBuendelung" depends="mask">
+				<arg key="buendel.baukostenNachBuendelung" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${double}</var-value>
+				</var>
+			</field>
+			<field property="baukostenErsparnis" depends="mask">
+				<arg key="buendel.baukostenErsparnis" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${double}</var-value>
+				</var>
+			</field>
+		</form>
+
+<!--  TODO: Validierung unterstützt nicht "Kürzel+Text" und Streckennummer gleichzeitig -->
+<!--		<form name="umleitungSearchForm">-->
+<!--			<field property="vzgStreckenNummer" depends="mask">-->
+<!--				<arg key="umleitung.vzgStreckenummer" />-->
+<!--				<msg name="mask" key="error.decimalFormat" />-->
+<!--				<var>-->
+<!--					<var-name>mask</var-name>-->
+<!--					<var-value>${vzgStrecke}</var-value>-->
+<!--				</var>-->
+<!--			</field>-->
+<!--		</form>-->
+
+		<form name="buendelSearchForm">
+			<field property="hauptStreckeNummer" depends="mask">
+				<arg key="buendel.buendelstrecke.nummer" />
+				<msg name="mask" key="error.decimalFormat" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${integer}</var-value>
+				</var>
+			</field>
+			<field property="fahrplanjahr" depends="mask">
+				<arg key="buendel.fahrplanjahr" />
+				<msg name="mask" key="error.decimalFormat" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${integer}</var-value>
+				</var>
+			</field>
+		</form>
+
+		<form name="fahrplanregelungForm">
+			<field property="regionalbereichId" depends="validwhen">
+				<var>
+					<var-name>test</var-name>
+					<var-value>((*this* != null) and (*this* != 0))</var-value>
+				</var>
+				<arg key="fahrplanregelung.regionalbereich" />
+				<msg name="validwhen" key="error.required" />
+			</field>
+			<field property="name" depends="required">
+				<arg key="fahrplanregelung.name" />
+				<msg name="required" key="error.required" />
+			</field>
+			<field property="betriebsstelleVon" depends="mask">
+				<arg key="fahrplanregelung.betriebsstelleVon" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${kuerzel}</var-value>
+				</var>
+			</field>
+			<field property="betriebsstelleBis" depends="mask">
+				<arg key="fahrplanregelung.betriebsstelleBis" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${kuerzel}</var-value>
+				</var>
+			</field>
+			<field property="planStart" depends="mask">
+				<arg key="fahrplanregelung.planStart" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${date}</var-value>
+				</var>
+			</field>
+			<field property="planEnde" depends="mask">
+				<arg key="fahrplanregelung.planEnde" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${date}</var-value>
+				</var>
+			</field>
+			<field property="start" depends="mask">
+				<arg key="fahrplanregelung.start" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${date}</var-value>
+				</var>
+			</field>
+			<field property="ende" depends="mask">
+				<arg key="fahrplanregelung.ende" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${date}</var-value>
+				</var>
+			</field>
+			<field property="aufnahmeNfpVorschlag" depends="validwhen">
+				<arg key="fahrplanregelung.aufnahmeNfpVorschlag" />
+				<msg name="validwhen" key="error.required" />
+				<var>
+					<var-name>test</var-name>
+					<var-value>((fixiert == "false") or ((fixiert == "true") and (*this* != null)))</var-value>
+				</var>
+			</field>
+			<field property="aufnahmeNfp" depends="validwhen">
+				<arg key="fahrplanregelung.aufnahmeNfp" />
+				<msg name="validwhen" key="error.required" />
+				<var>
+					<var-name>test</var-name>
+					<var-value>((fixiert == "false") or ((fixiert == "true")  and (*this* != null)))</var-value>
+				</var>
+			</field>
+		</form>
+
+		<form name="topProjektForm">
+			<field property="regionalbereichId" depends="validwhen">
+				<var>
+					<var-name>test</var-name>
+					<var-value>((*this* != null) and (*this* != 0))</var-value>
+				</var>
+				<arg key="sperrpausenbedarf.regionalbereich" />
+				<msg name="validwhen" key="error.required" />
+			</field>
+			<field property="baukosten" depends="mask">
+				<arg key="topprojekt.baukosten" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${decimalNumber}</var-value>
+				</var>
+			</field>
+		</form>
+
+		<form name="gleissperrungForm">
+			<field property="fahrplanjahr" depends="required">
+				<arg key="regelung.fahrplanjahr" />
+				<msg name="required" key="error.required" />
+			</field>
+			<field property="vzgStrecke" depends="required">
+				<arg key="regelung.vzgStrecke" />
+				<msg name="required" key="error.required" />
+			</field>
+			<field property="bstVonId" depends="validwhen">
+				<arg key="regelung.bstVon" />
+				<msg name="validwhen" key="error.required" />
+				<var>
+					<var-name>test</var-name>
+					<var-value>((*this* != null) and (*this* != 0))</var-value>
+				</var>
+			</field>
+			<field property="bstBisId" depends="validwhen">
+				<arg key="regelung.bstBis" />
+				<msg name="validwhen" key="error.required" />
+				<var>
+					<var-name>test</var-name>
+					<var-value>((*this* != null) and (*this* != 0))</var-value>
+				</var>
+			</field>
+			<field property="zeitVon" depends="mask">
+				<arg key="regelung.zeitVon" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${datetime}</var-value>
+				</var>
+			</field>
+			<field property="zeitVonKoordiniert" depends="mask">
+				<arg key="regelung.zeitVonKoordiniert" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${datetime}</var-value>
+				</var>
+			</field>
+			<field property="zeitBis" depends="mask">
+				<arg key="regelung.zeitBis" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${datetime}</var-value>
+				</var>
+			</field>
+			<field property="zeitBisKoordiniert" depends="mask">
+				<arg key="regelung.zeitBisKoordiniert" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${datetime}</var-value>
+				</var>
+			</field>
+		</form>
+
+		<form name="gleissperrungFilterForm">
+			<field property="streckeVZG" depends="mask">
+				<arg key="regelung.vzgStrecke" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${vzgStrecke}</var-value>
+				</var>
+			</field>
+			<field property="betriebsstelleVon" depends="mask">
+				<arg key="regelung.bstVon" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${kuerzel}</var-value>
+				</var>
+			</field>
+			<field property="betriebsstelleBis" depends="mask">
+				<arg key="regelung.bstBis" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${kuerzel}</var-value>
+				</var>
+			</field>
+		</form>
+
+		<form name="sperrpausenbedarf.orm">
+
+			<field property="hauptstreckenNummer" depends="mask,validwhen">
+				<msg name="mask" key="error.decimalFormat" />
+				<msg name="validwhen" key="error.required" />
+				<arg key="sperrpausenbedarf.hauptstrecke" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${integer}</var-value>
+				</var>
+				<var>
+					<var-name>test</var-name>
+					<var-value>
+						((id == null) or (*this* != null))
+					</var-value>
+				</var>
+			</field>
+
+			<field property="regionalbereichId" depends="validwhen,mask">
+				<msg name="mask" key="error.invalid" />
+				<arg key="sperrpausenbedarf.regionalbereich" />
+				<msg name="validwhen" key="error.required" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${integer}</var-value>
+				</var>
+				<var>
+					<var-name>test</var-name>
+					<var-value>((id == null) or (*this* != null))</var-value>
+				</var>
+			</field>
+
+			<!--
+				Validierung entfernt (#374) <field property="pspElement"
+				depends="validwhen"> <msg name="validwhen" key="error.required" />
+				<arg key="sperrpausenbedarf.pspElement" /> <var>
+				<var-name>test</var-name> <var-value> ((id == null) or (*this* !=
+				null)) </var-value> </var> </field> <field
+				property="betriebsstelleVonTechnisch" depends="validwhen"> <arg
+				key="sperrpausenbedarf.bSTTechnischeSichtDS100VonAusSpeerbedarfList"
+				/> <msg name="validwhen" key="error.required" /> <var>
+				<var-name>test</var-name> <var-value> ((id == null) or (*this* !=
+				null)) </var-value> </var> </field> <field
+				property="betriebsstelleBisTechnisch" depends="validwhen"> <arg
+				key="sperrpausenbedarf.bSTTechnischeSichtDS100BisAusSpeerbedarfList"
+				/> <msg name="validwhen" key="error.required" /> <var>
+				<var-name>test</var-name> <var-value> ((id == null) or (*this* !=
+				null)) </var-value> </var> </field>
+			-->
+
+			<field property="geaendertesPlanungsjahr" depends="mask">
+				<msg name="mask" key="error.invalid.dates" />
+				<arg key="sperrpausenbedarf.planungsjahr.geaendert" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${year}</var-value>
+				</var>
+			</field>
+
+			<field property="urspruenglichesPlanungsjahr" depends="mask,validwhen">
+				<msg name="mask" key="error.invalid.dates" />
+				<msg name="validwhen" key="error.required" />
+				<arg key="sperrpausenbedarf.planungsjahr.urspruenglich" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${year}</var-value>
+				</var>
+				<var>
+					<var-name>test</var-name>
+					<var-value>
+						((id == null) or (*this* != null))
+					</var-value>
+				</var>
+			</field>
+		</form>
+
+		<form name="massnahmeForm">
+			<field property="regionalbereichId" depends="required">
+				<arg key="sperrpausenbedarf.regionalbereich" />
+				<msg name="required" key="error.required" />
+			</field>
+
+			<field property="finanztypId" depends="validwhen">
+				<arg key="sperrpausenbedarf.finanztyp" />
+				<msg name="validwhen" key="error.required" />
+				<var>
+					<var-name>test</var-name>
+					<var-value>((*this* != null) and (*this* != 0))</var-value>
+				</var>
+			</field>
+
+			<field property="phaseId" depends="validwhen">
+				<arg key="sperrpausenbedarf.phase" />
+				<msg name="validwhen" key="error.required" />
+				<var>
+					<var-name>test</var-name>
+					<var-value>((*this* != null) and (*this* != 0))</var-value>
+				</var>
+			</field>
+
+			<!--  Maßnahmebezeichnung ?? -->
+
+			<field property="strecke" depends="required,mask">
+				<arg key="regelung.vzgStrecke" />
+				<msg name="required" key="error.required" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${vzgStrecke}</var-value>
+				</var>
+			</field>
+
+			<field property="betriebsstelleVonId" depends="validwhen">
+				<var>
+					<var-name>test</var-name>
+					<var-value>((*this* != null) and (*this* != 0))</var-value>
+				</var>
+				<arg key="sperrpausenbedarf.betriebsstelle.von" />
+				<msg name="validwhen" key="error.required" />
+			</field>
+
+			<field property="betriebsstelleBisId" depends="validwhen">
+				<var>
+					<var-name>test</var-name>
+					<var-value>((*this* != null) and (*this* != 0))</var-value>
+				</var>
+				<arg key="sperrpausenbedarf.betriebsstelle.bis" />
+				<msg name="validwhen" key="error.required" />
+			</field>
+
+			<field property="kmVon" depends="mask">
+				<arg key="langsamfahrstelle.kmVon" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${kilometer}</var-value>
+				</var>
+			</field>
+
+			<field property="kmBis" depends="mask">
+				<arg key="langsamfahrstelle.kmBis" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${kilometer}</var-value>
+				</var>
+			</field>
+
+			<field property="beginn" depends="required,mask">
+				<arg key="regelung.zeitVon" />
+				<msg name="required" key="error.required" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${datetime}</var-value>
+				</var>
+			</field>
+
+			<field property="ende" depends="required,mask">
+				<arg key="regelung.zeitBis" />
+				<msg name="required" key="error.required" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${datetime}</var-value>
+				</var>
+			</field>
+
+			<field property="fahrplanjahr" depends="required,mask">
+				<arg key="common.fahrplanjahr" />
+				<msg name="required" key="error.required" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${year}</var-value>
+				</var>
+			</field>
+
+			<field property="topprojektId" depends="validwhen">
+				<arg key="sperrpausenbedarf.sapProjektNummer.short" />
+				<msg name="validwhen" key="error.required" />
+				<var>
+					<var-name>test</var-name>
+					<var-value>((*this* != null) and (*this* != 0))</var-value>
+				</var>
+			</field>
+
+			<!-- Teilprojektnummer ?? -->
+
+			<field property="anmelderId" depends="validwhen">
+				<arg key="sperrpausenbedarf.anmelder" />
+				<msg name="validwhen" key="error.required" />
+				<var>
+					<var-name>test</var-name>
+					<var-value>((*this* != null) and (*this* != 0))</var-value>
+				</var>
+			</field>
+
+			<field property="datumAnmeldung" depends="required,mask">
+				<arg key="sperrpausenbedarf.anmeldedatum" />
+				<msg name="required" key="error.required" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${date}</var-value>
+				</var>
+			</field>
+
+			<field property="arbeitenId" depends="validwhen">
+				<arg key="sperrpausenbedarf.arbeiten" />
+				<msg name="validwhen" key="error.required" />
+				<var>
+					<var-name>test</var-name>
+					<var-value>((*this* != null) and (*this* != 0))</var-value>
+				</var>
+			</field>
+
+			<field property="folgeNichtausfuehrungId" depends="validwhen">
+				<arg key="sperrpausenbedarf.folgeNichtausfuehrung" />
+				<msg name="validwhen" key="error.required" />
+				<var>
+					<var-name>test</var-name>
+					<var-value>((*this* != null) and (*this* != 0))</var-value>
+				</var>
+			</field>
+
+			<field property="folgeNichtausfuehrungBeginn" depends="mask">
+				<arg key="sperrpausenbedarf.folgeNichtausfuehrungBeginn" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${date}</var-value>
+				</var>
+			</field>
+
+			<field property="folgeNichtausfuehrungFzv" depends="mask,validwhen">
+				<arg key="sperrpausenbedarf.folgeNichtausfuehrungFzv" />
+				<msg name="mask" key="error.invalid" />
+				<msg name="validwhen" key="error.required" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${fahrtzeitverlust}</var-value>
+				</var>
+				<var>
+					<var-name>test</var-name>
+					<var-value>((folgeNichtausfuehrungId != 3) or
+						((folgeNichtausfuehrungId == 3) and ((*this* != null) and ((*this*
+						> 0) and (*this* != '0,0')))))</var-value>
+				</var>
+			</field>
+
+			<field property="folgeNichtausfuehrungGeschwindigkeitLa"
+				depends="mask,validwhen">
+				<arg key="sperrpausenbedarf.folgeNichtausfuehrungGeschwindigkeitLa" />
+				<msg name="mask" key="error.invalid" />
+				<msg name="validwhen" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${geschwindigkeit}</var-value>
+				</var>
+				<var>
+					<var-name>test</var-name>
+					<var-value>((folgeNichtausfuehrungId != 3) or
+						((folgeNichtausfuehrungId == 3) and ((*this* != null) and ((*this*
+						>= 10) and (350 >= *this*)))))</var-value>
+				</var>
+			</field>
+
+			<field property="statusBbzr" depends="required">
+				<arg key="sperrpausenbedarf.statusbbzr.short" />
+				<msg name="required" key="error.required" />
+			</field>
+		</form>
+
+		<form name="regelungGleissperrungForm">
+			<field property="strecke" depends="required,mask">
+				<arg key="regelung.vzgStrecke" />
+				<msg name="required" key="error.required" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${vzgStrecke}</var-value>
+				</var>
+			</field>
+
+			<field property="betriebsstelleVonId" depends="validwhen">
+				<var>
+					<var-name>test</var-name>
+					<var-value>((*this* != null) and (*this* != 0))</var-value>
+				</var>
+				<arg key="sperrpausenbedarf.betriebsstelle.von" />
+				<msg name="validwhen" key="error.required" />
+			</field>
+
+			<field property="betriebsstelleBisId" depends="validwhen">
+				<var>
+					<var-name>test</var-name>
+					<var-value>((*this* != null) and (*this* != 0))</var-value>
+				</var>
+				<arg key="sperrpausenbedarf.betriebsstelle.bis" />
+				<msg name="validwhen" key="error.required" />
+			</field>
+
+			<field property="kmVon" depends="mask">
+				<arg key="langsamfahrstelle.kmVon" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${kilometer}</var-value>
+				</var>
+			</field>
+
+			<field property="kmBis" depends="mask">
+				<arg key="langsamfahrstelle.kmBis" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${kilometer}</var-value>
+				</var>
+			</field>
+
+			<field property="beginn" depends="required,mask">
+				<arg key="regelung.zeitVon" />
+				<msg name="required" key="error.required" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${datetime}</var-value>
+				</var>
+			</field>
+
+			<field property="ende" depends="required,mask">
+				<arg key="regelung.zeitBis" />
+				<msg name="required" key="error.required" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${datetime}</var-value>
+				</var>
+			</field>
+
+			<field property="durchgehend" depends="required">
+				<arg key="regelung.durchgehend" />
+				<msg name="required" key="error.required" />
+			</field>
+
+			<field property="schichtweise" depends="required">
+				<arg key="regelung.schichtweise" />
+				<msg name="required" key="error.required" />
+			</field>
+
+			<field property="betriebsweiseId" depends="validwhen">
+				<var>
+					<var-name>test</var-name>
+					<var-value>((*this* != null) and (*this* != 0))</var-value>
+				</var>
+				<arg key="gleissperrung.betriebsweise" />
+				<msg name="validwhen" key="error.required" />
+			</field>
+
+			<field property="geschwindigkeitVzg" depends="mask">
+				<arg key="gleissperrung.geschwindigkeitVzg" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${geschwindigkeit}</var-value>
+				</var>
+			</field>
+
+			<field property="fzvMusterzug" depends="mask">
+				<arg key="gleissperrung.fzvMusterzug" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${decimalNumber}</var-value>
+				</var>
+			</field>
+		</form>
+
+		<form name="regelungOberleitungForm">
+			<field property="strecke" depends="required,mask">
+				<arg key="regelung.vzgStrecke" />
+				<msg name="required" key="error.required" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${vzgStrecke}</var-value>
+				</var>
+			</field>
+
+			<field property="betriebsstelleVonId" depends="validwhen">
+				<var>
+					<var-name>test</var-name>
+					<var-value>((*this* != null) and (*this* != 0))</var-value>
+				</var>
+				<arg key="sperrpausenbedarf.betriebsstelle.von" />
+				<msg name="validwhen" key="error.required" />
+			</field>
+
+			<field property="betriebsstelleBisId" depends="validwhen">
+				<var>
+					<var-name>test</var-name>
+					<var-value>((*this* != null) and (*this* != 0))</var-value>
+				</var>
+				<arg key="sperrpausenbedarf.betriebsstelle.bis" />
+				<msg name="validwhen" key="error.required" />
+			</field>
+
+			<field property="beginn" depends="required,mask">
+				<arg key="regelung.zeitVon" />
+				<msg name="required" key="error.required" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${datetime}</var-value>
+				</var>
+			</field>
+
+			<field property="ende" depends="required,mask">
+				<arg key="regelung.zeitBis" />
+				<msg name="required" key="error.required" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${datetime}</var-value>
+				</var>
+			</field>
+
+			<field property="durchgehend" depends="required">
+				<arg key="regelung.durchgehend" />
+				<msg name="required" key="error.required" />
+			</field>
+
+			<field property="schichtweise" depends="required">
+				<arg key="regelung.schichtweise" />
+				<msg name="required" key="error.required" />
+			</field>
+
+			<field property="schaltgruppen" depends="required">
+				<arg key="oberleitung.schaltgruppen" />
+				<msg name="required" key="error.required" />
+			</field>
+		</form>
+
+		<form name="regelungLangsamfahrstelleForm">
+			<field property="strecke" depends="required,mask">
+				<arg key="regelung.vzgStrecke" />
+				<msg name="required" key="error.required" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${vzgStrecke}</var-value>
+				</var>
+			</field>
+
+			<field property="betriebsstelleVonId" depends="validwhen">
+				<var>
+					<var-name>test</var-name>
+					<var-value>((*this* != null) and (*this* != 0))</var-value>
+				</var>
+				<arg key="sperrpausenbedarf.betriebsstelle.von" />
+				<msg name="validwhen" key="error.required" />
+			</field>
+
+			<field property="betriebsstelleBisId" depends="validwhen">
+				<var>
+					<var-name>test</var-name>
+					<var-value>((*this* != null) and (*this* != 0))</var-value>
+				</var>
+				<arg key="sperrpausenbedarf.betriebsstelle.bis" />
+				<msg name="validwhen" key="error.required" />
+			</field>
+
+			<field property="kmVon" depends="required,mask">
+				<arg key="langsamfahrstelle.kmVon" />
+				<msg name="required" key="error.required" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${kilometer}</var-value>
+				</var>
+			</field>
+
+			<field property="kmBis" depends="required,mask">
+				<arg key="langsamfahrstelle.kmBis" />
+				<msg name="required" key="error.required" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${kilometer}</var-value>
+				</var>
+			</field>
+
+			<field property="beginn" depends="required,mask">
+				<arg key="regelung.zeitVon" />
+				<msg name="required" key="error.required" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${datetime}</var-value>
+				</var>
+			</field>
+
+			<field property="ende" depends="required,mask">
+				<arg key="regelung.zeitBis" />
+				<msg name="required" key="error.required" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${datetime}</var-value>
+				</var>
+			</field>
+
+			<field property="durchgehend" depends="required">
+				<arg key="regelung.durchgehend" />
+				<msg name="required" key="error.required" />
+			</field>
+
+			<field property="schichtweise" depends="required">
+				<arg key="regelung.schichtweise" />
+				<msg name="required" key="error.required" />
+			</field>
+
+			<field property="laTyp" depends="required">
+				<arg key="langsamfahrstelle.laTyp" />
+				<msg name="required" key="error.required" />
+			</field>
+
+			<field property="geschwindigkeitVzg" depends="mask">
+				<arg key="langsamfahrstelle.geschwindigkeitVzg" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${geschwindigkeit}</var-value>
+				</var>
+			</field>
+
+			<field property="geschwindigkeitLa" depends="required,mask">
+				<arg key="langsamfahrstelle.geschwindigkeitLa" />
+				<msg name="required" key="error.required" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${geschwindigkeit}</var-value>
+				</var>
+			</field>
+
+			<field property="fzvMusterzug" depends="mask">
+				<arg key="langsamfahrstelle.fzvMusterzug" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${decimalNumber}</var-value>
+				</var>
+			</field>
+		</form>
+
+		<form name="sperrpausenbedarfForm">
+			<field property="regionalbereichId" depends="validwhen">
+				<arg key="sperrpausenbedarf.regionalbereich" />
+				<msg name="validwhen" key="error.required" />
+				<var>
+					<var-name>test</var-name>
+					<var-value>((*this* != null) and (*this* != 0))</var-value>
+				</var>
+			</field>
+
+			<field property="finanztypId" depends="validwhen">
+				<arg key="sperrpausenbedarf.finanztyp" />
+				<msg name="validwhen" key="error.required" />
+				<var>
+					<var-name>test</var-name>
+					<var-value>((*this* != null) and (*this* != 0))</var-value>
+				</var>
+			</field>
+
+			<field property="arbeitenId" depends="validwhen">
+				<arg key="sperrpausenbedarf.arbeiten" />
+				<msg name="validwhen" key="error.required" />
+				<var>
+					<var-name>test</var-name>
+					<var-value>((*this* != null) and (*this* != 0))</var-value>
+				</var>
+			</field>
+
+			<field property="hauptStrecke" depends="required,mask">
+				<arg key="sperrpausenbedarf.hauptStrecke" />
+				<msg name="required" key="error.required" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${vzgStrecke}</var-value>
+				</var>
+			</field>
+
+			<field property="richtungsKennzahl" depends="required">
+				<arg key="sperrpausenbedarf.richtungsKennzahl" />
+				<msg name="required" key="error.required" />
+			</field>
+
+			<field property="kmVon" depends="required,mask">
+				<arg key="sperrpausenbedarf.kmVon" />
+				<msg name="required" key="error.required" />
+				<msg name="mask" key="error.decimalFormat" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${kilometer}</var-value>
+				</var>
+			</field>
+			<field property="kmBis" depends="required,mask">
+				<arg key="sperrpausenbedarf.kmBis" />
+				<msg name="required" key="error.required" />
+				<msg name="mask" key="error.decimalFormat" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${kilometer}</var-value>
+				</var>
+			</field>
+
+			<field property="betriebsstelleVonId" depends="validwhen">
+				<var>
+					<var-name>test</var-name>
+					<var-value>((*this* != null) and (*this* != 0))</var-value>
+				</var>
+				<arg key="sperrpausenbedarf.betriebsstelle.von" />
+				<msg name="validwhen" key="error.required" />
+			</field>
+
+			<field property="betriebsstelleBisId" depends="validwhen">
+				<var>
+					<var-name>test</var-name>
+					<var-value>((*this* != null) and (*this* != 0))</var-value>
+				</var>
+				<arg key="sperrpausenbedarf.betriebsstelle.bis" />
+				<msg name="validwhen" key="error.required" />
+			</field>
+
+			<field property="bauterminStart" depends="required,mask">
+				<arg key="sperrpausenbedarf.bauterminStart" />
+				<msg name="required" key="error.required" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${datetime}</var-value>
+				</var>
+			</field>
+
+			<field property="bauterminEnde" depends="required,mask">
+				<arg key="sperrpausenbedarf.bauterminEnde" />
+				<msg name="required" key="error.required" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${datetime}</var-value>
+				</var>
+			</field>
+
+			<field property="bauterminStartKoordiniert" depends="mask">
+				<arg key="sperrpausenbedarf.bauterminStartKoordiniert" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${datetime}</var-value>
+				</var>
+			</field>
+
+			<field property="bauterminEndeKoordiniert" depends="mask">
+				<arg key="sperrpausenbedarf.bauterminEndeKoordiniert" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${datetime}</var-value>
+				</var>
+			</field>
+
+			<field property="wtsMo" depends="validwhen">
+				<var>
+					<var-name>test</var-name>
+					<var-value>((wtsMo == "true") or ((wtsDi == "true") or ((wtsMi ==
+						"true") or ((wtsDo == "true") or ((wtsFr == "true") or ((wtsSa ==
+						"true") or (wtsSo == "true")))))))</var-value>
+				</var>
+				<arg key="sperrpausenbedarf.verkehrstageregelung" />
+				<msg name="validwhen" key="error.required" />
+			</field>
+
+			<field property="geplanteNennleistung" depends="mask">
+				<arg key="sperrpausenbedarf.geplanteNennleistung" />
+				<msg name="mask" key="error.decimalFormat" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${meter}</var-value>
+				</var>
+			</field>
+
+			<field property="notwendigeLaengePss" depends="mask">
+				<arg key="sperrpausenbedarf.notwendigeLaengePss" />
+				<msg name="mask" key="error.decimalFormat" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${meter}</var-value>
+				</var>
+			</field>
+
+			<field property="umbaulaenge" depends="mask">
+				<arg key="sperrpausenbedarf.umbaulaenge" />
+				<msg name="mask" key="error.decimalFormat" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${meter}</var-value>
+				</var>
+			</field>
+		</form>
+
+		<form name="sperrpausenbedarfSmallForm">
+			<field property="bauterminStartKoordiniert" depends="mask">
+				<arg key="sperrpausenbedarf.bauterminStartKoordiniert" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${datetime}</var-value>
+				</var>
+			</field>
+
+			<field property="bauterminEndeKoordiniert" depends="mask">
+				<arg key="sperrpausenbedarf.bauterminEndeKoordiniert" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${datetime}</var-value>
+				</var>
+			</field>
+		</form>
+		
+		<form name="regelungForm">
+			<field property="beginn" depends="mask">
+				<arg key="regelung.beginn" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${datetime}</var-value>
+				</var>
+			</field>
+			
+			<field property="ende" depends="mask">
+				<arg key="regelung.ende" />
+				<msg name="mask" key="error.invalid" />
+				<var>
+					<var-name>mask</var-name>
+					<var-value>${datetime}</var-value>
+				</var>
+			</field>
+			
+		</form>
+
+	</formset>
+
+</form-validation>

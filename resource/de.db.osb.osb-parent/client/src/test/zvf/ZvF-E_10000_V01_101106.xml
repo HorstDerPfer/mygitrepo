@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2011-01-18T08:58:16</timestamp>
+  <filename>ZvF-E_10000_V01_101106.rtf</filename>
+  <version_prg_zvf>v2.8.0</version_prg_zvf>
+  <sender>
+   <name></name>
+   <vorname></vorname>
+   <kuerzel></kuerzel>
+   <abteilung></abteilung>
+   <strasse>Lindemannallee 3</strasse>
+   <plz>30173</plz>
+   <ort>Hannover</ort>
+   <email></email>
+   <telefon></telefon>
+   <telefon_intern></telefon_intern>
+  </sender>
+  <empfaengerlist/>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Nord</masterniederlassung>
+   <zvfid>010910151012_7642</zvfid>
+   <baumassnahmenart>A</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <korridor> </korridor>
+   <kigbau></kigbau>
+   <kennung></kennung>
+   <extension></extension>
+   <bbpliste/>
+   <master_fplo>10000</master_fplo>
+   <festgelegtSPFV>0</festgelegtSPFV>
+   <festgelegtSPNV>0</festgelegtSPNV>
+   <festgelegtSGV>0</festgelegtSGV>
+   <antwort>2011-01-26</antwort>
+   <endStueckZvf>0</endStueckZvf>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF-Entwurf)</titel>
+    <formular>ZVF-091008</formular>
+    <major>1</major>
+    <minor>1</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <grund>Baustelle, Sonderzeichen ein ä ein ö ein ü ein ß</grund>
+     <vzgliste>
+      <vzg>1700</vzg>
+     </vzgliste>
+     <export>Ja</export>
+     <massnahme>Bückeburg - Kirchhorsten</massnahme>
+     <startbst>HBKB</startbst>
+     <endbst>HKHN</endbst>
+     <betriebsweise>eingleisig</betriebsweise>
+     <baubeginn>2010-11-06T07:00:00</baubeginn>
+     <bauende>2010-11-06T10:00:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+    </strecke>
+    <strecke>
+     <grund>Baustelle</grund>
+     <vzgliste>
+      <vzg>1700</vzg>
+     </vzgliste>
+     <export>Ja</export>
+     <massnahme>Minden Gbf - Bückeburg</massnahme>
+     <startbst>HM  G</startbst>
+     <endbst>HBKB</endbst>
+     <betriebsweise>eingleisig</betriebsweise>
+     <baubeginn>2010-11-06T07:00:00</baubeginn>
+     <bauende>2010-11-06T09:00:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+    </strecke>
+   </streckenabschnitte>
+   <KID1 timestamp="2010-09-01" >526</KID1>
+   <KID2>39</KID2>
+   <KID3>2</KID3>
+   <KID4Liste>
+    <KID4 timestamp="2010-08-01" >0</KID4>
+    <KID4 timestamp="2010-09-01" >526</KID4>
+   </KID4Liste>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" fplo="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >west</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >mitte</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="Z1351" zugnr="2013" zugbez="IC" >
+     <firstbst>HKHN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="LM" >Magdeburg Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="TU" >Ulm Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="Z1351" zugnr="148" zugbez="IC" >
+     <firstbst>HKHN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XPSG" >Szczecin Glowny</abgangsbahnhof>
+      <zielbahnhof ds100="XNSP" >Schiphol</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>4</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="Z1351" zugnr="240" zugbez="IC" >
+     <firstbst>HKHN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="BHF" >Bln Ostbahnhof</abgangsbahnhof>
+      <zielbahnhof ds100="XNSP" >Schiphol</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>14</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="Z1351" zugnr="242" zugbez="IC" >
+     <firstbst>HKHN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="HH" >Hannover Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="XNSP" >Schiphol</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>4</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="Z1351" zugnr="541" zugbez="ICE-A" >
+     <firstbst>HBKB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="KK" >Köln Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="BHF" >Bln Ostbahnhof</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>12</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="Z1351" zugnr="553" zugbez="ICE-A" >
+     <firstbst>HBKB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="KKO" >Koblenz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="BHF" >Bln Ostbahnhof</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>39</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="Z1351" zugnr="642" zugbez="ICE-A" >
+     <firstbst>HKHN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="BRGBT" >Bln-Rummels Tanl</abgangsbahnhof>
+      <zielbahnhof ds100="KDA" >D Abstellbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>4</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="Z1351" zugnr="644" zugbez="ICE-A" >
+     <firstbst>HKHN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="BHF" >Bln Ostbahnhof</abgangsbahnhof>
+      <zielbahnhof ds100="KFKB" >Köln/Bonn Flughf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>20</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="Z1351" zugnr="853" zugbez="ICE-A" >
+     <firstbst>HBKB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="KK" >Köln Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="BHF" >Bln Ostbahnhof</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>17</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="Z1351" zugnr="855" zugbez="ICE-A" >
+     <firstbst>HBKB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="KK" >Köln Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="BHF" >Bln Ostbahnhof</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>4</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="Z1351" zugnr="942" zugbez="ICE-A" >
+     <firstbst>HKHN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="BHF" >Bln Ostbahnhof</abgangsbahnhof>
+      <zielbahnhof ds100="KFKB" >Köln/Bonn Flughf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>4</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="Z1351" zugnr="944" zugbez="ICE-A" >
+     <firstbst>HKHN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="BHF" >Bln Ostbahnhof</abgangsbahnhof>
+      <zielbahnhof ds100="KD" >Düsseldorf Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>15</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="Z1351" zugnr="946" zugbez="ICE-A" >
+     <firstbst>HKHN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="BHF" >Bln Ostbahnhof</abgangsbahnhof>
+      <zielbahnhof ds100="KD" >Düsseldorf Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>18</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="Z1351" zugnr="2013" zugbez="IC" >
+     <firstbst>HBKB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="LM" >Magdeburg Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="TU" >Ulm Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>19</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="Z1351" zugnr="2044" zugbez="IC" >
+     <firstbst>HKHN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="LL" >Leipzig Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="EDO" >Dortmund Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>10</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="Z1351" zugnr="2143" zugbez="IC" >
+     <firstbst>HBKB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="KK" >Köln Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="LL" >Leipzig Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>11</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="Z1351" zugnr="2145" zugbez="IC" >
+     <firstbst>HBKB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="KK" >Köln Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="LL" >Leipzig Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>18</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="Z1351" zugnr="2243" zugbez="IC" >
+     <firstbst>HBKB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="HBTH" >Bad Bentheim</abgangsbahnhof>
+      <zielbahnhof ds100="BHF" >Bln Ostbahnhof</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>41</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="H1260" zugnr="9110" zugbez="S" >
+     <firstbst>HBKB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="HH" >Hannover Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="HM" >Minden (Westf)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>5</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="H1260" zugnr="9112" zugbez="S" >
+     <firstbst>HKHN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="HH" >Hannover Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="HM" >Minden (Westf)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>25</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="H1260" zugnr="9114" zugbez="S" >
+     <firstbst>HKHN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="HH" >Hannover Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="HM" >Minden (Westf)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>48</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="H1260" zugnr="9115" zugbez="S" >
+     <firstbst>HBKB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="HM" >Minden (Westf)</abgangsbahnhof>
+      <zielbahnhof ds100="HH" >Hannover Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>12</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="H1260" zugnr="9117" zugbez="S" >
+     <firstbst>HBKB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="HM" >Minden (Westf)</abgangsbahnhof>
+      <zielbahnhof ds100="HH" >Hannover Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>44</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="H1260" zugnr="9119" zugbez="S" >
+     <firstbst>HBKB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="HM" >Minden (Westf)</abgangsbahnhof>
+      <zielbahnhof ds100="HH" >Hannover Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>20</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="H1254" zugnr="14004" zugbez="RE-D" >
+     <firstbst>HKHN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="HBS" >Braunschweig Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="HR" >Rheine</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>11</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="H1254" zugnr="14005" zugbez="RE-D" >
+     <firstbst>HBKB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="HR" >Rheine</abgangsbahnhof>
+      <zielbahnhof ds100="HBS" >Braunschweig Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>15</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="H1254" zugnr="14006" zugbez="RE-D" >
+     <firstbst>HKHN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="HBS" >Braunschweig Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="HR" >Rheine</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>24</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="H1254" zugnr="14203" zugbez="RE-D" >
+     <firstbst>HBKB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="EBILP" >Bielefeld Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="HBS" >Braunschweig Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>10</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="H1254" zugnr="14204" zugbez="RE-D" >
+     <firstbst>HKHN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="HBS" >Braunschweig Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="EBILP" >Bielefeld Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>28</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="H1254" zugnr="14205" zugbez="RE-D" >
+     <firstbst>HBKB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="EBILP" >Bielefeld Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="HBS" >Braunschweig Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>38</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="Z1453" zugnr="42457" zugbez="TEC" >
+     <firstbst>HM  G</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="EDRH" >Du-Ruhrort Hafen</abgangsbahnhof>
+      <zielbahnhof ds100="XPM" >Malaszewicze</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>20</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="Z1461" zugnr="51227" zugbez="FIR" >
+     <firstbst>HBKB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="KG  G" >Gremberg Gnf</abgangsbahnhof>
+      <zielbahnhof ds100="HSR A" >Seelze Rbf Swf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>60</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="Z1461" zugnr="51332" zugbez="FIR" >
+     <firstbst>HKHN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="HSR W" >Seelze Rbf W</abgangsbahnhof>
+      <zielbahnhof ds100="KG  F" >Gremberg Rnw</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>23</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="Z1461" zugnr="52402" zugbez="FR" >
+     <firstbst>HKHN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="HSR W" >Seelze Rbf W</abgangsbahnhof>
+      <zielbahnhof ds100="HOR O" >Osn Rbf Oro</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>18</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="Z1451" zugnr="60012" zugbez="CSQ" >
+     <firstbst>HKHN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="HBSR" >Braunschweig Rbf</abgangsbahnhof>
+      <zielbahnhof ds100="HEVW" >Emden Hbf VW</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>25</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="H1260" zugnr="9110" zugbez="S" >
+     <firstbst>HKHN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="HH" >Hannover Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="HM" >Minden (Westf)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="HH" >Hannover Hbf</ausfallvon>
+      <ausfallbis ds100="HM" >Minden (Westf)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="Z1461" zugnr="51223" zugbez="FIR" >
+     <firstbst>HM  G</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="KG  G" >Gremberg Gnf</abgangsbahnhof>
+      <zielbahnhof ds100="HSR A" >Seelze Rbf Swf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="vorplan" >
+      <vorplanab ds100="KG  G" >Gremberg Gnf</vorplanab>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="H1254" zugnr="14202" zugbez="RE-D" >
+     <firstbst>HKHN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="HBS" >Braunschweig Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="EBILP" >Bielefeld Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="regelung" >
+      <verspaetung>3</verspaetung>
+      <regelungsliste>
+       <regelung>
+        <art>Spezifische Regelung</art>
+        <gilt_in></gilt_in>
+        <text> Volker</text>
+       </regelung>
+       <regelung>
+        <art>Neuer Startbahnhof</art>
+        <gilt_in ds100="MH" >München Hbf</gilt_in>
+        <text>Ab 8.00</text>
+       </regelung>
+       <regelung>
+        <art>Traktionsänderung</art>
+        <gilt_in></gilt_in>
+        <text>142</text>
+       </regelung>
+       <regelung>
+        <art>Verkürzte Bahnsteiglänge</art>
+        <gilt_in ds100="HH" >Hannover Hbf</gilt_in>
+        <text>350 m</text>
+       </regelung>
+      </regelungsliste>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2010-11-06" betreiber="H1254" zugnr="14203" zugbez="RE-D" >
+     <firstbst>HBKB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="EBILP" >Bielefeld Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="HBS" >Braunschweig Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="regelung" >
+      <verspaetung>10</verspaetung>
+      <regelungsliste>
+       <regelung>
+        <art>Wende nicht möglich</art>
+        <gilt_in ds100="HWUN" >Wunstorf</gilt_in>
+        <text>äöü</text>
+       </regelung>
+       <regelung>
+        <art>Wende nicht möglich</art>
+        <gilt_in ds100="HWUN" >Wunstorf</gilt_in>
+        <text>Volker</text>
+       </regelung>
+      </regelungsliste>
+     </abweichung>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

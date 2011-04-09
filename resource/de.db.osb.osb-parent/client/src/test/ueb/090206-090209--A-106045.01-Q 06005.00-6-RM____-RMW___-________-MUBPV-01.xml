@@ -1,0 +1,1282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-10-06T14:02:25</timestamp>
+  <filename>090206-090209--A-106045.01-Q 06005.00-6-RM____-RMW___-________-MUBPV-01.rtf</filename>
+  <version_prg_zvf>v2.1.4</version_prg_zvf>
+  <sender>
+   <name>Schmitt</name>
+   <vorname>Hermann</vorname>
+   <kuerzel> Sx</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Hermann.He.Schmitt@bahn.de</email>
+   <telefon>0721/938 7334</telefon>
+   <telefon_intern>972-7334</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>Betriebsplanung - BZ</empfaenger>
+   <empfaenger>Zitsch</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>A</baumassnahmenart>
+   <qsbaumassnahme>Q 06005.00</qsbaumassnahme>
+   <ksbaumassnahme></ksbaumassnahme>
+   <kigbau>106045.01</kigbau>
+   <kennung>FFOE387B82A6</kennung>
+   <bbp>44025</bbp>
+   <master_fplo>51005</master_fplo>
+   <version>
+    <titel>Master-Übergabeblatt (PV)</titel>
+    <formular>ÜB-070708</formular>
+    <major>1</major>
+    <minor>3</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>RM</startbst>
+     <endbst>RMW</endbst>
+     <massnahme>Mannheim Hbf - Mannheim-Waldhof</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Einbau Schottertrennung westl. Ried</grund>
+     <baubeginn>2009-02-06T19:05:00</baubeginn>
+     <bauende>2009-02-09T06:30:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" >west</niederlassung>
+    <niederlassung beteiligt="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" >mitte</niederlassung>
+    <niederlassung beteiligt="1" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="70" zugbez="ICE-A" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XSB" >Basel SBB</abgangsbahnhof>
+      <zielbahnhof ds100="AE  F" >Hmb-Eid Gbf Ef</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="71" zugbez="ICE-A" >
+     <firstbst>RM</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="AE  F" >Hmb-Eid Gbf Ef</abgangsbahnhof>
+      <zielbahnhof ds100="XSB" >Basel SBB</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="72" zugbez="ICE-A" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="73" zugbez="ICE-A" >
+     <firstbst>RM</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="74" zugbez="ICE-A" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="75" zugbez="ICE-A" >
+     <firstbst>RM</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="76" zugbez="ICE-A" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="77" zugbez="ICE-A" >
+     <firstbst>RM</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="78" zugbez="ICE-A" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-06" zugnr="376" zugbez="ICE-A" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-06" zugnr="457" zugbez="EN" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="459" zugbez="CNL" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="570" zugbez="ICE-A" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TS" >Stuttgart Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="AE  F" >Hmb-Eid Gbf Ef</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="572" zugbez="ICE-A" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TS" >Stuttgart Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="AE  F" >Hmb-Eid Gbf Ef</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="574" zugbez="ICE-A" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TS" >Stuttgart Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="AE  F" >Hmb-Eid Gbf Ef</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="576" zugbez="ICE-A" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TS" >Stuttgart Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="AE  F" >Hmb-Eid Gbf Ef</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="578" zugbez="ICE-A" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TS" >Stuttgart Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="AE  F" >Hmb-Eid Gbf Ef</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="613" zugbez="ICE-W" >
+     <firstbst>RM</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="EDOB" >Dortmund Bbf</abgangsbahnhof>
+      <zielbahnhof ds100="MH" >München Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="670" zugbez="ICE-A" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="AE  F" >Hmb-Eid Gbf Ef</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-06" zugnr="671" zugbez="ICE-A" >
+     <firstbst>RM</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof ds100="RBB" >Baden-Baden</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-06" zugnr="673" zugbez="ICE-A" >
+     <firstbst>RM</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="770" zugbez="ICE-A" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TS" >Stuttgart Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="AE  F" >Hmb-Eid Gbf Ef</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="974" zugbez="ICE-A" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TS" >Stuttgart Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="AK" >Kiel Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="1175" zugbez="ICE-A" >
+     <firstbst>RM</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="BPAF" >Bln Papestr(Fb)</abgangsbahnhof>
+      <zielbahnhof ds100="TS" >Stuttgart Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="4554" zugbez="RE-D" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FF" >Frankfurt(M) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>160</vmax>
+      <tfz>146</tfz>
+      <last>285</last>
+      <laenge>135</laenge>
+      <brems>194 R+Mg</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="4557" zugbez="RE-D" >
+     <firstbst>RM</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FF" >Frankfurt(M) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>160</vmax>
+      <tfz>146</tfz>
+      <last>285</last>
+      <laenge>135</laenge>
+      <brems>194 R+Mg</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-06" zugnr="4579" zugbez="RE-D" >
+     <firstbst>RM</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FF" >Frankfurt(M) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>160</vmax>
+      <tfz>146</tfz>
+      <last>285</last>
+      <laenge>135</laenge>
+      <brems>194 R+Mg</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-06" zugnr="4585" zugbez="RE-D" >
+     <firstbst>RM</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FF" >Frankfurt(M) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>160</vmax>
+      <tfz>146</tfz>
+      <last>285</last>
+      <laenge>135</laenge>
+      <brems>194 R+Mg</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-06" zugnr="9550" zugbez="ICE-W" >
+     <firstbst>RM</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FF" >Frankfurt(M) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="XFPO" >Paris (Est)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>14.3</gattungsnummer>
+      <vmax>320</vmax>
+      <tfz>406</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>196 R+WB</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="9551" zugbez="ICE-W" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XFPO" >Paris (Est)</abgangsbahnhof>
+      <zielbahnhof ds100="FF" >Frankfurt(M) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="9552" zugbez="ICE-W" >
+     <firstbst>RM</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FF" >Frankfurt(M) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="XFPO" >Paris (Est)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="9553" zugbez="ICE-W" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XFPO" >Paris (Est)</abgangsbahnhof>
+      <zielbahnhof ds100="FF" >Frankfurt(M) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="9554" zugbez="ICE-W" >
+     <firstbst>RM</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FF" >Frankfurt(M) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="XFPO" >Paris (Est)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="9555" zugbez="ICE-W" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XFPO" >Paris (Est)</abgangsbahnhof>
+      <zielbahnhof ds100="FF" >Frankfurt(M) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="9556" zugbez="ICE-W" >
+     <firstbst>RM</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FF" >Frankfurt(M) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="XFPO" >Paris (Est)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-06" zugnr="9557" zugbez="ICE-W" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XFPO" >Paris (Est)</abgangsbahnhof>
+      <zielbahnhof ds100="FF" >Frankfurt(M) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="9558" zugbez="ICE-W" >
+     <firstbst>RM</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FF" >Frankfurt(M) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="XFPO" >Paris (Est)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>14.3</gattungsnummer>
+      <vmax>320</vmax>
+      <tfz>406</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>196 R+WB</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-06" zugnr="9559" zugbez="ICE-W" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XFPO" >Paris (Est)</abgangsbahnhof>
+      <zielbahnhof ds100="FF" >Frankfurt(M) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="18634" zugbez="RB" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FBL" >Biblis</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>11</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-06" zugnr="18640" zugbez="RB" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FBL" >Biblis</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>11</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="18640" zugbez="RB" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FBL" >Biblis</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="18656" zugbez="RB" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FBL" >Biblis</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="18658" zugbez="RB" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FBL" >Biblis</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>15</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="18660" zugbez="RB" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RWG" >Waghäusel</abgangsbahnhof>
+      <zielbahnhof ds100="FBL" >Biblis</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>11</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="18662" zugbez="RB" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FBL" >Biblis</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>11</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="18664" zugbez="RB" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FBL" >Biblis</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>11</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="18666" zugbez="RB" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RWG" >Waghäusel</abgangsbahnhof>
+      <zielbahnhof ds100="FBL" >Biblis</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>11</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="18668" zugbez="RB" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RGN" >Graben-Neudorf</abgangsbahnhof>
+      <zielbahnhof ds100="FBL" >Biblis</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>11</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="18670" zugbez="RB" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FBL" >Biblis</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>11</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="18672" zugbez="RB" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RWG" >Waghäusel</abgangsbahnhof>
+      <zielbahnhof ds100="FBL" >Biblis</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>11</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="18674" zugbez="RB" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FBL" >Biblis</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>11</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-07" zugnr="18676" zugbez="RB" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FBL" >Biblis</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>11</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-08" zugnr="18696" zugbez="RB" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FBL" >Biblis</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>11</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-06" zugnr="18698" zugbez="RB" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FBL" >Biblis</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>11</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-06" zugnr="18700" zugbez="RB" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FBL" >Biblis</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-02-06" zugnr="18702" zugbez="RB" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FBL" >Biblis</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>11</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>160</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

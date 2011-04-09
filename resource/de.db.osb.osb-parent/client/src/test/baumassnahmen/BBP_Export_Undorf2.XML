@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<BBPXMLSchnittstelle>
+<Header>
+<Ersteller>StephanASchmidt</Ersteller>
+<Erstellzeit>2008-05-14, 17:42</Erstellzeit> 
+<BBPVersion>BBP 4.6.0.8105</BBPVersion>
+<BplBeginn>2008-09-23</BplBeginn>
+<BplEnde>2008-10-09</BplEnde>
+</Header>
+<Daten>
+<BBPMassnahme>
+<MasID>08A60F7C9F769</MasID>
+<aktiv>1</aktiv>
+<MasKennung>FEF8367D484B</MasKennung>
+<Vorhaben>G.016174161</Vorhaben>
+<RegionID>7</RegionID>
+<Region>Süd</Region>
+<AnmelderID>6</AnmelderID>
+<Anmelder>I.NP-S-A</Anmelder>
+<ArbeitenID>27</ArbeitenID>
+<Arbeiten>Einbau Planumsschutzschicht + GE + BE km 19,510 - 25,323</Arbeiten>
+<BBPStrecke>57016</BBPStrecke>
+<VzGStrecke>5850</VzGStrecke>
+<MasBstVonAG850ID> -1 </MasBstVonAG850ID>
+<MasBstBisAG850ID> -1 </MasBstBisAG850ID>
+<MasBstVonRil100>NUDF</MasBstVonRil100>
+<MasBstBisRil100>NBE</MasBstBisRil100>
+<MasBstVonLang>Undorf</MasBstVonLang>
+<MasBstBisLang>Beratzhausen</MasBstBisLang>
+<MasKmVon>-9999,000</MasKmVon>
+<MasKmBis>-9999,000</MasKmBis>
+<BezKz>743</BezKz>
+<MasBeginn>200809252300</MasBeginn>
+<MasEnde>200809302300</MasEnde>
+<GravAendDate> 200802290000</GravAendDate>
+<GraZeit>False</GraZeit>
+<GraOrt>False</GraOrt>
+<GraRegel>True</GraRegel>
+<AnmelderBem></AnmelderBem>
+<TempAnm></TempAnm>
+<Regelungen>
+<Regelung>
+<RegID>08A60F7C9F769-0001</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>AL</BplArtText>
+<JplID></JplID>
+<Beginn>200809252300</Beginn>
+<Ende>200809302300</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>NUDF</BstVonRil100>
+<BstBisRil100>NBE</BstBisRil100>
+<BstVonLang>Undorf</BstVonLang>
+<BstBisLang>Beratzhausen</BstBisLang>
+<BstVonLageKm>12,600</BstVonLageKm>
+<BstBisLageKm>26,200</BstBisLageKm>
+<VzGStrecke>5850</VzGStrecke>
+<Richtung>1</Richtung>
+<BBPStrecke>57016</BBPStrecke>
+<BBPStrRi>2</BBPStrRi>
+<BplRegelungID>4</BplRegelungID>
+<BplRegelungKurz>Ggl Zs 6/7 s</BplRegelungKurz>
+<BplRegelungLang>Befahren Ggl auf Zs 6/7 ständig</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>7,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>True</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr>207194.01</LisbaNr>
+<BemerkungenBpl></BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>08A60F7C9F769-0002</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>AL</BplArtText>
+<JplID></JplID>
+<Beginn>200809252300</Beginn>
+<Ende>200809302300</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>NBE</BstVonRil100>
+<BstBisRil100>NUDF</BstBisRil100>
+<BstVonLang>Beratzhausen</BstVonLang>
+<BstBisLang>Undorf</BstBisLang>
+<BstVonLageKm>26,200</BstVonLageKm>
+<BstBisLageKm>12,600</BstBisLageKm>
+<VzGStrecke>5850</VzGStrecke>
+<Richtung>2</Richtung>
+<BBPStrecke>57016</BBPStrecke>
+<BBPStrRi>1</BBPStrRi>
+<BplRegelungID>15</BplRegelungID>
+<BplRegelungKurz>Lfst</BplRegelungKurz>
+<BplRegelungLang>Langsamfahrstelle</BplRegelungLang>
+<RegelungKmVon>25,323</RegelungKmVon>
+<RegelungKmBis>19,510</RegelungKmBis>
+<VzGV>160</VzGV>
+<LaV>70</LaV>
+<FzvBBP>4,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>True</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl>Schutz-La</BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>08A60F7C9F769-0003</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>AL</BplArtText>
+<JplID></JplID>
+<Beginn>200809252300</Beginn>
+<Ende>200809302300</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>NBE</BstVonRil100>
+<BstBisRil100>NBE</BstBisRil100>
+<BstVonLang>Beratzhausen</BstVonLang>
+<BstBisLang>Beratzhausen</BstBisLang>
+<BstVonLageKm>26,200</BstVonLageKm>
+<BstBisLageKm>26,200</BstBisLageKm>
+<VzGStrecke>5850</VzGStrecke>
+<Richtung>1</Richtung>
+<BBPStrecke>57016</BBPStrecke>
+<BBPStrRi>2</BBPStrRi>
+<BplRegelungID>5</BplRegelungID>
+<BplRegelungKurz>FZmst</BplRegelungKurz>
+<BplRegelungLang>Abweichung Fpl für Zmst</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>0,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>False</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl>Sp. Gl. 3, Abstellen, Logistik, Unterbrechungen m&#246;glich, kein Brechen der Z&#252;ge f&#252;r SEV m&#246;glich </BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>08A60F7C9F769-0004</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>AL</BplArtText>
+<JplID></JplID>
+<Beginn>200809240800</Beginn>
+<Ende>200810070800</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>NPB</BstVonRil100>
+<BstBisRil100>NPB</BstBisRil100>
+<BstVonLang>Parsberg</BstVonLang>
+<BstBisLang>Parsberg</BstBisLang>
+<BstVonLageKm>36,700</BstVonLageKm>
+<BstBisLageKm>36,700</BstBisLageKm>
+<VzGStrecke>5850</VzGStrecke>
+<Richtung>1</Richtung>
+<BBPStrecke>57016</BBPStrecke>
+<BBPStrRi>2</BBPStrRi>
+<BplRegelungID>5</BplRegelungID>
+<BplRegelungKurz>FZmst</BplRegelungKurz>
+<BplRegelungLang>Abweichung Fpl für Zmst</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>0,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>False</SPFV>
+<SPNV>False</SPNV>
+<SGV>True</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl>Sp.Gleis 12, 13, 14, 15, Milit&#228;rverladungen und Wgladungsverkehr nicht m&#246;glich</BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>08A60F7C9F769-0005</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>AL</BplArtText>
+<JplID></JplID>
+<Beginn>200809252300</Beginn>
+<Ende>200809302300</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>NUDF</BstVonRil100>
+<BstBisRil100>NUDF</BstBisRil100>
+<BstVonLang>Undorf</BstVonLang>
+<BstBisLang>Undorf</BstBisLang>
+<BstVonLageKm>12,600</BstVonLageKm>
+<BstBisLageKm>12,600</BstBisLageKm>
+<VzGStrecke>5850</VzGStrecke>
+<Richtung>1</Richtung>
+<BBPStrecke>57016</BBPStrecke>
+<BBPStrRi>2</BBPStrRi>
+<BplRegelungID>5</BplRegelungID>
+<BplRegelungKurz>FZmst</BplRegelungKurz>
+<BplRegelungLang>Abweichung Fpl für Zmst</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>0,0</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>False</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl>Sp. Gl. 3, Abstellen, Logistik, Unterbrechungen m&#246;glich, kein Brechen der Z&#252;ge f&#252;r SEV m&#246;glich </BemerkungenBpl>
+</Regelung>
+</Regelungen>
+</BBPMassnahme>
+</Daten>
+</BBPXMLSchnittstelle>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-10-23T10:06:16</timestamp>
+  <filename>081212-081213--B-_____-________-6-SVL___-SLU___-RAILION_-ZVF__-01.rtf</filename>
+  <version_prg_zvf>v2.2.3</version_prg_zvf>
+  <sender>
+   <name>Hermannek</name>
+   <vorname>Björn</vorname>
+   <kuerzel> Hn</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Bjoern.Hermannek@bahn.de</email>
+   <telefon>0721/938 7338</telefon>
+   <telefon_intern>972-7338</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>Railion</empfaenger>
+   <empfaenger>Klemann</empfaenger>
+   <empfaenger>Betriebsplanung - BZ</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>B</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <korridor> </korridor>
+   <kigbau></kigbau>
+   <kennung></kennung>
+   <bbp>44005</bbp>
+   <master_fplo>36284</master_fplo>
+   <festgelegtSPFV>0</festgelegtSPFV>
+   <festgelegtSPNV>0</festgelegtSPNV>
+   <festgelegtSGV>0</festgelegtSGV>
+   <antwort>2008-11-13</antwort>
+   <endStueckZvf>1</endStueckZvf>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF)</titel>
+    <formular>ZVF-091008</formular>
+    <major>1</major>
+    <minor>2</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>SVL</startbst>
+     <endbst>SSB</endbst>
+     <massnahme>Sbr-Burbach - Völklingen</massnahme>
+     <betriebsweise>Ggl Bef</betriebsweise>
+     <grund>WE W28+25, Lückenschluss W5+11+24 SLU</grund>
+     <baubeginn>2008-12-11T00:30:00</baubeginn>
+     <bauende>2008-12-12T04:30:00</bauende>
+     <zeitraum_unterbrochen>Ja</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+    <strecke>
+     <startbst>SVL</startbst>
+     <endbst>SLU</endbst>
+     <massnahme>Völklingen - Luisenthal(Saar)</massnahme>
+     <betriebsweise>Ggl Zs 8</betriebsweise>
+     <grund>Umbau W28, Lückenschluss W11 SLU</grund>
+     <baubeginn>2008-12-12T23:00:00</baubeginn>
+     <bauende>2008-12-13T23:59:59</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+    <strecke>
+     <startbst>SVL</startbst>
+     <endbst>SLU</endbst>
+     <massnahme>Völklingen - Luisenthal(Saar)</massnahme>
+     <betriebsweise>Ggl Zs 8</betriebsweise>
+     <grund>Umbau W28, Lückenschluss W11 SLU</grund>
+     <baubeginn>2008-12-13T00:00:01</baubeginn>
+     <bauende>2008-12-15T05:00:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" >west</niederlassung>
+    <niederlassung beteiligt="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" >mitte</niederlassung>
+    <niederlassung beteiligt="1" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="" verkehrstag="2008-12-12" betreiber="Z1453" zugnr="42561" zugbez="TEC" >
+     <firstbst>SLU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="KKE M" >K Eifelt Bez III</abgangsbahnhof>
+      <zielbahnhof ds100="SSR N" >Saarbr Rbf Nord</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>20</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="Z1455" zugnr="47401" zugbez="CS" >
+     <firstbst>SLU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SDLH" >Dill.Hochofen Hü</abgangsbahnhof>
+      <zielbahnhof ds100="XPTG" >Tarnowskie Gory</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>23</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="Z1455" zugnr="60399" zugbez="CS" >
+     <firstbst>SLU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="EDRH" >Du-Ruhrort Hafen</abgangsbahnhof>
+      <zielbahnhof ds100="SFH" >Fürstenhausen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>31</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-27" betreiber="Z1455" zugnr="61841" zugbez="CS" >
+     <firstbst>SSB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SEN" >Ensdorf (Saar)</abgangsbahnhof>
+      <zielbahnhof ds100="SNK" >Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>16</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="Z1455" zugnr="61880" zugbez="CS" >
+     <firstbst>SLU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SVL" >Völklingen</abgangsbahnhof>
+      <zielbahnhof ds100="SSR N" >Saarbr Rbf Nord</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>21</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="Z1481" zugnr="68394" zugbez="Tfzf (RaS)" >
+     <firstbst>SLU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SDLH" >Dill.Hochofen Hü</abgangsbahnhof>
+      <zielbahnhof ds100="SSR N" >Saarbr Rbf Nord</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SDLH" >Dill.Hochofen Hü</ausfallvon>
+      <ausfallbis ds100="SSR N" >Saarbr Rbf Nord</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="Z1481" zugnr="68403" zugbez="Tfzf (RaS)" >
+     <firstbst>SLU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SDL" >Dillingen (Saar)</abgangsbahnhof>
+      <zielbahnhof ds100="SSR N" >Saarbr Rbf Nord</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SDL" >Dillingen (Saar)</ausfallvon>
+      <ausfallbis ds100="SSR N" >Saarbr Rbf Nord</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="Z1481" zugnr="58302" zugbez="Tfzf (RaR)" >
+     <firstbst>SVL</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSR W" >Saarbr Rbf West</abgangsbahnhof>
+      <zielbahnhof ds100="SDL" >Dillingen (Saar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="gesperrt" />
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="Z1481" zugnr="58303" zugbez="Tfzf (RaR)" >
+     <firstbst>SLU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SDL" >Dillingen (Saar)</abgangsbahnhof>
+      <zielbahnhof ds100="SSR N" >Saarbr Rbf Nord</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="gesperrt" />
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="Z1455" zugnr="61863" zugbez="CS" >
+     <firstbst>SLU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SEN" >Ensdorf (Saar)</abgangsbahnhof>
+      <zielbahnhof ds100="SGB" >Göttelborn</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="vorplan" >
+      <vorplanab ds100="SEN" >Ensdorf (Saar)</vorplanab>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="Z1455" zugnr="61877" zugbez="CS" >
+     <firstbst>SVL</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSR W" >Saarbr Rbf West</abgangsbahnhof>
+      <zielbahnhof ds100="SVL" >Völklingen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="vorplan" >
+      <vorplanab ds100="SSR W" >Saarbr Rbf West</vorplanab>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

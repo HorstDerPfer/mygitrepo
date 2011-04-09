@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-11-04T10:12:31</timestamp>
+  <filename>081210-081210--B-_____-________-6-SNK___-SFI___-RAILION_-ZVF__-01.rtf</filename>
+  <version_prg_zvf>v2.2.4</version_prg_zvf>
+  <sender>
+   <name></name>
+   <vorname></vorname>
+   <kuerzel></kuerzel>
+   <abteilung></abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email></email>
+   <telefon></telefon>
+   <telefon_intern></telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>Railion</empfaenger>
+   <empfaenger>Betriebsplanung - BZ</empfaenger>
+   <empfaenger>Klemann</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>B</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <korridor> </korridor>
+   <kigbau></kigbau>
+   <kennung>36327</kennung>
+   <bbp></bbp>
+   <master_fplo></master_fplo>
+   <festgelegtSPFV>0</festgelegtSPFV>
+   <festgelegtSPNV>0</festgelegtSPNV>
+   <festgelegtSGV>0</festgelegtSGV>
+   <antwort>2008-11-18</antwort>
+   <endStueckZvf>0</endStueckZvf>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF)</titel>
+    <formular>ZVF-091008</formular>
+    <major>1</major>
+    <minor>2</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>SFI</startbst>
+     <endbst>SNK</endbst>
+     <vzg>8110</vzg>
+     <massnahme>Neunkir (S) Hbf - Friedrichst.(S)</massnahme>
+     <betriebsweise>Ggl Bef</betriebsweise>
+     <grund>Schienenwechsel F1 Fehler</grund>
+     <baubeginn>2008-12-10T01:15:00</baubeginn>
+     <bauende>2008-12-10T04:15:00</bauende>
+     <zeitraum_unterbrochen>Ja</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" fplo="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >west</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >mitte</niederlassung>
+    <niederlassung beteiligt="1" fplo="0" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="0" verkehrstag="2008-12-10" betreiber="Z1461" zugnr="44200" zugbez="FE" >
+     <firstbst>SFI</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SEF" >Einsiedlerhof</abgangsbahnhof>
+      <zielbahnhof ds100="XFPE" >Perpignan</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>21</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2008-12-10" betreiber="Z1461" zugnr="45468" zugbez="FE" >
+     <firstbst>SFI</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SEF" >Einsiedlerhof</abgangsbahnhof>
+      <zielbahnhof ds100="XEIR" >Irun</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>39</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2008-12-10" betreiber="Z1455" zugnr="47292" zugbez="CSQ" >
+     <firstbst>SFI</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XPWBG" >Wroblin Glog</abgangsbahnhof>
+      <zielbahnhof ds100="XFTG" >Tergnier</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>29</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2008-12-11" betreiber="Z1455" zugnr="47298" zugbez="CS" >
+     <firstbst>SFI</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XPZDZ" >Zdieszowice</abgangsbahnhof>
+      <zielbahnhof ds100="XFPM" >Pont Au Mousson</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>26</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2008-12-10" betreiber="Z1455" zugnr="61870" zugbez="CS" >
+     <firstbst>SFI</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SNK" >Neunkir (S) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SVL" >Völklingen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>29</verspaetung>
+     </abweichung>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

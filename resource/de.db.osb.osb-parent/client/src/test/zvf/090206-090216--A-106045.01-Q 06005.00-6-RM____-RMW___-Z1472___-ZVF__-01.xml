@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-11-03T10:49:23</timestamp>
+  <filename>090206-090216--A-106045.01-Q 06005.00-6-RM____-RMW___-Z1472___-ZVF__-01.rtf</filename>
+  <version_prg_zvf>v2.2.4</version_prg_zvf>
+  <sender>
+   <name>Trumpf</name>
+   <vorname>Susanna</vorname>
+   <kuerzel> Tr</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Susanna.Trumpf@bahn.de</email>
+   <telefon>0721/938 7336</telefon>
+   <telefon_intern>972-7336</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>Railion Intermodal Traction GmbH, TB KV</empfaenger>
+   <empfaenger>Betriebsplanung - BZ</empfaenger>
+   <empfaenger>Zitsch</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>A</baumassnahmenart>
+   <qsbaumassnahme>Q 06005.00</qsbaumassnahme>
+   <korridor> </korridor>
+   <kigbau>106045.01</kigbau>
+   <kennung>FFOE387B82A6</kennung>
+   <bbp>44025</bbp>
+   <master_fplo>51005</master_fplo>
+   <festgelegtSPFV>1</festgelegtSPFV>
+   <festgelegtSPNV>0</festgelegtSPNV>
+   <festgelegtSGV>0</festgelegtSGV>
+   <antwort>2008-10-27</antwort>
+   <endStueckZvf>0</endStueckZvf>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF)</titel>
+    <formular>ZVF-091008</formular>
+    <major>1</major>
+    <minor>2</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>RM</startbst>
+     <endbst>RMW</endbst>
+     <vzg>4011</vzg>
+     <massnahme>Mannheim Hbf - Mannheim-Waldhof</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Einbau Schottertrennung westl. Ried</grund>
+     <baubeginn>2009-02-06T19:05:00</baubeginn>
+     <bauende>2009-02-16T06:30:00</bauende>
+     <zeitraum_unterbrochen>Ja</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+    <strecke>
+     <startbst>RM</startbst>
+     <endbst>RMW</endbst>
+     <vzg>9230</vzg>
+     <massnahme>Mannheim-Waldhof - Mannheim Hbf</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Einbau Schottertrennung westl. Ried</grund>
+     <baubeginn>2009-02-13T19:05:00</baubeginn>
+     <bauende>2009-02-16T06:30:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" fplo="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >west</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >mitte</niederlassung>
+    <niederlassung beteiligt="1" fplo="0" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="0" verkehrstag="2009-02-07" betreiber="Z1472" zugnr="41602" zugbez="TEC" >
+     <firstbst>RMW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+	<header>
+		<timestamp>2008-10-10T14:17:43</timestamp>
+		<filename>081101-081101--B-10.100-________-4-UMS___-UGO___-RAILION_-UB___-01.rtf</filename>
+		<version_prg_zvf>v2.2.2</version_prg_zvf>
+		<sender>
+			<name>Köhler</name>
+			<vorname>Matthias</vorname>
+			<kuerzel> KM</kuerzel>
+			<abteilung>I.NV-SO-F (B)</abteilung>
+			<strasse>Brandenburger Straße 1</strasse>
+			<plz>04103</plz>
+			<ort>Leipzig</ort>
+			<email>Matthias.Koehler@bahn.de</email>
+			<telefon>0341-968-7693</telefon>
+			<telefon_intern>927-7693</telefon_intern>
+		</sender>
+		<empfaengerlist>
+			<empfaenger>Railion</empfaenger>
+		</empfaengerlist>
+	</header>
+	<baumassnahmen>
+		<baumassnahme>
+			<masterniederlassung>RB Südost</masterniederlassung>
+			<zvfid>240309121110_1234</zvfid>
+			<baumassnahmenart>B</baumassnahmenart>
+			<qsbaumassnahme></qsbaumassnahme>
+			<korridor></korridor>
+			<kigbau>00001</kigbau>
+			<kennung>FFF1011121314</kennung>
+			<extension>ABC</extension>
+			<bbpliste>
+				<bbp>65016</bbp>
+				<bbp>65017</bbp>
+				<bbp>99999</bbp>
+			</bbpliste>
+			<master_fplo>4711</master_fplo>
+			<festgelegtSPFV>0</festgelegtSPFV>
+			<festgelegtSPNV>1</festgelegtSPNV>
+			<festgelegtSGV>0</festgelegtSGV>
+			<antwort>2008-08-27</antwort>
+			<baudatevon>2008-08-27</baudatevon>
+			<baudatebis>2008-08-27</baudatebis>
+			<endStueckZvf>0</endStueckZvf>
+			<version>
+				<titel>Übergabeblatt (ÜB)</titel>
+				<formular>ÜB-091008</formular>
+				<major>1</major>
+				<minor>4</minor>
+				<sub>01</sub>
+			</version>
+			<streckenabschnitte>
+				<strecke>
+					<startbst>UMS</startbst>
+					<endbst>UGO</endbst>
+					<export>Ja</export>
+					<massnahme>Mechterst-Sätt - Gotha</massnahme>
+					<betriebsweise>Ggl Zs 7s</betriebsweise>
+					<grund>Test-Baustelle</grund>
+					<baubeginn>2008-11-01T10:00:00</baubeginn>
+					<bauende>2008-11-01T12:00:00</bauende>
+					<zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+					<vzgliste>
+						<vzg>1700</vzg>
+						<vzg>1800</vzg>
+					</vzgliste>
+				</strecke>
+			</streckenabschnitte>
+			<KID1>0</KID1>
+			<KID2>9</KID2>
+			<KID3>1</KID3>
+			<KID4Liste>
+				<KID4 timestamp="2010-11-25">2</KID4>
+				<KID4 timestamp="2010-11-26">3</KID4>
+			</KID4Liste>
+			<allgregelungen>
+				<allgregelung></allgregelung>
+			</allgregelungen>
+			<fplonr>
+				<niederlassung beteiligt="0" fplo="70000">ost</niederlassung>
+				<niederlassung beteiligt="1">nord</niederlassung>
+				<niederlassung beteiligt="1">west</niederlassung>
+				<niederlassung beteiligt="0">suedost</niederlassung>
+				<niederlassung beteiligt="1">mitte</niederlassung>
+				<niederlassung beteiligt="0">suedwest</niederlassung>
+				<niederlassung beteiligt="0">sued</niederlassung>
+			</fplonr>
+			<zuege>
+				<zug bedarf="" verkehrstag="2008-11-04" betreiber="Z1455" zugnr="47292"
+					zugbez="CSQ">
+					<firstbst>UMS</firstbst>
+					<tageswechsel></tageswechsel>
+					<regelweg>
+						<liniennr />
+						<abgangsbahnhof ds100="XPWBG">Wroblin Glog</abgangsbahnhof>
+						<zielbahnhof ds100="XFTG">Tergnier</zielbahnhof>
+					</regelweg>
+					<bemerkung>abababababab</bemerkung>
+					<abweichung art="verspaetung">
+						<verspaetung>7</verspaetung>
+						<haltliste />
+						<regelungsliste />
+					</abweichung>
+					<zugdetails>
+						<gattungsnummer>68.1</gattungsnummer>
+						<vmax>90</vmax>
+						<tfz lzb="1">155</tfz>
+						<last gl="1">1800</last>
+						<laenge>480</laenge>
+						<brems>68 G</brems>
+					</zugdetails>
+					<knotenzeiten>
+						<knotenzeit>
+							<bahnhof>AAA</bahnhof>
+							<haltart>B</haltart>
+							<ankunft>14:17</ankunft>
+							<abfahrt>14:18</abfahrt>
+							<relativlage>-5</relativlage>
+						</knotenzeit>
+					</knotenzeiten>
+				</zug>
+				<zug bedarf="1" verkehrstag="2008-11-02" betreiber="Z1455"
+					zugnr="47298" zugbez="CS">
+					<firstbst>UMS</firstbst>
+					<tageswechsel></tageswechsel>
+					<regelweg>
+						<liniennr />
+						<abgangsbahnhof ds100="XPZDZ">Zdieszowice</abgangsbahnhof>
+						<zielbahnhof ds100="XFPM">Pont-a-Mousson</zielbahnhof>
+					</regelweg>
+					<bemerkung></bemerkung>
+					<abweichung art="umleitung">
+						<umleitung>HHM-HH-HBS</umleitung>
+						<umleitweg>
+							<ds100>HHM</ds100>
+							<ds100>HH</ds100>
+							<ds100>HBS</ds100>
+						</umleitweg>
+						<haltliste />
+						<regelungsliste />
+					</abweichung>
+					<zugdetails>
+						<gattungsnummer>69.1</gattungsnummer>
+						<vmax>90</vmax>
+						<tfz>155</tfz>
+						<last>1800</last>
+						<laenge>480</laenge>
+						<brems>68 G</brems>
+					</zugdetails>
+					<knotenzeiten>
+						<knotenzeit>
+							<bahnhof>CCC</bahnhof>
+							<haltart></haltart>
+							<ankunft>14:17</ankunft>
+							<abfahrt>14:18</abfahrt>
+							<relativlage>5</relativlage>
+						</knotenzeit>
+					</knotenzeiten>
+					<klv>abc</klv>
+					<skl>def</skl>
+					<bza>abcdefghijklmn</bza>
+				</zug>
+				<zug bedarf="" verkehrstag="2008-11-01" betreiber="Z1455" zugnr="47296"
+					zugbez="CS">
+					<firstbst>UMS</firstbst>
+					<tageswechsel></tageswechsel>
+					<regelweg>
+						<liniennr />
+						<abgangsbahnhof ds100="XPZDZ">Zdieszowice</abgangsbahnhof>
+						<zielbahnhof ds100="XFVN">Varangeville</zielbahnhof>
+					</regelweg>
+					<bemerkung></bemerkung>
+					<abweichung art="ausfall">
+						<ausfallvon ds100="HH">Hannover Hbf</ausfallvon>
+						<ausfallbis ds100="ALSK">Lübeck Skand-kai</ausfallbis>
+						<haltliste />
+						<regelungsliste />
+					</abweichung>
+					<zugdetails>
+						<gattungsnummer>69.1</gattungsnummer>
+						<vmax>90</vmax>
+						<tfz lzb="0">155</tfz>
+						<last gl="1">1800</last>
+						<laenge>480</laenge>
+						<brems>68 G</brems>
+					</zugdetails>
+					<knotenzeiten>
+						<knotenzeit>
+							<bahnhof>BBB</bahnhof>
+							<haltart>+</haltart>
+							<ankunft>14:17</ankunft>
+							<abfahrt>14:18</abfahrt>
+							<relativlage>0</relativlage>
+						</knotenzeit>
+					</knotenzeiten>
+				</zug>
+				<zug bedarf="" verkehrstag="2008-11-02" betreiber="Z1455" zugnr="47298"
+					zugbez="CS">
+					<firstbst>UMS</firstbst>
+					<tageswechsel></tageswechsel>
+					<regelweg>
+						<liniennr />
+						<abgangsbahnhof ds100="XPZDZ">Zdieszowice</abgangsbahnhof>
+						<zielbahnhof ds100="XFPM">Pont-a-Mousson</zielbahnhof>
+					</regelweg>
+					<bemerkung></bemerkung>
+					<abweichung art="vorplan">
+						<vorplanab ds100="XFPM">Pont-a-Mousson</vorplanab>
+						<haltliste />
+						<regelungsliste />
+					</abweichung>
+					<zugdetails>
+						<gattungsnummer>69.1</gattungsnummer>
+						<vmax>90</vmax>
+						<tfz>155</tfz>
+						<last>1800</last>
+						<laenge>480</laenge>
+						<brems>68 G</brems>
+					</zugdetails>
+					<knotenzeiten>
+						<knotenzeit>
+							<bahnhof>CCC</bahnhof>
+							<haltart></haltart>
+							<ankunft>14:17</ankunft>
+							<abfahrt>14:18</abfahrt>
+							<relativlage>5</relativlage>
+						</knotenzeit>
+					</knotenzeiten>
+					<klv>abc</klv>
+					<skl>def</skl>
+				</zug>
+				<zug bedarf="" verkehrstag="2008-11-02" betreiber="Z1455" zugnr="47298"
+					zugbez="CS">
+					<firstbst>UMS</firstbst>
+					<tageswechsel></tageswechsel>
+					<regelweg>
+						<liniennr />
+						<abgangsbahnhof ds100="XPZDZ">Zdieszowice</abgangsbahnhof>
+						<zielbahnhof ds100="XFPM">Pont-a-Mousson</zielbahnhof>
+					</regelweg>
+					<bemerkung></bemerkung>
+					<abweichung art="gesperrt">
+					<haltliste />
+						<regelungsliste />
+					</abweichung>
+					<zugdetails>
+						<gattungsnummer>69.1</gattungsnummer>
+						<vmax>90</vmax>
+						<tfz>155</tfz>
+						<last>1800</last>
+						<laenge>480</laenge>
+						<brems>68 G</brems>
+					</zugdetails>
+					<knotenzeiten>
+						<knotenzeit>
+							<bahnhof>CCC</bahnhof>
+							<haltart></haltart>
+							<ankunft>14:17</ankunft>
+							<abfahrt>14:18</abfahrt>
+							<relativlage>5</relativlage>
+						</knotenzeit>
+					</knotenzeiten>
+					<klv>abc</klv>
+					<skl>def</skl>
+				</zug>
+				<zug bedarf="" verkehrstag="2008-11-02" betreiber="Z1455" zugnr="47298"
+					zugbez="CS">
+					<firstbst>UMS</firstbst>
+					<tageswechsel></tageswechsel>
+					<regelweg>
+						<liniennr />
+						<abgangsbahnhof ds100="XPZDZ">Zdieszowice</abgangsbahnhof>
+						<zielbahnhof ds100="XFPM">Pont-a-Mousson</zielbahnhof>
+					</regelweg>
+					<bemerkung></bemerkung>
+					<abweichung art="ersatzhalte">
+						<haltliste>
+							<halt>
+								<folge>1</folge>
+								<ausfall ds100="HWUN">Wunstorf</ausfall>
+								<ersatz ds100="XPZDZ">Zdieszowice</ersatz>
+							</halt>
+							<halt>
+								<folge>2</folge>
+								<ausfall ds100="HH">Hannover Hbf</ausfall>
+							</halt>
+						</haltliste>
+						<regelungsliste />
+					</abweichung>
+					<zugdetails>
+						<gattungsnummer>69.1</gattungsnummer>
+						<vmax>90</vmax>
+						<tfz>155</tfz>
+						<last>1800</last>
+						<laenge>480</laenge>
+						<brems>68 G</brems>
+					</zugdetails>
+					<knotenzeiten>
+						<knotenzeit>
+							<bahnhof>CCC</bahnhof>
+							<haltart></haltart>
+							<ankunft>14:17</ankunft>
+							<abfahrt>14:18</abfahrt>
+							<relativlage>5</relativlage>
+						</knotenzeit>
+					</knotenzeiten>
+					<klv>abc</klv>
+					<skl>def</skl>
+				</zug>
+				<zug bedarf="" verkehrstag="2008-11-02" betreiber="Z1455" zugnr="47298"
+					zugbez="CS">
+					<firstbst>UMS</firstbst>
+					<tageswechsel></tageswechsel>
+					<regelweg>
+						<liniennr />
+						<abgangsbahnhof ds100="XPZDZ">Zdieszowice</abgangsbahnhof>
+						<zielbahnhof ds100="XFPM">Pont-a-Mousson</zielbahnhof>
+					</regelweg>
+					<bemerkung></bemerkung>
+					<abweichung art="regelung">
+					<haltliste />
+						<regelungsliste>
+							<regelung>
+								<art>Neuer Startbahnhof</art>
+								<gilt_in ds100="HWUN">Wunstorf</gilt_in>
+								<text>Freitext1</text>
+							</regelung>
+							<regelung>
+								<art>Neuer Endbahnhof</art>
+								<gilt_in ds100="HWUG">Wunstorf DB-Gr</gilt_in>
+								<text>Freitext2</text>
+							</regelung>
+						</regelungsliste>
+					</abweichung>
+					<zugdetails>
+						<gattungsnummer>69.1</gattungsnummer>
+						<vmax>90</vmax>
+						<tfz>155</tfz>
+						<last>1800</last>
+						<laenge>480</laenge>
+						<brems>68 G</brems>
+					</zugdetails>
+					<knotenzeiten>
+						<knotenzeit>
+							<bahnhof>CCC</bahnhof>
+							<haltart></haltart>
+							<ankunft>14:17</ankunft>
+							<abfahrt>14:18</abfahrt>
+							<relativlage>5</relativlage>
+						</knotenzeit>
+					</knotenzeiten>
+					<klv>abc</klv>
+					<skl>def</skl>
+				</zug>
+			</zuege>
+		</baumassnahme>
+	</baumassnahmen>
+</zvfexport>

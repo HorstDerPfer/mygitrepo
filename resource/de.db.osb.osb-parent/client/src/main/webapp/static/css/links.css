@@ -1,0 +1,654 @@
+a:link   {color:black;   text-decoration:none;}
+a:visited{color:black;   text-decoration:none;}
+a:active {color:#ff0000; text-decoration:underline;}
+a:hover  {color:#ff0000; text-decoration:underline;}
+a:focus  {color:#ff0000; text-decoration:underline;}
+
+input.submit{
+	width:auto;
+	border:1px solid #ff0000;
+	background-color: #ffffff;
+	color: #ff0000;
+	padding:0px 3px 1px 3px;
+	font-weight:bold;
+	margin:0px;
+}
+
+
+/* Liste ****************************************************/
+a.list {
+    padding: 2px 2px 2px 13px;
+    background-image:url(../img/button_s_pfeil_rechts.gif);
+	background-position:0px 4px;
+    background-repeat:no-repeat;
+}
+a.list:link   {color:#000000;}
+a.list:visited{color:#000000;}
+a.list:hover  {color:#ff0000; background-image:url(../img/button_s_pfeil_rechts2.gif);}
+a.list:active {color:#ff0000; background-image:url(../img/button_s_pfeil_rechts2.gif);}
+
+
+/* Pfadanzeige ****************************************************/
+a.path {
+    margin: 2px 2px 2px 2px;
+    font-size:10px;
+}
+a.path:link   {color:#000000;}
+a.path:visited{color:#666666;}
+a.path:hover  {color:#ff0000;}
+a.path:active {color:#ff0000;}
+
+
+/* Links in Tabellen ***************************************************/
+th a:link   {color:white;}
+th a:visited{color:white;}
+th a:active {color:white;}
+th a:hover  {color:white; text-decoration:underline;}
+th a:focus  {color:white;}
+
+th.sorted a,th.sortable a {
+	background-position: right;
+	display: block;
+	width: 100%;
+}
+th.sortable a {
+	background: url(../img/arrow_off.png) no-repeat 0px 2px;
+	padding-left:11px;
+}
+th.order1 a {
+	background: url(../img/arrow_up.png) no-repeat 0px 2px;
+	padding-left:11px;
+}
+th.order2 a {
+	background: url(../img/arrow_down.png) no-repeat 0px 2px;
+	padding-left:11px;
+}
+
+td a.details:hover  {color:#ff0000; background-image:url(../img/button_s_pfeil_rechts2.gif); text-decoration: none;}
+td a.details:active {color:#ff0000; background-image:url(../img/button_s_pfeil_rechts2.gif); text-decoration: none;}
+
+/* Grafische Links zur Bearbeitung usw. *****************************************************/
+a.plus{
+	background-image: url(../img/button_s_plus.gif);
+	background-position: 1px 2px;
+	background-repeat: no-repeat;
+	padding-left: 15px;
+}
+a.plus:visited{background-image: url(../img/button_s_plus.gif);}
+a.plus:hover  {background-image: url(../img/button_s_plus2.gif);}
+
+a.plusBig{
+	background-image: url(../img/icon_s_plus_big.gif);
+	background-repeat: no-repeat;
+	padding-left: 18px;
+	font-size:16px;
+	text-decoration:none;
+}
+a.plusBig:visited{background-image: url(../img/icon_s_plus_big.gif);text-decoration:none;}
+a.plusBig:hover  {background-image: url(../img/icon_s_plus_big2.gif);text-decoration:none;}
+
+a.cancelBig{
+	background-image: url(../img/icon_s_cancel_big.gif);
+	background-repeat: no-repeat;
+	padding-left: 18px;
+	font-size:16px;
+	text-decoration:none;
+}
+a.cancelBig:visited{background-image: url(../img/icon_s_cancel_big.gif);text-decoration:none;}
+a.cancelBig:hover  {background-image: url(../img/icon_s_cancel_big2.gif);text-decoration:none;}
+
+a.saveBig{
+	background-image: url(../img/icon_s_save_big.gif);
+	background-repeat: no-repeat;
+	padding-left: 18px;
+	font-size:16px;
+	text-decoration:none;
+}
+a.saveBig:visited{background-image: url(../img/icon_s_save_big.gif);text-decoration:none;}
+a.saveBig:hover  {background-image: url(../img/icon_s_save_big2.gif);text-decoration:none;}
+
+a.lock{
+	background-image: url(../img/icon_lock.gif);
+	background-position: 1px 2px;
+	background-repeat: no-repeat;
+	padding-left: 15px;
+}
+a.lock:visited{background-image: url(../img/icon_lock2.gif);}
+a.lock:hover  {background-image: url(../img/icon_lock2.gif);}
+
+a.minus{
+	background-image: url(../img/button_s_minus.gif);
+	background-position: 1px 2px;
+	background-repeat: no-repeat;
+	padding-left: 15px;
+}
+a.minus:visited{background-image: url(../img/button_s_minus.gif);}
+a.minus:hover  {background-image: url(../img/button_s_minus2.gif);}
+
+a.open{background-image: url(../img/button_s_pfeil_down.gif); background-repeat: no-repeat; padding-left: 15px;}
+a.open:visited{background-image: url(../img/button_s_pfeil_down.gif); background-repeat: no-repeat;padding-left: 15px;}
+a.open:hover  {background-image: url(../img/button_s_pfeil_down2.gif); background-repeat: no-repeat;padding-left: 15px;}
+
+a.close{background-image: url(../img/button_s_pfeil_rechts.gif); background-repeat: no-repeat; padding-left: 15px;}
+a.close:visited{background-image: url(../img/button_s_pfeil_rechts.gif); background-repeat: no-repeat; padding-left: 15px;}
+a.close:hover  {background-image: url(../img/button_s_pfeil_rechts2.gif); background-repeat: no-repeat; padding-left: 15px;}
+
+a.openAll{ 
+	background-image: url(../img/button_s_doppelpfeil_down.gif);
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    color:white;
+    font-weight:normal;
+}
+a.openAll:visited{background-image: url(../img/button_s_doppelpfeil_down.gif)}
+a.openAll:hover  {background-image: url(../img/button_s_doppelpfeil_down2.gif)}
+
+a.closeAll{
+    background-image: url(../img/button_s_doppelpfeil_up.gif);
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    color:white;
+    font-weight:normal;
+}
+a.closeAll:visited{background-image: url(../img/button_s_doppelpfeil_up.gif)}
+a.closeAll:hover  {background-image: url(../img/button_s_doppelpfeil_up2.gif)}
+
+a.edit{
+	border:0px;
+    background-image: url(../img/icon_edit.gif);
+    background-repeat: no-repeat;
+    padding-left: 13px;
+    margin-bottom:2px;
+	text-decoration:none;
+}
+a.show{
+	border:0px;
+    background-image: url(../img/icon_search.gif);
+    background-repeat: no-repeat;
+    padding-left: 13px;
+    margin-bottom:2px;
+	text-decoration:none;
+}
+a.edit:hover  {background-image: url(../img/icon_edit2.gif); text-decoration:none;}
+
+a.copy{
+	border:0px;
+    background-image: url(../img/icon_copy.gif);
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    margin-bottom:2px;
+	text-decoration:none;
+}
+a.copy:hover  {background-image: url(../img/icon_copy2.gif); text-decoration:none;}
+
+a.delete{
+    background-image: url(../img/icon_delete.gif);
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    margin-bottom:1px;
+    text-decoration:none;
+}
+a.delete:hover  {background-image: url(../img/icon_delete2.gif); text-decoration:none;}
+
+a.comment{
+    background-image: url(../img/icon_comment.gif);
+    background-repeat: no-repeat;
+    padding-left: 13px;
+    margin-bottom:1px;
+    text-decoration:none;
+}
+a.comment:hover  {background-image: url(../img/icon_comment2.gif); text-decoration:none;}
+
+a.undo{
+    background-image: url(../img/icon_undo.gif);
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    margin-bottom:1px;
+    text-decoration:none;
+}
+a.undo:hover  {background-image: url(../img/icon_undo2.gif); text-decoration:none;}
+
+a.search{
+    background-image: url(../img/icon_search.gif);
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    margin-bottom:1px;
+    text-decoration:none;
+}
+a.search:hover  {background-image: url(../img/icon_search2.gif); text-decoration:none;}
+
+a.searchBig{
+    background-image: url(../img/icon_search_big.gif);
+    background-repeat: no-repeat;
+    padding: 0 0 3px 15px;
+    margin-bottom:1px;
+    text-decoration:none;
+}
+a.searchBig:hover  {background-image: url(../img/icon_search_big2.gif); text-decoration:none;}
+
+a.index_b{
+    background-image: url(../img/index/b_aktiv.gif);
+    background-repeat: no-repeat;
+    width: 13px;
+    padding-left: 15px;
+    margin-bottom:1px;
+    text-decoration:none;
+}
+a.index_b:hover  {background-image: url(../img/index/b_rollover.gif); text-decoration:none;}
+a.index_b_inactive {
+    background-image: url(../img/index/b_inaktiv.gif);
+    background-repeat: no-repeat;
+    width: 13px;
+    padding-left: 15px;
+    margin-bottom:1px;
+    text-decoration:none;
+    cursor: default;
+}
+
+a.index_m{
+    background-image: url(../img/index/m_aktiv.gif);
+    background-repeat: no-repeat;
+    width: 13px;
+    padding-left: 15px;
+    margin-bottom:1px;
+    text-decoration:none;
+}
+a.index_m:hover  {background-image: url(../img/index/m_rollover.gif); text-decoration:none;}
+a.index_m_inactive {
+    background-image: url(../img/index/m_inaktiv.gif);
+    background-repeat: no-repeat;
+    width: 13px;
+    padding-left: 15px;
+    margin-bottom:1px;
+    text-decoration:none;
+    cursor: default;
+}
+
+a.index_n{
+    background-image: url(../img/index/n_aktiv.gif);
+    background-repeat: no-repeat;
+    width: 13px;
+    padding-left: 15px;
+    margin-bottom:1px;
+    text-decoration:none;
+}
+a.index_n:hover  {background-image: url(../img/index/n_rollover.gif); text-decoration:none;}
+a.index_n_inactive {
+    background-image: url(../img/index/n_inaktiv.gif);
+    background-repeat: no-repeat;
+    width: 13px;
+    padding-left: 15px;
+    margin-bottom:1px;
+    text-decoration:none;
+    cursor: default;
+}
+
+a.index_u{
+    background-image: url(../img/index/u_aktiv.gif);
+    background-repeat: no-repeat;
+    width: 13px;
+    padding-left: 15px;
+    margin-bottom:1px;
+    text-decoration:none;
+}
+a.index_u:hover  {background-image: url(../img/index/u_rollover.gif); text-decoration:none;}
+a.index_u_inactive {
+    background-image: url(../img/index/u_inaktiv.gif);
+    background-repeat: no-repeat;
+    width: 13px;
+    padding-left: 15px;
+    margin-bottom:1px;
+    text-decoration:none;
+    cursor: default;
+}
+
+a.graph{
+    border:0px;
+    background-image: url(../img/icon_chart.gif);
+    background-repeat: no-repeat;
+	padding:0px;
+	height:14px;
+	width:12px;
+    display:block;
+}
+a.graph:link{background-image: url(../img/icon_chart.gif);}
+a.graph:visited{background-image: url(../img/icon_chart.gif);}
+a.graph:hover{background-image: url(../img/icon_chart2.gif);}
+a.graph:active{background-image: url(../img/icon_chart2.gif);}
+
+/* Klappbare Treelisten *************************************/
+div.tree {
+	margin-left: -15px;	
+}
+
+div.tree ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+div.tree li {
+	margin: 0px;
+	padding: 0px;
+	margin-left: 15px;
+	line-height: 16px;
+	list-style-type: none;
+}
+
+div.tree li.leaf {
+	margin-left: 33px;
+}
+
+div.tree a.plus{
+	background-image: url(../img/button_s_plus.gif);
+	background-position: 1px 2px;
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	cursor: pointer;
+}
+div.tree a.plus:hover  {background-image: url(../img/button_s_plus2.gif);}
+
+div.tree a.minus{
+	background-image: url(../img/button_s_minus.gif);
+	background-position: 1px 2px;
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	cursor: pointer;
+}
+div.tree a.minus:hover  {background-image: url(../img/button_s_minus2.gif);}
+
+a.treemenu_details:hover { background-color: #fff; }
+a.treemenu_details:active { background-color: #fff; }
+a.treemenu_details:focus { background-color: #fff; }
+
+/* Listennavigation *****************************************/
+a.arrowFirst{
+	background-image:url(../img/navi/arrow_first.gif);
+	background-position: 0px 1px;
+	background-repeat:no-repeat;
+	padding-left:10px;
+    text-decoration:none;
+	margin-left:10px;
+}
+a.arrowFirst:hover{
+	background-image:url(../img/navi/arrow_first2.gif);
+	background-position: 0px 1px;
+	background-repeat:no-repeat;
+	padding-left:10px;
+    text-decoration:none;
+	margin-left:10px;
+}
+a.arrowFirstGrey{
+	background-image:url(../img/navi/arrow_first_grey.gif);
+	background-position: 0px 1px;
+	background-repeat:no-repeat;
+	padding-left:10px;
+    text-decoration:none;
+	margin-left:10px;
+}
+a.arrowFirstGrey:hover{text-decoration:none;}
+
+a.arrowLeft{
+	background-image:url(../img/navi/arrow_left.gif);
+	background-position: 0px 1px;
+	background-repeat:no-repeat;
+	padding-left: 10px;
+    text-decoration:none;
+}
+a.arrowLeft:hover{
+	background-image:url(../img/navi/arrow_left2.gif);
+	background-position: 0px 1px;
+	background-repeat:no-repeat;
+	padding-left: 10px;
+    text-decoration:none;
+}
+a.arrowLeftGrey{
+	background-image:url(../img/navi/arrow_left_grey.gif);
+	background-position: 0px 1px;
+	background-repeat:no-repeat;
+	padding-left:10px;
+    text-decoration:none;
+}
+a.arrowLeftGrey:hover{text-decoration:none;}
+
+a.arrowRight{
+	background-image:url(../img/navi/arrow_right.gif);
+	background-position: 0px 1px;
+	background-repeat:no-repeat;
+	padding-left:10px;
+    text-decoration:none;
+}
+a.arrowRight:hover{
+	background-image:url(../img/navi/arrow_right2.gif);
+	background-position: 0px 1px;
+	background-repeat:no-repeat;
+	padding-left:10px;
+	text-decoration:none;
+}
+a.arrowRightGrey{
+	background-image:url(../img/navi/arrow_right_grey.gif);
+	background-position: 0px 1px;
+	background-repeat:no-repeat;
+	padding-left:10px;
+    text-decoration:none;
+}
+a.arrowRightGrey:hover{text-decoration:none;}
+
+a.arrowLast{
+	background-image:url(../img/navi/arrow_last.gif);
+	background-position: 0px 1px;
+	background-repeat:no-repeat;
+	padding-left:10px;
+    text-decoration:none;
+}
+a.arrowLast:hover{
+	background-image:url(../img/navi/arrow_last2.gif);
+	background-position: 0px 1px;
+	background-repeat:no-repeat;
+	padding-left:10px;
+    text-decoration:none;
+}
+a.arrowLastGrey{
+	background-image:url(../img/navi/arrow_last_grey.gif);
+	background-position: 0px 1px;
+	background-repeat:no-repeat;
+	padding-left:10px;
+    text-decoration:none;
+}
+a.arrowLastGrey:hover{text-decoration:none;}
+
+/* Grafische Links zur Dateiverwaltung *****************************************************/
+a.pdf{
+	background-image: url(../img/sym_pdf.gif);
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	padding: 2px 0 2px 18px;
+}
+a.pdf:hover{color: #ff0000;}
+
+a.doc{
+	background-image: url(../img/sym_doc.gif);
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	padding: 2px 0 2px 18px;
+}
+a.doc:hover{color: #ff0000;}
+
+a.xls{
+	background-image: url(../img/sym_xls.gif);
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	padding: 2px 0 2px 18px;
+}
+a.xls:hover{color: #ff0000;}
+
+a.ppt{
+	background-image: url(../img/sym_ppt.gif);
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	padding: 2px 0 2px 18px;
+}
+a.ppt:hover{color: #ff0000;}
+
+a.document{
+	background-image: url(../img/sym_document.gif);
+	background-position: 0px 0px;
+	background-repeat: no-repeat;
+	padding: 2px 0 2px 18px;
+}
+a.document:hover{color: #ff0000;}
+
+
+/* Links in ButtonBar *************************************************************************************************/
+div.buttonBar a{
+    text-decoration: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    color: White;
+	height:20px;
+    border: 1px solid white;
+    padding: 2px 7px 2px 30px;
+    margin-left:8px;
+	background-position: 1px 1px;
+	background-repeat: no-repeat;
+	background-color:#999999;
+}
+
+div.buttonBar a.buttonPdf        {background-image: url(../img/button_pdf.gif);}
+div.buttonBar a.buttonPdf:link   {color:White; text-decoration: none;}
+div.buttonBar a.buttonPdf:hover  {color:White; background-image: url(../img/button_pdf2.gif); text-decoration: none;}
+div.buttonBar a.buttonPdf:visited{color:White; text-decoration: none;}
+div.buttonBar a.buttonPdf:active {color:White; text-decoration: none;}
+
+div.buttonBar a.buttonXls        {background-image: url(../img/button_xls.gif);}
+div.buttonBar a.buttonXls:link   {color : White; text-decoration: none;}
+div.buttonBar a.buttonXls:hover  {color : White; background-image: url(../img/button_xls2.gif); text-decoration: none;}
+div.buttonBar a.buttonXls:visited{color : White; text-decoration: none;}
+div.buttonBar a.buttonXls:active {color : White; text-decoration: none;}
+
+div.buttonBar a.buttonBack        {background-image: url(../img/button_back.gif);}
+div.buttonBar a.buttonBack:link   {color:White; text-decoration: none;}
+div.buttonBar a.buttonBack:hover  {color:White; background-image: url(../img/button_back2.gif); text-decoration: none;}
+div.buttonBar a.buttonBack:visited{color:White; text-decoration: none;}
+div.buttonBar a.buttonBack:active {color:White; text-decoration: none;}
+
+div.buttonBar a.buttonNext        {background-image: url(../img/button_next.gif);}
+div.buttonBar a.buttonNext:link   {color:White; text-decoration: none;}
+div.buttonBar a.buttonNext:hover  {color:White; background-image: url(../img/button_next.gif); text-decoration: none;}
+div.buttonBar a.buttonNext:visited{color:White; text-decoration: none;}
+div.buttonBar a.buttonNext:active {color:White; text-decoration: none;}
+
+div.buttonBar a.buttonOk        {background-image: url(../img/button_ok.gif);}
+div.buttonBar a.buttonOk:link   {color:White; text-decoration:none;}
+div.buttonBar a.buttonOk:hover  {color:White; background-image: url(../img/button_ok2.gif); text-decoration: none;}
+div.buttonBar a.buttonOk:visited{color:White; text-decoration:none;}
+div.buttonBar a.buttonOk:active {color:White; text-decoration: none;}
+
+div.buttonBar a.buttonSave        {background-image: url(../img/button_save.gif);}
+div.buttonBar a.buttonSave:link   {color:White; text-decoration:none;}
+div.buttonBar a.buttonSave:hover  {color:White; background-image: url(../img/button_save2.gif); text-decoration: none;}
+div.buttonBar a.buttonSave:visited{color:White; text-decoration:none;}
+div.buttonBar a.buttonSave:active {color:White; text-decoration: none;}
+
+div.buttonBar a.buttonEdit        {background-image: url(../img/button_edit.gif);}
+div.buttonBar a.buttonEdit:link   {color:White; text-decoration:none;}
+div.buttonBar a.buttonEdit:hover  {color:White; background-image: url(../img/button_edit2.gif); text-decoration: none;}
+div.buttonBar a.buttonEdit:visited{color:White; text-decoration:none;}
+div.buttonBar a.buttonEdit:active {color:White; text-decoration: none;}
+
+div.buttonBar a.buttonDelete        {background-image: url(../img/button_delete.gif);}
+div.buttonBar a.buttonDelete:link   {color:White; text-decoration:none;}
+div.buttonBar a.buttonDelete:hover  {color:White; background-image: url(../img/button_delete2.gif); text-decoration: none;}
+div.buttonBar a.buttonDelete:visited{color:White; text-decoration:none;}
+div.buttonBar a.buttonDelete:active {color:White; text-decoration: none;}
+
+div.buttonBar a.buttonAdd        {background-image: url(../img/button_add.gif);}
+div.buttonBar a.buttonAdd:link   {color:White; text-decoration:none;}
+div.buttonBar a.buttonAdd:hover  {color:White; background-image: url(../img/button_add2.gif); text-decoration: none;}
+div.buttonBar a.buttonAdd:visited{color:White; text-decoration:none;}
+div.buttonBar a.buttonAdd:active {color:White; text-decoration: none;}
+
+div.buttonBar a.buttonPlus        {background-image: url(../img/button_plus.gif);}
+div.buttonBar a.buttonPlus:link   {color:White; text-decoration:none;}
+div.buttonBar a.buttonPlus:hover  {color:White; background-image: url(../img/button_plus2.gif); text-decoration: none;}
+div.buttonBar a.buttonPlus:visited{color:White; text-decoration:none;}
+div.buttonBar a.buttonPlus:active {color:White; text-decoration: none;}
+
+div.buttonBar a.buttonPrevious        {background-image: url(../img/button_previous.gif);}
+div.buttonBar a.buttonPrevious:link   {color:White; text-decoration:none;}
+div.buttonBar a.buttonPrevious:hover  {color:White; background-image: url(../img/button_previous2.gif); text-decoration: none;}
+div.buttonBar a.buttonPrevious:visited{color:White; text-decoration:none;}
+div.buttonBar a.buttonPrevious:active {color:White; text-decoration: none;}
+
+div.buttonBar a.buttonCancel        {background-image: url(../img/button_cancel.gif);}
+div.buttonBar a.buttonCancel:link   {color:White; text-decoration:none;}
+div.buttonBar a.buttonCancel:hover  {color:White; background-image: url(../img/button_cancel2.gif); text-decoration: none;}
+div.buttonBar a.buttonCancel:visited{color:White; text-decoration:none;}
+div.buttonBar a.buttonCancel:active {color:White; text-decoration: none;}
+
+div.buttonBar a.buttonReload		{background-image: url(../img/button_reload.gif);}
+div.buttonBar a.buttonReload:link   {color:White; text-decoration:none;}
+div.buttonBar a.buttonReload:hover  {color:White; background-image: url(../img/button_reload2.gif); text-decoration: none;}
+div.buttonBar a.buttonReload:visited{color:White; text-decoration:none;}
+div.buttonBar a.buttonReload:active {color:White; text-decoration: none;}
+
+div.buttonBar a.buttonSearch		{background-image: url(../img/button_search.gif);}
+div.buttonBar a.buttonSearch:link   {color:White; text-decoration:none;}
+div.buttonBar a.buttonSearch:hover  {color:White; background-image: url(../img/button_search2.gif); text-decoration: none;}
+div.buttonBar a.buttonSearch:visited{color:White; text-decoration:none;}
+div.buttonBar a.buttonSearch:active {color:White; text-decoration: none;}
+
+div.buttonBar a.buttonDownload		  {background-image: url(../img/button_download.gif);}
+div.buttonBar a.buttonDownload:link   {color:White; text-decoration:none;}
+div.buttonBar a.buttonDownload:hover  {color:White; background-image: url(../img/button_download2.gif); text-decoration: none;}
+div.buttonBar a.buttonDownload:visited{color:White; text-decoration:none;}
+div.buttonBar a.buttonDownload:active {color:White; text-decoration: none;}
+
+div.buttonBar a.buttonMail		  {background-image: url(../img/button_mail.gif);}
+div.buttonBar a.buttonMail:link   {color:White; text-decoration:none;}
+div.buttonBar a.buttonMail:hover  {color:White; background-image: url(../img/button_mail2.gif); text-decoration: none;}
+div.buttonBar a.buttonMail:visited{color:White; text-decoration:none;}
+div.buttonBar a.buttonMail:active {color:White; text-decoration: none;}
+
+div.buttonBar a.buttonFolder		{background-image: url(../img/button_folder.gif);}
+div.buttonBar a.buttonFolder:link   {color:White; text-decoration:none;}
+div.buttonBar a.buttonFolder:hover  {color:White; background-image: url(../img/button_folder2.gif); text-decoration: none;}
+div.buttonBar a.buttonFolder:visited{color:White; text-decoration:none;}
+div.buttonBar a.buttonFolder:active {color:White; text-decoration: none;}
+
+div.buttonBar a.buttonLock		{background-image: url(../img/button_lock.gif);}
+div.buttonBar a.buttonLock:link   {color:White; text-decoration:none;}
+div.buttonBar a.buttonLock:hover  {color:White; background-image: url(../img/button_lock2.gif); text-decoration: none;}
+div.buttonBar a.buttonLock:visited{color:White; text-decoration:none;}
+div.buttonBar a.buttonLock:active {color:White; text-decoration: none;}
+
+div.buttonBar a.buttonUnlock		{background-image: url(../img/button_unlock.gif);}
+div.buttonBar a.buttonUnlock:link   {color:White; text-decoration:none;}
+div.buttonBar a.buttonUnlock:hover  {color:White; background-image: url(../img/button_unlock2.gif); text-decoration: none;}
+div.buttonBar a.buttonUnlock:visited{color:White; text-decoration:none;}
+div.buttonBar a.buttonUnlock:active {color:White; text-decoration: none;}
+
+div.buttonBar a.buttonIndexB		{background-image: url(../img/button_index_b.gif);}
+div.buttonBar a.buttonIndexB:link   {color:White; text-decoration:none;}
+div.buttonBar a.buttonIndexB:hover  {color:White; background-image: url(../img/button_index_b2.gif); text-decoration: none;}
+div.buttonBar a.buttonIndexB:visited{color:White; text-decoration:none;}
+div.buttonBar a.buttonIndexB:active {color:White; text-decoration: none;}
+
+div.buttonBar a.buttonIndexM		{background-image: url(../img/button_index_m.gif);}
+div.buttonBar a.buttonIndexM:link   {color:White; text-decoration:none;}
+div.buttonBar a.buttonIndexM:hover  {color:White; background-image: url(../img/button_index_m2.gif); text-decoration: none;}
+div.buttonBar a.buttonIndexM:visited{color:White; text-decoration:none;}
+div.buttonBar a.buttonIndexM:active {color:White; text-decoration: none;}
+
+div.buttonBar a.buttonIndexN		{background-image: url(../img/button_index_n.gif);}
+div.buttonBar a.buttonIndexN:link   {color:White; text-decoration:none;}
+div.buttonBar a.buttonIndexN:hover  {color:White; background-image: url(../img/button_index_n2.gif); text-decoration: none;}
+div.buttonBar a.buttonIndexN:visited{color:White; text-decoration:none;}
+div.buttonBar a.buttonIndexN:active {color:White; text-decoration: none;}
+
+div.buttonBar a.buttonIndexU		{background-image: url(../img/button_index_u.gif);}
+div.buttonBar a.buttonIndexU:link   {color:White; text-decoration:none;}
+div.buttonBar a.buttonIndexU:hover  {color:White; background-image: url(../img/button_index_u2.gif); text-decoration: none;}
+div.buttonBar a.buttonIndexU:visited{color:White; text-decoration:none;}
+div.buttonBar a.buttonIndexU:active {color:White; text-decoration: none;}

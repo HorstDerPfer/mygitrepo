@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE taglib
+        PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN"
+        "http://java.sun.com/dtd/web-jsptaglibrary_1_2.dtd">
+<taglib>
+	<tlib-version>1.3</tlib-version>
+	<jsp-version>1.2</jsp-version>
+	<short-name>bau</short-name>
+	<uri>http://db.training.easy/tags</uri>
+	<description>
+		<![CDATA[
+  Taglib enthaelt tags um Sicherheitsabfragen einfach bauen zu koennen
+  ]]>
+	</description>
+	<tag>
+		<name>hasRole</name>
+		<tag-class>db.training.security.tags.HasRoleTag</tag-class>
+		<body-content>JSP</body-content>
+		<description>Renders the body content if the user has at least one of the passed roles.</description>
+		<attribute>
+			<name>role</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>comma separated list of roles</description>
+		</attribute>
+	</tag>
+	<tag>
+		<name>hasAuthorization</name>
+		<tag-class>db.training.security.tags.HasAuthorizationTag</tag-class>
+		<body-content>JSP</body-content>
+		<description>Renders the body content if the user has at least one of the passed authorizations to this object.</description>
+		<attribute>
+			<name>model</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.Object</type>
+			<description>We will check if this object has any of the autorizations.</description>
+		</attribute>
+		<attribute>
+			<name>authorization</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>comma separated list of roles</description>
+		</attribute>
+	</tag>
+	<tag>
+		<name>hasNotAuthorization</name>
+		<tag-class>db.training.security.tags.HasNotAuthorizationTag</tag-class>
+		<body-content>JSP</body-content>
+		<description>Renders the body content if the user has none of the passed authorizations to this object.</description>
+		<attribute>
+			<name>model</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.Object</type>
+			<description>We will check if this object has any of the autorizations.</description>
+		</attribute>
+		<attribute>
+			<name>authorization</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>java.lang.String</type>
+			<description>comma separated list of roles</description>
+		</attribute>
+	</tag>
+		<tag>
+		<name>printAuthorizations</name>
+		<tag-class>db.training.security.tags.PrintAuthorizationsTag</tag-class>
+		<body-content>EMPTY</body-content>
+		<description>Prints all authorizations of the currently loggin user.</description>
+	</tag>
+</taglib>

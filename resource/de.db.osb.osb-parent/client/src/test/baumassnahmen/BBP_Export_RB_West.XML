@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<BBPXMLSchnittstelle>
+<Header>
+<Ersteller>StephanASchmidt</Ersteller>
+<Erstellzeit>2008-05-16, 07:20</Erstellzeit> 
+<BBPVersion>BBP 4.6.0.8105</BBPVersion>
+<BplBeginn>2008-07-13</BplBeginn>
+<BplEnde>2008-07-23</BplEnde>
+</Header>
+<Daten>
+<BBPMassnahme>
+<MasID>089073745DFCA</MasID>
+<aktiv>1</aktiv>
+<MasKennung>F616384E7AD8</MasKennung>
+<Vorhaben>T.050516/517</Vorhaben>
+<RegionID>3</RegionID>
+<Region>West</Region>
+<AnmelderID>17</AnmelderID>
+<Anmelder>I.NP-W-P</Anmelder>
+<ArbeitenID>15</ArbeitenID>
+<Arbeiten>Gleiserneuerung S-Bahn km 40,304-38,485</Arbeiten>
+<BBPStrecke>33908</BBPStrecke>
+<VzGStrecke>2525</VzGStrecke>
+<MasBstVonAG850ID> -1 </MasBstVonAG850ID>
+<MasBstBisAG850ID> -1 </MasBstBisAG850ID>
+<MasBstVonRil100>KWO</MasBstVonRil100>
+<MasBstBisRil100>KW</MasBstBisRil100>
+<MasBstVonLang>W-Oberbarmen</MasBstVonLang>
+<MasBstBisLang>Wuppertal Hbf</MasBstBisLang>
+<MasKmVon>-9999,000</MasKmVon>
+<MasKmBis>-9999,000</MasKmBis>
+<BezKz>322</BezKz>
+<MasBeginn>200807142310</MasBeginn>
+<MasEnde>200807210430</MasEnde>
+<GravAendDate> 200802140000</GravAendDate>
+<GraZeit>True</GraZeit>
+<GraOrt>True</GraOrt>
+<GraRegel>True</GraRegel>
+<AnmelderBem></AnmelderBem>
+<TempAnm></TempAnm>
+<Regelungen>
+<Regelung>
+<RegID>089073745DFCA-0001</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(J)</BplArtText>
+<JplID>06E16F1828B26</JplID>
+<Beginn>200807142310</Beginn>
+<Ende>200807180430</Ende>
+<SperrKz>3</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>KWO</BstVonRil100>
+<BstBisRil100>KW</BstBisRil100>
+<BstVonLang>W-Oberbarmen</BstVonLang>
+<BstBisLang>Wuppertal Hbf</BstBisLang>
+<BstVonLageKm>43,600</BstVonLageKm>
+<BstBisLageKm>38,100</BstBisLageKm>
+<VzGStrecke>2525</VzGStrecke>
+<Richtung>2</Richtung>
+<BBPStrecke>33908</BBPStrecke>
+<BBPStrRi>2</BBPStrRi>
+<BplRegelungID>13</BplRegelungID>
+<BplRegelungKurz>Uml u.e.Bed.</BplRegelungKurz>
+<BplRegelungLang>Umleitg.u.erleichtert.Bedingung.</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>0,0</FzvBBP>
+<RegelVTS>12400</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>False</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl>Vorarb GE Ortsgleis, Ausf 4 N&#228;chte, Uml u.e. Bed. &#252;b Ferngl: alle Z,  S 8+RB 47 Haltausfall in KWU, BBZR (B&#220;/SEV f. HA KWU) von I.NV-W-F(B) erford.</BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>089073745DFCA-0002</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(J)</BplArtText>
+<JplID>06E16F1828B26</JplID>
+<Beginn>200807182310</Beginn>
+<Ende>200807210430</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>KWO</BstVonRil100>
+<BstBisRil100>KW</BstBisRil100>
+<BstVonLang>W-Oberbarmen</BstVonLang>
+<BstBisLang>Wuppertal Hbf</BstBisLang>
+<BstVonLageKm>43,600</BstVonLageKm>
+<BstBisLageKm>38,100</BstBisLageKm>
+<VzGStrecke>2525</VzGStrecke>
+<Richtung>0</Richtung>
+<BBPStrecke>33908</BBPStrecke>
+<BBPStrRi>0</BBPStrRi>
+<BplRegelungID>11</BplRegelungID>
+<BplRegelungKurz>Tsp</BplRegelungKurz>
+<BplRegelungLang>Totalsperrung</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>0,0</FzvBBP>
+<RegelVTS>7100</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>False</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl>GE S-Bahn km 40,304-38,342 (WoE 1), Tsp S-Bahngl.,Uml u.e.Bed.&#252;b Fernbahn: alle Z, S 8+RB 47(ggf in KWO brechen) HA in KWU, BZR (B&#220;,SEV f. HA KWU) B-Konzept I.NV-W-F(B),  Fla-schutz W 192 KW! OL aus</BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>089073745DFCA-0003</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(J)</BplArtText>
+<JplID>06E16F1828B26</JplID>
+<Beginn>200807182310</Beginn>
+<Ende>200807210430</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>KWO</BstVonRil100>
+<BstBisRil100>KW</BstBisRil100>
+<BstVonLang>W-Oberbarmen</BstVonLang>
+<BstBisLang>Wuppertal Hbf</BstBisLang>
+<BstVonLageKm>120,900</BstVonLageKm>
+<BstBisLageKm>115,400</BstBisLageKm>
+<VzGStrecke>2550</VzGStrecke>
+<Richtung>0</Richtung>
+<BBPStrecke>33013</BBPStrecke>
+<BBPStrRi>0</BBPStrRi>
+<BplRegelungID>13</BplRegelungID>
+<BplRegelungKurz>Uml u.e.Bed.</BplRegelungKurz>
+<BplRegelungLang>Umleitg.u.erleichtert.Bedingung.</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>0,0</FzvBBP>
+<RegelVTS>7100</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>False</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl>WoE 1,Umleitungen von Str 33908 (Ortsgl): alle Z&#252;ge n. Betriebskonzept (B&#220;,SEV f. HA KWU) v. I.NV-W-F(B) wegen GE im Ortsgl</BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>089073745DFCA-0004</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(J)</BplArtText>
+<JplID>06E16F1828B26</JplID>
+<Beginn>200807142310</Beginn>
+<Ende>200807180430</Ende>
+<SperrKz>3</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>KWO</BstVonRil100>
+<BstBisRil100>KW</BstBisRil100>
+<BstVonLang>W-Oberbarmen</BstVonLang>
+<BstBisLang>Wuppertal Hbf</BstBisLang>
+<BstVonLageKm>120,900</BstVonLageKm>
+<BstBisLageKm>115,400</BstBisLageKm>
+<VzGStrecke>2550</VzGStrecke>
+<Richtung>2</Richtung>
+<BBPStrecke>33013</BBPStrecke>
+<BBPStrRi>1</BBPStrRi>
+<BplRegelungID>13</BplRegelungID>
+<BplRegelungKurz>Uml u.e.Bed.</BplRegelungKurz>
+<BplRegelungLang>Umleitg.u.erleichtert.Bedingung.</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>0,0</FzvBBP>
+<RegelVTS>12400</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>False</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl>Uml u.e. Bed. vom Ortsgleis: alle Z&#252;ge wegen Vorarb GE, Ausf 4 N&#228;chte, B-Konzept (B&#220;,SEV f. HA KWU) von I.NM-W-F(B) </BemerkungenBpl>
+</Regelung>
+<Regelung>
+<RegID>089073745DFCA-0005</RegID>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(J)</BplArtText>
+<JplID>06E16F1828B26</JplID>
+<Beginn>200807182310</Beginn>
+<Ende>200807210430</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>KW</BstVonRil100>
+<BstBisRil100>KWO</BstBisRil100>
+<BstVonLang>Wuppertal Hbf</BstVonLang>
+<BstBisLang>W-Oberbarmen</BstBisLang>
+<BstVonLageKm>115,400</BstVonLageKm>
+<BstBisLageKm>120,900</BstBisLageKm>
+<VzGStrecke>2550</VzGStrecke>
+<Richtung>1</Richtung>
+<BBPStrecke>33013</BBPStrecke>
+<BBPStrRi>2</BBPStrRi>
+<BplRegelungID>21</BplRegelungID>
+<BplRegelungKurz>La EUK</BplRegelungKurz>
+<BplRegelungLang>Lfst für Unfallschutz</BplRegelungLang>
+<RegelungKmVon>115,900</RegelungKmVon>
+<RegelungKmBis>117,700</RegelungKmBis>
+<VzGV>120</VzGV>
+<LaV>90</LaV>
+<FzvBBP>0,7</FzvBBP>
+<RegelVTS>7100</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>True</SPFV>
+<SPNV>True</SPNV>
+<SGV>False</SGV>
+<LisbaNr></LisbaNr>
+<BemerkungenBpl>Schutz-La 90 km/h: alle Z&#252;ge wegen Oberbauarbeiten (GE) im Nachbargleis, Fzv: SPFV 0,7, SPNV 0,6 Min</BemerkungenBpl>
+</Regelung>
+</Regelungen>
+</BBPMassnahme>
+</Daten>
+</BBPXMLSchnittstelle>

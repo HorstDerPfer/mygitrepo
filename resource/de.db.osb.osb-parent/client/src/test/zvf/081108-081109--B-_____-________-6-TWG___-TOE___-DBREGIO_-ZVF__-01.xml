@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-10-15T15:19:54</timestamp>
+  <filename>081108-081109--B-_____-________-6-TWG___-TOE___-DBREGIO_-ZVF__-01.rtf</filename>
+  <version_prg_zvf>v2.2.2</version_prg_zvf>
+  <sender>
+   <name>Trumpf</name>
+   <vorname>Susanna</vorname>
+   <kuerzel> Tr</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Susanna.Trumpf@bahn.de</email>
+   <telefon>0721/938 7336</telefon>
+   <telefon_intern>972-7336</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>DB Regio</empfaenger>
+   <empfaenger>Betriebsplanung - BZ</empfaenger>
+   <empfaenger>Olbert</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>B</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <korridor> </korridor>
+   <kigbau></kigbau>
+   <kennung>31435</kennung>
+   <bbp></bbp>
+   <master_fplo></master_fplo>
+   <festgelegtSPFV>0</festgelegtSPFV>
+   <festgelegtSPNV>0</festgelegtSPNV>
+   <festgelegtSGV>0</festgelegtSGV>
+   <antwort>2008-11-05</antwort>
+   <endStueckZvf>0</endStueckZvf>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF)</titel>
+    <formular>ZVF-091008</formular>
+    <major>1</major>
+    <minor>2</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>TOE</startbst>
+     <endbst>TWG</endbst>
+     <massnahme>Waldenburg (Wü) - Öhringen</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Bahnsteigarbeiten Hp Neuenstein</grund>
+     <baubeginn>2008-11-08T05:00:00</baubeginn>
+     <bauende>2008-11-09T23:00:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+    <strecke>
+     <startbst>TOE</startbst>
+     <endbst>TWG</endbst>
+     <massnahme>Öhringen - Waldenburg (Wü)</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Bahnsteigarbeiten Hp Neuenstein</grund>
+     <baubeginn>2008-11-08T04:00:00</baubeginn>
+     <bauende>2008-11-10T00:00:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" >west</niederlassung>
+    <niederlassung beteiligt="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" >mitte</niederlassung>
+    <niederlassung beteiligt="1" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="" verkehrstag="2008-11-08" betreiber="F7551" zugnr="33705" zugbez="RE" >
+     <firstbst>TWG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TH" >Heilbronn Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="TC" >Crailsheim</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>5</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-08" betreiber="F7551" zugnr="33706" zugbez="RE" >
+     <firstbst>TOE</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSHT" >Schw H-Hessental</abgangsbahnhof>
+      <zielbahnhof ds100="TH" >Heilbronn Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>5</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-08" betreiber="F7551" zugnr="33711" zugbez="RE" >
+     <firstbst>TWG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TH" >Heilbronn Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="TC" >Crailsheim</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>5</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-08" betreiber="F7551" zugnr="33712" zugbez="RE" >
+     <firstbst>TOE</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TC" >Crailsheim</abgangsbahnhof>
+      <zielbahnhof ds100="TH" >Heilbronn Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>5</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-08" betreiber="F7551" zugnr="33717" zugbez="RE" >
+     <firstbst>TWG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TH" >Heilbronn Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="TC" >Crailsheim</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>5</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-08" betreiber="F7551" zugnr="33718" zugbez="RE" >
+     <firstbst>TOE</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TC" >Crailsheim</abgangsbahnhof>
+      <zielbahnhof ds100="TH" >Heilbronn Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>5</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-08" betreiber="F7551" zugnr="33723" zugbez="RE" >
+     <firstbst>TWG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TH" >Heilbronn Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="TC" >Crailsheim</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>5</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-08" betreiber="F7551" zugnr="33724" zugbez="RE" >
+     <firstbst>TOE</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TC" >Crailsheim</abgangsbahnhof>
+      <zielbahnhof ds100="TH" >Heilbronn Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>5</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-08" betreiber="F7551" zugnr="33729" zugbez="RE" >
+     <firstbst>TWG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TH" >Heilbronn Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="TC" >Crailsheim</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>5</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-08" betreiber="F7551" zugnr="33730" zugbez="RE" >
+     <firstbst>TOE</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TC" >Crailsheim</abgangsbahnhof>
+      <zielbahnhof ds100="TH" >Heilbronn Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>5</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-08" betreiber="F7551" zugnr="33735" zugbez="RE" >
+     <firstbst>TWG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TH" >Heilbronn Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="TC" >Crailsheim</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>5</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-08" betreiber="F7551" zugnr="33736" zugbez="RE" >
+     <firstbst>TOE</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TC" >Crailsheim</abgangsbahnhof>
+      <zielbahnhof ds100="TH" >Heilbronn Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>5</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-08" betreiber="F7551" zugnr="33741" zugbez="RB" >
+     <firstbst>TWG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TOE" >Öhringen</abgangsbahnhof>
+      <zielbahnhof ds100="TSHT" >Schw H-Hessental</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>5</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-08" betreiber="F7551" zugnr="33742" zugbez="RE" >
+     <firstbst>TOE</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TC" >Crailsheim</abgangsbahnhof>
+      <zielbahnhof ds100="TH" >Heilbronn Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>5</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-08" betreiber="F7551" zugnr="33744" zugbez="RE" >
+     <firstbst>TOE</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TC" >Crailsheim</abgangsbahnhof>
+      <zielbahnhof ds100="TOE" >Öhringen</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>5</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-08" betreiber="F7551" zugnr="33745" zugbez="RE" >
+     <firstbst>TWG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TH" >Heilbronn Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="TC" >Crailsheim</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>5</verspaetung>
+     </abweichung>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

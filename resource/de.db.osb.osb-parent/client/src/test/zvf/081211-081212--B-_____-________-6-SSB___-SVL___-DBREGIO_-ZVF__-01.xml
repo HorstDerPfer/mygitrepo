@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-10-15T16:45:40</timestamp>
+  <filename>081211-081212--B-_____-________-6-SSB___-SVL___-DBREGIO_-ZVF__-01.rtf</filename>
+  <version_prg_zvf>v2.2.2</version_prg_zvf>
+  <sender>
+   <name>Hermannek</name>
+   <vorname>Björn</vorname>
+   <kuerzel> Hn</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Bjoern.Hermannek@bahn.de</email>
+   <telefon>0721/938 7338</telefon>
+   <telefon_intern>972-7338</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>DB Regio</empfaenger>
+   <empfaenger>Betriebsplanung - BZ</empfaenger>
+   <empfaenger>Bittler</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>B</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <korridor> </korridor>
+   <kigbau></kigbau>
+   <kennung></kennung>
+   <bbp>44005</bbp>
+   <master_fplo>36284</master_fplo>
+   <festgelegtSPFV>0</festgelegtSPFV>
+   <festgelegtSPNV>0</festgelegtSPNV>
+   <festgelegtSGV>0</festgelegtSGV>
+   <antwort>2008-10-15</antwort>
+   <endStueckZvf>0</endStueckZvf>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF)</titel>
+    <formular>ZVF-091008</formular>
+    <major>1</major>
+    <minor>2</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>SVL</startbst>
+     <endbst>SSB</endbst>
+     <massnahme>Sbr-Burbach - Völklingen</massnahme>
+     <betriebsweise>Ggl Bef</betriebsweise>
+     <grund>WE W28+25, Lückenschluss W5+11+24 SLU</grund>
+     <baubeginn>2008-12-11T00:30:00</baubeginn>
+     <bauende>2008-12-12T04:30:00</bauende>
+     <zeitraum_unterbrochen>Ja</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+    <strecke>
+     <startbst>SVL</startbst>
+     <endbst>SLU</endbst>
+     <massnahme>Völklingen - Luisenthal(Saar)</massnahme>
+     <betriebsweise>Ggl Zs 8</betriebsweise>
+     <grund>Umbau W28, Lückenschluss W11 SLU</grund>
+     <baubeginn>2008-12-12T23:00:00</baubeginn>
+     <bauende>2008-12-13T23:59:59</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+    <strecke>
+     <startbst>SVL</startbst>
+     <endbst>SLU</endbst>
+     <massnahme>Völklingen - Luisenthal(Saar)</massnahme>
+     <betriebsweise>Ggl Zs 8</betriebsweise>
+     <grund>Umbau W28, Lückenschluss W11 SLU</grund>
+     <baubeginn>2008-12-14T00:00:01</baubeginn>
+     <bauende>2008-12-15T00:00:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" >west</niederlassung>
+    <niederlassung beteiligt="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" >mitte</niederlassung>
+    <niederlassung beteiligt="1" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="" verkehrstag="2008-12-14" betreiber="F1251" zugnr="12021" zugbez="RE-D" >
+     <firstbst>SVL</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSH" >Saarbrücken Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="KKO" >Koblenz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="F1251" zugnr="12024" zugbez="RE" >
+     <firstbst>SLU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="KKO" >Koblenz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SKL" >Kaisersl Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="F1251" zugnr="13641" zugbez="RB" >
+     <firstbst>SLU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="STR" >Trier Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="F1251" zugnr="23018" zugbez="RE" >
+     <firstbst>SLU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="STR" >Trier Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SSH" >Saarbrücken Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="F1251" zugnr="23075" zugbez="RE" >
+     <firstbst>SLU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSLB" >Saarhölzbach</abgangsbahnhof>
+      <zielbahnhof ds100="SKL" >Kaisersl Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>9</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-14" betreiber="F1251" zugnr="23078" zugbez="RE-D" >
+     <firstbst>SVL</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSH" >Saarbrücken Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="STR" >Trier Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="F1251" zugnr="23081" zugbez="RE" >
+     <firstbst>SLU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSLB" >Saarhölzbach</abgangsbahnhof>
+      <zielbahnhof ds100="SKL" >Kaisersl Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="F1251" zugnr="23085" zugbez="RE" >
+     <firstbst>SLU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SMZG" >Merzig (Saar)</abgangsbahnhof>
+      <zielbahnhof ds100="SKL" >Kaisersl Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="F1251" zugnr="75249" zugbez="Lr" >
+     <firstbst>SLU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SVL" >Völklingen</abgangsbahnhof>
+      <zielbahnhof ds100="SSH" >Saarbrücken Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>22</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="F1251" zugnr="13605" zugbez="RB-D" >
+     <firstbst>SLU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="STR" >Trier Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SSH" >Saarbrücken Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SVL" >Völklingen</ausfallvon>
+      <ausfallbis ds100="SLU" >Luisenthal(Saar)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="F1251" zugnr="13611" zugbez="RB" >
+     <firstbst>SLU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SMZG" >Merzig (Saar)</abgangsbahnhof>
+      <zielbahnhof ds100="SSH" >Saarbrücken Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SVL" >Völklingen</ausfallvon>
+      <ausfallbis ds100="SLU" >Luisenthal(Saar)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="F1251" zugnr="13613" zugbez="RB" >
+     <firstbst>SLU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SMZG" >Merzig (Saar)</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SVL" >Völklingen</ausfallvon>
+      <ausfallbis ds100="SLU" >Luisenthal(Saar)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="F1251" zugnr="13614" zugbez="RB" >
+     <firstbst>SVL</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSH" >Saarbrücken Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="KKO" >Koblenz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SLU" >Luisenthal(Saar)</ausfallvon>
+      <ausfallbis ds100="SVL" >Völklingen</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="F1251" zugnr="13617" zugbez="RB" >
+     <firstbst>SLU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="STR" >Trier Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SVL" >Völklingen</ausfallvon>
+      <ausfallbis ds100="SLU" >Luisenthal(Saar)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="F1251" zugnr="13621" zugbez="RB" >
+     <firstbst>SLU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="STR" >Trier Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SVL" >Völklingen</ausfallvon>
+      <ausfallbis ds100="SLU" >Luisenthal(Saar)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="F1251" zugnr="13622" zugbez="RB" >
+     <firstbst>SVL</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="STR" >Trier Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SLU" >Luisenthal(Saar)</ausfallvon>
+      <ausfallbis ds100="SVL" >Völklingen</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="F1251" zugnr="13628" zugbez="RB" >
+     <firstbst>SVL</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="STR" >Trier Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SLU" >Luisenthal(Saar)</ausfallvon>
+      <ausfallbis ds100="SVL" >Völklingen</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-14" betreiber="F1251" zugnr="13634" zugbez="RB" >
+     <firstbst>SVL</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="STR" >Trier Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SLU" >Luisenthal(Saar)</ausfallvon>
+      <ausfallbis ds100="SVL" >Völklingen</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="F1251" zugnr="13642" zugbez="RB" >
+     <firstbst>SVL</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSH" >Saarbrücken Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SSLB" >Saarhölzbach</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SLU" >Luisenthal(Saar)</ausfallvon>
+      <ausfallbis ds100="SVL" >Völklingen</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="F1251" zugnr="13646" zugbez="RB" >
+     <firstbst>SVL</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="STR" >Trier Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SLU" >Luisenthal(Saar)</ausfallvon>
+      <ausfallbis ds100="SVL" >Völklingen</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="F1251" zugnr="13650" zugbez="RB" >
+     <firstbst>SVL</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SSLB" >Saarhölzbach</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SLU" >Luisenthal(Saar)</ausfallvon>
+      <ausfallbis ds100="SVL" >Völklingen</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="F1251" zugnr="13651" zugbez="RB" >
+     <firstbst>SLU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="STR" >Trier Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SVL" >Völklingen</ausfallvon>
+      <ausfallbis ds100="SLU" >Luisenthal(Saar)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="F1251" zugnr="13657" zugbez="RB" >
+     <firstbst>SLU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="STR" >Trier Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SHO" >Homburg(Saar)Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SVL" >Völklingen</ausfallvon>
+      <ausfallbis ds100="SLU" >Luisenthal(Saar)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="F1251" zugnr="23282" zugbez="RB" >
+     <firstbst>SVL</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="STM" >Türkismühle</abgangsbahnhof>
+      <zielbahnhof ds100="SMZG" >Merzig (Saar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SLU" >Luisenthal(Saar)</ausfallvon>
+      <ausfallbis ds100="SVL" >Völklingen</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="F1251" zugnr="23285" zugbez="RB" >
+     <firstbst>SLU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="STR" >Trier Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="STM" >Türkismühle</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SVL" >Völklingen</ausfallvon>
+      <ausfallbis ds100="SLU" >Luisenthal(Saar)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-14" betreiber="F1251" zugnr="23285" zugbez="RB" >
+     <firstbst>SLU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="STR" >Trier Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="STM" >Türkismühle</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="STR" >Trier Hbf</ausfallvon>
+      <ausfallbis ds100="STM" >Türkismühle</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-13" betreiber="F1251" zugnr="23287" zugbez="RB" >
+     <firstbst>SLU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SVL" >Völklingen</abgangsbahnhof>
+      <zielbahnhof ds100="SSWD" >St Wendel</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SVL" >Völklingen</ausfallvon>
+      <ausfallbis ds100="SLU" >Luisenthal(Saar)</ausfallbis>
+     </abweichung>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

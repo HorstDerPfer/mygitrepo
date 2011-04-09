@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-10-15T11:05:01</timestamp>
+  <filename>081221-081221--B-_____-________-6-SDUW__-SLWR__-DBREGIO_-ZVF__-01.rtf</filename>
+  <version_prg_zvf>v2.2.2</version_prg_zvf>
+  <sender>
+   <name>Lutz</name>
+   <vorname>Günther</vorname>
+   <kuerzel> Lz</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Günther.Lutz@bahn.de</email>
+   <telefon>0721/938 7331</telefon>
+   <telefon_intern>972-7331</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>DB Regio</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>B</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <korridor> </korridor>
+   <kigbau></kigbau>
+   <kennung>54029</kennung>
+   <bbp>56049</bbp>
+   <master_fplo></master_fplo>
+   <festgelegtSPFV>0</festgelegtSPFV>
+   <festgelegtSPNV>0</festgelegtSPNV>
+   <festgelegtSGV>0</festgelegtSGV>
+   <antwort>2008-11-05</antwort>
+   <endStueckZvf>0</endStueckZvf>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF)</titel>
+    <formular>ZVF-091008</formular>
+    <major>1</major>
+    <minor>2</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>SDUW</startbst>
+     <endbst>SLWR</endbst>
+     <massnahme>Landsw-Reden - Dudweiler</massnahme>
+     <betriebsweise>Totalsperrung</betriebsweise>
+     <grund>Arbeiten an LST-Anlagen</grund>
+     <baubeginn>2008-12-21T00:15:00</baubeginn>
+     <bauende>2008-12-21T05:40:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" >west</niederlassung>
+    <niederlassung beteiligt="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" >mitte</niederlassung>
+    <niederlassung beteiligt="1" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="" verkehrstag="2008-12-21" betreiber="F1251" zugnr="23201" zugbez="RB" >
+     <firstbst>SLWR</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSH" >Saarbrücken Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SSWD" >St Wendel</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SDUW" >Dudweiler</ausfallvon>
+      <ausfallbis ds100="SLWR" >Landsw-Reden</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-21" betreiber="F1251" zugnr="23280" zugbez="RB" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="STM" >Türkismühle</abgangsbahnhof>
+      <zielbahnhof ds100="STR" >Trier Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SLWR" >Landsw-Reden</ausfallvon>
+      <ausfallbis ds100="SDUW" >Dudweiler</ausfallbis>
+     </abweichung>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

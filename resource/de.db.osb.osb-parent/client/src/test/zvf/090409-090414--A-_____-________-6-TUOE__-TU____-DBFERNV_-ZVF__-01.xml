@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-10-24T10:15:42</timestamp>
+  <filename>090409-090414--A-_____-________-6-TUOE__-TU____-DBFERNV_-ZVF__-01.rtf</filename>
+  <version_prg_zvf>v2.2.3</version_prg_zvf>
+  <sender>
+   <name>Scavello-Baassner</name>
+   <vorname>Santana</vorname>
+   <kuerzel> Bn</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Santana.Scavello-Baassner@bahn.de</email>
+   <telefon>0721/938 7332</telefon>
+   <telefon_intern>972-7332</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>DB Fernverkehr</empfaenger>
+   <empfaenger>Betriebsplanung - BZ</empfaenger>
+   <empfaenger>KM-SW</empfaenger>
+   <empfaenger>Malthaner</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>A</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <korridor> </korridor>
+   <kigbau></kigbau>
+   <kennung>F5DD387955557</kennung>
+   <bbp>56005</bbp>
+   <master_fplo>53012</master_fplo>
+   <festgelegtSPFV>0</festgelegtSPFV>
+   <festgelegtSPNV>0</festgelegtSPNV>
+   <festgelegtSGV>0</festgelegtSGV>
+   <antwort>2008-11-14</antwort>
+   <endStueckZvf>0</endStueckZvf>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF)</titel>
+    <formular>ZVF-091008</formular>
+    <major>1</major>
+    <minor>2</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>TUOE</startbst>
+     <endbst>TU</endbst>
+     <massnahme>Ulm-Örlingen - Ulm Hbf</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Weichenerneuerung</grund>
+     <baubeginn>2009-04-09T22:45:00</baubeginn>
+     <bauende>2009-04-14T04:45:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+    <strecke>
+     <startbst>TUOE</startbst>
+     <endbst>TU</endbst>
+     <massnahme>Ulm Hbf - Ulm-Örlingen</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Weichenerneuerung</grund>
+     <baubeginn>2009-04-09T22:45:00</baubeginn>
+     <bauende>2009-04-10T23:00:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" >west</niederlassung>
+    <niederlassung beteiligt="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" >mitte</niederlassung>
+    <niederlassung beteiligt="1" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="" verkehrstag="2009-04-10" betreiber="Z1351" zugnr="112" zugbez="EC" >
+     <firstbst>TUOE</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XAKT" >Klagenfurt Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FF" >Frankfurt(M) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-10" betreiber="Z1351" zugnr="114" zugbez="EC" >
+     <firstbst>TUOE</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-10" betreiber="Z1351" zugnr="119" zugbez="IC" >
+     <firstbst>TU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-11" betreiber="Z1351" zugnr="119" zugbez="IC" >
+     <firstbst>TU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-12" betreiber="Z1351" zugnr="119" zugbez="IC" >
+     <firstbst>TU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-10" betreiber="Z1351" zugnr="316" zugbez="EC" >
+     <firstbst>TUOE</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XAG" >Graz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SSH" >Saarbrücken Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>9</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-12" betreiber="Z1351" zugnr="390" zugbez="EC" >
+     <firstbst>TUOE</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XAL" >Linz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FF" >Frankfurt(M) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-12" betreiber="Z1351" zugnr="592" zugbez="ICE-A" >
+     <firstbst>TUOE</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="MH" >München Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="BRGBT" >Bln-Rummels Tanl</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-10" betreiber="Z1351" zugnr="595" zugbez="ICE-A" >
+     <firstbst>TU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="BRGBT" >Bln-Rummels Tanl</abgangsbahnhof>
+      <zielbahnhof ds100="MH" >München Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-11" betreiber="Z1351" zugnr="595" zugbez="ICE-A" >
+     <firstbst>TU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="BRGBT" >Bln-Rummels Tanl</abgangsbahnhof>
+      <zielbahnhof ds100="MH" >München Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-12" betreiber="Z1351" zugnr="595" zugbez="ICE-A" >
+     <firstbst>TU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="BRGBT" >Bln-Rummels Tanl</abgangsbahnhof>
+      <zielbahnhof ds100="MH" >München Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-13" betreiber="Z1351" zugnr="595" zugbez="ICE-A" >
+     <firstbst>TU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="BRGBT" >Bln-Rummels Tanl</abgangsbahnhof>
+      <zielbahnhof ds100="MH" >München Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-11" betreiber="Z1351" zugnr="613" zugbez="ICE-W" >
+     <firstbst>TU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="EDOB" >Dortmund Bbf</abgangsbahnhof>
+      <zielbahnhof ds100="MH" >München Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-13" betreiber="Z1351" zugnr="690" zugbez="ICE-A" >
+     <firstbst>TUOE</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="MH" >München Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="BRGBT" >Bln-Rummels Tanl</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-13" betreiber="Z1351" zugnr="2092" zugbez="IC" >
+     <firstbst>TUOE</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="MPB" >Mü-Pasing Bbf</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>12</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-10" betreiber="Z1351" zugnr="2260" zugbez="IC" >
+     <firstbst>TUOE</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="MH" >München Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>11</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-11" betreiber="Z1351" zugnr="2260" zugbez="IC" >
+     <firstbst>TUOE</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="MH" >München Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-12" betreiber="Z1351" zugnr="2260" zugbez="IC" >
+     <firstbst>TUOE</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="MH" >München Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>9</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-13" betreiber="Z1351" zugnr="2260" zugbez="IC" >
+     <firstbst>TUOE</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="MH" >München Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>10</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-13" betreiber="Z1351" zugnr="2265" zugbez="IC" >
+     <firstbst>TU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="XASB" >Salzburg Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-10" betreiber="Z1351" zugnr="2290" zugbez="IC" >
+     <firstbst>TUOE</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XASB" >Salzburg Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FF" >Frankfurt(M) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-13" betreiber="Z2601" zugnr="13323" zugbez="AZ" >
+     <firstbst>TU</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-10" betreiber="Z1351" zugnr="79284" zugbez="Tfzf (F)" >
+     <firstbst>TUOE</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TU" >Ulm Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="TS" >Stuttgart Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>21</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-10" betreiber="Z1351" zugnr="1962" zugbez="PbZ-D" >
+     <firstbst>TUOE</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="vorplan" >
+      <vorplanab></vorplanab>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

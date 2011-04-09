@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-11-10T08:49:01</timestamp>
+  <filename>090326-090327--A-_____-________-6-RF____-RDZ___-DBFERNV_-ZVF__-01.rtf</filename>
+  <version_prg_zvf>v2.2.4</version_prg_zvf>
+  <sender>
+   <name>Klan</name>
+   <vorname>Dietmar</vorname>
+   <kuerzel> Kl</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Dietmar.Klan@bahn.de</email>
+   <telefon>0721/938 7311</telefon>
+   <telefon_intern>972-7311</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>DB Fernverkehr</empfaenger>
+   <empfaenger>Schäfer JM</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>A</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <korridor> </korridor>
+   <kigbau></kigbau>
+   <kennung>Studie Fpldaten Do</kennung>
+   <bbp>56023</bbp>
+   <master_fplo>Bündel 2010</master_fplo>
+   <festgelegtSPFV>0</festgelegtSPFV>
+   <festgelegtSPNV>0</festgelegtSPNV>
+   <festgelegtSGV>0</festgelegtSGV>
+   <antwort>2008-11-27</antwort>
+   <endStueckZvf>0</endStueckZvf>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF)</titel>
+    <formular>ZVF-091008</formular>
+    <major>1</major>
+    <minor>2</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>RF</startbst>
+     <endbst>RDZ</endbst>
+     <vzg>9301</vzg>
+     <massnahme>Freiburg(Brg)Hbf - Denzlingen</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Kapazitätsbetrachtung RF/RFG-RDZ 2010</grund>
+     <baubeginn>2009-03-26T00:00:00</baubeginn>
+     <bauende>2009-03-27T00:00:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" fplo="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >west</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >mitte</niederlassung>
+    <niederlassung beteiligt="1" fplo="0" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="0" verkehrstag="2009-03-26" betreiber="Z1351" zugnr="70" zugbez="ICE-A" >
+     <firstbst>RDZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XSB" >Basel SBB</abgangsbahnhof>
+      <zielbahnhof ds100="AE  F" >Hmb-Eid Gbf Ef</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>9</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-26" betreiber="Z1351" zugnr="72" zugbez="ICE-A" >
+     <firstbst>RDZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XSZH" >Zürich HB</abgangsbahnhof>
+      <zielbahnhof ds100="AE  F" >Hmb-Eid Gbf Ef</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-26" betreiber="Z1351" zugnr="74" zugbez="ICE-A" >
+     <firstbst>RDZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XSZH" >Zürich HB</abgangsbahnhof>
+      <zielbahnhof ds100="AK" >Kiel Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-26" betreiber="Z1351" zugnr="76" zugbez="ICE-A" >
+     <firstbst>RDZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XSZH" >Zürich HB</abgangsbahnhof>
+      <zielbahnhof ds100="AK" >Kiel Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>13</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-26" betreiber="Z1351" zugnr="272" zugbez="ICE-A" >
+     <firstbst>RDZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XSZH" >Zürich HB</abgangsbahnhof>
+      <zielbahnhof ds100="ALA" >Hmb-Langenfd Bbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-26" betreiber="Z1351" zugnr="371" zugbez="ICE-A" >
+     <firstbst>RF</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="XSZH" >Zürich HB</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-26" betreiber="Z1351" zugnr="376" zugbez="ICE-A" >
+     <firstbst>RDZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XSIO" >Interlaken Ost</abgangsbahnhof>
+      <zielbahnhof ds100="ALA" >Hmb-Langenfd Bbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-26" betreiber="Z1351" zugnr="602" zugbez="ICE-W" >
+     <firstbst>RDZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XSB" >Basel SBB</abgangsbahnhof>
+      <zielbahnhof ds100="KKB" >Köln Bbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-26" betreiber="Z1351" zugnr="608" zugbez="ICE-A" >
+     <firstbst>RDZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XSB" >Basel SBB</abgangsbahnhof>
+      <zielbahnhof ds100="AK" >Kiel Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>9</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-26" betreiber="Z1351" zugnr="104" zugbez="ICE-W" >
+     <firstbst>RDZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon></ausfallvon>
+      <ausfallbis></ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-26" betreiber="Z1351" zugnr="105" zugbez="ICE-W" >
+     <firstbst>RF</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon></ausfallvon>
+      <ausfallbis></ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-26" betreiber="Z1351" zugnr="502" zugbez="ICE-W" >
+     <firstbst>RDZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon></ausfallvon>
+      <ausfallbis></ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-26" betreiber="Z1351" zugnr="503" zugbez="ICE-W" >
+     <firstbst>RF</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon></ausfallvon>
+      <ausfallbis></ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-26" betreiber="Z1351" zugnr="506" zugbez="ICE-W" >
+     <firstbst>RDZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon></ausfallvon>
+      <ausfallbis></ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-26" betreiber="Z1351" zugnr="507" zugbez="ICE-W" >
+     <firstbst>RF</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon></ausfallvon>
+      <ausfallbis></ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-26" betreiber="Z1351" zugnr="508" zugbez="ICE-W" >
+     <firstbst>RDZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon></ausfallvon>
+      <ausfallbis></ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-26" betreiber="Z1351" zugnr="509" zugbez="ICE-W" >
+     <firstbst>RF</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon></ausfallvon>
+      <ausfallbis></ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-26" betreiber="Z1351" zugnr="600" zugbez="ICE-W" >
+     <firstbst>RDZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon></ausfallvon>
+      <ausfallbis></ausfallbis>
+     </abweichung>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

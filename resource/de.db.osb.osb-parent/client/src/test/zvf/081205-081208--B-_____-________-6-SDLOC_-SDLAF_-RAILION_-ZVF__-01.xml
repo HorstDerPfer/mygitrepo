@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-11-06T13:41:19</timestamp>
+  <filename>081205-081208--B-_____-________-6-SDLOC_-SDLAF_-RAILION_-ZVF__-01.rtf</filename>
+  <version_prg_zvf>v2.2.4</version_prg_zvf>
+  <sender>
+   <name>Hermannek</name>
+   <vorname>Björn</vorname>
+   <kuerzel> Hn</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Bjoern.Hermannek@bahn.de</email>
+   <telefon>0721/938 7338</telefon>
+   <telefon_intern>972-7338</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>Railion</empfaenger>
+   <empfaenger>Betriebsplanung - BZ</empfaenger>
+   <empfaenger>Bittler</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>B</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <korridor> </korridor>
+   <kigbau></kigbau>
+   <kennung></kennung>
+   <bbp>86200</bbp>
+   <master_fplo>36328</master_fplo>
+   <festgelegtSPFV>0</festgelegtSPFV>
+   <festgelegtSPNV>0</festgelegtSPNV>
+   <festgelegtSGV>0</festgelegtSGV>
+   <antwort>2008-11-27</antwort>
+   <endStueckZvf>1</endStueckZvf>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF)</titel>
+    <formular>ZVF-091008</formular>
+    <major>1</major>
+    <minor>2</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>SDLOC</startbst>
+     <endbst>SDLAF</endbst>
+     <vzg>3211</vzg>
+     <massnahme>Dill Ost W 205 - Dill Ford W 221</massnahme>
+     <betriebsweise>Totalsperrung</betriebsweise>
+     <grund>WE W221+222 SDL</grund>
+     <baubeginn>2008-12-05T22:00:00</baubeginn>
+     <bauende>2008-12-08T06:00:01</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" fplo="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >west</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >mitte</niederlassung>
+    <niederlassung beteiligt="1" fplo="0" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="0" verkehrstag="2008-12-06" betreiber="Z1451" zugnr="47745" zugbez="CS" >
+     <firstbst>SDLAP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XNVIS" >Vlissingen Sloeh</abgangsbahnhof>
+      <zielbahnhof>SDFG</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="XNVIS" >Vlissingen Sloeh</ausfallvon>
+      <ausfallbis>SDFG</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2008-12-06" betreiber="K1456" zugnr="55943" zugbez="FZ" >
+     <firstbst>SDLAP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SDL" >Dillingen (Saar)</abgangsbahnhof>
+      <zielbahnhof ds100="SDLR" >Dill Röderberg</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SDL" >Dillingen (Saar)</ausfallvon>
+      <ausfallbis ds100="SDLR" >Dill Röderberg</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2008-12-06" betreiber="K1456" zugnr="55944" zugbez="FZ" >
+     <firstbst>SDLOC</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SDLR" >Dill Röderberg</abgangsbahnhof>
+      <zielbahnhof ds100="SDL" >Dillingen (Saar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SDLR" >Dill Röderberg</ausfallvon>
+      <ausfallbis ds100="SDL" >Dillingen (Saar)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2008-12-06" betreiber="K1456" zugnr="55959" zugbez="FZT" >
+     <firstbst>SDLOC</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>SDFG</abgangsbahnhof>
+      <zielbahnhof ds100="SSR N" >Saarbr Rbf Nord</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>SDFG</ausfallvon>
+      <ausfallbis ds100="SSR N" >Saarbr Rbf Nord</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2008-12-06" betreiber="K1456" zugnr="55961" zugbez="FZ" >
+     <firstbst>SDLOC</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>SDFG</abgangsbahnhof>
+      <zielbahnhof ds100="SSR N" >Saarbr Rbf Nord</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>SDFG</ausfallvon>
+      <ausfallbis ds100="SSR N" >Saarbr Rbf Nord</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2008-12-06" betreiber="K1456" zugnr="55966" zugbez="FZT" >
+     <firstbst>SDLAP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSR W" >Saarbr Rbf West</abgangsbahnhof>
+      <zielbahnhof>SDFG</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SSR W" >Saarbr Rbf West</ausfallvon>
+      <ausfallbis>SDFG</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2008-12-06" betreiber="Z1481" zugnr="58313" zugbez="Tfzf (RaR)" >
+     <firstbst>SDLAP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SDL" >Dillingen (Saar)</abgangsbahnhof>
+      <zielbahnhof>SDFG</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SDL" >Dillingen (Saar)</ausfallvon>
+      <ausfallbis>SDFG</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2008-12-06" betreiber="Z1481" zugnr="68456" zugbez="Tfzf (RaS)" >
+     <firstbst>SDLOC</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>SDFG</abgangsbahnhof>
+      <zielbahnhof ds100="SDL" >Dillingen (Saar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>SDFG</ausfallvon>
+      <ausfallbis ds100="SDL" >Dillingen (Saar)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2008-12-06" betreiber="Z1481" zugnr="68470" zugbez="Tfzf (RaS)" >
+     <firstbst>SDLOC</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof>SDFG</abgangsbahnhof>
+      <zielbahnhof ds100="SSR N" >Saarbr Rbf Nord</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>SDFG</ausfallvon>
+      <ausfallbis ds100="SSR N" >Saarbr Rbf Nord</ausfallbis>
+     </abweichung>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

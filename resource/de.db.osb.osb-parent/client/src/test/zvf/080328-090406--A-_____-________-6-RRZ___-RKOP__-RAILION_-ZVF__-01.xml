@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-10-13T12:00:09</timestamp>
+  <filename>080328-090406--A-_____-________-6-RRZ___-RKOP__-RAILION_-ZVF__-01.rtf</filename>
+  <version_prg_zvf>v2.2.2</version_prg_zvf>
+  <sender>
+   <name>Klan</name>
+   <vorname>Dietmar</vorname>
+   <kuerzel> Kl</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Dietmar.Klan@bahn.de</email>
+   <telefon>0721/938 7311</telefon>
+   <telefon_intern>972-7311</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>Railion</empfaenger>
+   <empfaenger>Betriebsplanung - BZ</empfaenger>
+   <empfaenger>KM-SW</empfaenger>
+   <empfaenger>Schäfer JM</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>A</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <korridor> </korridor>
+   <kigbau></kigbau>
+   <kennung>FF18386a5627</kennung>
+   <bbp>56030</bbp>
+   <master_fplo>52008</master_fplo>
+   <festgelegtSPFV>0</festgelegtSPFV>
+   <festgelegtSPNV>0</festgelegtSPNV>
+   <festgelegtSGV>0</festgelegtSGV>
+   <antwort>2008-10-31</antwort>
+   <endStueckZvf>0</endStueckZvf>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF)</titel>
+    <formular>ZVF-091008</formular>
+    <major>1</major>
+    <minor>2</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>RRZ</startbst>
+     <endbst>RKOP</endbst>
+     <massnahme>Radolfzell - Ko-Petershausen</massnahme>
+     <betriebsweise>Ggl Bef</betriebsweise>
+     <grund>Gleiserneuerung</grund>
+     <baubeginn>2008-03-28T00:50:00</baubeginn>
+     <bauende>2009-04-06T04:45:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+    <strecke>
+     <startbst>RRZ</startbst>
+     <endbst>RKO</endbst>
+     <massnahme>Konstanz - Radolfzell</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Gleiserneuerung</grund>
+     <baubeginn>2009-03-28T00:50:00</baubeginn>
+     <bauende>2009-04-01T10:00:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" >west</niederlassung>
+    <niederlassung beteiligt="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" >mitte</niederlassung>
+    <niederlassung beteiligt="1" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="" verkehrstag="2009-04-02" betreiber="Z1453" zugnr="43167" zugbez="TEC" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="AWHOS" >Alte Süderelbe</abgangsbahnhof>
+      <zielbahnhof ds100="XAWT" >Wolfurt</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-28" betreiber="Z1453" zugnr="43168" zugbez="TEC" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XAWT" >Wolfurt</abgangsbahnhof>
+      <zielbahnhof ds100="AWHOS" >Alte Süderelbe</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-28" betreiber="Z1453" zugnr="43169" zugbez="TEC" >
+     <firstbst>RKO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="AWHOS" >Alte Süderelbe</abgangsbahnhof>
+      <zielbahnhof ds100="XAWT" >Wolfurt</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="Z1462" zugnr="45175" zugbez="FE" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TK  S" >Kornwesth Rbf SW</abgangsbahnhof>
+      <zielbahnhof ds100="XAWT" >Wolfurt</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="Z1462" zugnr="45176" zugbez="FE" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XAWT" >Wolfurt</abgangsbahnhof>
+      <zielbahnhof ds100="TK  W" >Kornwesth Rbf NW</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-02" betreiber="Z1455" zugnr="46716" zugbez="CS" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="Z1451" zugnr="47087" zugbez="CS" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RSI" >Singen (Htw)</abgangsbahnhof>
+      <zielbahnhof ds100="XSW" >Weinfelden</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-28" betreiber="Z1452" zugnr="49150" zugbez="CS" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof ds100="HBHSK" >Brh Kaiserhfn/N.</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-28" betreiber="Z1452" zugnr="49152" zugbez="CS" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof ds100="HBHSK" >Brh Kaiserhfn/N.</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="Z1452" zugnr="49153" zugbez="CS" >
+     <firstbst>RKOP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-28" betreiber="Z1451" zugnr="49155" zugbez="CS" >
+     <firstbst>RKO</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof></abgangsbahnhof>
+      <zielbahnhof></zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-04-01" betreiber="Z1452" zugnr="49156" zugbez="CS" >
+     <firstbst>RRZ</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XABL" >Bludenz</abgangsbahnhof>
+      <zielbahnhof ds100="HBHSK" >Brh Kaiserhfn/N.</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

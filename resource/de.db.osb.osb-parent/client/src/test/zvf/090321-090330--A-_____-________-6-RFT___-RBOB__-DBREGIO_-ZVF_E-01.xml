@@ -1,0 +1,1965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-11-05T13:41:52</timestamp>
+  <filename>090321-090330--A-_____-________-6-RFT___-RBOB__-DBREGIO_-ZVF_E-01.rtf</filename>
+  <version_prg_zvf>v2.2.4</version_prg_zvf>
+  <sender>
+   <name>Schmitt</name>
+   <vorname>Hermann</vorname>
+   <kuerzel> Sx</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Hermann.He.Schmitt@bahn.de</email>
+   <telefon>0721/938 7334</telefon>
+   <telefon_intern>972-7334</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>DB Regio</empfaenger>
+   <empfaenger>Zitsch</empfaenger>
+   <empfaenger>Betriebsplanung - BZ</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>A</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <korridor> </korridor>
+   <kigbau></kigbau>
+   <kennung></kennung>
+   <bbp>44007</bbp>
+   <master_fplo></master_fplo>
+   <festgelegtSPFV>0</festgelegtSPFV>
+   <festgelegtSPNV>0</festgelegtSPNV>
+   <festgelegtSGV>0</festgelegtSGV>
+   <antwort>2008-11-26</antwort>
+   <baudatevon>2009-03-21</baudatevon>
+   <baudatebis>2009-03-30</baudatebis>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF-Entwurf)</titel>
+    <formular>ZVF-091008</formular>
+    <major>1</major>
+    <minor>1</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>RBOB</startbst>
+     <endbst>RFT</endbst>
+     <vzg>3522</vzg>
+     <massnahme>Frankenthal Hbf - Bobenheim</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Serienbaustelle Erneuerung Gl. RFT-RBOB</grund>
+     <baubeginn>2009-03-21T14:00:00</baubeginn>
+     <bauende>2009-03-30T17:00:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+    <strecke>
+     <startbst>RBOB</startbst>
+     <endbst>RFT</endbst>
+     <vzg>9210</vzg>
+     <massnahme>Frankenthal Hbf - Bobenheim</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Serienbaustelle Erneuerung Gl. RFT-RBOB</grund>
+     <baubeginn>2009-03-21T14:00:00</baubeginn>
+     <bauende>2009-03-22T14:00:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" fplo="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >west</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >mitte</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="F1253" zugnr="75177" zugbez="Lr-D" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FWOR" >Worms Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RH" >Heidelberg Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="3852" zugbez="RE" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RGE" >Germersheim</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>3</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="3853" zugbez="RE" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>2</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="3854" zugbez="RE" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>2</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="3855" zugbez="RE" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>2</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="3856" zugbez="RE" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>2</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="3857" zugbez="RE" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>2</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="3858" zugbez="RE" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>2</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="3859" zugbez="RE" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>2</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="3860" zugbez="RE" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>2</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="3861" zugbez="RE" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>2</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="K1251" zugnr="3862" zugbez="RE" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>2</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="K1251" zugnr="3864" zugbez="RE" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>2</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="3865" zugbez="RE" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RGE" >Germersheim</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>2</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="3866" zugbez="RE" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>2</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="K1251" zugnr="3867" zugbez="RE" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>2</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="3869" zugbez="RE" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>3</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18002" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>2</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18003" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FWOR" >Worms Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>5</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18004" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>2</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18005" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RMF" >M-Friedrichsfeld</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>5</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18007" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>2</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="18009" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RH" >Heidelberg Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>4</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18010" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FW" >Wiesbaden Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>2</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18014" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>2</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18018" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RH" >Heidelberg Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>2</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="18036" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>2</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="18042" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMF" >M-Friedrichsfeld</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>2</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="K1251" zugnr="18060" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMF" >M-Friedrichsfeld</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>2</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18074" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FWOR" >Worms Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>2</verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="3851" zugbez="RE" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RGE" >Germersheim</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="3856" zugbez="RE" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="K1251" zugnr="3862" zugbez="RE" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="K1251" zugnr="3863" zugbez="RE" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="K1251" zugnr="3864" zugbez="RE" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RK" >Karlsruhe Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="K1251" zugnr="3867" zugbez="RE" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="3869" zugbez="RE" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="3871" zugbez="RE" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RK" >Karlsruhe Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="F1251" zugnr="13515" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FBGN" >Bingen(Rh) Stadt</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="F1251" zugnr="13517" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FBGN" >Bingen(Rh) Stadt</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="F1251" zugnr="13518" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FBGN" >Bingen(Rh) Stadt</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="F1251" zugnr="13519" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FBGN" >Bingen(Rh) Stadt</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="F1251" zugnr="13520" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FBGN" >Bingen(Rh) Stadt</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="F1251" zugnr="13521" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FBGN" >Bingen(Rh) Stadt</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="F1251" zugnr="13522" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FBGN" >Bingen(Rh) Stadt</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="F1251" zugnr="13523" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FBGN" >Bingen(Rh) Stadt</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="F1251" zugnr="13525" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FBGN" >Bingen(Rh) Stadt</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="F1251" zugnr="13526" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FBGN" >Bingen(Rh) Stadt</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="F1251" zugnr="13527" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FBGN" >Bingen(Rh) Stadt</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="F1251" zugnr="13529" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FBGN" >Bingen(Rh) Stadt</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="F1251" zugnr="13530" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FBGN" >Bingen(Rh) Stadt</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="F1251" zugnr="13532" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FBGN" >Bingen(Rh) Stadt</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="F1251" zugnr="13533" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FBGN" >Bingen(Rh) Stadt</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="F1251" zugnr="13534" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FBGN" >Bingen(Rh) Stadt</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="F1251" zugnr="13535" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FBGN" >Bingen(Rh) Stadt</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="F1251" zugnr="13536" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FBGN" >Bingen(Rh) Stadt</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="F1251" zugnr="13537" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FBGN" >Bingen(Rh) Stadt</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="F1251" zugnr="13538" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FBGN" >Bingen(Rh) Stadt</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="F1251" zugnr="13539" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FBGN" >Bingen(Rh) Stadt</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="F1251" zugnr="13540" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FBGN" >Bingen(Rh) Stadt</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="F1251" zugnr="13542" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FBGK" >Bingen (Rh) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="F1251" zugnr="13595" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18008" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMF" >M-Friedrichsfeld</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="18009" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RH" >Heidelberg Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18011" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FWOR" >Worms Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="18012" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMF" >M-Friedrichsfeld</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="18015" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RMF" >M-Friedrichsfeld</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="18016" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMF" >M-Friedrichsfeld</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18017" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="18019" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RMF" >M-Friedrichsfeld</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18020" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18021" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="18022" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMF" >M-Friedrichsfeld</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="18023" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RMF" >M-Friedrichsfeld</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18024" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18025" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FWOR" >Worms Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RL  T" >Ludwh(R)Hbf tief</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="18026" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMF" >M-Friedrichsfeld</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="18027" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RMF" >M-Friedrichsfeld</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18028" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FWOR" >Worms Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="18030" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMF" >M-Friedrichsfeld</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18031" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18032" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FWOR" >Worms Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="18033" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RMF" >M-Friedrichsfeld</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="18034" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMF" >M-Friedrichsfeld</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18035" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FWOR" >Worms Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="18039" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RMF" >M-Friedrichsfeld</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18040" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18041" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="18042" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMF" >M-Friedrichsfeld</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="18043" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RMF" >M-Friedrichsfeld</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18044" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="K1251" zugnr="18045" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="18046" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMF" >M-Friedrichsfeld</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="K1251" zugnr="18047" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RMF" >M-Friedrichsfeld</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18049" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="K1251" zugnr="18050" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="K1251" zugnr="18051" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RMF" >M-Friedrichsfeld</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="K1251" zugnr="18052" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMF" >M-Friedrichsfeld</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18053" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18054" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="K1251" zugnr="18055" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RMF" >M-Friedrichsfeld</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="K1251" zugnr="18056" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMF" >M-Friedrichsfeld</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="18056" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMF" >M-Friedrichsfeld</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RMF" >M-Friedrichsfeld</ausfallvon>
+      <ausfallbis ds100="FMZ" >Mainz Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-28" betreiber="K1251" zugnr="18056" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMF" >M-Friedrichsfeld</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-29" betreiber="K1251" zugnr="18056" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMF" >M-Friedrichsfeld</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RMF" >M-Friedrichsfeld</ausfallvon>
+      <ausfallbis ds100="FMZ" >Mainz Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18057" zugbez="RE" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18058" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18059" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="K1251" zugnr="18060" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMF" >M-Friedrichsfeld</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="K1251" zugnr="18061" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RMF" >M-Friedrichsfeld</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18062" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18063" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="K1251" zugnr="18064" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMF" >M-Friedrichsfeld</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="K1251" zugnr="18065" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RMF" >M-Friedrichsfeld</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18066" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18067" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="K1251" zugnr="18068" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMF" >M-Friedrichsfeld</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="K1251" zugnr="18069" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RMF" >M-Friedrichsfeld</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18070" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="K1251" zugnr="18072" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMF" >M-Friedrichsfeld</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="K1251" zugnr="18073" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RMF" >M-Friedrichsfeld</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="K1251" zugnr="18076" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMF" >M-Friedrichsfeld</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="K1251" zugnr="18077" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RMF" >M-Friedrichsfeld</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="K1251" zugnr="18078" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMF" >M-Friedrichsfeld</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="18079" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="K1251" zugnr="18080" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMF" >M-Friedrichsfeld</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="18082" zugbez="RB" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FWOR" >Worms Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RFT" >Frankenthal Hbf</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18153" zugbez="RB" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FBH" >Bensheim</abgangsbahnhof>
+      <zielbahnhof ds100="RLBS" >Ludwigsh BASF S.</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RFT" >Frankenthal Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-21" betreiber="F1251" zugnr="75285" zugbez="Lr" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FWOR" >Worms Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RL  T" >Ludwh(R)Hbf tief</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RL  T" >Ludwh(R)Hbf tief</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="F1251" zugnr="75286" zugbez="Lr" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RL  T" >Ludwh(R)Hbf tief</abgangsbahnhof>
+      <zielbahnhof ds100="FWOR" >Worms Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RL  T" >Ludwh(R)Hbf tief</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="F1251" zugnr="75291" zugbez="Lr" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RL  T" >Ludwh(R)Hbf tief</abgangsbahnhof>
+      <zielbahnhof ds100="FWOR" >Worms Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RL  T" >Ludwh(R)Hbf tief</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="F1251" zugnr="75292" zugbez="Lr" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RL  T" >Ludwh(R)Hbf tief</abgangsbahnhof>
+      <zielbahnhof ds100="FWOR" >Worms Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="RL  T" >Ludwh(R)Hbf tief</ausfallvon>
+      <ausfallbis ds100="FWOR" >Worms Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-22" betreiber="K1251" zugnr="76883" zugbez="Lr" >
+     <firstbst>RFT</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FWOR" >Worms Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RL  T" >Ludwh(R)Hbf tief</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="FWOR" >Worms Hbf</ausfallvon>
+      <ausfallbis ds100="RL  T" >Ludwh(R)Hbf tief</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="K1251" zugnr="18006" zugbez="RE" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FMZ" >Mainz Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="vorplan" >
+      <vorplanab ds100="RM" >Mannheim Hbf</vorplanab>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="F1251" zugnr="75240" zugbez="Lr-D" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="FWOR" >Worms Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="vorplan" >
+      <vorplanab ds100="RM" >Mannheim Hbf</vorplanab>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-03-23" betreiber="F1251" zugnr="75274" zugbez="Lr" >
+     <firstbst>RBOB</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RL  T" >Ludwh(R)Hbf tief</abgangsbahnhof>
+      <zielbahnhof ds100="FWOR" >Worms Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="vorplan" >
+      <vorplanab ds100="RL  T" >Ludwh(R)Hbf tief</vorplanab>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

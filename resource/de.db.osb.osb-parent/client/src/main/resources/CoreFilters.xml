@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<talo-filters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="TaloFilters.xsd">
+	<filter-set name="talocore">
+		<filter name="EventStormFilter">
+			<enter-cond>
+				<and>
+					<dest contains="Cockpit"/>
+					<msg not-equal="core.EventStorm"/>
+				</and>
+			</enter-cond>
+			<activate-cond>
+				<freq above="100/min"/>
+			</activate-cond>
+			<reset-cond>
+				<freq below="40/min"/>
+			</reset-cond>
+			<suppress/>
+			<trigger on="activate" msg="core.EventStorm"/>
+			<trigger on="reset" msg="core.EventStormOver"/>
+		</filter>
+		<filter name="ManySecuLogEntries">
+			<enter-cond>
+				<dest contains="SecuLog"/>
+			</enter-cond>
+			<activate-cond>
+				<freq above="30/min"/>
+			</activate-cond>
+			<reset-cond>
+				<persists for="1h">
+					<freq below="15/min"/>
+				</persists>
+			</reset-cond>
+			<trigger on="activate" msg="core.PotentialAttack" param1="Viele Vorkommnisse im Security-Log."/>
+		</filter>
+		<filter name="ManyUsersAutomaticallyLocked" msg="core.UserLockedAuto">
+			<activate-cond>
+				<freq above="20/10min"/>
+			</activate-cond>
+			<reset-cond>
+				<persists for="1h">
+					<freq below="2/10min"/>
+				</persists>
+			</reset-cond>
+			<trigger on="activate" msg="core.PotentialAttack" param1="Viele Benutzer automatisch gesperrt"/>
+		</filter>
+	</filter-set>
+</talo-filters>

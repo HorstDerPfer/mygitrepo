@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-10-16T13:34:03</timestamp>
+  <filename>081116-081117--B-_____-________-6-SDUW__-SSH___-DBREGIO_-ZVF__-01.rtf</filename>
+  <version_prg_zvf>v2.2.2</version_prg_zvf>
+  <sender>
+   <name>Hermannek</name>
+   <vorname>Björn</vorname>
+   <kuerzel> Hn</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Bjoern.Hermannek@bahn.de</email>
+   <telefon>0721/938 7338</telefon>
+   <telefon_intern>972-7338</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>DB Regio</empfaenger>
+   <empfaenger>Betriebsplanung - BZ</empfaenger>
+   <empfaenger>Klemann</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>B</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <korridor> </korridor>
+   <kigbau></kigbau>
+   <kennung>36240</kennung>
+   <bbp>56049</bbp>
+   <master_fplo>36240</master_fplo>
+   <festgelegtSPFV>0</festgelegtSPFV>
+   <festgelegtSPNV>0</festgelegtSPNV>
+   <festgelegtSGV>0</festgelegtSGV>
+   <antwort>2008-10-29</antwort>
+   <endStueckZvf>0</endStueckZvf>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF)</titel>
+    <formular>ZVF-091008</formular>
+    <major>1</major>
+    <minor>2</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>SSH</startbst>
+     <endbst>SDUW</endbst>
+     <massnahme>Dudweiler - Saarbrücken Hbf</massnahme>
+     <betriebsweise>Ggl Bef</betriebsweise>
+     <grund>Arbeiten an W3, SJF</grund>
+     <baubeginn>2008-11-16T03:30:00</baubeginn>
+     <bauende>2008-11-17T04:00:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+    <strecke>
+     <startbst>SSH</startbst>
+     <endbst>SDUW</endbst>
+     <massnahme>Dudweiler - Saarbrücken Hbf</massnahme>
+     <betriebsweise>Ggl Bef</betriebsweise>
+     <grund>Arbeiten an W3, SJF</grund>
+     <baubeginn>2008-11-16T01:00:00</baubeginn>
+     <bauende>2008-11-17T03:00:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" >west</niederlassung>
+    <niederlassung beteiligt="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" >mitte</niederlassung>
+    <niederlassung beteiligt="1" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="" verkehrstag="2008-11-16" betreiber="F1251" zugnr="3304" zugbez="RE" >
+     <firstbst>SSH</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SSH" >Saarbrücken Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-16" betreiber="F1251" zugnr="3306" zugbez="RE" >
+     <firstbst>SSH</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FF" >Frankfurt(M) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SSH" >Saarbrücken Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-16" betreiber="F1251" zugnr="3314" zugbez="RE" >
+     <firstbst>SSH</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FF" >Frankfurt(M) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SSH" >Saarbrücken Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-16" betreiber="F1251" zugnr="3340" zugbez="RE" >
+     <firstbst>SSH</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SSH" >Saarbrücken Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-16" betreiber="F1251" zugnr="3342" zugbez="RE" >
+     <firstbst>SSH</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FMZ" >Mainz Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SSH" >Saarbrücken Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-16" betreiber="F1251" zugnr="23227" zugbez="RB" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSH" >Saarbrücken Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SSWD" >St Wendel</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Saarbrücken Hbf</ausfallvon>
+      <ausfallbis>Dudweiler</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-16" betreiber="F1251" zugnr="23230" zugbez="RB" >
+     <firstbst>SSH</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSWD" >St Wendel</abgangsbahnhof>
+      <zielbahnhof ds100="SSH" >Saarbrücken Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Dudweiler</ausfallvon>
+      <ausfallbis>Saarbrücken Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-16" betreiber="F1251" zugnr="23234" zugbez="RB" >
+     <firstbst>SSH</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSWD" >St Wendel</abgangsbahnhof>
+      <zielbahnhof ds100="SSH" >Saarbrücken Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Dudweiler</ausfallvon>
+      <ausfallbis>Saarbrücken Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-16" betreiber="F1251" zugnr="23235" zugbez="RB" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSH" >Saarbrücken Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SSWD" >St Wendel</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Saarbrücken Hbf</ausfallvon>
+      <ausfallbis>Dudweiler</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-16" betreiber="F1251" zugnr="23238" zugbez="RB" >
+     <firstbst>SSH</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSWD" >St Wendel</abgangsbahnhof>
+      <zielbahnhof ds100="SSH" >Saarbrücken Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Dudweiler</ausfallvon>
+      <ausfallbis>Saarbrücken Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-16" betreiber="F1251" zugnr="23239" zugbez="RB" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSH" >Saarbrücken Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SSWD" >St Wendel</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Saarbrücken Hbf</ausfallvon>
+      <ausfallbis>Dudweiler</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-16" betreiber="F1251" zugnr="23242" zugbez="RB" >
+     <firstbst>SSH</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSWD" >St Wendel</abgangsbahnhof>
+      <zielbahnhof ds100="SSH" >Saarbrücken Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Dudweiler</ausfallvon>
+      <ausfallbis>Saarbrücken Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-16" betreiber="F1251" zugnr="23243" zugbez="RB" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSH" >Saarbrücken Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SSWD" >St Wendel</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Saarbrücken Hbf</ausfallvon>
+      <ausfallbis>Dudweiler</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-16" betreiber="F1251" zugnr="23246" zugbez="RB" >
+     <firstbst>SSH</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSWD" >St Wendel</abgangsbahnhof>
+      <zielbahnhof ds100="SSH" >Saarbrücken Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Dudweiler</ausfallvon>
+      <ausfallbis>Saarbrücken Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-16" betreiber="F1251" zugnr="23247" zugbez="RB" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSH" >Saarbrücken Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SSWD" >St Wendel</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Saarbrücken Hbf</ausfallvon>
+      <ausfallbis>Dudweiler</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-16" betreiber="F1251" zugnr="23250" zugbez="RB" >
+     <firstbst>SSH</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSWD" >St Wendel</abgangsbahnhof>
+      <zielbahnhof ds100="SSH" >Saarbrücken Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Dudweiler</ausfallvon>
+      <ausfallbis>Saarbrücken Hbf</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-16" betreiber="F1251" zugnr="23251" zugbez="RB" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSH" >Saarbrücken Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SSWD" >St Wendel</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Saarbrücken Hbf</ausfallvon>
+      <ausfallbis>Dudweiler</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-11-16" betreiber="F1251" zugnr="23255" zugbez="RB" >
+     <firstbst>SDUW</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSH" >Saarbrücken Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SSWD" >St Wendel</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon>Saarbrücken Hbf</ausfallvon>
+      <ausfallbis>Dudweiler</ausfallbis>
+     </abweichung>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-10-06T15:58:00</timestamp>
+  <filename>090321-090323--A-_____-________-6-SHY___-SKL___-DBREGIO_-ZVF__-01.rtf</filename>
+  <version_prg_zvf>v2.1.4</version_prg_zvf>
+  <sender>
+   <name>Lutz</name>
+   <vorname>Günther</vorname>
+   <kuerzel> Lz</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Günther.Lutz@bahn.de</email>
+   <telefon>0721/938 7331</telefon>
+   <telefon_intern>972-7331</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>DB Regio</empfaenger>
+   <empfaenger>Betriebsplanung - BZ</empfaenger>
+   <empfaenger>Klemann</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>A</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <ksbaumassnahme></ksbaumassnahme>
+   <kigbau></kigbau>
+   <kennung>54003</kennung>
+   <bbp>56001</bbp>
+   <master_fplo></master_fplo>
+   <antwort>2008-10-27</antwort>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF)</titel>
+    <formular>ZVF-070708</formular>
+    <major>1</major>
+    <minor>2</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>SKL</startbst>
+     <endbst>SHY</endbst>
+     <massnahme>Hochspeyer - Kaisersl Hbf</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Gleiserneuerung Gleis 3 in SkL</grund>
+     <baubeginn>2009-03-21T23:25:00</baubeginn>
+     <bauende>2009-03-23T05:10:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+    </strecke>
+    <strecke>
+     <startbst>SEF</startbst>
+     <endbst>SKL</endbst>
+     <massnahme>Kaisersl Hbf - Einsiedlerhof</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Gleiserneuerung Gleis 3 in SKL</grund>
+     <baubeginn>2009-03-05T23:00:00</baubeginn>
+     <bauende>2009-03-06T05:00:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+    </strecke>
+    <strecke>
+     <startbst>SKL</startbst>
+     <endbst>SHY</endbst>
+     <massnahme>Hochspeyer - Kaisersl Hbf</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Gleiserneuerung Gleis 3 in SkL</grund>
+     <baubeginn>2009-03-06T23:25:00</baubeginn>
+     <bauende>2009-03-07T05:15:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+    </strecke>
+    <strecke>
+     <startbst>SKL</startbst>
+     <endbst>SHY</endbst>
+     <massnahme>Hochspeyer - Kaisersl Hbf</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Gleiserneuerung Gleis 3 in SkL</grund>
+     <baubeginn>2009-03-07T23:25:00</baubeginn>
+     <bauende>2009-03-08T05:15:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+    </strecke>
+    <strecke>
+     <startbst>SKL</startbst>
+     <endbst>SHY</endbst>
+     <massnahme>Hochspeyer - Kaisersl Hbf</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Gleiserneuerung Gleis 3 in SkL</grund>
+     <baubeginn>2009-03-08T23:25:00</baubeginn>
+     <bauende>2009-03-09T05:15:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+    </strecke>
+    <strecke>
+     <startbst>SKL</startbst>
+     <endbst>SHY</endbst>
+     <massnahme>Hochspeyer - Kaisersl Hbf</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Gleiserneuerung Gleis 3 in SkL</grund>
+     <baubeginn>2009-03-10T00:30:00</baubeginn>
+     <bauende>2009-03-10T05:15:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+    </strecke>
+    <strecke>
+     <startbst>SKL</startbst>
+     <endbst>SHY</endbst>
+     <massnahme>Hochspeyer - Kaisersl Hbf</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Gleiserneuerung Gleis 3 in SkL</grund>
+     <baubeginn>2009-03-14T23:25:00</baubeginn>
+     <bauende>2009-03-15T05:10:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+    </strecke>
+    <strecke>
+     <startbst>SKL</startbst>
+     <endbst>SHY</endbst>
+     <massnahme>Hochspeyer - Kaisersl Hbf</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Gleiserneuerung Gleis 3 in SkL</grund>
+     <baubeginn>2009-03-15T10:35:00</baubeginn>
+     <bauende>2009-03-15T11:20:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+    </strecke>
+    <strecke>
+     <startbst>SKL</startbst>
+     <endbst>SHY</endbst>
+     <massnahme>Hochspeyer - Kaisersl Hbf</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Gleiserneuerung Gleis 3 in SkL</grund>
+     <baubeginn>2009-03-20T23:25:00</baubeginn>
+     <bauende>2009-03-21T05:15:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+    </strecke>
+    <strecke>
+     <startbst>SKL</startbst>
+     <endbst>SHY</endbst>
+     <massnahme>Hochspeyer - Kaisersl Hbf</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Gleiserneuerung Gleis 3 in SkL</grund>
+     <baubeginn>2009-03-23T23:25:00</baubeginn>
+     <bauende>2009-03-24T05:10:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" >west</niederlassung>
+    <niederlassung beteiligt="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" >mitte</niederlassung>
+    <niederlassung beteiligt="1" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="" verkehrstag="2009-03-22" zugnr="13146" zugbez="RB" >
+     <firstbst>SKL</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FBGK" >Bingen (Rh) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SKL" >Kaisersl Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>120</vmax>
+      <tfz>425</tfz>
+      <last>0</last>
+      <laenge></laenge>
+      <brems>110 P</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-22" zugnr="13148" zugbez="RB" >
+     <firstbst>SKL</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FBGK" >Bingen (Rh) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SKL" >Kaisersl Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung></umleitung>
+      <verspaetung> </verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.1</gattungsnummer>
+      <vmax>120</vmax>
+      <tfz>423</tfz>
+      <last>0</last>
+      <laenge></laenge>
+      <brems>110 P</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-22" zugnr="6131" zugbez="S" >
+     <firstbst>SHY</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="TO" >Osterburken</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-22" zugnr="6153" zugbez="S" >
+     <firstbst>SHY</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SKL" >Kaisersl Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RNZ" >Neckarelz</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-22" zugnr="6244" zugbez="S" >
+     <firstbst>SKL</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="REA" >Eberbach</abgangsbahnhof>
+      <zielbahnhof ds100="SKL" >Kaisersl Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>8</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-06" zugnr="23055" zugbez="RE" >
+     <firstbst>SKL</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSH" >Saarbrücken Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="SKL" >Kaisersl Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>40.1</gattungsnummer>
+      <vmax>160</vmax>
+      <tfz>425</tfz>
+      <last>0</last>
+      <laenge></laenge>
+      <brems>211 R+Mg</brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-22" zugnr="6130" zugbez="S" >
+     <firstbst>SKL</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TO" >Osterburken</abgangsbahnhof>
+      <zielbahnhof ds100="SKL" >Kaisersl Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SKL" >Hochspeyer</ausfallvon>
+      <ausfallbis>Kaisersl Hbf</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2009-03-22" zugnr="6137" zugbez="S" >
+     <firstbst>SHY</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SHO" >Homburg(Saar)Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="TO" >Osterburken</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="SHY" >Kaisersl Hbf</ausfallvon>
+      <ausfallbis>Hochspeyer</ausfallbis>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>47.1</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>425</tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems>142 R</brems>
+     </zugdetails>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

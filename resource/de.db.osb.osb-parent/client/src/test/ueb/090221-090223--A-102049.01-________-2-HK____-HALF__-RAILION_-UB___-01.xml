@@ -1,0 +1,1499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-11-05T17:02:29</timestamp>
+  <filename>090221-090223--A-102049.01-________-2-HK____-HALF__-RAILION_-UB___-01.rtf</filename>
+  <version_prg_zvf>v2.2.4</version_prg_zvf>
+  <sender>
+   <name>Baeske</name>
+   <vorname>Gerd-Rüdiger</vorname>
+   <kuerzel> Bae </kuerzel>
+   <abteilung>I.NV-N-F (B)</abteilung>
+   <strasse>Lindemannallee 3</strasse>
+   <plz>30173</plz>
+   <ort>Hannover</ort>
+   <email>Gerd-Ruediger.Baeske@bahn.de</email>
+   <telefon>0511-286 49258</telefon>
+   <telefon_intern>933 - 49258</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>Railion</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Nord</masterniederlassung>
+   <baumassnahmenart>A</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <korridor> </korridor>
+   <kigbau>102049.01</kigbau>
+   <kennung>FEF4395C773D</kennung>
+   <bbp>22017</bbp>
+   <master_fplo>20150</master_fplo>
+   <festgelegtSPFV>0</festgelegtSPFV>
+   <festgelegtSPNV>0</festgelegtSPNV>
+   <festgelegtSGV>0</festgelegtSGV>
+   <version>
+    <titel>Übergabeblatt (ÜB)</titel>
+    <formular>ÜB-091008</formular>
+    <major>1</major>
+    <minor>4</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>HALF</startbst>
+     <endbst>HK</endbst>
+     <vzg>2017</vzg>
+     <massnahme>Kreiensen - Alfeld (Leine)</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Wab W 15, 35 in Freden, La 70 km 59,0 - 57,8</grund>
+     <baubeginn>2009-02-21T17:00:00</baubeginn>
+     <bauende>2009-02-23T17:00:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" fplo="0" >ost</niederlassung>
+    <niederlassung beteiligt="1" fplo="0" >nord</niederlassung>
+    <niederlassung beteiligt="1" fplo="0" >west</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >suedost</niederlassung>
+    <niederlassung beteiligt="1" fplo="0" >mitte</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="0" verkehrstag="2009-02-22" betreiber="Z1453" zugnr="40003" zugbez="TEC" >
+     <firstbst>HK</firstbst>
+     <tageswechsel>+1</tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XDTA" >Taulov</abgangsbahnhof>
+      <zielbahnhof ds100="XIGA" >Gallarate</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 50, P/C 380</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Seelze Rbf - Himmighausen - Kassel</umleitung>
+      <verspaetung>60</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >185</tfz>
+      <last gl="1" >1590</last>
+      <laenge>575</laenge>
+      <brems>78  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-23" betreiber="Z1453" zugnr="40004" zugbez="TEC" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel>-1</tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XIGA" >Gallarate</abgangsbahnhof>
+      <zielbahnhof ds100="XDTA" >Taulov</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 50, P/C 380</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Edesheim (L) - Orxhausen - Han - Wülfel</umleitung>
+      <verspaetung>15</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >185</tfz>
+      <last gl="1" >1400</last>
+      <laenge>575</laenge>
+      <brems>78  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-21" betreiber="Z1453" zugnr="40194" zugbez="TEC" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XICAG" >Castelguelfo</abgangsbahnhof>
+      <zielbahnhof ds100="AM  O" >Maschen Rbf Mnof</zielbahnhof>
+     </regelweg>
+     <bemerkung>P45 C50, P/C 364</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Kassel Rbf - Altenbeken - Himmighausen - Lehrte West</umleitung>
+      <verspaetung>60</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >185</tfz>
+      <last>1400</last>
+      <laenge>550</laenge>
+      <brems>78  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-22" betreiber="Z1453" zugnr="40196" zugbez="TEC" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XICAG" >Castelguelfo</abgangsbahnhof>
+      <zielbahnhof ds100="AM  S" >Maschen Rbf Msof</zielbahnhof>
+     </regelweg>
+     <bemerkung>P45 C50, P/C 364</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Kassel Rbf - Altenbeken - Himmighausen - Lehrte West</umleitung>
+      <verspaetung>45</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >185</tfz>
+      <last>1400</last>
+      <laenge>550</laenge>
+      <brems>78  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-22" betreiber="Z1453" zugnr="40200" zugbez="TEC" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XICAG" >Castelguelfo</abgangsbahnhof>
+      <zielbahnhof ds100="AM  O" >Maschen Rbf Mnof</zielbahnhof>
+     </regelweg>
+     <bemerkung>P45 C50, P/C 364</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Kassel Rbf - Altenbeken - Himmighausen - Lehrte West</umleitung>
+      <verspaetung>45</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >185</tfz>
+      <last>1400</last>
+      <laenge>550</laenge>
+      <brems>78  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-21" betreiber="Z1453" zugnr="40564" zugbez="TEC" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel>+1</tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XIVQ" >Verona Quadr Eur</abgangsbahnhof>
+      <zielbahnhof ds100="XDTA" >Taulov</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Edesheim (L) - Orxhausen - Han - Wülfel</umleitung>
+      <verspaetung>15</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >151</tfz>
+      <last gl="1" >1300</last>
+      <laenge>540</laenge>
+      <brems>78  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-22" betreiber="Z1453" zugnr="40577" zugbez="TEC" >
+     <firstbst>HK</firstbst>
+     <tageswechsel>-1</tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XDTA" >Taulov</abgangsbahnhof>
+      <zielbahnhof ds100="MN  A" >Mü Nord Rbf A</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Lehrte West - Himmighausen - Altenbeken - Kassel Rbf - Bebra Rbf</umleitung>
+      <verspaetung>60</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >151</tfz>
+      <last gl="1" >1535</last>
+      <laenge>540</laenge>
+      <brems>77  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-22" betreiber="Z1453" zugnr="41140" zugbez="TEC" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XAWEV" >Wels Vbf</abgangsbahnhof>
+      <zielbahnhof ds100="AWHOS" >Alte Süderelbe</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Bebra Rbf - Kassel Rbf - Altenbeken - Himmighausen - Lehrte West</umleitung>
+      <verspaetung>60</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >151</tfz>
+      <last>1200</last>
+      <laenge>580</laenge>
+      <brems>79  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-21" betreiber="Z1472" zugnr="41326" zugbez="TEC" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XTPU" >Praha-Uhrineves</abgangsbahnhof>
+      <zielbahnhof ds100="HBHSK" >Brh Kaiserhfn/N.</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 47, P/C 360</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Halle Gbf - Helmstedt - Lehrte West</umleitung>
+      <verspaetung>90</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>120</vmax>
+      <tfz>189</tfz>
+      <last gl="1" >1600</last>
+      <laenge>610</laenge>
+      <brems>70  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-21" betreiber="Z1472" zugnr="41350" zugbez="TEC" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XTME" >Melnik</abgangsbahnhof>
+      <zielbahnhof ds100="HBHSK" >Brh Kaiserhfn/N.</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 57, P/C 381</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Halle Gbf - Helmstedt - Lehrte West</umleitung>
+      <verspaetung>90</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >155</tfz>
+      <last gl="1" >1400</last>
+      <laenge>600</laenge>
+      <brems>70  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-23" betreiber="Z1453" zugnr="41900" zugbez="TEC" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XAWET" >Wels Vbf CCT</abgangsbahnhof>
+      <zielbahnhof ds100="WRS" >Rostock Seehafen</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Bebra Rbf - Kassel Rbf - Altenbeken - Himmighausen - Lehrte West</umleitung>
+      <verspaetung>60</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >185</tfz>
+      <last gl="1" >1500</last>
+      <laenge>580</laenge>
+      <brems>71  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-22" betreiber="Z1472" zugnr="42176" zugbez="TEC" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel>-1</tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XIVQ" >Verona Quadr Eur</abgangsbahnhof>
+      <zielbahnhof ds100="HBG" >Bremen-Grolland</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Edesheim (L) - Orxhausen - Han - Wülfel</umleitung>
+      <verspaetung>15</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >185</tfz>
+      <last gl="1" >1300</last>
+      <laenge>540</laenge>
+      <brems>78  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-22" betreiber="Z1453" zugnr="42601" zugbez="TEC" >
+     <firstbst>HK</firstbst>
+     <tageswechsel>+1</tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XDTA" >Taulov</abgangsbahnhof>
+      <zielbahnhof ds100="XSLS" >Lausen</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 50, P/C 380</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Lehrte West - Himmighausen - Altenbeken - Kassel Rbf</umleitung>
+      <verspaetung>45</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >185</tfz>
+      <last gl="1" >1600</last>
+      <laenge>600</laenge>
+      <brems>78  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-22" betreiber="Z1453" zugnr="42902" zugbez="TEC" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel>-1</tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XAWK" >Wien Donaukaibf</abgangsbahnhof>
+      <zielbahnhof ds100="HBHSK" >Brh Kaiserhfn/N.</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Bebra Rbf - Kassel Rbf - Altenbeken - Himmighausen - Seelze Rbf</umleitung>
+      <verspaetung>60</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >185</tfz>
+      <last gl="1" >1530</last>
+      <laenge>630</laenge>
+      <brems>78  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-23" betreiber="Z1453" zugnr="42905" zugbez="TEC" >
+     <firstbst>HK</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="HBHSK" >Brh Kaiserhfn/N.</abgangsbahnhof>
+      <zielbahnhof ds100="XAWK" >Wien Donaukaibf</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Seelze Rbf - Himmighausen - Altenbeken - Kassel Rbf - Bebra Rbf</umleitung>
+      <verspaetung>60</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >185</tfz>
+      <last gl="1" >1590</last>
+      <laenge>630</laenge>
+      <brems>78  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-22" betreiber="Z1472" zugnr="43704" zugbez="TEC" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel>-1</tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XINV" >Novara</abgangsbahnhof>
+      <zielbahnhof ds100="WRS" >Rostock Seehafen</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Edesheim (L) - Orxhausen - Han - Wülfel</umleitung>
+      <verspaetung>15</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >151</tfz>
+      <last gl="1" >1400</last>
+      <laenge>550</laenge>
+      <brems>78  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-21" betreiber="Z1455" zugnr="48293" zugbez="CS" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel>+1</tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XFPM" >Pont Au Mousson</abgangsbahnhof>
+      <zielbahnhof ds100="XPKNU" >Knurow</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Bebra Rbf - Kassel Rbf - Altenbeken - Himmighausen - Lehrte West</umleitung>
+      <verspaetung>60</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>90</vmax>
+      <tfz>140</tfz>
+      <last>900</last>
+      <laenge>500</laenge>
+      <brems>68  G</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-22" betreiber="Z1452" zugnr="49150" zugbez="CS" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel>-1</tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XABL" >Bludenz</abgangsbahnhof>
+      <zielbahnhof ds100="HBHSK" >Brh Kaiserhfn/N.</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Edesheim (L) - Orxhausen - Han - Wülfel</umleitung>
+      <verspaetung>15</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >151</tfz>
+      <last>1065</last>
+      <laenge>410</laenge>
+      <brems>61  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-22" betreiber="Z1452" zugnr="49152" zugbez="CS" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel>-1</tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XABL" >Bludenz</abgangsbahnhof>
+      <zielbahnhof ds100="HBHSK" >Brh Kaiserhfn/N.</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Edesheim (L) - Orxhausen - Han - Wülfel</umleitung>
+      <verspaetung>15</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >151</tfz>
+      <last>1065</last>
+      <laenge>410</laenge>
+      <brems>74  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-21" betreiber="Z1451" zugnr="49829" zugbez="CSQ" >
+     <firstbst>HK</firstbst>
+     <tageswechsel>+1</tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="AL" >Lübeck Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="XIMS" >Milano Smistam</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Lehrte West - Himmighausen - Altenbeken - Kassel Rbf - Bebra Rbf</umleitung>
+      <verspaetung>60</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >151</tfz>
+      <last gl="1" >1450</last>
+      <laenge>450</laenge>
+      <brems>67  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-21" betreiber="Z1472" zugnr="50086" zugbez="IKE" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMG" >Mannheim Hgbf</abgangsbahnhof>
+      <zielbahnhof ds100="AM  S" >Maschen Rbf Msof</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Kassel Rbf - Altenbeken - Himmighausen - Lehrte West</umleitung>
+      <verspaetung>45</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>53.1</gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >155</tfz>
+      <last>1600</last>
+      <laenge>700</laenge>
+      <brems>75  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-22" betreiber="Z1472" zugnr="50109" zugbez="IKE" >
+     <firstbst>HK</firstbst>
+     <tageswechsel>+1</tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="AM  W" >Maschen Rbf Mswf</abgangsbahnhof>
+      <zielbahnhof ds100="TK  S" >Kornwesth Rbf SW</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Lehrte - Himmighausen - Kassel</umleitung>
+      <verspaetung>60</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>53.1</gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >152</tfz>
+      <last>1460</last>
+      <laenge>700</laenge>
+      <brems>78  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-22" betreiber="Z1472" zugnr="50118" zugbez="IKE" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel>-1</tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TBS" >Beimerstetten</abgangsbahnhof>
+      <zielbahnhof ds100="AM  S" >Maschen Rbf Msof</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Edesheim (L) - Orxhausen - Han - Wülfel</umleitung>
+      <verspaetung>15</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>53.1</gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >151</tfz>
+      <last gl="1" >1340</last>
+      <laenge>700</laenge>
+      <brems>78  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-22" betreiber="Z1472" zugnr="50126" zugbez="IKE" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel>-1</tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RBA A" >Basel Bad Rbf A</abgangsbahnhof>
+      <zielbahnhof ds100="AWHOS" >Alte Süderelbe</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Edesheim (L) - Orxhausen - Han - Wülfel</umleitung>
+      <verspaetung>15</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>120</vmax>
+      <tfz lzb="1" >151</tfz>
+      <last>1400</last>
+      <laenge>650</laenge>
+      <brems>78  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-22" betreiber="Z1472" zugnr="50137" zugbez="IKE" >
+     <firstbst>HK</firstbst>
+     <tageswechsel>+1</tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="AM  W" >Maschen Rbf Mswf</abgangsbahnhof>
+      <zielbahnhof ds100="NNG" >Nürnberg Hgbf</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Lehrte - Himmighausen - Kassel</umleitung>
+      <verspaetung>60</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>53.1</gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >151</tfz>
+      <last gl="1" >1535</last>
+      <laenge>700</laenge>
+      <brems>78  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-22" betreiber="Z1472" zugnr="50176" zugbez="IKE" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel>-1</tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="MRIU" >München-Riem Ubf</abgangsbahnhof>
+      <zielbahnhof ds100="AM  S" >Maschen Rbf Msof</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Edesheim (L) - Orxhausen - Han - Wülfel</umleitung>
+      <verspaetung>15</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>53.1</gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >151</tfz>
+      <last gl="1" >1475</last>
+      <laenge>700</laenge>
+      <brems>70  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-22" betreiber="Z1472" zugnr="50197" zugbez="IKE" >
+     <firstbst>HK</firstbst>
+     <tageswechsel>+1</tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="AHBIU" >Hmb-Billwerd Ubf</abgangsbahnhof>
+      <zielbahnhof ds100="TK  S" >Kornwesth Rbf SW</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Lehrte - Himmighausen - Kassel</umleitung>
+      <verspaetung>60</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>53.2</gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >152</tfz>
+      <last>1375</last>
+      <laenge>700</laenge>
+      <brems>78  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-22" betreiber="Z1472" zugnr="50198" zugbez="IKE" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel>-1</tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RBA A" >Basel Bad Rbf A</abgangsbahnhof>
+      <zielbahnhof ds100="WRS" >Rostock Seehafen</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Edesheim (L) - Orxhausen - Han - Wülfel</umleitung>
+      <verspaetung>15</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >151</tfz>
+      <last gl="1" >1465</last>
+      <laenge>590</laenge>
+      <brems>78  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-22" betreiber="Z1472" zugnr="50251" zugbez="IKE" >
+     <firstbst>HK</firstbst>
+     <tageswechsel>+1</tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="ALSK" >Lüb Skand-kai</abgangsbahnhof>
+      <zielbahnhof ds100="RLB U" >Ludwigs BASF Ubf</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Han - Wülfel - Orxhausen - Nörten Hardenberg</umleitung>
+      <verspaetung>30</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>53.2</gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >152</tfz>
+      <last>1400</last>
+      <laenge>570</laenge>
+      <brems>78  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-21" betreiber="Z1472" zugnr="50270" zugbez="IKE" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel>+1</tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RBA A" >Basel Bad Rbf A</abgangsbahnhof>
+      <zielbahnhof ds100="ALSK" >Lüb Skand-kai</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Edesheim (L) - Orxhausen - Han - Wülfel</umleitung>
+      <verspaetung>15</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >151</tfz>
+      <last>1400</last>
+      <laenge>600</laenge>
+      <brems>78  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-22" betreiber="Z1461" zugnr="51473" zugbez="FIR" >
+     <firstbst>HK</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="AM  W" >Maschen Rbf Mswf</abgangsbahnhof>
+      <zielbahnhof ds100="RMR K" >Mannh Rbf Gr K</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Han - Wülfel - Orxhausen - Nörten Hardenberg</umleitung>
+      <verspaetung>15</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>57.1</gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >185</tfz>
+      <last gl="1" >1540</last>
+      <laenge>700</laenge>
+      <brems>69  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-22" betreiber="Z1461" zugnr="51563" zugbez="FIR" >
+     <firstbst>HK</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="HSR O" >Seelze Rbf Sof</abgangsbahnhof>
+      <zielbahnhof ds100="FB  B" >Bebra Rbf Berg</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Seelze Rbf - Himmighausen - Altenbeken - Kassel Rbf - Bebra Rbf</umleitung>
+      <verspaetung>60</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>57.1</gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >155</tfz>
+      <last gl="1" >1405</last>
+      <laenge>700</laenge>
+      <brems>67  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-22" betreiber="Z1461" zugnr="51630" zugbez="FIR" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel>-1</tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="NNR A" >Nür.Rbf Ausfahrt</abgangsbahnhof>
+      <zielbahnhof ds100="HSR B" >Seelze Rbf Sob</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Edesheim (L) - Orxhausen - Han - Wülfel</umleitung>
+      <verspaetung>15</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>57.1</gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >185</tfz>
+      <last>1450</last>
+      <laenge>700</laenge>
+      <brems>70  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-21" betreiber="Z1461" zugnr="51642" zugbez="FIR" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="NNR A" >Nür.Rbf Ausfahrt</abgangsbahnhof>
+      <zielbahnhof ds100="HSR B" >Seelze Rbf Sob</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Bebra Rbf - Kassel Rbf - Altenbeken - Himmighausen - Seelze Rbf</umleitung>
+      <verspaetung>60</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >185</tfz>
+      <last>1450</last>
+      <laenge>700</laenge>
+      <brems>70  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-23" betreiber="Z1461" zugnr="51802" zugbez="FIR" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMR E" >Mannh Rbf Gr E</abgangsbahnhof>
+      <zielbahnhof ds100="BSE N" >Seddin Einf Nord</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Kassel Rbf - Altenbeken - Himmighausen - Lehrte West</umleitung>
+      <verspaetung>60</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >145</tfz>
+      <last>1400</last>
+      <laenge>600</laenge>
+      <brems>71  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-22" betreiber="Z1461" zugnr="51832" zugbez="FIR" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMR E" >Mannh Rbf Gr E</abgangsbahnhof>
+      <zielbahnhof ds100="HSR B" >Seelze Rbf Sob</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Kassel Rbf - Altenbeken - Himmighausen - Seelze Rbf</umleitung>
+      <verspaetung>45</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>57.5</gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >185</tfz>
+      <last>1400</last>
+      <laenge>700</laenge>
+      <brems>69  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-21" betreiber="Z1461" zugnr="51834" zugbez="FIR" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMR E" >Mannh Rbf Gr E</abgangsbahnhof>
+      <zielbahnhof ds100="HSR B" >Seelze Rbf Sob</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Edesheim(L) - Orxhausen - Han - Wülfel</umleitung>
+      <verspaetung>15</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>57.5</gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >185</tfz>
+      <last>1400</last>
+      <laenge>700</laenge>
+      <brems>69  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-22" betreiber="Z1461" zugnr="51836" zugbez="FIR" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel>-1</tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMR N" >Mannh Rbf Gr N</abgangsbahnhof>
+      <zielbahnhof ds100="HSR B" >Seelze Rbf Sob</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Edesheim (L) - Orxhausen - Han - Wülfel</umleitung>
+      <verspaetung>15</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>57.5</gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >185</tfz>
+      <last>1400</last>
+      <laenge>700</laenge>
+      <brems>69  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-22" betreiber="Z1461" zugnr="51840" zugbez="FIR" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel>-1</tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RMR E" >Mannh Rbf Gr E</abgangsbahnhof>
+      <zielbahnhof ds100="HSR B" >Seelze Rbf Sob</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Edesheim (L) - Orxhausen - Han - Wülfel</umleitung>
+      <verspaetung>15</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>57.5</gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >185</tfz>
+      <last>1400</last>
+      <laenge>700</laenge>
+      <brems>70  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-22" betreiber="Z1461" zugnr="52501" zugbez="FR" >
+     <firstbst>HK</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="HSR O" >Seelze Rbf Sof</abgangsbahnhof>
+      <zielbahnhof ds100="FKR" >Kassel Rbf</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400, BZA N-1022</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Han - Wülfel - Orxhausen - Nörten Hardenberg</umleitung>
+      <verspaetung>15</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>100</vmax>
+      <tfz lzb="1" >155</tfz>
+      <last gl="1" >1540</last>
+      <laenge>700</laenge>
+      <brems>67  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-23" betreiber="Z1451" zugnr="60036" zugbez="CSQ" >
+     <firstbst>HALF</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FKR" >Kassel Rbf</abgangsbahnhof>
+      <zielbahnhof ds100="HBSR" >Braunschweig Rbf</zielbahnhof>
+     </regelweg>
+     <bemerkung>P/C 70, P/C 400</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Edesheim (L) - Orxhausen - Han - Wülfel</umleitung>
+      <verspaetung>15</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>68.4</gattungsnummer>
+      <vmax>100</vmax>
+      <tfz>140</tfz>
+      <last gl="1" >1195</last>
+      <laenge>620</laenge>
+      <brems>75  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-21" betreiber="Z1451" zugnr="60089" zugbez="CS" >
+     <firstbst>HK</firstbst>
+     <tageswechsel>+1</tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="HBHSK" >Brh Kaiserhfn/N.</abgangsbahnhof>
+      <zielbahnhof ds100="TK  W" >Kornwesth Rbf NW</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Seelze Rbf - Himmighausen - Altenbeken - Kassel Rbf - Bebra Rbf</umleitung>
+      <verspaetung>60</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>69.4</gattungsnummer>
+      <vmax>100</vmax>
+      <tfz>140</tfz>
+      <last gl="1" >850</last>
+      <laenge>600</laenge>
+      <brems>69  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="1" verkehrstag="2009-02-23" betreiber="Z1451" zugnr="60093" zugbez="CSQ" >
+     <firstbst>HK</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="HBHSK" >Brh Kaiserhfn/N.</abgangsbahnhof>
+      <zielbahnhof>Sindelfingen</zielbahnhof>
+     </regelweg>
+     <bemerkung>BZA N-1020</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Seelze Rbf - Himmighausen - Altenbeken - Kassel Rbf</umleitung>
+      <verspaetung>45</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>68.4</gattungsnummer>
+      <vmax>100</vmax>
+      <tfz>140</tfz>
+      <last>850</last>
+      <laenge>600</laenge>
+      <brems>77 P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-22" betreiber="Z1451" zugnr="60793" zugbez="CS" >
+     <firstbst>HK</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="AHOSS" >Hmb H Schaar Süd</abgangsbahnhof>
+      <zielbahnhof ds100="FB  R" >Bebra Rbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Lehrte West - Himmighausen - Altenbeken - Kassel Rbf - Bebra Rbf</umleitung>
+      <verspaetung>60</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>69.3</gattungsnummer>
+      <vmax>100</vmax>
+      <tfz>140</tfz>
+      <last>1000</last>
+      <laenge>700</laenge>
+      <brems>69  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-23" betreiber="Z1451" zugnr="60799" zugbez="CS" >
+     <firstbst>HK</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="AHOSS" >Hmb H Schaar Süd</abgangsbahnhof>
+      <zielbahnhof ds100="FHRG" >Heringen (Werra)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Lehrte West - Himmighausen - Altenbeken - Kassel Rbf - Bebra Rbf</umleitung>
+      <verspaetung>60</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>100</vmax>
+      <tfz>140</tfz>
+      <last>800</last>
+      <laenge>520</laenge>
+      <brems>70  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-02-21" betreiber="Z1451" zugnr="60805" zugbez="CSQ" >
+     <firstbst>HK</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="AHOSS" >Hmb H Schaar Süd</abgangsbahnhof>
+      <zielbahnhof>FBU</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Lehrte West - Himmighausen - Altenbeken - Kassel Rbf - Bebra Rbf</umleitung>
+      <verspaetung>60</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax>100</vmax>
+      <tfz>140</tfz>
+      <last>800</last>
+      <laenge>650</laenge>
+      <brems>69  P</brems>
+     </zugdetails>
+     <knotenzeiten>
+      <knotenzeit>
+       <bahnhof></bahnhof>
+       <haltart></haltart>
+       <ankunft></ankunft>
+       <abfahrt></abfahrt>
+       <relativlage></relativlage>
+      </knotenzeit>
+     </knotenzeiten>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

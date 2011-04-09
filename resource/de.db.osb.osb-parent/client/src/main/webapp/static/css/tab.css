@@ -1,0 +1,55 @@
+a.tab_ina{
+    border:1px solid #666666;
+    height:32px;
+    overflow:hidden;
+    padding:4px 4px 0px 4px;
+    text-align:center;
+    background-color:#999999;
+    color:black;
+    float:left;
+    margin-top:2px;
+    border-bottom:0px;
+    text-decoration:none;
+    vertical-align:middle;
+}
+a.tab_ina:hover  {color:black;text-decoration:none;}
+a.tab_ina:visited{color:black;text-decoration:none;}
+a.tab_ina:active {color:black;text-decoration:none;}
+
+a.tab_act{
+    border:1px solid #666666;
+    height:32px;
+    overflow:hidden;
+    padding:5px 4px 1px 4px;
+    text-align:center;
+    background-color:#666666;
+    color:white;
+    float:left;
+    border-bottom:0px;
+    text-decoration:none;
+    font-weight:bold;
+    vertical-align:middle;
+}
+a.tab_act:hover  {color:white;text-decoration:none;}
+a.tab_act:visited{color:white;text-decoration:none;}
+a.tab_act:active {color:white;text-decoration:none;}
+
+div.tab_spacer{
+    border:1px solid #333333;
+    height:23px;
+    overflow:hidden;
+    padding:3px;
+    width:1px;
+    text-align:center;
+    background-color:#666666;
+    float:left;
+    margin-top:2px;
+    border-bottom:0px;
+}
+
+div.statusbar {
+	float: right;
+	height: 0px;
+	position: relative;
+	margin-top: -8px;
+}

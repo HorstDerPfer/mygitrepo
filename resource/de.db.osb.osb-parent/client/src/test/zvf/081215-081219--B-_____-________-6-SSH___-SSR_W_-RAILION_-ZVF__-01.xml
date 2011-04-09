@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-11-11T09:03:07</timestamp>
+  <filename>081215-081219--B-_____-________-6-SSH___-SSR_W_-RAILION_-ZVF__-01.rtf</filename>
+  <version_prg_zvf>v2.2.4</version_prg_zvf>
+  <sender>
+   <name>Hermannek</name>
+   <vorname>Björn</vorname>
+   <kuerzel> Hn</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Bjoern.Hermannek@bahn.de</email>
+   <telefon>0721/938 7338</telefon>
+   <telefon_intern>972-7338</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>Railion</empfaenger>
+   <empfaenger>Betriebsplanung - BZ</empfaenger>
+   <empfaenger>Bittler</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>B</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <korridor> </korridor>
+   <kigbau></kigbau>
+   <kennung></kennung>
+   <bbp>56001</bbp>
+   <master_fplo>54037</master_fplo>
+   <festgelegtSPFV>0</festgelegtSPFV>
+   <festgelegtSPNV>0</festgelegtSPNV>
+   <festgelegtSGV>0</festgelegtSGV>
+   <antwort>2008-12-02</antwort>
+   <endStueckZvf>1</endStueckZvf>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF)</titel>
+    <formular>ZVF-091008</formular>
+    <major>1</major>
+    <minor>2</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>SSR W</startbst>
+     <endbst>SSH</endbst>
+     <vzg>3264</vzg>
+     <massnahme>Saarbrücken Hbf - Saarbr Rbf West</massnahme>
+     <betriebsweise>BfoX</betriebsweise>
+     <grund>Sperrung Gl. 20 SSR</grund>
+     <baubeginn>2008-12-11T07:00:00</baubeginn>
+     <bauende>2008-12-12T17:00:01</bauende>
+     <zeitraum_unterbrochen>Ja</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+    <strecke>
+     <startbst>SSR W</startbst>
+     <endbst>SSH</endbst>
+     <vzg>3264</vzg>
+     <massnahme>Saarbrücken Hbf - Saarbr Rbf West</massnahme>
+     <betriebsweise>BfoX</betriebsweise>
+     <grund>Sperrung Gl. 20 SSR</grund>
+     <baubeginn>2008-12-15T07:00:00</baubeginn>
+     <bauende>2008-12-19T12:00:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" fplo="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >west</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >mitte</niederlassung>
+    <niederlassung beteiligt="1" fplo="0" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="0" verkehrstag="2008-12-16" betreiber="K1452" zugnr="55881" zugbez="FZT" >
+     <firstbst>SSH</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSR O" >Saarbr Rbf Ost</abgangsbahnhof>
+      <zielbahnhof ds100="SNK" >Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Saarbr Rbf Nord - Dudweiler - Neunkir (S) Hbf</umleitung>
+      <umleitweg>
+       <ds100>SSR N</ds100>
+       <ds100>SDUW</ds100>
+       <ds100>SNK</ds100>
+      </umleitweg>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2008-12-11" betreiber="K1452" zugnr="55883" zugbez="FZ" >
+     <firstbst>SSH</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSR W" >Saarbr Rbf West</abgangsbahnhof>
+      <zielbahnhof ds100="SNK" >Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Saarbr Rbf Nord - Dudweiler - Neunkir (S) Hbf</umleitung>
+      <umleitweg>
+       <ds100>SSR N</ds100>
+       <ds100>SDUW</ds100>
+       <ds100>SNK</ds100>
+      </umleitweg>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2008-12-15" betreiber="Z1481" zugnr="55885" zugbez="FZT" >
+     <firstbst>SSH</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSR W" >Saarbr Rbf West</abgangsbahnhof>
+      <zielbahnhof ds100="SNK" >Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Saarbr Rbf Nord - Dudweiler - Neunkir (S) Hbf</umleitung>
+      <umleitweg>
+       <ds100>SSR N</ds100>
+       <ds100>SDUW</ds100>
+       <ds100>SNK</ds100>
+      </umleitweg>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2008-12-15" betreiber="K1452" zugnr="55887" zugbez="FZ" >
+     <firstbst>SSH</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SSR W" >Saarbr Rbf West</abgangsbahnhof>
+      <zielbahnhof ds100="SNK" >Neunkir (S) Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Saarbr Rbf Nord - Dudweiler - Neunkir (S) Hbf</umleitung>
+      <umleitweg>
+       <ds100>SSR N</ds100>
+       <ds100>SDUW</ds100>
+       <ds100>SNK</ds100>
+      </umleitweg>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

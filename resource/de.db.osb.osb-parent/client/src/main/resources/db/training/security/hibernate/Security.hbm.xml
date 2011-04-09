@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="db.training.security.hibernate"
+	default-access="field">
+
+	<class name="TqmUser" table="sec_user">
+		<cache usage="read-write" region="sec_user" />
+		<!-- MySQL -->
+		<!--
+		<id name="id">
+			<generator class="native" />
+		</id>
+		-->
+
+		<!-- Oracle -->
+		<id name="id">
+		 <generator class="sequence"> <param
+		name="sequence">user_id_seq</param> </generator> </id>
+
+		<property name="password" not-null="true">
+		</property>
+
+		<property name="newPassword" column="new_password" />
+
+		<property name="firstPassword" column="first_password" />
+
+		<list name="passwordHistory" lazy="false" table="sec_password_history"
+			cascade="all">
+			<!--<cache usage="read-write" />-->
+			<key column="user_id" not-null="true" />
+			<list-index column="list_index" />
+			<element type="string" column="password" not-null="true">
+			</element>
+		</list>
+
+		<property name="username" not-null="true" unique="true" />
+
+		<property name="accountNonExpired" column="account_non_expired"
+			not-null="true" />
+
+		<property name="accountNonLocked" column="account_non_locked"
+			not-null="true" />
+
+		<property name="credentialsNonExpired" column="credentials_non_expired"
+			not-null="true" />
+
+		<property name="enabled" not-null="true" />
+
+		<property name="failedLogin" column="failed_login" not-null="true" />
+
+		<set name="roles" lazy="false" table="sec_user_role">
+			<cache usage="read-write" region="sec_user_role" />
+			<key column="user_id" />
+			<many-to-many class="TqmRole">
+				<column name="role_id" />
+			</many-to-many>
+		</set>
+
+	</class>
+
+	<class name="TqmRole" table="sec_role">
+		<cache usage="read-only" region="sec_role" />
+		<!-- MySQL -->
+		<!-- 
+		<id name="id">
+			<generator class="native" />
+		</id>
+		 -->
+
+		<!-- Oracle -->
+		<id name="id"> <generator class="sequence"> <param
+		name="sequence">user_id_seq</param> </generator> </id>
+
+		<property name="name" not-null="true" unique="true" />
+
+		<set name="authorizations" lazy="true" table="sec_role_authorization">
+			<!--<cache usage="read-write" region="sec_role_authorization" />-->
+			<key column="role_id"></key>
+			<many-to-many class="TqmAuthorization">
+				<column name="authorization_id"></column>
+			</many-to-many>
+		</set>
+
+	</class>
+
+	<class name="TqmAuthorization" table="sec_authorization">
+		<cache usage="read-only" region="sec_authorization" />
+		<!--
+			Auskommentiert, da Ids beim Anlegen über GenerateSecurity.java von
+			Hand gesetzt werden <id name="id"> <generator
+			class="native"></generator> </id>
+		-->
+		<id name="id" />
+
+		<property name="name" not-null="true" unique="true" />
+	</class>
+
+</hibernate-mapping>
+

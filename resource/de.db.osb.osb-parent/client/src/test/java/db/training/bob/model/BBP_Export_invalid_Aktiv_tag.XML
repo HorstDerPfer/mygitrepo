@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<BBPMakSiSchnittstelle>
+<Daten>
+<BBPMassnahme>
+<MasID>07932A3523744</MasID>
+<aktiv>1</aktiv>
+<Regelungen>
+<Regelung>
+<RegID>07932A3523744-0001</RegID>
+<aktiv></aktiv>
+</Regelung>
+</Regelungen>
+</BBPMassnahme>
+</Daten>
+</BBPMakSiSchnittstelle>

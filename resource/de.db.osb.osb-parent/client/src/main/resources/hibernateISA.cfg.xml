@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+<session-factory>
+	<property name="hibernate.current_session_context_class">thread</property>
+	<property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+	<property name="hibernate.connection.release_mode">auto</property>
+	<property name="hibernate.jdbc.batch_size">20</property>
+	<property name="hibernate.cache.use_query_cache">false</property>
+	<property name="hibernate.cache.use_second_level_cache">false</property>
+	<property name="hibernate.show_sql">false</property>
+
+	<!-- configuration pool via c3p0 -->
+	<property name="connection.provider_class">org.hibernate.connection.C3P0ConnectionProvider</property>
+	<property name="hibernate.c3p0.acquire_increment">1</property>
+	<property name="hibernate.c3p0.idle_test_period">100</property>
+	<property name="hibernate.c3p0.min_size">0</property>
+	<property name="hibernate.c3p0.initialPoolSize">0</property>
+	<property name="hibernate.c3p0.max_size">5</property>
+	<property name="hibernate.c3p0.max_statements">100</property>
+	<property name="hibernate.c3p0.timeout">30</property>
+	 
+	<!-- Entwicklung: Berlin -->
+<!-- todo: if necessary, implement for oracle equivalent as in BaudbMySQL5InnoDBDialect for mysql -->
+	<property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+	<property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+<<<<<<< .mine
+<!--	<property name="hibernate.connection.url">jdbc:oracle:thin:@fahrplan-200n.unix.rz.db.de:6777:FLIP</property>-->
+	<property name="hibernate.connection.url">jdbc:oracle:thin:@testserver.bahn-net.db.de:1521:XE</property>
+ 	<property name="hibernate.connection.username">bob_user</property>
+=======
+	<property name="hibernate.connection.url">jdbc:oracle:thin:@fahrplan-200n.unix.rz.db.de:6777:FLIP</property>
+ 	<property name="hibernate.connection.username">bob_user</property>
+>>>>>>> .r5052
+	<property name="hibernate.connection.password">geheim</property>
+
+	<!-- Entwicklung: localhost -->
+<!-- 	
+	<property name="hibernate.dialect">db.training.hibernate.BaudbMySQL5InnoDBDialect</property>
+	<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+	<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/production_osb?characterEncoding=UTF-8</property>
+	<property name="hibernate.connection.username">osb</property>
+	<property name="hibernate.connection.password">geheim</property>
+ -->
+
+  
+	<!-- Produktion: ISA Datenbank	-->
+<!--	<property name="hibernate.dialect">org.hibernate.dialect.OracleDialect</property>-->
+<!--	<property name="hibernate.connection.driver_class">oracle.jdbc.driver.OracleDriver</property>-->
+<!--	<property name="hibernate.connection.url">jdbc:oracle:thin:@//mellenbach.linux.rz.db.de:1960/ZFISP.prd.oracle.db.de</property>-->
+<!--    <property name="hibernate.connection.username">zfis100</property>-->
+<!--    <property name="hibernate.connection.password">BOB2009isaAS</property>-->
+<!--	<property name="hibernate.default_schema">ZFIS</property>-->
+	
+		
+	<!-- Mappings -->
+	<mapping class="db.training.bob.model.fplo.ISA_Fahrplan" />
+	<mapping class="db.training.bob.model.fplo.ISA_Zug" />
+	<mapping class="db.training.bob.model.fplo.ISA_Fplo" />
+	<mapping class="db.training.bob.model.fplo.ISA_Bestellung" />
+	
+	<mapping class="db.training.easy.core.model.User" />
+    <mapping class="db.training.hibernate.history.HistoryLogEntry" />
+	
+	<!-- BOB -->
+    <mapping class="db.training.bob.model.Aenderung" />
+    <mapping class="db.training.bob.model.Benchmark" />
+    <mapping class="db.training.bob.model.Baumassnahme" />
+    <mapping class="db.training.bob.model.BBPMassnahme" />
+    <mapping class="db.training.bob.model.Bearbeiter" />
+    <mapping class="db.training.bob.model.Bearbeitungsbereich" />
+    <mapping class="db.training.bob.model.EVU" />
+    <mapping class="db.training.bob.model.EVUGruppe" />
+    <mapping class="db.training.bob.model.Grund" />
+    <mapping class="db.training.bob.model.Nachbarbahn" />
+    <mapping class="db.training.bob.model.Regelung" />
+    <mapping class="db.training.bob.model.Regionalbereich" />
+    <mapping class="db.training.bob.model.TerminUebersichtBaubetriebsplanung" />
+    <mapping class="db.training.bob.model.TerminUebersichtGueterverkehrsEVU" />
+    <mapping class="db.training.bob.model.TerminUebersichtPersonenverkehrsEVU" />
+    <mapping class="db.training.bob.model.zvf.Uebergabeblatt" />
+    <mapping class="db.training.bob.model.zvf.Header" />
+    <mapping class="db.training.bob.model.zvf.Sender" />
+    <mapping class="db.training.bob.model.zvf.Massnahme" />
+    <mapping class="db.training.bob.model.zvf.Version" />
+    <mapping class="db.training.bob.model.zvf.Strecke" />
+    <mapping class="db.training.bob.model.zvf.BBPStrecke" />
+    <mapping class="db.training.bob.model.zvf.Zug" />
+    <mapping class="db.training.bob.model.zvf.Abweichung" />
+    <mapping class="db.training.bob.model.zvf.Regelweg" />
+    <mapping class="db.training.bob.model.zvf.KID" />
+    <mapping class="db.training.bob.model.zvf.Fplonr" />
+    <mapping class="db.training.bob.model.zvf.Niederlassung" />
+    <mapping class="db.training.bob.model.zvf.Halt" />
+    <mapping class="db.training.bob.model.zvf.RegelungAbw" />
+    <mapping class="db.training.bob.model.zvf.Bahnhof" />
+    <mapping class="db.training.bob.model.zvf.Zugdetails" />
+    <mapping class="db.training.bob.model.zvf.Knotenzeit" />
+    <mapping class="db.training.bob.model.fplo.Fahrplan" />
+    <mapping class="db.training.bob.model.fplo.Zugcharakteristik" />
+    <mapping class="db.training.bob.model.Meilenstein" />
+    <mapping class="db.training.bob.model.SearchConfig" />
+    
+    <!-- OSB -->
+    <mapping class="db.training.osb.model.Anmelder" />
+    <mapping class="db.training.osb.model.Anmeldergruppe" />
+    <mapping class="db.training.osb.model.Baustelle" />
+    <mapping class="db.training.osb.model.Betriebsstelle" />
+    <mapping class="db.training.osb.model.Betriebsstellentyp" />
+    <mapping class="db.training.osb.model.BetriebsstelleBetriebsstellentypLink" />
+    <mapping class="db.training.osb.model.BetriebsstelleRegionalbereichLink" />
+    <mapping class="db.training.osb.model.BetriebsstelleVzgStreckeLink" />
+    <mapping class="db.training.osb.model.Betriebsweise" />
+    <mapping class="db.training.osb.model.Buendel" />
+    <mapping class="db.training.osb.model.Fahrplanregelung" />
+    <mapping class="db.training.osb.model.Gleissperrung" />
+    <mapping class="db.training.osb.model.GravierendeAenderung" />
+    <mapping class="db.training.osb.model.Korridor" />
+    <mapping class="db.training.osb.model.Langsamfahrstelle" />
+    <mapping class="db.training.osb.model.MasterBuendel" />
+    <mapping class="db.training.osb.model.Oberleitung" />
+    <mapping class="db.training.osb.model.SAPMassnahme" />
+    <mapping class="db.training.osb.model.SqlQuery" />
+    <mapping class="db.training.osb.model.StreckenbandZeile" />
+    <mapping class="db.training.osb.model.TopProjekt" />
+    <mapping class="db.training.osb.model.Paket" />
+    <mapping class="db.training.osb.model.Umleitung" />
+    <mapping class="db.training.osb.model.UmleitungFahrplanregelungLink" />
+    <mapping class="db.training.osb.model.Umleitungsweg" />
+    <mapping class="db.training.osb.model.Verkehrstageregelung" />
+    <mapping class="db.training.osb.model.VzgStrecke" />
+    <mapping class="db.training.osb.model.AnkermassnahmeArt" />
+
+    <mapping class="db.training.osb.model.babett.Aenderungsgrund" />
+    <mapping class="db.training.osb.model.babett.Arbeitstyp" />
+    <mapping class="db.training.osb.model.babett.ArbeitstypGruppe" />
+    <mapping class="db.training.osb.model.babett.Finanztyp" />
+    <mapping class="db.training.osb.model.babett.FolgeNichtausfuehrung" />
+    <mapping class="db.training.osb.model.babett.GaussKruegerKoordinate" />
+    <mapping class="db.training.osb.model.babett.Grossmaschine" />
+    <mapping class="db.training.osb.model.babett.Netzbezirk" />
+    <mapping class="db.training.osb.model.babett.Phase" />
+    <mapping class="db.training.osb.model.babett.Regelungsart" />
+    <mapping class="db.training.osb.model.babett.Streckenabschnitt" />
+
+    <mapping class="db.training.osb.model.babett.kundeninformation.Art" />
+    <mapping class="db.training.osb.model.babett.kundeninformation.EvuKommentar" />
+    <mapping class="db.training.osb.model.babett.kundeninformation.Kommunikationsbeleg" />
+    <mapping class="db.training.osb.model.babett.kundeninformation.Master" />
+    <mapping class="db.training.osb.model.babett.kundeninformation.Verkehrssegment" />
+    <mapping class="db.training.osb.model.babett.kundeninformation.Version" />
+
+    <mapping class="db.training.osb.model.babett.monitoring.Grund" />
+    <mapping class="db.training.osb.model.babett.monitoring.Realisierungsgrad" />
+    <mapping class="db.training.osb.model.babett.monitoring.Status" />
+
+    <mapping class="db.training.hibernate.history.HistoryLogEntry" />
+	
+</session-factory>
+</hibernate-configuration>

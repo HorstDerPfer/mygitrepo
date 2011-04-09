@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<BBPMakSiSchnittstelle>
+<Header>
+<Ersteller>StephanASchmidt</Ersteller>
+<Erstellzeit>2008-01-24, 15:06</Erstellzeit> 
+<BBPVersion>BBP 4.5.0.8014</BBPVersion>
+<BplBeginn>2008-03-28</BplBeginn>
+<BplEnde>2008-04-01</BplEnde>
+</Header>
+<Daten>
+<BBPMassnahme>
+<MasID>07932A3523744</MasID>
+<aktiv>1</aktiv>
+<MasKennung>FFFC3718701A</MasKennung>
+<Vorhaben>G.016170137.99</Vorhaben>
+<RegionID>7</RegionID>
+<Region>Süd</Region>
+<AnmelderID>96</AnmelderID>
+<Anmelder>I.B-S-T&#220; 10 Mchn 1</Anmelder>
+<ArbeitenID>44</ArbeitenID>
+<Arbeiten>Weicheneinbau Weichen 3 u. 4, U08-Bis-001 in Freihalden &#220;st</Arbeiten>
+<BBPStrecke>56006</BBPStrecke>
+<VzGStrecke>5302</VzGStrecke>
+<MasBstVonAG850ID> -1 </MasBstVonAG850ID>
+<MasBstBisAG850ID> -1 </MasBstBisAG850ID>
+<MasBstVonRil100>MJET</MasBstVonRil100>
+<MasBstBisRil100>MDKS</MasBstBisRil100>
+<MasBstVonLang>Jettingen</MasBstVonLang>
+<MasBstBisLang>Dinkelscherben</MasBstBisLang>
+<MasKmVon>0,000</MasKmVon>
+<MasKmBis>0,000</MasKmBis>
+<MasBeginn>200803280625</MasBeginn>
+<MasEnde>200804030100</MasEnde>
+<GravAendDate> 200710010000</GravAendDate>
+<GraZeit>False</GraZeit>
+<GraOrt>False</GraOrt>
+<GraRegel>True</GraRegel>
+<AnmelderBem></AnmelderBem>
+<TempAnm></TempAnm>
+<Regelungen>
+<Regelung>
+<RegD>07932A3523744-0001</RegD>
+<aktiv>1</aktiv>
+<BplArt>1</BplArt>
+<BplArtText>A(JL)</BplArtText>
+<JplID>069D5DE7BB604</JplID>
+<Beginn>200803280625</Beginn>
+<Ende>200804010429</Ende>
+<SperrKz>1</SperrKz>
+<BstVonAG850ID> -1 </BstVonAG850ID>
+<BstBisAG850ID> -1 </BstBisAG850ID>
+<BstVonRil100>MJET</BstVonRil100>
+<BstBisRil100>MDKS</BstBisRil100>
+<BstVonLang>Jettingen</BstVonLang>
+<BstBisLang>Dinkelscherben</BstBisLang>
+<BstVonLageKm>42,500</BstVonLageKm>
+<BstBisLageKm>27,800</BstBisLageKm>
+<VzGStrecke>5302</VzGStrecke>
+<Richtung>2</Richtung>
+<BBPStrecke>56006</BBPStrecke>
+<BBPStrRi>1</BBPStrRi>
+<BplRegelungID>2</BplRegelungID>
+<BplRegelungKurz>Ggl Zs 8</BplRegelungKurz>
+<BplRegelungLang>Befahren Ggl auf Zs 8</BplRegelungLang>
+<RegelungKmVon>0,000</RegelungKmVon>
+<RegelungKmBis>0,000</RegelungKmBis>
+<VzGV>0</VzGV>
+<LaV>0</LaV>
+<FzvBBP>5,2</FzvBBP>
+<RegelVTS>12700</RegelVTS>
+<RegelMask>derzeit frei</RegelMask>
+<SPFV>True</SPFV>
+<SPNV>True</SPNV>
+<SGV>True</SGV>
+<BemerkungenBpl>Fzv mit Schutz-La, Ol freie Strecke aus, R&#252;ckbau Gleis, Einbau PSS, am 30.03.08 Umstellung auf Sommerzeit!!!</BemerkungenBpl>
+</Regelung>
+</Regelungen>
+</BBPMassnahme>
+</Daten>
+</BBPMakSiSchnittstelle>

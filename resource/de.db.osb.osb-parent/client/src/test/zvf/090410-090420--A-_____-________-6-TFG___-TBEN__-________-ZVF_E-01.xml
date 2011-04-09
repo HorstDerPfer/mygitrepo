@@ -1,0 +1,1949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-10-30T13:28:15</timestamp>
+  <filename>090410-090420--A-_____-________-6-TFG___-TBEN__-________-ZVF_E-01.rtf</filename>
+  <version_prg_zvf>v2.2.4</version_prg_zvf>
+  <sender>
+   <name>Steinmeyer</name>
+   <vorname>Oliver</vorname>
+   <kuerzel> Sy</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Oliver.Steinmeyer@bahn.de</email>
+   <telefon>0721/938 7355</telefon>
+   <telefon_intern>972-7355</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>Betriebsplanung - BZ</empfaenger>
+   <empfaenger>Malthaner</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>A</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <korridor> </korridor>
+   <kigbau></kigbau>
+   <kennung></kennung>
+   <bbp>56044</bbp>
+   <master_fplo>53018</master_fplo>
+   <festgelegtSPFV>0</festgelegtSPFV>
+   <festgelegtSPNV>0</festgelegtSPNV>
+   <festgelegtSGV>0</festgelegtSGV>
+   <antwort>2008-11-20</antwort>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF-Entwurf)</titel>
+    <formular>ZVF-091008</formular>
+    <major>1</major>
+    <minor>1</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>TFG</startbst>
+     <endbst>TBEN</endbst>
+     <vzg>4931</vzg>
+     <massnahme>Benningen (N) - Freiberg/Neckar</massnahme>
+     <betriebsweise>Totalsperrung</betriebsweise>
+     <grund>Inbetriebnahme Gl. 602 TBN</grund>
+     <baubeginn>2009-04-10T01:30:00</baubeginn>
+     <bauende>2009-04-20T04:50:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Ja</baustellen_export>
+    </strecke>
+    <strecke>
+     <startbst>TFG</startbst>
+     <endbst>TBEN</endbst>
+     <vzg>4931</vzg>
+     <massnahme>Benningen (N) - Freiberg/Neckar</massnahme>
+     <betriebsweise>Totalsperrung</betriebsweise>
+     <grund>Inbetriebnahme Gl. 602 TBN</grund>
+     <baubeginn>2009-04-14T00:00:00</baubeginn>
+     <bauende>2009-04-20T04:50:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Nein</baustellen_export>
+    </strecke>
+    <strecke>
+     <startbst>TFG</startbst>
+     <endbst>TBEN</endbst>
+     <vzg>4931</vzg>
+     <massnahme>Benningen (N) - Freiberg/Neckar</massnahme>
+     <betriebsweise>Totalsperrung</betriebsweise>
+     <grund>Inbetriebnahme Gl. 602 TBN</grund>
+     <baubeginn>2009-04-20T00:00:00</baubeginn>
+     <bauende>2009-04-20T04:50:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+     <baustellen_export>Nein</baustellen_export>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" fplo="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >west</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >mitte</niederlassung>
+    <niederlassung beteiligt="1" fplo="0" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" fplo="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="1" verkehrstag="2009-04-11" betreiber="Z1455" zugnr="47366" zugbez="CS" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XTCH" >Cheb</abgangsbahnhof>
+      <zielbahnhof ds100="RKL" >Kehl</zielbahnhof>
+     </regelweg>
+     <bemerkung>TSU Kopf machen</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Backnang - Stg-Untertürkhm - Kornwesth Rbf SO</umleitung>
+      <umleitweg>
+       <ds100>TB</ds100>
+       <ds100>TSU</ds100>
+       <ds100>TK  O</ds100>
+      </umleitweg>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="Z1455" zugnr="47366" zugbez="CS" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XTCH" >Cheb</abgangsbahnhof>
+      <zielbahnhof ds100="RKL" >Kehl</zielbahnhof>
+     </regelweg>
+     <bemerkung>TSU Kopf machen</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Backnang - Stg-Untertürkhm - Kornwesth Rbf SO</umleitung>
+      <umleitweg>
+       <ds100>TB</ds100>
+       <ds100>TSU</ds100>
+       <ds100>TK  O</ds100>
+      </umleitweg>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="1" verkehrstag="2009-04-18" betreiber="Z1455" zugnr="47366" zugbez="CS" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="XTCH" >Cheb</abgangsbahnhof>
+      <zielbahnhof ds100="RKL" >Kehl</zielbahnhof>
+     </regelweg>
+     <bemerkung>TSU Kopf machen</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Backnang - Stg-Untertürkhm - Kornwesth Rbf SO</umleitung>
+      <umleitweg>
+       <ds100>TB</ds100>
+       <ds100>TSU</ds100>
+       <ds100>TK  O</ds100>
+      </umleitweg>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-15" betreiber="Z1461" zugnr="52734" zugbez="FR" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="NNR A" >Nür.Rbf Ausfahrt</abgangsbahnhof>
+      <zielbahnhof ds100="TK  W" >Kornwesth Rbf NW</zielbahnhof>
+     </regelweg>
+     <bemerkung>TSU Kopf machen</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Backnang - Stg-Untertürkhm - Kornwesth Rbf NW</umleitung>
+      <umleitweg>
+       <ds100>TB</ds100>
+       <ds100>TSU</ds100>
+       <ds100>TK  W</ds100>
+      </umleitweg>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="Z1461" zugnr="52738" zugbez="FR" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="NNR A" >Nür.Rbf Ausfahrt</abgangsbahnhof>
+      <zielbahnhof ds100="TK  W" >Kornwesth Rbf NW</zielbahnhof>
+     </regelweg>
+     <bemerkung>TSU Kopf machen</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Backnang - Stg-Untertürkhm - Kornwesth Rbf NW</umleitung>
+      <umleitweg>
+       <ds100>TB</ds100>
+       <ds100>TSU</ds100>
+       <ds100>TK  W</ds100>
+      </umleitweg>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="Z1461" zugnr="52740" zugbez="FR" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="NNR A" >Nür.Rbf Ausfahrt</abgangsbahnhof>
+      <zielbahnhof ds100="TK  W" >Kornwesth Rbf NW</zielbahnhof>
+     </regelweg>
+     <bemerkung>TSU Kopf machen</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Backnang - Stg-Untertürkhm - Kornwesth Rbf NW</umleitung>
+      <umleitweg>
+       <ds100>TB</ds100>
+       <ds100>TSU</ds100>
+       <ds100>TK  W</ds100>
+      </umleitweg>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-18" betreiber="Z1461" zugnr="52742" zugbez="FR" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="NNR A" >Nür.Rbf Ausfahrt</abgangsbahnhof>
+      <zielbahnhof ds100="TK  W" >Kornwesth Rbf NW</zielbahnhof>
+     </regelweg>
+     <bemerkung>TSU Kopf machen</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Backnang - Stg-Untertürkhm - Kornwesth Rbf NW</umleitung>
+      <umleitweg>
+       <ds100>TB</ds100>
+       <ds100>TSU</ds100>
+       <ds100>TK  W</ds100>
+      </umleitweg>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-11" betreiber="Z1461" zugnr="52746" zugbez="FR" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="NNR A" >Nür.Rbf Ausfahrt</abgangsbahnhof>
+      <zielbahnhof ds100="TK  W" >Kornwesth Rbf NW</zielbahnhof>
+     </regelweg>
+     <bemerkung>TSU Kopf machen</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Backnang - Stg-Untertürkhm - Kornwesth Rbf NW</umleitung>
+      <umleitweg>
+       <ds100>TB</ds100>
+       <ds100>TSU</ds100>
+       <ds100>TK  W</ds100>
+      </umleitweg>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-15" betreiber="Z1461" zugnr="52748" zugbez="FR" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="NNR A" >Nür.Rbf Ausfahrt</abgangsbahnhof>
+      <zielbahnhof ds100="TK  W" >Kornwesth Rbf NW</zielbahnhof>
+     </regelweg>
+     <bemerkung>TSU Kopf machen</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Backnang - Stg-Untertürkhm - Kornwesth Rbf NW</umleitung>
+      <umleitweg>
+       <ds100>TB</ds100>
+       <ds100>TSU</ds100>
+       <ds100>TK  W</ds100>
+      </umleitweg>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-15" betreiber="Z1461" zugnr="52781" zugbez="FR" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TK  O" >Kornwesth Rbf SO</abgangsbahnhof>
+      <zielbahnhof ds100="NNR E" >Nür.Rbf Einfahrt</zielbahnhof>
+     </regelweg>
+     <bemerkung>TSU Kopf machen</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Kornwesth Rbf SO - Stg-Untertürkhm - Backnang</umleitung>
+      <umleitweg>
+       <ds100>TK  O</ds100>
+       <ds100>TSU</ds100>
+       <ds100>TB</ds100>
+      </umleitweg>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="1" verkehrstag="2009-04-15" betreiber="Z1461" zugnr="52783" zugbez="FR" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TK  O" >Kornwesth Rbf SO</abgangsbahnhof>
+      <zielbahnhof ds100="NNR E" >Nür.Rbf Einfahrt</zielbahnhof>
+     </regelweg>
+     <bemerkung>TSU Kopf machen</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Kornwesth Rbf SO - Stg-Untertürkhm - Backnang</umleitung>
+      <umleitweg>
+       <ds100>TK  O</ds100>
+       <ds100>TSU</ds100>
+       <ds100>TB</ds100>
+      </umleitweg>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="Z1461" zugnr="52785" zugbez="FR" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TK  O" >Kornwesth Rbf SO</abgangsbahnhof>
+      <zielbahnhof ds100="NNR E" >Nür.Rbf Einfahrt</zielbahnhof>
+     </regelweg>
+     <bemerkung>TSU Kopf machen</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Kornwesth Rbf SO - Stg-Untertürkhm - Backnang</umleitung>
+      <umleitweg>
+       <ds100>TK  O</ds100>
+       <ds100>TSU</ds100>
+       <ds100>TB</ds100>
+      </umleitweg>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="Z1461" zugnr="52789" zugbez="FR" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TK  O" >Kornwesth Rbf SO</abgangsbahnhof>
+      <zielbahnhof ds100="NNR E" >Nür.Rbf Einfahrt</zielbahnhof>
+     </regelweg>
+     <bemerkung>TSU Kopf machen</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Kornwesth Rbf SO - Stg-Untertürkhm - Backnang</umleitung>
+      <umleitweg>
+       <ds100>TK  O</ds100>
+       <ds100>TSU</ds100>
+       <ds100>TB</ds100>
+      </umleitweg>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-15" betreiber="Z1461" zugnr="52789" zugbez="FR" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TBEN" >Benningen (N)</abgangsbahnhof>
+      <zielbahnhof ds100="NNR E" >Nür.Rbf Einfahrt</zielbahnhof>
+     </regelweg>
+     <bemerkung>TSU Kopf machen</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Kornwesth Rbf SO - Stg-Untertürkhm - Backnang</umleitung>
+      <umleitweg>
+       <ds100>TK  O</ds100>
+       <ds100>TSU</ds100>
+       <ds100>TB</ds100>
+      </umleitweg>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-16" betreiber="Z1461" zugnr="52789" zugbez="FR" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TK  O" >Kornwesth Rbf SO</abgangsbahnhof>
+      <zielbahnhof ds100="NNR E" >Nür.Rbf Einfahrt</zielbahnhof>
+     </regelweg>
+     <bemerkung>TSU Kopf machen</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Kornwesth Rbf SO - Stg-Untertürkhm - Backnang</umleitung>
+      <umleitweg>
+       <ds100>TK  O</ds100>
+       <ds100>TSU</ds100>
+       <ds100>TB</ds100>
+      </umleitweg>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="Z1461" zugnr="52795" zugbez="FR" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TK  O" >Kornwesth Rbf SO</abgangsbahnhof>
+      <zielbahnhof ds100="NNR E" >Nür.Rbf Einfahrt</zielbahnhof>
+     </regelweg>
+     <bemerkung>TSU Kopf machen</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Kornwesth Rbf SO - Stg-Untertürkhm - Backnang</umleitung>
+      <umleitweg>
+       <ds100>TK  O</ds100>
+       <ds100>TSU</ds100>
+       <ds100>TB</ds100>
+      </umleitweg>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="Z1461" zugnr="52799" zugbez="FR" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TK  O" >Kornwesth Rbf SO</abgangsbahnhof>
+      <zielbahnhof ds100="NNR E" >Nür.Rbf Einfahrt</zielbahnhof>
+     </regelweg>
+     <bemerkung>TSU Kopf machen</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Kornwesth Rbf SO - Stg-Untertürkhm - Backnang</umleitung>
+      <umleitweg>
+       <ds100>TK  O</ds100>
+       <ds100>TSU</ds100>
+       <ds100>TB</ds100>
+      </umleitweg>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-15" betreiber="M4620" zugnr="59681" zugbez="DGS" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="KKE M" >K Eifelt Bez III</abgangsbahnhof>
+      <zielbahnhof ds100="MNBD" >Neuburg (Donau)</zielbahnhof>
+     </regelweg>
+     <bemerkung>TSU Kopf machen</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Kornwestheim Pbf - Stg-Untertürkhm - Backnang</umleitung>
+      <umleitweg>
+       <ds100>TKH</ds100>
+       <ds100>TSU</ds100>
+       <ds100>TB</ds100>
+      </umleitweg>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-11" betreiber="M4620" zugnr="59687" zugbez="DGS" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="KKE M" >K Eifelt Bez III</abgangsbahnhof>
+      <zielbahnhof ds100="MNBD" >Neuburg (Donau)</zielbahnhof>
+     </regelweg>
+     <bemerkung>TSU Kopf machen</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Kornwestheim Pbf - Stg-Untertürkhm - Backnang</umleitung>
+      <umleitweg>
+       <ds100>TKH</ds100>
+       <ds100>TSU</ds100>
+       <ds100>TB</ds100>
+      </umleitweg>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-11" betreiber="K1257" zugnr="76324" zugbez="Lr" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TP" >Plochingen</zielbahnhof>
+     </regelweg>
+     <bemerkung>TB Kopf machen</bemerkung>
+     <abweichung art="umleitung" >
+      <umleitung>Marbach (Neckar) - Backnang - Stg-Untertürkhm</umleitung>
+      <umleitweg>
+       <ds100>TMB</ds100>
+       <ds100>TB</ds100>
+       <ds100>TSU</ds100>
+      </umleitweg>
+      <verspaetung> </verspaetung>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="K1257" zugnr="7401" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TMB" >Marbach (Neckar)</ausfallvon>
+      <ausfallbis ds100="TSS W" >Schwabstr Wende</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="K1257" zugnr="7402" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-11" betreiber="K1257" zugnr="7404" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7405" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="K1257" zugnr="7406" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7408" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-11" betreiber="K1257" zugnr="7409" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="K1257" zugnr="7410" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="K1257" zugnr="7411" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-11" betreiber="K1257" zugnr="7412" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7413" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="K1257" zugnr="7414" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="K1257" zugnr="7415" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7416" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-11" betreiber="K1257" zugnr="7417" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="K1257" zugnr="7418" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="K1257" zugnr="7419" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-11" betreiber="K1257" zugnr="7420" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7421" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="K1257" zugnr="7422" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="K1257" zugnr="7423" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7424" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7425" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="K1257" zugnr="7427" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7428" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7429" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7430" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="K1257" zugnr="7431" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7432" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7433" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7434" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7436" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7437" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7438" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7439" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7440" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7441" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7442" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7443" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7444" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7445" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7446" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7447" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7448" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7449" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7450" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7451" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7452" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7453" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7454" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7455" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7456" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7457" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="K1257" zugnr="7458" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7459" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7460" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7461" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="K1257" zugnr="7462" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7463" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7464" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="K1257" zugnr="7465" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="K1257" zugnr="7466" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7467" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7468" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="K1257" zugnr="7469" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="K1257" zugnr="7470" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7471" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7472" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7473" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7474" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7475" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7476" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7477" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7478" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7479" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7480" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7481" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7482" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7483" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7484" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7485" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7486" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7487" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7488" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="K1257" zugnr="7488" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TSS W" >Schwabstr Wende</ausfallvon>
+      <ausfallbis ds100="TMB" >Marbach (Neckar)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7489" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7490" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7491" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="K1257" zugnr="7491" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TMB" >Marbach (Neckar)</ausfallvon>
+      <ausfallbis ds100="TSS W" >Schwabstr Wende</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7492" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7493" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7494" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7495" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-11" betreiber="K1257" zugnr="7496" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-15" betreiber="K1257" zugnr="7496" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TSS W" >Schwabstr Wende</ausfallvon>
+      <ausfallbis ds100="TMB" >Marbach (Neckar)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-20" betreiber="K1257" zugnr="7496" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-10" betreiber="K1257" zugnr="7497" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-11" betreiber="K1257" zugnr="7498" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-15" betreiber="K1257" zugnr="7498" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TSS W" >Schwabstr Wende</ausfallvon>
+      <ausfallbis ds100="TMB" >Marbach (Neckar)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-20" betreiber="K1257" zugnr="7498" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="K1257" zugnr="7940" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="K1257" zugnr="7941" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="K1257" zugnr="7942" zugbez="S" >
+     <firstbst>TBEN</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TSS W" >Schwabstr Wende</abgangsbahnhof>
+      <zielbahnhof ds100="TMB" >Marbach (Neckar)</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TFG" >Freiberg/Neckar</ausfallvon>
+      <ausfallbis ds100="TBEN" >Benningen (N)</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="K1257" zugnr="7943" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+    <zug bedarf="0" verkehrstag="2009-04-14" betreiber="K1257" zugnr="7945" zugbez="S" >
+     <firstbst>TFG</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="TMB" >Marbach (Neckar)</abgangsbahnhof>
+      <zielbahnhof ds100="TSS W" >Schwabstr Wende</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="ausfall" >
+      <ausfallvon ds100="TBEN" >Benningen (N)</ausfallvon>
+      <ausfallbis ds100="TFG" >Freiberg/Neckar</ausfallbis>
+     </abweichung>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>

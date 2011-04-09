@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app
+	xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+	version="2.4">
+	<display-name>BOB Test - Rev. 9448 (22.07.2010 - 12h30)</display-name>
+	
+	<servlet>
+		<servlet-name>bbpChart</servlet-name>
+		<servlet-class>db.training.osb.web.ajax.servlet.BbpChartServlet</servlet-class>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>bbpChart</servlet-name>
+		<url-pattern>/bbpChart.view</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>autocompleteOrtsbezeichnungen</servlet-name>
+		<servlet-class>db.training.osb.web.ajax.servlet.AutocompleteOrtsbezeichnungen</servlet-class>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>autocompleteOrtsbezeichnungen</servlet-name>
+		<url-pattern>/autocompleteOrtsbezeichnungen.view</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>autocompleteBetriebstelleWithID</servlet-name>
+		<servlet-class>db.training.osb.web.ajax.servlet.AutocompleteBetriebstelleWithID</servlet-class>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>autocompleteBetriebstelleWithID</servlet-name>
+		<url-pattern>/autocompleteBetriebstelleWithID.view</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AutoCompleteEvu</servlet-name>
+		<servlet-class>db.training.bob.web.ajax.servlet.AutoCompleteEvu</servlet-class>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AutoCompleteEvu</servlet-name>
+		<url-pattern>/AutoCompleteEvu.view</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AutoCompleteEvuGruppe</servlet-name>
+		<servlet-class>db.training.bob.web.ajax.servlet.AutoCompleteEvuGruppe</servlet-class>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AutoCompleteEvuGruppe</servlet-name>
+		<url-pattern>/AutoCompleteEvuGruppe.view</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AutoCompleteStreckeVzg</servlet-name>
+		<servlet-class>db.training.osb.web.ajax.servlet.AutoCompleteStreckeVzg</servlet-class>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AutoCompleteStreckeVzg</servlet-name>
+		<url-pattern>/AutoCompleteStreckeVzg.view</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AutocompletePaket</servlet-name>
+		<servlet-class>db.training.osb.web.ajax.servlet.AutocompletePaket</servlet-class>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AutocompletePaket</servlet-name>
+		<url-pattern>/AutocompletePaket.view</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AutoCompleteBetriebstellenByStrecke</servlet-name>
+		<servlet-class>db.training.osb.web.ajax.servlet.AutocompleteBetriebstellenByStrecke</servlet-class>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AutoCompleteBetriebstellenByStrecke</servlet-name>
+		<url-pattern>/AutoCompleteBetriebstellenByStrecke.view</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AutoCompleteTopProjekteByStrecke</servlet-name>
+		<servlet-class>db.training.osb.web.ajax.servlet.AutocompleteTopProjekteByStrecke</servlet-class>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AutoCompleteTopProjekteByStrecke</servlet-name>
+		<url-pattern>/AutoCompleteTopProjekteByStrecke.view</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AutoCompleteRegionalbereichBM</servlet-name>
+		<servlet-class>db.training.bob.web.ajax.servlet.AutoCompleteRegionalbereichBM</servlet-class>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AutoCompleteRegionalbereichBM</servlet-name>
+		<url-pattern>/AutoCompleteRegionalbereichBM.view</url-pattern>
+	</servlet-mapping>	
+	
+	<servlet>
+		<servlet-name>RefreshClientPropertiesServlet</servlet-name>
+		<servlet-class>db.training.osb.web.ajax.servlet.RefreshClientPropertiesServlet</servlet-class>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RefreshClientPropertiesServlet</servlet-name>
+		<url-pattern>/RefreshClientPropertiesServlet.view</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>action</servlet-name>
+		<servlet-class>org.apache.struts.action.ActionServlet</servlet-class>
+		<init-param>
+			<param-name>config</param-name>
+			<param-value>/WEB-INF/struts-config.xml</param-value>
+		</init-param>
+		<init-param>
+			<param-name>debug</param-name>
+			<param-value>3</param-value>
+		</init-param>
+		<init-param>
+			<param-name>detail</param-name>
+			<param-value>3</param-value>
+		</init-param>
+		<load-on-startup>0</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>action</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>jsp</servlet-name>
+		<servlet-class>org.apache.jasper.servlet.JspServlet</servlet-class>
+		<init-param>
+			<param-name>trimSpaces</param-name>
+			<param-value>true</param-value>
+		</init-param>
+	</servlet>
+	
+	<listener>
+		<listener-class>db.training.easy.util.StartUpListener</listener-class>
+	</listener>
+
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>/WEB-INF/applicationContext*.xml</param-value>
+	</context-param>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	<filter>
+		<filter-name>Acegi Filter Chain Proxy</filter-name>
+		<filter-class>org.acegisecurity.util.FilterToBeanProxy</filter-class>
+		<init-param>
+			<param-name>targetClass</param-name>
+			<param-value>org.acegisecurity.util.FilterChainProxy</param-value>
+		</init-param>
+	</filter>
+
+	<filter>
+		<filter-name>ResponseOverrideFilter</filter-name>
+		<filter-class>org.displaytag.filter.ResponseOverrideFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>Acegi Filter Chain Proxy</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<filter>
+		<filter-name>charsetFilter</filter-name>
+		<filter-class>db.training.easy.web.CharsetFilter</filter-class>
+		<init-param>
+			<param-name>requestEncoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>charsetFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<filter>
+		<filter-name>pdffilter</filter-name>
+		<filter-class>org.faceless.report.PDFFilter</filter-class>
+		<init-param>
+			<param-name>license</param-name>
+			<param-value>H493B05G520B7HG</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>pdffilter</filter-name>
+		<url-pattern>/pdf/*</url-pattern>
+	</filter-mapping>
+
+	<filter-mapping>
+		<filter-name>ResponseOverrideFilter</filter-name>
+		<url-pattern>*.do</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>ResponseOverrideFilter</filter-name>
+		<url-pattern>*.jsp</url-pattern>
+	</filter-mapping>
+
+	<session-config>
+		<session-timeout>720</session-timeout>
+	</session-config>
+
+	<!--
+		<error-page> <error-code>404</error-code> <location>/error.jsp</location> </error-page> <error-page>
+		<error-code>500</error-code> <location>/error.jsp</location> </error-page>
+	-->
+</web-app>

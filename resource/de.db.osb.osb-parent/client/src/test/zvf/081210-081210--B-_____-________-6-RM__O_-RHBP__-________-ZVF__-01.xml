@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zvfexport>
+ <header>
+  <timestamp>2008-10-09T15:36:42</timestamp>
+  <filename>081210-081210--B-_____-________-6-RM__O_-RHBP__-DBREGIO_-ZVF__-01.rtf</filename>
+  <version_prg_zvf>v2.1.4</version_prg_zvf>
+  <sender>
+   <name>Trumpf</name>
+   <vorname>Susanna</vorname>
+   <kuerzel> Tr</kuerzel>
+   <abteilung>I.NV-SW-F(B)</abteilung>
+   <strasse>Schwarzwaldstraße 86</strasse>
+   <plz>76137</plz>
+   <ort>Karlsruhe</ort>
+   <email>Susanna.Trumpf@bahn.de</email>
+   <telefon>0721/938 7336</telefon>
+   <telefon_intern>972-7336</telefon_intern>
+  </sender>
+  <empfaengerlist>
+   <empfaenger>DB Regio</empfaenger>
+   <empfaenger>Betriebsplanung - BZ</empfaenger>
+   <empfaenger>Zitsch</empfaenger>
+  </empfaengerlist>
+ </header>
+ <baumassnahmen>
+  <baumassnahme>
+   <masterniederlassung>RB Südwest</masterniederlassung>
+   <baumassnahmenart>B</baumassnahmenart>
+   <qsbaumassnahme></qsbaumassnahme>
+   <ksbaumassnahme></ksbaumassnahme>
+   <kigbau></kigbau>
+   <kennung></kennung>
+   <bbp>56002</bbp>
+   <master_fplo></master_fplo>
+   <antwort>2008-10-30</antwort>
+   <version>
+    <titel>Zusammenstellung der vertrieblichen Folgen (ZvF)</titel>
+    <formular>ZVF-070708</formular>
+    <major>1</major>
+    <minor>2</minor>
+    <sub>01</sub>
+   </version>
+   <streckenabschnitte>
+    <strecke>
+     <startbst>RM  O</startbst>
+     <endbst>RHBP</endbst>
+     <massnahme>Mannheim Hbf Ost - HD-Wieblingen Abzw.</massnahme>
+     <betriebsweise>Ggl Zs 6</betriebsweise>
+     <grund>Schienenauswechlsung F1</grund>
+     <baubeginn>2008-12-10T00:20:00</baubeginn>
+     <bauende>2008-12-10T04:20:00</bauende>
+     <zeitraum_unterbrochen>Nein</zeitraum_unterbrochen>
+    </strecke>
+   </streckenabschnitte>
+   <allgregelungen>
+    <allgregelung></allgregelung>
+   </allgregelungen>
+   <fplonr>
+    <niederlassung beteiligt="0" >ost</niederlassung>
+    <niederlassung beteiligt="0" >nord</niederlassung>
+    <niederlassung beteiligt="0" >west</niederlassung>
+    <niederlassung beteiligt="0" >suedost</niederlassung>
+    <niederlassung beteiligt="0" >mitte</niederlassung>
+    <niederlassung beteiligt="1" >suedwest</niederlassung>
+    <niederlassung beteiligt="0" >sued</niederlassung>
+   </fplonr>
+   <zuege>
+    <zug bedarf="" verkehrstag="2008-12-10" zugnr="6255" zugbez="S" >
+     <firstbst>RHBP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="SKL" >Kaisersl Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RH" >Heidelberg Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>6</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-10" zugnr="15479" zugbez="RB-D" >
+     <firstbst>RM  O</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="FF" >Frankfurt(M) Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RM" >Mannheim Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>7</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer></gattungsnummer>
+      <vmax></vmax>
+      <tfz></tfz>
+      <last></last>
+      <laenge></laenge>
+      <brems></brems>
+     </zugdetails>
+    </zug>
+    <zug bedarf="" verkehrstag="2008-12-10" zugnr="75176" zugbez="Lr-D" >
+     <firstbst>RHBP</firstbst>
+     <tageswechsel></tageswechsel>
+     <regelweg>
+      <liniennr/>
+      <abgangsbahnhof ds100="RM" >Mannheim Hbf</abgangsbahnhof>
+      <zielbahnhof ds100="RH" >Heidelberg Hbf</zielbahnhof>
+     </regelweg>
+     <bemerkung></bemerkung>
+     <abweichung art="verspaetung" >
+      <verspaetung>21</verspaetung>
+     </abweichung>
+     <zugdetails>
+      <gattungsnummer>41.2</gattungsnummer>
+      <vmax>140</vmax>
+      <tfz>111</tfz>
+      <last>600</last>
+      <laenge>320</laenge>
+      <brems>149 R</brems>
+     </zugdetails>
+    </zug>
+   </zuege>
+  </baumassnahme>
+ </baumassnahmen>
+</zvfexport>
